@@ -1,5 +1,5 @@
 ---
-title: FAQ 
+title: FAQ
 ---
 
 # GCVE Frequently Asked Questions (FAQ)
@@ -22,7 +22,7 @@ A: No, GCVE does not replace existing CVE IDs. It's designed to be backward-comp
 
 **Q5: What is the format of a GCVE identifier?**
 
-A: A GCVE ID uses a four-part format: `GCVE-<GNA ID>-<YEAR->-<UNIQUE ID>`.
+A: A GCVE ID uses a four-part format: `GCVE-<GNA ID>-<YEAR>-<UNIQUE ID>`.
 *   `GCVE`: Standard prefix.
 *   `GNA ID`: An identifier assigned to the GNA, unique for that GNA.
 *   `YEAR`: The year of disclosure or allocation.
@@ -57,4 +57,3 @@ A: If you are an existing CNA (CVE Numbering Authority) or an [organisation fall
 **Q11: What information is available about GNAs on the gcve.eu website?**
 
 A: A JSON Lines file (`.jsonl`) is available, containing details for each registered GNA. This includes their unique `id` (GNA ID), `short_name`, `full_name`, and potentially URLs for their specific GCVE data, API, dumps, and allocation process (like `gcve_url`, `gcve_api`, `gcve_dump`, `gcve_allocation`).
-
