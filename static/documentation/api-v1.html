@@ -1,0 +1,1606 @@
+
+<!DOCTYPE html>
+
+
+<html lang="en" data-content_root="./" >
+
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>API v1 &#8212; Vulnerability-Lookup</title>
+  
+  
+  
+  <script data-cfasync="false">
+    document.documentElement.dataset.mode = localStorage.getItem("mode") || "";
+    document.documentElement.dataset.theme = localStorage.getItem("theme") || "";
+  </script>
+  <!-- 
+    this give us a css class that will be invisible only if js is disabled 
+  -->
+  <noscript>
+    <style>
+      .pst-js-only { display: none !important; }
+
+    </style>
+  </noscript>
+  
+  <!-- Loaded before other Sphinx assets -->
+  <link href="_static/styles/theme.css?digest=26a4bc78f4c0ddb94549" rel="stylesheet" />
+<link href="_static/styles/pydata-sphinx-theme.css?digest=26a4bc78f4c0ddb94549" rel="stylesheet" />
+
+    <link rel="stylesheet" type="text/css" href="_static/pygments.css?v=a746c00c" />
+    <link rel="stylesheet" type="text/css" href="_static/styles/sphinx-book-theme.css?v=a3416100" />
+    <link rel="stylesheet" type="text/css" href="_static/custom.css?v=ee704053" />
+  
+  <!-- So that users can add custom icons -->
+  <script src="_static/scripts/fontawesome.js?digest=26a4bc78f4c0ddb94549"></script>
+  <!-- Pre-loaded scripts that we'll load fully later -->
+  <link rel="preload" as="script" href="_static/scripts/bootstrap.js?digest=26a4bc78f4c0ddb94549" />
+<link rel="preload" as="script" href="_static/scripts/pydata-sphinx-theme.js?digest=26a4bc78f4c0ddb94549" />
+
+    <script src="_static/documentation_options.js?v=32e37178"></script>
+    <script src="_static/doctools.js?v=9bcbadda"></script>
+    <script src="_static/sphinx_highlight.js?v=dc90522c"></script>
+    <script src="_static/scripts/sphinx-book-theme.js?v=887ef09a"></script>
+    <script>DOCUMENTATION_OPTIONS.pagename = 'api-v1';</script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="prev" title="Feed syndication" href="feeds.html" />
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <meta name="docsearch:language" content="en"/>
+  <meta name="docsearch:version" content="" />
+  </head>
+  
+  
+  <body data-bs-spy="scroll" data-bs-target=".bd-toc-nav" data-offset="180" data-bs-root-margin="0px 0px -60%" data-default-mode="">
+
+  
+  
+  <div id="pst-skip-link" class="skip-link d-print-none"><a href="#main-content">Skip to main content</a></div>
+  
+  <div id="pst-scroll-pixel-helper"></div>
+  
+  <button type="button" class="btn rounded-pill" id="pst-back-to-top">
+    <i class="fa-solid fa-arrow-up"></i>Back to top</button>
+
+  
+  <dialog id="pst-search-dialog">
+    
+<form class="bd-search d-flex align-items-center"
+      action="search.html"
+      method="get">
+  <i class="fa-solid fa-magnifying-glass"></i>
+  <input type="search"
+         class="form-control"
+         name="q"
+         placeholder="Search..."
+         aria-label="Search..."
+         autocomplete="off"
+         autocorrect="off"
+         autocapitalize="off"
+         spellcheck="false"/>
+  <span class="search-button__kbd-shortcut"><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd>K</kbd></span>
+</form>
+  </dialog>
+
+  <div class="pst-async-banner-revealer d-none">
+  <aside id="bd-header-version-warning" class="d-none d-print-none" aria-label="Version warning"></aside>
+</div>
+
+  
+    <header class="bd-header navbar navbar-expand-lg bd-navbar d-print-none">
+    </header>
+  
+
+  <div class="bd-container">
+    <div class="bd-container__inner bd-page-width">
+      
+      
+      
+      <dialog id="pst-primary-sidebar-modal"></dialog>
+      <div id="pst-primary-sidebar" class="bd-sidebar-primary bd-sidebar">
+        
+
+  
+  <div class="sidebar-header-items sidebar-primary__section">
+    
+    
+    
+    
+  </div>
+  
+    <div class="sidebar-primary-items__start sidebar-primary__section">
+        <div class="sidebar-primary-item">
+
+  
+    
+  
+
+<a class="navbar-brand logo" href="index.html">
+  
+  
+  
+  
+  
+    
+    
+      
+    
+    
+    <img src="_static/VL-hori-coul.jpg" class="logo__image only-light" alt="Vulnerability-Lookup - Home"/>
+    <img src="_static/VL-hori-coul.jpg" class="logo__image only-dark pst-js-only" alt="Vulnerability-Lookup - Home"/>
+  
+  
+</a></div>
+        <div class="sidebar-primary-item">
+
+<button class="btn search-button-field search-button__button pst-js-only" title="Search" aria-label="Search" data-bs-placement="bottom" data-bs-toggle="tooltip">
+ <i class="fa-solid fa-magnifying-glass"></i>
+ <span class="search-button__default-text">Search</span>
+ <span class="search-button__kbd-shortcut"><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd class="kbd-shortcut__modifier">K</kbd></span>
+</button></div>
+        <div class="sidebar-primary-item"><nav class="bd-links bd-docs-nav" aria-label="Main">
+    <div class="bd-toc-item navbar-nav active">
+        
+        <ul class="nav bd-sidenav bd-sidenav__home-link">
+            <li class="toctree-l1">
+                <a class="reference internal" href="index.html">
+                    Vulnerability-Lookup
+                </a>
+            </li>
+        </ul>
+        <p aria-level="2" class="caption" role="heading"><span class="caption-text">Technical considerations</span></p>
+<ul class="nav bd-sidenav">
+<li class="toctree-l1"><a class="reference internal" href="prerequisites.html">Prerequisites</a></li>
+<li class="toctree-l1"><a class="reference internal" href="installation.html">Installation</a></li>
+<li class="toctree-l1"><a class="reference internal" href="update.html">Updating the application</a></li>
+<li class="toctree-l1"><a class="reference internal" href="command-line-interface.html">Command Line Interface</a></li>
+</ul>
+<p aria-level="2" class="caption" role="heading"><span class="caption-text">Architecture</span></p>
+<ul class="nav bd-sidenav">
+<li class="toctree-l1"><a class="reference internal" href="architecture.html">High level architecture</a></li>
+<li class="toctree-l1"><a class="reference internal" href="webservice.html">Web service</a></li>
+<li class="toctree-l1"><a class="reference internal" href="streaming.html">Streaming service</a></li>
+</ul>
+<p aria-level="2" class="caption" role="heading"><span class="caption-text">Concepts</span></p>
+<ul class="nav bd-sidenav">
+<li class="toctree-l1"><a class="reference internal" href="sightings.html">Sightings</a></li>
+</ul>
+<p aria-level="2" class="caption" role="heading"><span class="caption-text">Usage</span></p>
+<ul class="current nav bd-sidenav">
+<li class="toctree-l1"><a class="reference internal" href="feeds.html">Feed syndication</a></li>
+<li class="toctree-l1 current active"><a class="current reference internal" href="#">API v1</a></li>
+</ul>
+
+    </div>
+</nav></div>
+    </div>
+  
+  
+  <div class="sidebar-primary-items__end sidebar-primary__section">
+  </div>
+  
+  <div id="rtd-footer-container"></div>
+
+
+      </div>
+      
+      <main id="main-content" class="bd-main" role="main">
+        
+        
+
+<div class="sbt-scroll-pixel-helper"></div>
+
+          <div class="bd-content">
+            <div class="bd-article-container">
+              
+              <div class="bd-header-article d-print-none">
+<div class="header-article-items header-article__inner">
+  
+    <div class="header-article-items__start">
+      
+        <div class="header-article-item"><button class="sidebar-toggle primary-toggle btn btn-sm" title="Toggle primary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
+  <span class="fa-solid fa-bars"></span>
+</button></div>
+      
+    </div>
+  
+  
+    <div class="header-article-items__end">
+      
+        <div class="header-article-item">
+
+<div class="article-header-buttons">
+
+
+
+
+
+<div class="dropdown dropdown-source-buttons">
+  <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false" aria-label="Source repositories">
+    <i class="fab fa-github"></i>
+  </button>
+  <ul class="dropdown-menu">
+      
+      
+      
+      <li><a href="https://github.com/cve-search/vulnerability-lookup" target="_blank"
+   class="btn btn-sm btn-source-repository-button dropdown-item"
+   title="Source repository"
+   data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fab fa-github"></i>
+  </span>
+<span class="btn__text-container">Repository</span>
+</a>
+</li>
+      
+      
+      
+      
+      <li><a href="https://github.com/cve-search/vulnerability-lookup/edit/main/docs/api-v1.rst" target="_blank"
+   class="btn btn-sm btn-source-edit-button dropdown-item"
+   title="Suggest edit"
+   data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-pencil-alt"></i>
+  </span>
+<span class="btn__text-container">Suggest edit</span>
+</a>
+</li>
+      
+      
+      
+      
+      <li><a href="https://github.com/cve-search/vulnerability-lookup/issues/new?title=Issue%20on%20page%20%2Fapi-v1.html&body=Your%20issue%20content%20here." target="_blank"
+   class="btn btn-sm btn-source-issues-button dropdown-item"
+   title="Open an issue"
+   data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-lightbulb"></i>
+  </span>
+<span class="btn__text-container">Open issue</span>
+</a>
+</li>
+      
+  </ul>
+</div>
+
+
+
+
+
+
+<div class="dropdown dropdown-download-buttons">
+  <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false" aria-label="Download this page">
+    <i class="fas fa-download"></i>
+  </button>
+  <ul class="dropdown-menu">
+      
+      
+      
+      <li><a href="_sources/api-v1.rst" target="_blank"
+   class="btn btn-sm btn-download-source-button dropdown-item"
+   title="Download source file"
+   data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-file"></i>
+  </span>
+<span class="btn__text-container">.rst</span>
+</a>
+</li>
+      
+      
+      
+      
+      <li>
+<button onclick="window.print()"
+  class="btn btn-sm btn-download-pdf-button dropdown-item"
+  title="Print to PDF"
+  data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-file-pdf"></i>
+  </span>
+<span class="btn__text-container">.pdf</span>
+</button>
+</li>
+      
+  </ul>
+</div>
+
+
+
+
+<button onclick="toggleFullScreen()"
+  class="btn btn-sm btn-fullscreen-button"
+  title="Fullscreen mode"
+  data-bs-placement="bottom" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-expand"></i>
+  </span>
+
+</button>
+
+
+
+<button class="btn btn-sm nav-link pst-navbar-icon theme-switch-button pst-js-only" aria-label="Color mode" data-bs-title="Color mode"  data-bs-placement="bottom" data-bs-toggle="tooltip">
+  <i class="theme-switch fa-solid fa-sun                fa-lg" data-mode="light" title="Light"></i>
+  <i class="theme-switch fa-solid fa-moon               fa-lg" data-mode="dark"  title="Dark"></i>
+  <i class="theme-switch fa-solid fa-circle-half-stroke fa-lg" data-mode="auto"  title="System Settings"></i>
+</button>
+
+
+<button class="btn btn-sm pst-navbar-icon search-button search-button__button pst-js-only" title="Search" aria-label="Search" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <i class="fa-solid fa-magnifying-glass fa-lg"></i>
+</button>
+<button class="sidebar-toggle secondary-toggle btn btn-sm" title="Toggle secondary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <span class="fa-solid fa-list"></span>
+</button>
+</div></div>
+      
+    </div>
+  
+</div>
+</div>
+              
+              
+
+<div id="jb-print-docs-body" class="onlyprint">
+    <h1>API v1</h1>
+    <!-- Table of contents -->
+    <div id="print-main-content">
+        <div id="jb-print-toc">
+            
+            <div>
+                <h2> Contents </h2>
+            </div>
+            <nav aria-label="Page">
+                <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#openapi-specification">OpenAPI specification</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#examples">Examples</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#comments">Comments</a></li>
+</ul>
+</li>
+</ul>
+            </nav>
+        </div>
+    </div>
+</div>
+
+              
+                
+<div id="searchbox"></div>
+                <article class="bd-article">
+                  
+  <section id="api-v1">
+<h1>API v1<a class="headerlink" href="#api-v1" title="Link to this heading">#</a></h1>
+<p id="openapi"><a class="reference external" href="https://github.com/cve-search/PyVulnerabilityLookup">PyVulnerabilityLookup</a>
+is a Python library to access Vulnerability-Lookup via its REST API.</p>
+<section id="openapi-specification">
+<h2>OpenAPI specification<a class="headerlink" href="#openapi-specification" title="Link to this heading">#</a></h2>
+<dl class="http get">
+<dt class="sig sig-object http" id="get--browse-">
+<span class="sig-name descname"><span class="pre">GET</span> </span><span class="sig-name descname"><span class="pre">/browse/</span></span><a class="headerlink" href="#get--browse-" title="Link to this definition">#</a></dt>
+<dd><p><strong>Get the known vendors</strong></p>
+<p>Get the known vendors.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Status Codes<span class="colon">:</span></dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><span><a class="reference external" href="https://www.w3.org/Protocols/rfc2616/rfc2616-sec10.html#sec10.2.1">200 OK</a></span> – Success</p></li>
+</ul>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="http get">
+<dt class="sig sig-object http" id="get--browse-vendor">
+<span class="sig-name descname"><span class="pre">GET</span> </span><span class="sig-name descname"><span class="pre">/browse/{vendor}</span></span><a class="headerlink" href="#get--browse-vendor" title="Link to this definition">#</a></dt>
+<dd><p><strong>Get the known products for a vendor</strong></p>
+<p>Get the known products for a vendor.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters<span class="colon">:</span></dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>vendor</strong> (<em>string</em>)</p></li>
+</ul>
+</dd>
+<dt class="field-even">Status Codes<span class="colon">:</span></dt>
+<dd class="field-even"><ul class="simple">
+<li><p><span><a class="reference external" href="https://www.w3.org/Protocols/rfc2616/rfc2616-sec10.html#sec10.2.1">200 OK</a></span> – Success</p></li>
+</ul>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="http get">
+<dt class="sig sig-object http" id="get--bundle-">
+<span class="sig-name descname"><span class="pre">GET</span> </span><span class="sig-name descname"><span class="pre">/bundle/</span></span><a class="headerlink" href="#get--bundle-" title="Link to this definition">#</a></dt>
+<dd><p><strong>List all bundles</strong></p>
+<dl class="field-list simple">
+<dt class="field-odd">Query Parameters<span class="colon">:</span></dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>uuid</strong> (<em>string</em>) – UUID of the bundle.</p></li>
+<li><p><strong>author</strong> (<em>string</em>) – Author (login) of the bundle.</p></li>
+<li><p><strong>vuln_id</strong> (<em>string</em>) – Id of a vulnerability referenced by the bundle.</p></li>
+<li><p><strong>meta</strong> (<em>string</em>) – Query for the meta JSON field. Example: meta=[{‘tags’: [‘tcp’]}]</p></li>
+<li><p><strong>per_page</strong> (<em>integer</em>) – Number of elements to return.</p></li>
+</ul>
+</dd>
+<dt class="field-even">Status Codes<span class="colon">:</span></dt>
+<dd class="field-even"><ul class="simple">
+<li><p><span><a class="reference external" href="https://www.w3.org/Protocols/rfc2616/rfc2616-sec10.html#sec10.2.1">200 OK</a></span> – Success</p></li>
+</ul>
+</dd>
+<dt class="field-odd">Request Headers<span class="colon">:</span></dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>X-Fields</strong> – An optional fields mask</p></li>
+</ul>
+</dd>
+<dt class="field-even">Response JSON Object<span class="colon">:</span></dt>
+<dd class="field-even"><ul class="simple">
+<li><p><strong>[].data[].author</strong> (<em>any</em>) – (read only)</p></li>
+<li><p><strong>[].data[].creation_timestamp</strong> (<em>string</em>) – Updated time of the bundle. (read only)</p></li>
+<li><p><strong>[].data[].description</strong> (<em>string</em>) – Description.</p></li>
+<li><p><strong>[].data[].meta</strong> (<em>object</em>) – Zero or more meta-fields.</p></li>
+<li><p><strong>[].data[].name</strong> (<em>string</em>) – Bundle id.</p></li>
+<li><p><strong>[].data[].related_vulnerabilities[]</strong> (<em>string</em>)</p></li>
+<li><p><strong>[].data[].timestamp</strong> (<em>string</em>) – Updated time of the bundle. (read only)</p></li>
+<li><p><strong>[].data[].uuid</strong> (<em>string</em>) – Bundle id.</p></li>
+<li><p><strong>[].data[].vulnerability_lookup_origin</strong> (<em>string</em>) – UUID of the Vulnerability Lookup origin instance. (read only)</p></li>
+<li><p><strong>[].metadata</strong> (<em>any</em>) – Metada related to the result.</p></li>
+</ul>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="http post">
+<dt class="sig sig-object http" id="post--bundle-">
+<span class="sig-name descname"><span class="pre">POST</span> </span><span class="sig-name descname"><span class="pre">/bundle/</span></span><a class="headerlink" href="#post--bundle-" title="Link to this definition">#</a></dt>
+<dd><p>Create a bundle.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Request JSON Object<span class="colon">:</span></dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>author</strong> (<em>any</em>) – (read only)</p></li>
+<li><p><strong>creation_timestamp</strong> (<em>string</em>) – Updated time of the bundle. (read only)</p></li>
+<li><p><strong>description</strong> (<em>string</em>) – Description.</p></li>
+<li><p><strong>meta</strong> (<em>object</em>) – Zero or more meta-fields.</p></li>
+<li><p><strong>name</strong> (<em>string</em>) – Bundle id.</p></li>
+<li><p><strong>related_vulnerabilities[]</strong> (<em>string</em>)</p></li>
+<li><p><strong>timestamp</strong> (<em>string</em>) – Updated time of the bundle. (read only)</p></li>
+<li><p><strong>uuid</strong> (<em>string</em>) – Bundle id.</p></li>
+<li><p><strong>vulnerability_lookup_origin</strong> (<em>string</em>) – UUID of the Vulnerability Lookup origin instance. (read only)</p></li>
+</ul>
+</dd>
+<dt class="field-even">Status Codes<span class="colon">:</span></dt>
+<dd class="field-even"><ul class="simple">
+<li><p><span><a class="reference external" href="https://www.w3.org/Protocols/rfc2616/rfc2616-sec10.html#sec10.2.2">201 Created</a></span> – Success.</p></li>
+<li><p><span><a class="reference external" href="https://www.w3.org/Protocols/rfc2616/rfc2616-sec10.html#sec10.4.1">400 Bad Request</a></span> – JSON validation failed or incorrect payload to instantiate a bundle.</p></li>
+<li><p><span><a class="reference external" href="https://www.w3.org/Protocols/rfc2616/rfc2616-sec10.html#sec10.4.4">403 Forbidden</a></span> – Administrator permission required.</p></li>
+</ul>
+</dd>
+<dt class="field-odd">Request Headers<span class="colon">:</span></dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>X-Fields</strong> – An optional fields mask</p></li>
+</ul>
+</dd>
+<dt class="field-even">Response JSON Object<span class="colon">:</span></dt>
+<dd class="field-even"><ul class="simple">
+<li><p><strong>[].data[].author</strong> (<em>any</em>) – (read only)</p></li>
+<li><p><strong>[].data[].creation_timestamp</strong> (<em>string</em>) – Updated time of the bundle. (read only)</p></li>
+<li><p><strong>[].data[].description</strong> (<em>string</em>) – Description.</p></li>
+<li><p><strong>[].data[].meta</strong> (<em>object</em>) – Zero or more meta-fields.</p></li>
+<li><p><strong>[].data[].name</strong> (<em>string</em>) – Bundle id.</p></li>
+<li><p><strong>[].data[].related_vulnerabilities[]</strong> (<em>string</em>)</p></li>
+<li><p><strong>[].data[].timestamp</strong> (<em>string</em>) – Updated time of the bundle. (read only)</p></li>
+<li><p><strong>[].data[].uuid</strong> (<em>string</em>) – Bundle id.</p></li>
+<li><p><strong>[].data[].vulnerability_lookup_origin</strong> (<em>string</em>) – UUID of the Vulnerability Lookup origin instance. (read only)</p></li>
+<li><p><strong>[].metadata</strong> (<em>any</em>) – Metada related to the result.</p></li>
+</ul>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="http get">
+<dt class="sig sig-object http" id="get--bundle-bundle_uuid">
+<span class="sig-name descname"><span class="pre">GET</span> </span><span class="sig-name descname"><span class="pre">/bundle/{bundle_uuid}</span></span><a class="headerlink" href="#get--bundle-bundle_uuid" title="Link to this definition">#</a></dt>
+<dd><p>Get a bundle with its UUID.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters<span class="colon">:</span></dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>bundle_uuid</strong> (<em>string</em>)</p></li>
+</ul>
+</dd>
+<dt class="field-even">Status Codes<span class="colon">:</span></dt>
+<dd class="field-even"><ul class="simple">
+<li><p><span><a class="reference external" href="https://www.w3.org/Protocols/rfc2616/rfc2616-sec10.html#sec10.2.1">200 OK</a></span> – Success.</p></li>
+<li><p><span><a class="reference external" href="https://www.w3.org/Protocols/rfc2616/rfc2616-sec10.html#sec10.4.5">404 Not Found</a></span> – Bundle not found.</p></li>
+</ul>
+</dd>
+<dt class="field-odd">Request Headers<span class="colon">:</span></dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>X-Fields</strong> – An optional fields mask</p></li>
+</ul>
+</dd>
+<dt class="field-even">Response JSON Object<span class="colon">:</span></dt>
+<dd class="field-even"><ul class="simple">
+<li><p><strong>author</strong> (<em>any</em>) – (read only)</p></li>
+<li><p><strong>creation_timestamp</strong> (<em>string</em>) – Updated time of the bundle. (read only)</p></li>
+<li><p><strong>description</strong> (<em>string</em>) – Description.</p></li>
+<li><p><strong>meta</strong> (<em>object</em>) – Zero or more meta-fields.</p></li>
+<li><p><strong>name</strong> (<em>string</em>) – Bundle id.</p></li>
+<li><p><strong>related_vulnerabilities[]</strong> (<em>string</em>)</p></li>
+<li><p><strong>timestamp</strong> (<em>string</em>) – Updated time of the bundle. (read only)</p></li>
+<li><p><strong>uuid</strong> (<em>string</em>) – Bundle id.</p></li>
+<li><p><strong>vulnerability_lookup_origin</strong> (<em>string</em>) – UUID of the Vulnerability Lookup origin instance. (read only)</p></li>
+</ul>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="http delete">
+<dt class="sig sig-object http" id="delete--bundle-bundle_uuid">
+<span class="sig-name descname"><span class="pre">DELETE</span> </span><span class="sig-name descname"><span class="pre">/bundle/{bundle_uuid}</span></span><a class="headerlink" href="#delete--bundle-bundle_uuid" title="Link to this definition">#</a></dt>
+<dd><p><strong>Endpoint for deleting a bundle</strong></p>
+<p>Delete a bundle.
+Only an admin can delete a bundle.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters<span class="colon">:</span></dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>bundle_uuid</strong> (<em>string</em>)</p></li>
+</ul>
+</dd>
+<dt class="field-even">Status Codes<span class="colon">:</span></dt>
+<dd class="field-even"><ul class="simple">
+<li><p><span><a class="reference external" href="https://www.w3.org/Protocols/rfc2616/rfc2616-sec10.html#sec10.2.5">204 No Content</a></span> – Success.</p></li>
+<li><p><span><a class="reference external" href="https://www.w3.org/Protocols/rfc2616/rfc2616-sec10.html#sec10.4.4">403 Forbidden</a></span> – Administrator permission required or not the author of the bundle.</p></li>
+<li><p><span><a class="reference external" href="https://www.w3.org/Protocols/rfc2616/rfc2616-sec10.html#sec10.4.5">404 Not Found</a></span> – Bundle not found.</p></li>
+</ul>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="http get">
+<dt class="sig sig-object http" id="get--comment-">
+<span class="sig-name descname"><span class="pre">GET</span> </span><span class="sig-name descname"><span class="pre">/comment/</span></span><a class="headerlink" href="#get--comment-" title="Link to this definition">#</a></dt>
+<dd><p><strong>List all comments</strong></p>
+<dl class="field-list simple">
+<dt class="field-odd">Query Parameters<span class="colon">:</span></dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>uuid</strong> (<em>string</em>) – UUID of the comment.</p></li>
+<li><p><strong>vuln_id</strong> (<em>string</em>) – Vulnerability related to the comment.</p></li>
+<li><p><strong>author</strong> (<em>string</em>) – Author of the comment.</p></li>
+<li><p><strong>meta</strong> (<em>string</em>) – Query for the meta JSON field. Example: meta=[{‘tags’: [‘PoC’]}]</p></li>
+<li><p><strong>per_page</strong> (<em>integer</em>) – Number of elements to return.</p></li>
+</ul>
+</dd>
+<dt class="field-even">Status Codes<span class="colon">:</span></dt>
+<dd class="field-even"><ul class="simple">
+<li><p><span><a class="reference external" href="https://www.w3.org/Protocols/rfc2616/rfc2616-sec10.html#sec10.2.1">200 OK</a></span> – Success</p></li>
+</ul>
+</dd>
+<dt class="field-odd">Request Headers<span class="colon">:</span></dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>X-Fields</strong> – An optional fields mask</p></li>
+</ul>
+</dd>
+<dt class="field-even">Response JSON Object<span class="colon">:</span></dt>
+<dd class="field-even"><ul class="simple">
+<li><p><strong>[].data[].author</strong> (<em>any</em>) – (read only)</p></li>
+<li><p><strong>[].data[].creation_timestamp</strong> (<em>string</em>) – Creation time of the comment. (read only)</p></li>
+<li><p><strong>[].data[].description</strong> (<em>string</em>) – Description.</p></li>
+<li><p><strong>[].data[].description_format</strong> (<em>string</em>) – Description format (markdown or text).</p></li>
+<li><p><strong>[].data[].meta</strong> (<em>object</em>) – Zero or more meta-fields.</p></li>
+<li><p><strong>[].data[].related_vulnerabilities[]</strong> (<em>string</em>)</p></li>
+<li><p><strong>[].data[].timestamp</strong> (<em>string</em>) – Updated time of the comment. (read only)</p></li>
+<li><p><strong>[].data[].title</strong> (<em>string</em>) – Comment id.</p></li>
+<li><p><strong>[].data[].uuid</strong> (<em>string</em>) – Comment id.</p></li>
+<li><p><strong>[].data[].vulnerability</strong> (<em>string</em>) – Vulnerability id.</p></li>
+<li><p><strong>[].data[].vulnerability_lookup_origin</strong> (<em>string</em>) – UUID of the Vulnerability Lookup origin instance. (read only)</p></li>
+<li><p><strong>[].metadata</strong> (<em>any</em>) – Metada related to the result.</p></li>
+</ul>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="http post">
+<dt class="sig sig-object http" id="post--comment-">
+<span class="sig-name descname"><span class="pre">POST</span> </span><span class="sig-name descname"><span class="pre">/comment/</span></span><a class="headerlink" href="#post--comment-" title="Link to this definition">#</a></dt>
+<dd><p><strong>Create a new comment related to a security advisory (vulnerability)</strong></p>
+<p>Create a comment related to a security advisory.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Request JSON Object<span class="colon">:</span></dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>author</strong> (<em>any</em>) – (read only)</p></li>
+<li><p><strong>creation_timestamp</strong> (<em>string</em>) – Creation time of the comment. (read only)</p></li>
+<li><p><strong>description</strong> (<em>string</em>) – Description.</p></li>
+<li><p><strong>description_format</strong> (<em>string</em>) – Description format (markdown or text).</p></li>
+<li><p><strong>meta</strong> (<em>object</em>) – Zero or more meta-fields.</p></li>
+<li><p><strong>related_vulnerabilities[]</strong> (<em>string</em>)</p></li>
+<li><p><strong>timestamp</strong> (<em>string</em>) – Updated time of the comment. (read only)</p></li>
+<li><p><strong>title</strong> (<em>string</em>) – Comment id.</p></li>
+<li><p><strong>uuid</strong> (<em>string</em>) – Comment id.</p></li>
+<li><p><strong>vulnerability</strong> (<em>string</em>) – Vulnerability id.</p></li>
+<li><p><strong>vulnerability_lookup_origin</strong> (<em>string</em>) – UUID of the Vulnerability Lookup origin instance. (read only)</p></li>
+</ul>
+</dd>
+<dt class="field-even">Status Codes<span class="colon">:</span></dt>
+<dd class="field-even"><ul class="simple">
+<li><p><span><a class="reference external" href="https://www.w3.org/Protocols/rfc2616/rfc2616-sec10.html#sec10.2.2">201 Created</a></span> – Success.</p></li>
+<li><p><span><a class="reference external" href="https://www.w3.org/Protocols/rfc2616/rfc2616-sec10.html#sec10.4.1">400 Bad Request</a></span> – JSON validation failed or incorrect payload to instantiate a comment.</p></li>
+<li><p><span><a class="reference external" href="https://www.w3.org/Protocols/rfc2616/rfc2616-sec10.html#sec10.4.4">403 Forbidden</a></span> – Commenter permission required or not the author of the comment.</p></li>
+</ul>
+</dd>
+<dt class="field-odd">Request Headers<span class="colon">:</span></dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>X-Fields</strong> – An optional fields mask</p></li>
+</ul>
+</dd>
+<dt class="field-even">Response JSON Object<span class="colon">:</span></dt>
+<dd class="field-even"><ul class="simple">
+<li><p><strong>[].data[].author</strong> (<em>any</em>) – (read only)</p></li>
+<li><p><strong>[].data[].creation_timestamp</strong> (<em>string</em>) – Creation time of the comment. (read only)</p></li>
+<li><p><strong>[].data[].description</strong> (<em>string</em>) – Description.</p></li>
+<li><p><strong>[].data[].description_format</strong> (<em>string</em>) – Description format (markdown or text).</p></li>
+<li><p><strong>[].data[].meta</strong> (<em>object</em>) – Zero or more meta-fields.</p></li>
+<li><p><strong>[].data[].related_vulnerabilities[]</strong> (<em>string</em>)</p></li>
+<li><p><strong>[].data[].timestamp</strong> (<em>string</em>) – Updated time of the comment. (read only)</p></li>
+<li><p><strong>[].data[].title</strong> (<em>string</em>) – Comment id.</p></li>
+<li><p><strong>[].data[].uuid</strong> (<em>string</em>) – Comment id.</p></li>
+<li><p><strong>[].data[].vulnerability</strong> (<em>string</em>) – Vulnerability id.</p></li>
+<li><p><strong>[].data[].vulnerability_lookup_origin</strong> (<em>string</em>) – UUID of the Vulnerability Lookup origin instance. (read only)</p></li>
+<li><p><strong>[].metadata</strong> (<em>any</em>) – Metada related to the result.</p></li>
+</ul>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="http get">
+<dt class="sig sig-object http" id="get--comment-comment_uuid">
+<span class="sig-name descname"><span class="pre">GET</span> </span><span class="sig-name descname"><span class="pre">/comment/{comment_uuid}</span></span><a class="headerlink" href="#get--comment-comment_uuid" title="Link to this definition">#</a></dt>
+<dd><p>Get a comment with its UUID.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters<span class="colon">:</span></dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>comment_uuid</strong> (<em>string</em>)</p></li>
+</ul>
+</dd>
+<dt class="field-even">Status Codes<span class="colon">:</span></dt>
+<dd class="field-even"><ul class="simple">
+<li><p><span><a class="reference external" href="https://www.w3.org/Protocols/rfc2616/rfc2616-sec10.html#sec10.2.1">200 OK</a></span> – Success.</p></li>
+<li><p><span><a class="reference external" href="https://www.w3.org/Protocols/rfc2616/rfc2616-sec10.html#sec10.4.5">404 Not Found</a></span> – Comment not found.</p></li>
+</ul>
+</dd>
+<dt class="field-odd">Request Headers<span class="colon">:</span></dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>X-Fields</strong> – An optional fields mask</p></li>
+</ul>
+</dd>
+<dt class="field-even">Response JSON Object<span class="colon">:</span></dt>
+<dd class="field-even"><ul class="simple">
+<li><p><strong>author</strong> (<em>any</em>) – (read only)</p></li>
+<li><p><strong>creation_timestamp</strong> (<em>string</em>) – Creation time of the comment. (read only)</p></li>
+<li><p><strong>description</strong> (<em>string</em>) – Description.</p></li>
+<li><p><strong>description_format</strong> (<em>string</em>) – Description format (markdown or text).</p></li>
+<li><p><strong>meta</strong> (<em>object</em>) – Zero or more meta-fields.</p></li>
+<li><p><strong>related_vulnerabilities[]</strong> (<em>string</em>)</p></li>
+<li><p><strong>timestamp</strong> (<em>string</em>) – Updated time of the comment. (read only)</p></li>
+<li><p><strong>title</strong> (<em>string</em>) – Comment id.</p></li>
+<li><p><strong>uuid</strong> (<em>string</em>) – Comment id.</p></li>
+<li><p><strong>vulnerability</strong> (<em>string</em>) – Vulnerability id.</p></li>
+<li><p><strong>vulnerability_lookup_origin</strong> (<em>string</em>) – UUID of the Vulnerability Lookup origin instance. (read only)</p></li>
+</ul>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="http delete">
+<dt class="sig sig-object http" id="delete--comment-comment_uuid">
+<span class="sig-name descname"><span class="pre">DELETE</span> </span><span class="sig-name descname"><span class="pre">/comment/{comment_uuid}</span></span><a class="headerlink" href="#delete--comment-comment_uuid" title="Link to this definition">#</a></dt>
+<dd><p><strong>Endpoint for deleting a comment</strong></p>
+<p>Delete a comment.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters<span class="colon">:</span></dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>comment_uuid</strong> (<em>string</em>)</p></li>
+</ul>
+</dd>
+<dt class="field-even">Status Codes<span class="colon">:</span></dt>
+<dd class="field-even"><ul class="simple">
+<li><p><span><a class="reference external" href="https://www.w3.org/Protocols/rfc2616/rfc2616-sec10.html#sec10.2.5">204 No Content</a></span> – Success.</p></li>
+<li><p><span><a class="reference external" href="https://www.w3.org/Protocols/rfc2616/rfc2616-sec10.html#sec10.4.4">403 Forbidden</a></span> – Commenter permission required or not the author of the comment.</p></li>
+<li><p><span><a class="reference external" href="https://www.w3.org/Protocols/rfc2616/rfc2616-sec10.html#sec10.4.5">404 Not Found</a></span> – Comment not found.</p></li>
+</ul>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="http get">
+<dt class="sig sig-object http" id="get--cve-vulnerability_id">
+<span class="sig-name descname"><span class="pre">GET</span> </span><span class="sig-name descname"><span class="pre">/cve/{vulnerability_id}</span></span><a class="headerlink" href="#get--cve-vulnerability_id" title="Link to this definition">#</a></dt>
+<dd><p>Alias for /api/vulnerability/&lt;string:vulnerability_id
+Get a vulnerability.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters<span class="colon">:</span></dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>vulnerability_id</strong> (<em>string</em>)</p></li>
+</ul>
+</dd>
+<dt class="field-even">Query Parameters<span class="colon">:</span></dt>
+<dd class="field-even"><ul class="simple">
+<li><p><strong>with_meta</strong> (<em>boolean</em>) – Include metada.</p></li>
+</ul>
+</dd>
+<dt class="field-odd">Status Codes<span class="colon">:</span></dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><span><a class="reference external" href="https://www.w3.org/Protocols/rfc2616/rfc2616-sec10.html#sec10.2.1">200 OK</a></span> – Success</p></li>
+</ul>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="http delete">
+<dt class="sig sig-object http" id="delete--cve-vulnerability_id">
+<span class="sig-name descname"><span class="pre">DELETE</span> </span><span class="sig-name descname"><span class="pre">/cve/{vulnerability_id}</span></span><a class="headerlink" href="#delete--cve-vulnerability_id" title="Link to this definition">#</a></dt>
+<dd><p><strong>Endpoint for deleting a vulnerability</strong></p>
+<p>Alias for /api/vulnerability/&lt;string:vulnerability_id
+Delete a vulnerability from the local source.
+We only accept to delete vulnerabilities from the local source.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters<span class="colon">:</span></dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>vulnerability_id</strong> (<em>string</em>)</p></li>
+</ul>
+</dd>
+<dt class="field-even">Status Codes<span class="colon">:</span></dt>
+<dd class="field-even"><ul class="simple">
+<li><p><span><a class="reference external" href="https://www.w3.org/Protocols/rfc2616/rfc2616-sec10.html#sec10.2.5">204 No Content</a></span> – Success.</p></li>
+<li><p><span><a class="reference external" href="https://www.w3.org/Protocols/rfc2616/rfc2616-sec10.html#sec10.4.4">403 Forbidden</a></span> – Admin permission required.</p></li>
+<li><p><span><a class="reference external" href="https://www.rfc-editor.org/rfc/rfc4918#section-11.2">422 Unprocessable Entity</a></span> – Not possible to edit a vulnerability from the requested source.</p></li>
+</ul>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="http get">
+<dt class="sig sig-object http" id="get--epss-vulnerability_id">
+<span class="sig-name descname"><span class="pre">GET</span> </span><span class="sig-name descname"><span class="pre">/epss/{vulnerability_id}</span></span><a class="headerlink" href="#get--epss-vulnerability_id" title="Link to this definition">#</a></dt>
+<dd><p>Experimental - Get the EPSS score of a vulnerability.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters<span class="colon">:</span></dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>vulnerability_id</strong> (<em>string</em>)</p></li>
+</ul>
+</dd>
+<dt class="field-even">Status Codes<span class="colon">:</span></dt>
+<dd class="field-even"><ul class="simple">
+<li><p><span><a class="reference external" href="https://www.w3.org/Protocols/rfc2616/rfc2616-sec10.html#sec10.2.1">200 OK</a></span> – Success.</p></li>
+<li><p><span><a class="reference external" href="https://www.w3.org/Protocols/rfc2616/rfc2616-sec10.html#sec10.4.5">404 Not Found</a></span> – Problem when retrieving EPSS.</p></li>
+</ul>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="http get">
+<dt class="sig sig-object http" id="get--search-vendor-product">
+<span class="sig-name descname"><span class="pre">GET</span> </span><span class="sig-name descname"><span class="pre">/search/{vendor}/{product}</span></span><a class="headerlink" href="#get--search-vendor-product" title="Link to this definition">#</a></dt>
+<dd><p><strong>Returns a list of vulnerabilities related to the product</strong></p>
+<p>Alias for /api/vulnerability/search/&lt;string:vendor&gt;/&lt;string:product&gt;</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters<span class="colon">:</span></dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>vendor</strong> (<em>string</em>)</p></li>
+<li><p><strong>product</strong> (<em>string</em>)</p></li>
+</ul>
+</dd>
+<dt class="field-even">Status Codes<span class="colon">:</span></dt>
+<dd class="field-even"><ul class="simple">
+<li><p><span><a class="reference external" href="https://www.w3.org/Protocols/rfc2616/rfc2616-sec10.html#sec10.2.1">200 OK</a></span> – Success</p></li>
+</ul>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="http get">
+<dt class="sig sig-object http" id="get--sighting">
+<span class="sig-name descname"><span class="pre">GET</span> </span><span class="sig-name descname"><span class="pre">/sighting</span></span><a class="headerlink" href="#get--sighting" title="Link to this definition">#</a></dt>
+<dd><p><strong>List all sightings</strong></p>
+<dl class="field-list simple">
+<dt class="field-odd">Query Parameters<span class="colon">:</span></dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>uuid</strong> (<em>string</em>) – UUID of the sighting.</p></li>
+<li><p><strong>type</strong> (<em>string</em>) – <dl class="simple">
+<dt>Type of sightings:</dt><dd><ul>
+<li><p>Seen: The vulnerability was mentioned, discussed, or seen somewhere by the user.</p></li>
+<li><p>Exploited: This vulnerability was exploited and seen by the user reporting the sighting.</p></li>
+<li><p>Not exploited: This vulnerability was not exploited or seen by the user reporting the sighting.</p></li>
+<li><p>Confirmed: The vulnerability is confirmed from an analyst perspective.</p></li>
+<li><p>Not confirmed: The user expresses doubt about the veracity of the vulnerability.</p></li>
+<li><p>Patched: This vulnerability was successfully patched by the user reporting the sighting.</p></li>
+<li><p>Not patched: This vulnerability was not successfully patched by the user reporting the sighting.</p></li>
+</ul>
+</dd>
+</dl>
+</p></li>
+<li><p><strong>vuln_id</strong> (<em>string</em>) – Vulnerability related to the sighting.</p></li>
+<li><p><strong>author</strong> (<em>string</em>) – Author of the sighting (login).</p></li>
+<li><p><strong>date_from</strong> (<em>string</em>) – The date of the sightings must be bigger or equal than this value. Format: YYYY-MM-DD</p></li>
+<li><p><strong>date_to</strong> (<em>string</em>) – The date of the sightings must be smaller or equal than this value. Format: YYYY-MM-DD</p></li>
+</ul>
+</dd>
+<dt class="field-even">Status Codes<span class="colon">:</span></dt>
+<dd class="field-even"><ul class="simple">
+<li><p><span><a class="reference external" href="https://www.w3.org/Protocols/rfc2616/rfc2616-sec10.html#sec10.2.1">200 OK</a></span> – Success</p></li>
+</ul>
+</dd>
+<dt class="field-odd">Request Headers<span class="colon">:</span></dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>X-Fields</strong> – An optional fields mask</p></li>
+</ul>
+</dd>
+<dt class="field-even">Response JSON Object<span class="colon">:</span></dt>
+<dd class="field-even"><ul class="simple">
+<li><p><strong>[].data[].author</strong> (<em>any</em>) – (read only)</p></li>
+<li><p><strong>[].data[].creation_timestamp</strong> (<em>string</em>) – Creation time of the sighting.</p></li>
+<li><p><strong>[].data[].source</strong> (<em>string</em>) – The source of the sighting (Fediverse status URI, link, tool, etc.).</p></li>
+<li><p><strong>[].data[].type</strong> (<em>string</em>) – Type of the sighting.</p></li>
+<li><p><strong>[].data[].uuid</strong> (<em>string</em>) – Sighting UUID. (read only)</p></li>
+<li><p><strong>[].data[].vulnerability</strong> (<em>string</em>) – Vulnerability id.</p></li>
+<li><p><strong>[].metadata</strong> (<em>any</em>) – Metada related to the result.</p></li>
+</ul>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="http post">
+<dt class="sig sig-object http" id="post--sighting">
+<span class="sig-name descname"><span class="pre">POST</span> </span><span class="sig-name descname"><span class="pre">/sighting</span></span><a class="headerlink" href="#post--sighting" title="Link to this definition">#</a></dt>
+<dd><p><strong>Create a new sighting</strong></p>
+<p>Create a new sighting.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Request JSON Object<span class="colon">:</span></dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>author</strong> (<em>any</em>) – (read only)</p></li>
+<li><p><strong>creation_timestamp</strong> (<em>string</em>) – Creation time of the sighting.</p></li>
+<li><p><strong>source</strong> (<em>string</em>) – The source of the sighting (Fediverse status URI, link, tool, etc.).</p></li>
+<li><p><strong>type</strong> (<em>string</em>) – Type of the sighting.</p></li>
+<li><p><strong>uuid</strong> (<em>string</em>) – Sighting UUID. (read only)</p></li>
+<li><p><strong>vulnerability</strong> (<em>string</em>) – Vulnerability id.</p></li>
+</ul>
+</dd>
+<dt class="field-even">Status Codes<span class="colon">:</span></dt>
+<dd class="field-even"><ul class="simple">
+<li><p><span><a class="reference external" href="https://www.w3.org/Protocols/rfc2616/rfc2616-sec10.html#sec10.2.2">201 Created</a></span> – Success.</p></li>
+<li><p><span><a class="reference external" href="https://www.w3.org/Protocols/rfc2616/rfc2616-sec10.html#sec10.4.1">400 Bad Request</a></span> – Incorrect payload to instantiate a sighting.</p></li>
+<li><p><span><a class="reference external" href="https://www.w3.org/Protocols/rfc2616/rfc2616-sec10.html#sec10.4.10">409 Conflict</a></span> – Duplicate sighting.</p></li>
+</ul>
+</dd>
+<dt class="field-odd">Request Headers<span class="colon">:</span></dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>X-Fields</strong> – An optional fields mask</p></li>
+</ul>
+</dd>
+<dt class="field-even">Response JSON Object<span class="colon">:</span></dt>
+<dd class="field-even"><ul class="simple">
+<li><p><strong>[].data[].author</strong> (<em>any</em>) – (read only)</p></li>
+<li><p><strong>[].data[].creation_timestamp</strong> (<em>string</em>) – Creation time of the sighting.</p></li>
+<li><p><strong>[].data[].source</strong> (<em>string</em>) – The source of the sighting (Fediverse status URI, link, tool, etc.).</p></li>
+<li><p><strong>[].data[].type</strong> (<em>string</em>) – Type of the sighting.</p></li>
+<li><p><strong>[].data[].uuid</strong> (<em>string</em>) – Sighting UUID. (read only)</p></li>
+<li><p><strong>[].data[].vulnerability</strong> (<em>string</em>) – Vulnerability id.</p></li>
+<li><p><strong>[].metadata</strong> (<em>any</em>) – Metada related to the result.</p></li>
+</ul>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="http get">
+<dt class="sig sig-object http" id="get--sighting-">
+<span class="sig-name descname"><span class="pre">GET</span> </span><span class="sig-name descname"><span class="pre">/sighting/</span></span><a class="headerlink" href="#get--sighting-" title="Link to this definition">#</a></dt>
+<dd><p><strong>List all sightings</strong></p>
+<dl class="field-list simple">
+<dt class="field-odd">Query Parameters<span class="colon">:</span></dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>uuid</strong> (<em>string</em>) – UUID of the sighting.</p></li>
+<li><p><strong>type</strong> (<em>string</em>) – <dl class="simple">
+<dt>Type of sightings:</dt><dd><ul>
+<li><p>Seen: The vulnerability was mentioned, discussed, or seen somewhere by the user.</p></li>
+<li><p>Exploited: This vulnerability was exploited and seen by the user reporting the sighting.</p></li>
+<li><p>Not exploited: This vulnerability was not exploited or seen by the user reporting the sighting.</p></li>
+<li><p>Confirmed: The vulnerability is confirmed from an analyst perspective.</p></li>
+<li><p>Not confirmed: The user expresses doubt about the veracity of the vulnerability.</p></li>
+<li><p>Patched: This vulnerability was successfully patched by the user reporting the sighting.</p></li>
+<li><p>Not patched: This vulnerability was not successfully patched by the user reporting the sighting.</p></li>
+</ul>
+</dd>
+</dl>
+</p></li>
+<li><p><strong>vuln_id</strong> (<em>string</em>) – Vulnerability related to the sighting.</p></li>
+<li><p><strong>author</strong> (<em>string</em>) – Author of the sighting (login).</p></li>
+<li><p><strong>date_from</strong> (<em>string</em>) – The date of the sightings must be bigger or equal than this value. Format: YYYY-MM-DD</p></li>
+<li><p><strong>date_to</strong> (<em>string</em>) – The date of the sightings must be smaller or equal than this value. Format: YYYY-MM-DD</p></li>
+</ul>
+</dd>
+<dt class="field-even">Status Codes<span class="colon">:</span></dt>
+<dd class="field-even"><ul class="simple">
+<li><p><span><a class="reference external" href="https://www.w3.org/Protocols/rfc2616/rfc2616-sec10.html#sec10.2.1">200 OK</a></span> – Success</p></li>
+</ul>
+</dd>
+<dt class="field-odd">Request Headers<span class="colon">:</span></dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>X-Fields</strong> – An optional fields mask</p></li>
+</ul>
+</dd>
+<dt class="field-even">Response JSON Object<span class="colon">:</span></dt>
+<dd class="field-even"><ul class="simple">
+<li><p><strong>[].data[].author</strong> (<em>any</em>) – (read only)</p></li>
+<li><p><strong>[].data[].creation_timestamp</strong> (<em>string</em>) – Creation time of the sighting.</p></li>
+<li><p><strong>[].data[].source</strong> (<em>string</em>) – The source of the sighting (Fediverse status URI, link, tool, etc.).</p></li>
+<li><p><strong>[].data[].type</strong> (<em>string</em>) – Type of the sighting.</p></li>
+<li><p><strong>[].data[].uuid</strong> (<em>string</em>) – Sighting UUID. (read only)</p></li>
+<li><p><strong>[].data[].vulnerability</strong> (<em>string</em>) – Vulnerability id.</p></li>
+<li><p><strong>[].metadata</strong> (<em>any</em>) – Metada related to the result.</p></li>
+</ul>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="http post">
+<dt class="sig sig-object http" id="post--sighting-">
+<span class="sig-name descname"><span class="pre">POST</span> </span><span class="sig-name descname"><span class="pre">/sighting/</span></span><a class="headerlink" href="#post--sighting-" title="Link to this definition">#</a></dt>
+<dd><p><strong>Create a new sighting</strong></p>
+<p>Create a new sighting.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Request JSON Object<span class="colon">:</span></dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>author</strong> (<em>any</em>) – (read only)</p></li>
+<li><p><strong>creation_timestamp</strong> (<em>string</em>) – Creation time of the sighting.</p></li>
+<li><p><strong>source</strong> (<em>string</em>) – The source of the sighting (Fediverse status URI, link, tool, etc.).</p></li>
+<li><p><strong>type</strong> (<em>string</em>) – Type of the sighting.</p></li>
+<li><p><strong>uuid</strong> (<em>string</em>) – Sighting UUID. (read only)</p></li>
+<li><p><strong>vulnerability</strong> (<em>string</em>) – Vulnerability id.</p></li>
+</ul>
+</dd>
+<dt class="field-even">Status Codes<span class="colon">:</span></dt>
+<dd class="field-even"><ul class="simple">
+<li><p><span><a class="reference external" href="https://www.w3.org/Protocols/rfc2616/rfc2616-sec10.html#sec10.2.2">201 Created</a></span> – Success.</p></li>
+<li><p><span><a class="reference external" href="https://www.w3.org/Protocols/rfc2616/rfc2616-sec10.html#sec10.4.1">400 Bad Request</a></span> – Incorrect payload to instantiate a sighting.</p></li>
+<li><p><span><a class="reference external" href="https://www.w3.org/Protocols/rfc2616/rfc2616-sec10.html#sec10.4.10">409 Conflict</a></span> – Duplicate sighting.</p></li>
+</ul>
+</dd>
+<dt class="field-odd">Request Headers<span class="colon">:</span></dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>X-Fields</strong> – An optional fields mask</p></li>
+</ul>
+</dd>
+<dt class="field-even">Response JSON Object<span class="colon">:</span></dt>
+<dd class="field-even"><ul class="simple">
+<li><p><strong>[].data[].author</strong> (<em>any</em>) – (read only)</p></li>
+<li><p><strong>[].data[].creation_timestamp</strong> (<em>string</em>) – Creation time of the sighting.</p></li>
+<li><p><strong>[].data[].source</strong> (<em>string</em>) – The source of the sighting (Fediverse status URI, link, tool, etc.).</p></li>
+<li><p><strong>[].data[].type</strong> (<em>string</em>) – Type of the sighting.</p></li>
+<li><p><strong>[].data[].uuid</strong> (<em>string</em>) – Sighting UUID. (read only)</p></li>
+<li><p><strong>[].data[].vulnerability</strong> (<em>string</em>) – Vulnerability id.</p></li>
+<li><p><strong>[].metadata</strong> (<em>any</em>) – Metada related to the result.</p></li>
+</ul>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="http get">
+<dt class="sig sig-object http" id="get--sighting-sighting_uuid">
+<span class="sig-name descname"><span class="pre">GET</span> </span><span class="sig-name descname"><span class="pre">/sighting/{sighting_uuid}</span></span><a class="headerlink" href="#get--sighting-sighting_uuid" title="Link to this definition">#</a></dt>
+<dd><p>Get a sighting with its UUID.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters<span class="colon">:</span></dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>sighting_uuid</strong> (<em>string</em>)</p></li>
+</ul>
+</dd>
+<dt class="field-even">Status Codes<span class="colon">:</span></dt>
+<dd class="field-even"><ul class="simple">
+<li><p><span><a class="reference external" href="https://www.w3.org/Protocols/rfc2616/rfc2616-sec10.html#sec10.2.1">200 OK</a></span> – Success.</p></li>
+<li><p><span><a class="reference external" href="https://www.w3.org/Protocols/rfc2616/rfc2616-sec10.html#sec10.4.5">404 Not Found</a></span> – Sighting not found.</p></li>
+</ul>
+</dd>
+<dt class="field-odd">Request Headers<span class="colon">:</span></dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>X-Fields</strong> – An optional fields mask</p></li>
+</ul>
+</dd>
+<dt class="field-even">Response JSON Object<span class="colon">:</span></dt>
+<dd class="field-even"><ul class="simple">
+<li><p><strong>author</strong> (<em>any</em>) – (read only)</p></li>
+<li><p><strong>creation_timestamp</strong> (<em>string</em>) – Creation time of the sighting.</p></li>
+<li><p><strong>source</strong> (<em>string</em>) – The source of the sighting (Fediverse status URI, link, tool, etc.).</p></li>
+<li><p><strong>type</strong> (<em>string</em>) – Type of the sighting.</p></li>
+<li><p><strong>uuid</strong> (<em>string</em>) – Sighting UUID. (read only)</p></li>
+<li><p><strong>vulnerability</strong> (<em>string</em>) – Vulnerability id.</p></li>
+</ul>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="http get">
+<dt class="sig sig-object http" id="get--stats-vulnerability-most_commented">
+<span class="sig-name descname"><span class="pre">GET</span> </span><span class="sig-name descname"><span class="pre">/stats/vulnerability/most_commented</span></span><a class="headerlink" href="#get--stats-vulnerability-most_commented" title="Link to this definition">#</a></dt>
+<dd><p>Returns the most commented vulnerabilities.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Query Parameters<span class="colon">:</span></dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>date_from</strong> (<em>string</em>) – The date of the sightings must be bigger or equal than this value. Format: YYYY-MM-DD</p></li>
+<li><p><strong>date_to</strong> (<em>string</em>) – The date of the sightings must be smaller or equal than this value. Format: YYYY-MM-DD</p></li>
+<li><p><strong>limit</strong> (<em>integer</em>) – The top elements to take into account in the query.</p></li>
+<li><p><strong>output</strong> (<em>string</em>) – The format of the output.</p></li>
+</ul>
+</dd>
+<dt class="field-even">Status Codes<span class="colon">:</span></dt>
+<dd class="field-even"><ul class="simple">
+<li><p><span><a class="reference external" href="https://www.w3.org/Protocols/rfc2616/rfc2616-sec10.html#sec10.2.1">200 OK</a></span> – Success</p></li>
+</ul>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="http get">
+<dt class="sig sig-object http" id="get--stats-vulnerability-most_sighted">
+<span class="sig-name descname"><span class="pre">GET</span> </span><span class="sig-name descname"><span class="pre">/stats/vulnerability/most_sighted</span></span><a class="headerlink" href="#get--stats-vulnerability-most_sighted" title="Link to this definition">#</a></dt>
+<dd><p>Returns the most sighted vulnerabilities.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Query Parameters<span class="colon">:</span></dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>date_from</strong> (<em>string</em>) – The date of the sightings must be bigger or equal than this value. Format: YYYY-MM-DD</p></li>
+<li><p><strong>date_to</strong> (<em>string</em>) – The date of the sightings must be smaller or equal than this value. Format: YYYY-MM-DD</p></li>
+<li><p><strong>sighting_type</strong> (<em>string</em>) – The type of the sighting.</p></li>
+<li><p><strong>limit</strong> (<em>integer</em>) – The top elements to take into account in the query.</p></li>
+<li><p><strong>output</strong> (<em>string</em>) – The format of the output.</p></li>
+</ul>
+</dd>
+<dt class="field-even">Status Codes<span class="colon">:</span></dt>
+<dd class="field-even"><ul class="simple">
+<li><p><span><a class="reference external" href="https://www.w3.org/Protocols/rfc2616/rfc2616-sec10.html#sec10.2.1">200 OK</a></span> – Success</p></li>
+</ul>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="http get">
+<dt class="sig sig-object http" id="get--system-configInfo">
+<span class="sig-name descname"><span class="pre">GET</span> </span><span class="sig-name descname"><span class="pre">/system/configInfo</span></span><a class="headerlink" href="#get--system-configInfo" title="Link to this definition">#</a></dt>
+<dd><p>Get non-sensitive information about the configuration of the system.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Status Codes<span class="colon">:</span></dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><span><a class="reference external" href="https://www.w3.org/Protocols/rfc2616/rfc2616-sec10.html#sec10.2.1">200 OK</a></span> – Success</p></li>
+</ul>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="http get">
+<dt class="sig sig-object http" id="get--system-dbInfo">
+<span class="sig-name descname"><span class="pre">GET</span> </span><span class="sig-name descname"><span class="pre">/system/dbInfo</span></span><a class="headerlink" href="#get--system-dbInfo" title="Link to this definition">#</a></dt>
+<dd><p>Get more information about the current databases in use and when it was updated</p>
+<dl class="field-list simple">
+<dt class="field-odd">Status Codes<span class="colon">:</span></dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><span><a class="reference external" href="https://www.w3.org/Protocols/rfc2616/rfc2616-sec10.html#sec10.2.1">200 OK</a></span> – Success</p></li>
+</ul>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="http get">
+<dt class="sig sig-object http" id="get--system-info">
+<span class="sig-name descname"><span class="pre">GET</span> </span><span class="sig-name descname"><span class="pre">/system/info</span></span><a class="headerlink" href="#get--system-info" title="Link to this definition">#</a></dt>
+<dd><p>Alias for /api/sytem/dbInfo</p>
+<dl class="field-list simple">
+<dt class="field-odd">Status Codes<span class="colon">:</span></dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><span><a class="reference external" href="https://www.w3.org/Protocols/rfc2616/rfc2616-sec10.html#sec10.2.1">200 OK</a></span> – Success</p></li>
+</ul>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="http get">
+<dt class="sig sig-object http" id="get--system-redis_up">
+<span class="sig-name descname"><span class="pre">GET</span> </span><span class="sig-name descname"><span class="pre">/system/redis_up</span></span><a class="headerlink" href="#get--system-redis_up" title="Link to this definition">#</a></dt>
+<dd><p>Check if redis is up and running</p>
+<dl class="field-list simple">
+<dt class="field-odd">Status Codes<span class="colon">:</span></dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><span><a class="reference external" href="https://www.w3.org/Protocols/rfc2616/rfc2616-sec10.html#sec10.2.1">200 OK</a></span> – Success</p></li>
+</ul>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="http get">
+<dt class="sig sig-object http" id="get--user-">
+<span class="sig-name descname"><span class="pre">GET</span> </span><span class="sig-name descname"><span class="pre">/user/</span></span><a class="headerlink" href="#get--user-" title="Link to this definition">#</a></dt>
+<dd><p><strong>List all users</strong></p>
+<p>Only available to administrators.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Status Codes<span class="colon">:</span></dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><span><a class="reference external" href="https://www.w3.org/Protocols/rfc2616/rfc2616-sec10.html#sec10.2.1">200 OK</a></span> – Success.</p></li>
+<li><p><span><a class="reference external" href="https://www.w3.org/Protocols/rfc2616/rfc2616-sec10.html#sec10.4.4">403 Forbidden</a></span> – Admin permission required.</p></li>
+</ul>
+</dd>
+<dt class="field-even">Request Headers<span class="colon">:</span></dt>
+<dd class="field-even"><ul class="simple">
+<li><p><strong>X-Fields</strong> – An optional fields mask</p></li>
+</ul>
+</dd>
+<dt class="field-odd">Response JSON Object<span class="colon">:</span></dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>[].data[].apikey</strong> (<em>string</em>) – User API key. (read only)</p></li>
+<li><p><strong>[].data[].created_at</strong> (<em>string</em>) – Creation time of the user. (read only)</p></li>
+<li><p><strong>[].data[].email</strong> (<em>string</em>) – User email.</p></li>
+<li><p><strong>[].data[].id</strong> (<em>integer</em>) – User id.</p></li>
+<li><p><strong>[].data[].is_admin</strong> (<em>boolean</em>) – Boolean specifying whether the user is administrator.</p></li>
+<li><p><strong>[].data[].is_commenter</strong> (<em>boolean</em>) – Boolean specifying whether the user is commenter.</p></li>
+<li><p><strong>[].data[].is_reporter</strong> (<em>boolean</em>) – Boolean specifying whether the user is reporter.</p></li>
+<li><p><strong>[].data[].last_seen</strong> (<em>string</em>) – Last seen time of the user. (read only)</p></li>
+<li><p><strong>[].data[].login</strong> (<em>string</em>) – User login.</p></li>
+<li><p><strong>[].data[].name</strong> (<em>string</em>) – User name.</p></li>
+<li><p><strong>[].data[].organisation</strong> (<em>string</em>) – User organisation.</p></li>
+<li><p><strong>[].metadata</strong> (<em>any</em>) – Metada related to the result.</p></li>
+</ul>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="http post">
+<dt class="sig sig-object http" id="post--user-">
+<span class="sig-name descname"><span class="pre">POST</span> </span><span class="sig-name descname"><span class="pre">/user/</span></span><a class="headerlink" href="#post--user-" title="Link to this definition">#</a></dt>
+<dd><p><strong>Create a non-admin user</strong></p>
+<p>Create a non-admin user.
+The user will be active but must have to confirm the account with the email sent by the instance.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Request JSON Object<span class="colon">:</span></dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>email</strong> (<em>string</em>)</p></li>
+<li><p><strong>login</strong> (<em>string</em>)</p></li>
+<li><p><strong>name</strong> (<em>string</em>)</p></li>
+<li><p><strong>organisation</strong> (<em>string</em>)</p></li>
+</ul>
+</dd>
+<dt class="field-even">Status Codes<span class="colon">:</span></dt>
+<dd class="field-even"><ul class="simple">
+<li><p><span><a class="reference external" href="https://www.w3.org/Protocols/rfc2616/rfc2616-sec10.html#sec10.2.1">200 OK</a></span> – Success</p></li>
+<li><p><span><a class="reference external" href="https://www.w3.org/Protocols/rfc2616/rfc2616-sec10.html#sec10.2.2">201 Created</a></span> – Success.</p></li>
+</ul>
+</dd>
+<dt class="field-odd">Request Headers<span class="colon">:</span></dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>X-Fields</strong> – An optional fields mask</p></li>
+</ul>
+</dd>
+<dt class="field-even">Response JSON Object<span class="colon">:</span></dt>
+<dd class="field-even"><ul class="simple">
+<li><p><strong>apikey</strong> (<em>string</em>) – User API key. (read only)</p></li>
+<li><p><strong>created_at</strong> (<em>string</em>) – Creation time of the user. (read only)</p></li>
+<li><p><strong>email</strong> (<em>string</em>) – User email.</p></li>
+<li><p><strong>id</strong> (<em>integer</em>) – User id.</p></li>
+<li><p><strong>is_admin</strong> (<em>boolean</em>) – Boolean specifying whether the user is administrator.</p></li>
+<li><p><strong>is_commenter</strong> (<em>boolean</em>) – Boolean specifying whether the user is commenter.</p></li>
+<li><p><strong>is_reporter</strong> (<em>boolean</em>) – Boolean specifying whether the user is reporter.</p></li>
+<li><p><strong>last_seen</strong> (<em>string</em>) – Last seen time of the user. (read only)</p></li>
+<li><p><strong>login</strong> (<em>string</em>) – User login.</p></li>
+<li><p><strong>name</strong> (<em>string</em>) – User name.</p></li>
+<li><p><strong>organisation</strong> (<em>string</em>) – User organisation.</p></li>
+</ul>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="http post">
+<dt class="sig sig-object http" id="post--user-api_key">
+<span class="sig-name descname"><span class="pre">POST</span> </span><span class="sig-name descname"><span class="pre">/user/api_key</span></span><a class="headerlink" href="#post--user-api_key" title="Link to this definition">#</a></dt>
+<dd><p><strong>Regenerating the API key of the authenticated user with the current API key</strong></p>
+<p>Regenerating the API key of the authenticated user with the current API key.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Request JSON Object<span class="colon">:</span></dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>apikey</strong> (<em>string</em>) – The current API key of the user.</p></li>
+</ul>
+</dd>
+<dt class="field-even">Status Codes<span class="colon">:</span></dt>
+<dd class="field-even"><ul class="simple">
+<li><p><span><a class="reference external" href="https://www.w3.org/Protocols/rfc2616/rfc2616-sec10.html#sec10.2.1">200 OK</a></span> – Success.</p></li>
+<li><p><span><a class="reference external" href="https://www.w3.org/Protocols/rfc2616/rfc2616-sec10.html#sec10.4.4">403 Forbidden</a></span> – Wrong API key submitted.</p></li>
+<li><p><span><a class="reference external" href="https://www.w3.org/Protocols/rfc2616/rfc2616-sec10.html#sec10.4.5">404 Not Found</a></span> – User not found.</p></li>
+</ul>
+</dd>
+<dt class="field-odd">Request Headers<span class="colon">:</span></dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>X-Fields</strong> – An optional fields mask</p></li>
+</ul>
+</dd>
+<dt class="field-even">Response JSON Object<span class="colon">:</span></dt>
+<dd class="field-even"><ul class="simple">
+<li><p><strong>apikey</strong> (<em>string</em>) – User API key. (read only)</p></li>
+<li><p><strong>created_at</strong> (<em>string</em>) – Creation time of the user. (read only)</p></li>
+<li><p><strong>email</strong> (<em>string</em>) – User email.</p></li>
+<li><p><strong>id</strong> (<em>integer</em>) – User id.</p></li>
+<li><p><strong>is_admin</strong> (<em>boolean</em>) – Boolean specifying whether the user is administrator.</p></li>
+<li><p><strong>is_commenter</strong> (<em>boolean</em>) – Boolean specifying whether the user is commenter.</p></li>
+<li><p><strong>is_reporter</strong> (<em>boolean</em>) – Boolean specifying whether the user is reporter.</p></li>
+<li><p><strong>last_seen</strong> (<em>string</em>) – Last seen time of the user. (read only)</p></li>
+<li><p><strong>login</strong> (<em>string</em>) – User login.</p></li>
+<li><p><strong>name</strong> (<em>string</em>) – User name.</p></li>
+<li><p><strong>organisation</strong> (<em>string</em>) – User organisation.</p></li>
+</ul>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="http get">
+<dt class="sig sig-object http" id="get--user-me">
+<span class="sig-name descname"><span class="pre">GET</span> </span><span class="sig-name descname"><span class="pre">/user/me</span></span><a class="headerlink" href="#get--user-me" title="Link to this definition">#</a></dt>
+<dd><p><strong>Get information about the currently authenticated user</strong></p>
+<p>Get information about the currently authenticated user.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Status Codes<span class="colon">:</span></dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><span><a class="reference external" href="https://www.w3.org/Protocols/rfc2616/rfc2616-sec10.html#sec10.2.1">200 OK</a></span> – Success.</p></li>
+<li><p><span><a class="reference external" href="https://www.w3.org/Protocols/rfc2616/rfc2616-sec10.html#sec10.4.5">404 Not Found</a></span> – User not found.</p></li>
+</ul>
+</dd>
+<dt class="field-even">Request Headers<span class="colon">:</span></dt>
+<dd class="field-even"><ul class="simple">
+<li><p><strong>X-Fields</strong> – An optional fields mask</p></li>
+</ul>
+</dd>
+<dt class="field-odd">Response JSON Object<span class="colon">:</span></dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>apikey</strong> (<em>string</em>) – User API key. (read only)</p></li>
+<li><p><strong>created_at</strong> (<em>string</em>) – Creation time of the user. (read only)</p></li>
+<li><p><strong>email</strong> (<em>string</em>) – User email.</p></li>
+<li><p><strong>id</strong> (<em>integer</em>) – User id.</p></li>
+<li><p><strong>is_admin</strong> (<em>boolean</em>) – Boolean specifying whether the user is administrator.</p></li>
+<li><p><strong>is_commenter</strong> (<em>boolean</em>) – Boolean specifying whether the user is commenter.</p></li>
+<li><p><strong>is_reporter</strong> (<em>boolean</em>) – Boolean specifying whether the user is reporter.</p></li>
+<li><p><strong>last_seen</strong> (<em>string</em>) – Last seen time of the user. (read only)</p></li>
+<li><p><strong>login</strong> (<em>string</em>) – User login.</p></li>
+<li><p><strong>name</strong> (<em>string</em>) – User name.</p></li>
+<li><p><strong>organisation</strong> (<em>string</em>) – User organisation.</p></li>
+</ul>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="http delete">
+<dt class="sig sig-object http" id="delete--user-user_id">
+<span class="sig-name descname"><span class="pre">DELETE</span> </span><span class="sig-name descname"><span class="pre">/user/{user_id}</span></span><a class="headerlink" href="#delete--user-user_id" title="Link to this definition">#</a></dt>
+<dd><p><strong>Endpoint for deleting a user</strong></p>
+<p>Delete a user.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters<span class="colon">:</span></dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>user_id</strong> (<em>integer</em>)</p></li>
+</ul>
+</dd>
+<dt class="field-even">Status Codes<span class="colon">:</span></dt>
+<dd class="field-even"><ul class="simple">
+<li><p><span><a class="reference external" href="https://www.w3.org/Protocols/rfc2616/rfc2616-sec10.html#sec10.2.5">204 No Content</a></span> – Success.</p></li>
+<li><p><span><a class="reference external" href="https://www.w3.org/Protocols/rfc2616/rfc2616-sec10.html#sec10.4.4">403 Forbidden</a></span> – Administrator permission required or not the current user.</p></li>
+<li><p><span><a class="reference external" href="https://www.w3.org/Protocols/rfc2616/rfc2616-sec10.html#sec10.4.5">404 Not Found</a></span> – User not found.</p></li>
+</ul>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="http post">
+<dt class="sig sig-object http" id="post--vulnerability-">
+<span class="sig-name descname"><span class="pre">POST</span> </span><span class="sig-name descname"><span class="pre">/vulnerability/</span></span><a class="headerlink" href="#post--vulnerability-" title="Link to this definition">#</a></dt>
+<dd><p><strong>Endpoint for creating and editing vulnerabilities in the local source</strong></p>
+<p>Create a vulnerability with the CVE version 5 format.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Request JSON Object<span class="colon">:</span></dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>data</strong> (<em>string</em>)</p></li>
+</ul>
+</dd>
+<dt class="field-even">Status Codes<span class="colon">:</span></dt>
+<dd class="field-even"><ul class="simple">
+<li><p><span><a class="reference external" href="https://www.w3.org/Protocols/rfc2616/rfc2616-sec10.html#sec10.2.1">200 OK</a></span> – Success.</p></li>
+<li><p><span><a class="reference external" href="https://www.w3.org/Protocols/rfc2616/rfc2616-sec10.html#sec10.4.1">400 Bad Request</a></span> – JSON validation failed.</p></li>
+<li><p><span><a class="reference external" href="https://www.w3.org/Protocols/rfc2616/rfc2616-sec10.html#sec10.4.4">403 Forbidden</a></span> – Reporter permission required.</p></li>
+<li><p><span><a class="reference external" href="https://www.rfc-editor.org/rfc/rfc4918#section-11.2">422 Unprocessable Entity</a></span> – Not possible to edit a vulnerability from the requested source.</p></li>
+</ul>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="http get">
+<dt class="sig sig-object http" id="get--vulnerability-browse-">
+<span class="sig-name descname"><span class="pre">GET</span> </span><span class="sig-name descname"><span class="pre">/vulnerability/browse/</span></span><a class="headerlink" href="#get--vulnerability-browse-" title="Link to this definition">#</a></dt>
+<dd><p><strong>Get the known vendors</strong></p>
+<p>Get the known vendors.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Status Codes<span class="colon">:</span></dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><span><a class="reference external" href="https://www.w3.org/Protocols/rfc2616/rfc2616-sec10.html#sec10.2.1">200 OK</a></span> – Success</p></li>
+</ul>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="http get">
+<dt class="sig sig-object http" id="get--vulnerability-last">
+<span class="sig-name descname"><span class="pre">GET</span> </span><span class="sig-name descname"><span class="pre">/vulnerability/last</span></span><a class="headerlink" href="#get--vulnerability-last" title="Link to this definition">#</a></dt>
+<dd><p>Get the last vulnerabilities</p>
+<dl class="field-list simple">
+<dt class="field-odd">Status Codes<span class="colon">:</span></dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><span><a class="reference external" href="https://www.w3.org/Protocols/rfc2616/rfc2616-sec10.html#sec10.2.1">200 OK</a></span> – Success</p></li>
+</ul>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="http get">
+<dt class="sig sig-object http" id="get--vulnerability-last-number">
+<span class="sig-name descname"><span class="pre">GET</span> </span><span class="sig-name descname"><span class="pre">/vulnerability/last/{number}</span></span><a class="headerlink" href="#get--vulnerability-last-number" title="Link to this definition">#</a></dt>
+<dd><p>Get the last vulnerabilities</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters<span class="colon">:</span></dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>number</strong> (<em>integer</em>)</p></li>
+</ul>
+</dd>
+<dt class="field-even">Status Codes<span class="colon">:</span></dt>
+<dd class="field-even"><ul class="simple">
+<li><p><span><a class="reference external" href="https://www.w3.org/Protocols/rfc2616/rfc2616-sec10.html#sec10.2.1">200 OK</a></span> – Success</p></li>
+</ul>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="http get">
+<dt class="sig sig-object http" id="get--vulnerability-last-source">
+<span class="sig-name descname"><span class="pre">GET</span> </span><span class="sig-name descname"><span class="pre">/vulnerability/last/{source}</span></span><a class="headerlink" href="#get--vulnerability-last-source" title="Link to this definition">#</a></dt>
+<dd><p>Get the last vulnerabilities</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters<span class="colon">:</span></dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>source</strong> (<em>string</em>)</p></li>
+</ul>
+</dd>
+<dt class="field-even">Status Codes<span class="colon">:</span></dt>
+<dd class="field-even"><ul class="simple">
+<li><p><span><a class="reference external" href="https://www.w3.org/Protocols/rfc2616/rfc2616-sec10.html#sec10.2.1">200 OK</a></span> – Success</p></li>
+</ul>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="http get">
+<dt class="sig sig-object http" id="get--vulnerability-last-source-number">
+<span class="sig-name descname"><span class="pre">GET</span> </span><span class="sig-name descname"><span class="pre">/vulnerability/last/{source}/{number}</span></span><a class="headerlink" href="#get--vulnerability-last-source-number" title="Link to this definition">#</a></dt>
+<dd><p>Get the last vulnerabilities</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters<span class="colon">:</span></dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>source</strong> (<em>string</em>)</p></li>
+<li><p><strong>number</strong> (<em>integer</em>)</p></li>
+</ul>
+</dd>
+<dt class="field-even">Status Codes<span class="colon">:</span></dt>
+<dd class="field-even"><ul class="simple">
+<li><p><span><a class="reference external" href="https://www.w3.org/Protocols/rfc2616/rfc2616-sec10.html#sec10.2.1">200 OK</a></span> – Success</p></li>
+</ul>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="http get">
+<dt class="sig sig-object http" id="get--vulnerability-search-vendor-product">
+<span class="sig-name descname"><span class="pre">GET</span> </span><span class="sig-name descname"><span class="pre">/vulnerability/search/{vendor}/{product}</span></span><a class="headerlink" href="#get--vulnerability-search-vendor-product" title="Link to this definition">#</a></dt>
+<dd><p><strong>Returns a list of vulnerabilities related to the product</strong></p>
+<p>Returns a list of vulnerabilities related to the product.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters<span class="colon">:</span></dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>vendor</strong> (<em>string</em>)</p></li>
+<li><p><strong>product</strong> (<em>string</em>)</p></li>
+</ul>
+</dd>
+<dt class="field-even">Status Codes<span class="colon">:</span></dt>
+<dd class="field-even"><ul class="simple">
+<li><p><span><a class="reference external" href="https://www.w3.org/Protocols/rfc2616/rfc2616-sec10.html#sec10.2.1">200 OK</a></span> – Success</p></li>
+</ul>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="http get">
+<dt class="sig sig-object http" id="get--vulnerability-vulnerability_id">
+<span class="sig-name descname"><span class="pre">GET</span> </span><span class="sig-name descname"><span class="pre">/vulnerability/{vulnerability_id}</span></span><a class="headerlink" href="#get--vulnerability-vulnerability_id" title="Link to this definition">#</a></dt>
+<dd><p>Alias for /api/vulnerability/&lt;string:vulnerability_id
+Get a vulnerability.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters<span class="colon">:</span></dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>vulnerability_id</strong> (<em>string</em>)</p></li>
+</ul>
+</dd>
+<dt class="field-even">Query Parameters<span class="colon">:</span></dt>
+<dd class="field-even"><ul class="simple">
+<li><p><strong>with_meta</strong> (<em>boolean</em>) – Include metada.</p></li>
+</ul>
+</dd>
+<dt class="field-odd">Status Codes<span class="colon">:</span></dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><span><a class="reference external" href="https://www.w3.org/Protocols/rfc2616/rfc2616-sec10.html#sec10.2.1">200 OK</a></span> – Success</p></li>
+</ul>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="http delete">
+<dt class="sig sig-object http" id="delete--vulnerability-vulnerability_id">
+<span class="sig-name descname"><span class="pre">DELETE</span> </span><span class="sig-name descname"><span class="pre">/vulnerability/{vulnerability_id}</span></span><a class="headerlink" href="#delete--vulnerability-vulnerability_id" title="Link to this definition">#</a></dt>
+<dd><p><strong>Endpoint for deleting a vulnerability</strong></p>
+<p>Alias for /api/vulnerability/&lt;string:vulnerability_id
+Delete a vulnerability from the local source.
+We only accept to delete vulnerabilities from the local source.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters<span class="colon">:</span></dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>vulnerability_id</strong> (<em>string</em>)</p></li>
+</ul>
+</dd>
+<dt class="field-even">Status Codes<span class="colon">:</span></dt>
+<dd class="field-even"><ul class="simple">
+<li><p><span><a class="reference external" href="https://www.w3.org/Protocols/rfc2616/rfc2616-sec10.html#sec10.2.5">204 No Content</a></span> – Success.</p></li>
+<li><p><span><a class="reference external" href="https://www.w3.org/Protocols/rfc2616/rfc2616-sec10.html#sec10.4.4">403 Forbidden</a></span> – Admin permission required.</p></li>
+<li><p><span><a class="reference external" href="https://www.rfc-editor.org/rfc/rfc4918#section-11.2">422 Unprocessable Entity</a></span> – Not possible to edit a vulnerability from the requested source.</p></li>
+</ul>
+</dd>
+</dl>
+</dd></dl>
+
+</section>
+<section id="examples">
+<h2>Examples<a class="headerlink" href="#examples" title="Link to this heading">#</a></h2>
+<section id="comments">
+<h3>Comments<a class="headerlink" href="#comments" title="Link to this heading">#</a></h3>
+<p>Getting the list of comments:</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>$<span class="w"> </span>curl<span class="w"> </span>-X<span class="w"> </span><span class="s1">&#39;GET&#39;</span><span class="w"> </span><span class="s1">&#39;http://127.0.0.1:5000/api/comment/&#39;</span><span class="w"> </span>-H<span class="w"> </span><span class="s1">&#39;accept: application/json&#39;</span>
+</pre></div>
+</div>
+<p>Getting the list of comments made by a specific author:</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>$<span class="w"> </span>curl<span class="w"> </span>-X<span class="w"> </span><span class="s1">&#39;GET&#39;</span><span class="w"> </span><span class="s1">&#39;http://127.0.0.1:5000/api/comment/?author=john&#39;</span><span class="w"> </span>-H<span class="w"> </span><span class="s1">&#39;accept: application/json&#39;</span>
+</pre></div>
+</div>
+<p>Getting the list of comments related to a vulnerability:</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>$<span class="w"> </span>curl<span class="w"> </span>-X<span class="w"> </span><span class="s1">&#39;GET&#39;</span><span class="w"> </span><span class="s1">&#39;http://127.0.0.1:5000/api/comment/?vuln_id=cve-2024-38063&#39;</span><span class="w"> </span>-H<span class="w"> </span><span class="s1">&#39;accept: application/json&#39;</span>
+</pre></div>
+</div>
+<p>Getting the list of comments that are related to a Proof of Concept:</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>$<span class="w"> </span>curl<span class="w"> </span>-X<span class="w"> </span><span class="s1">&#39;GET&#39;</span><span class="w"> </span><span class="s1">&#39;http://127.0.0.1:5000/api/comment/?meta=[{&quot;tags&quot;:[&quot;PoC&quot;]}]&#39;</span><span class="w"> </span>-H<span class="w"> </span><span class="s1">&#39;accept: application/json&#39;</span>
+</pre></div>
+</div>
+</section>
+</section>
+</section>
+
+
+                </article>
+              
+
+              
+              
+              
+              
+                <footer class="prev-next-footer d-print-none">
+                  
+<div class="prev-next-area">
+    <a class="left-prev"
+       href="feeds.html"
+       title="previous page">
+      <i class="fa-solid fa-angle-left"></i>
+      <div class="prev-next-info">
+        <p class="prev-next-subtitle">previous</p>
+        <p class="prev-next-title">Feed syndication</p>
+      </div>
+    </a>
+</div>
+                </footer>
+              
+            </div>
+            
+            
+              
+                <dialog id="pst-secondary-sidebar-modal"></dialog>
+                <div id="pst-secondary-sidebar" class="bd-sidebar-secondary bd-toc"><div class="sidebar-secondary-items sidebar-secondary__inner">
+
+
+  <div class="sidebar-secondary-item">
+  <div class="page-toc tocsection onthispage">
+    <i class="fa-solid fa-list"></i> Contents
+  </div>
+  <nav class="bd-toc-nav page-toc">
+    <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#openapi-specification">OpenAPI specification</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#examples">Examples</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#comments">Comments</a></li>
+</ul>
+</li>
+</ul>
+  </nav></div>
+
+</div></div>
+              
+            
+          </div>
+          <footer class="bd-footer-content">
+            
+<div class="bd-footer-content__inner container">
+  
+  <div class="footer-item">
+    
+<p class="component-author">
+By CIRCL <info@circl.lu>
+</p>
+
+  </div>
+  
+  <div class="footer-item">
+    
+
+  <p class="copyright">
+    
+      © Copyright Computer Incident Response Center Luxembourg (CIRCL) &lt;info@circl.lu&gt;.
+      <br/>
+    
+  </p>
+
+  </div>
+  
+  <div class="footer-item">
+    
+  </div>
+  
+  <div class="footer-item">
+    
+  </div>
+  
+</div>
+          </footer>
+        
+
+      </main>
+    </div>
+  </div>
+  
+  <!-- Scripts loaded after <body> so the DOM is not blocked -->
+  <script defer src="_static/scripts/bootstrap.js?digest=26a4bc78f4c0ddb94549"></script>
+<script defer src="_static/scripts/pydata-sphinx-theme.js?digest=26a4bc78f4c0ddb94549"></script>
+
+  <footer class="bd-footer">
+  </footer>
+  </body>
+</html>

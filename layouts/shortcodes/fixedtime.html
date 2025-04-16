@@ -1,0 +1,14 @@
+{{/*
+    Parameters:
+     Parameter 0: Human readable time and date
+     Parameter 1: Title of event
+     Parameter 2: ISO time for event (UTC), i.e 20220802T21
+     Parameter 3: Duration (optional)
+  
+     Example usage: 
+  
+     {{< time-and-date-event `15th September 2022 14:00-17:00 UTC` `MISP Training - Advanced Developer session from API to MISP internals` `20220915T14` `3` >}}
+  
+  */}}
+  <a href="https://www.timeanddate.com/worldclock/fixedtime.html?{{ (querify "msg" (.Get 1)) | safeURL }}&iso={{ .Get 2 }}&p1=1440{{ if .Get 3 }}&{{ (querify "ah" (.Get 3)) | safeURL }}{{ end }}" target="_blank" rel="noreferrer noopener">{{ .Get 0 }}</a>
+  

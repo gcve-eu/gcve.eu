@@ -1,0 +1,708 @@
+
+<!DOCTYPE html>
+
+
+<html lang="en" data-content_root="./" >
+
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>Sightings &#8212; Vulnerability-Lookup</title>
+  
+  
+  
+  <script data-cfasync="false">
+    document.documentElement.dataset.mode = localStorage.getItem("mode") || "";
+    document.documentElement.dataset.theme = localStorage.getItem("theme") || "";
+  </script>
+  <!-- 
+    this give us a css class that will be invisible only if js is disabled 
+  -->
+  <noscript>
+    <style>
+      .pst-js-only { display: none !important; }
+
+    </style>
+  </noscript>
+  
+  <!-- Loaded before other Sphinx assets -->
+  <link href="_static/styles/theme.css?digest=26a4bc78f4c0ddb94549" rel="stylesheet" />
+<link href="_static/styles/pydata-sphinx-theme.css?digest=26a4bc78f4c0ddb94549" rel="stylesheet" />
+
+    <link rel="stylesheet" type="text/css" href="_static/pygments.css?v=a746c00c" />
+    <link rel="stylesheet" type="text/css" href="_static/styles/sphinx-book-theme.css?v=a3416100" />
+    <link rel="stylesheet" type="text/css" href="_static/custom.css?v=ee704053" />
+  
+  <!-- So that users can add custom icons -->
+  <script src="_static/scripts/fontawesome.js?digest=26a4bc78f4c0ddb94549"></script>
+  <!-- Pre-loaded scripts that we'll load fully later -->
+  <link rel="preload" as="script" href="_static/scripts/bootstrap.js?digest=26a4bc78f4c0ddb94549" />
+<link rel="preload" as="script" href="_static/scripts/pydata-sphinx-theme.js?digest=26a4bc78f4c0ddb94549" />
+
+    <script src="_static/documentation_options.js?v=32e37178"></script>
+    <script src="_static/doctools.js?v=9bcbadda"></script>
+    <script src="_static/sphinx_highlight.js?v=dc90522c"></script>
+    <script src="_static/scripts/sphinx-book-theme.js?v=887ef09a"></script>
+    <script>DOCUMENTATION_OPTIONS.pagename = 'sightings';</script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="Feed syndication" href="feeds.html" />
+    <link rel="prev" title="Streaming service" href="streaming.html" />
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <meta name="docsearch:language" content="en"/>
+  <meta name="docsearch:version" content="" />
+  </head>
+  
+  
+  <body data-bs-spy="scroll" data-bs-target=".bd-toc-nav" data-offset="180" data-bs-root-margin="0px 0px -60%" data-default-mode="">
+
+  
+  
+  <div id="pst-skip-link" class="skip-link d-print-none"><a href="#main-content">Skip to main content</a></div>
+  
+  <div id="pst-scroll-pixel-helper"></div>
+  
+  <button type="button" class="btn rounded-pill" id="pst-back-to-top">
+    <i class="fa-solid fa-arrow-up"></i>Back to top</button>
+
+  
+  <dialog id="pst-search-dialog">
+    
+<form class="bd-search d-flex align-items-center"
+      action="search.html"
+      method="get">
+  <i class="fa-solid fa-magnifying-glass"></i>
+  <input type="search"
+         class="form-control"
+         name="q"
+         placeholder="Search..."
+         aria-label="Search..."
+         autocomplete="off"
+         autocorrect="off"
+         autocapitalize="off"
+         spellcheck="false"/>
+  <span class="search-button__kbd-shortcut"><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd>K</kbd></span>
+</form>
+  </dialog>
+
+  <div class="pst-async-banner-revealer d-none">
+  <aside id="bd-header-version-warning" class="d-none d-print-none" aria-label="Version warning"></aside>
+</div>
+
+  
+    <header class="bd-header navbar navbar-expand-lg bd-navbar d-print-none">
+    </header>
+  
+
+  <div class="bd-container">
+    <div class="bd-container__inner bd-page-width">
+      
+      
+      
+      <dialog id="pst-primary-sidebar-modal"></dialog>
+      <div id="pst-primary-sidebar" class="bd-sidebar-primary bd-sidebar">
+        
+
+  
+  <div class="sidebar-header-items sidebar-primary__section">
+    
+    
+    
+    
+  </div>
+  
+    <div class="sidebar-primary-items__start sidebar-primary__section">
+        <div class="sidebar-primary-item">
+
+  
+    
+  
+
+<a class="navbar-brand logo" href="index.html">
+  
+  
+  
+  
+  
+    
+    
+      
+    
+    
+    <img src="_static/VL-hori-coul.jpg" class="logo__image only-light" alt="Vulnerability-Lookup - Home"/>
+    <img src="_static/VL-hori-coul.jpg" class="logo__image only-dark pst-js-only" alt="Vulnerability-Lookup - Home"/>
+  
+  
+</a></div>
+        <div class="sidebar-primary-item">
+
+<button class="btn search-button-field search-button__button pst-js-only" title="Search" aria-label="Search" data-bs-placement="bottom" data-bs-toggle="tooltip">
+ <i class="fa-solid fa-magnifying-glass"></i>
+ <span class="search-button__default-text">Search</span>
+ <span class="search-button__kbd-shortcut"><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd class="kbd-shortcut__modifier">K</kbd></span>
+</button></div>
+        <div class="sidebar-primary-item"><nav class="bd-links bd-docs-nav" aria-label="Main">
+    <div class="bd-toc-item navbar-nav active">
+        
+        <ul class="nav bd-sidenav bd-sidenav__home-link">
+            <li class="toctree-l1">
+                <a class="reference internal" href="index.html">
+                    Vulnerability-Lookup
+                </a>
+            </li>
+        </ul>
+        <p aria-level="2" class="caption" role="heading"><span class="caption-text">Technical considerations</span></p>
+<ul class="nav bd-sidenav">
+<li class="toctree-l1"><a class="reference internal" href="prerequisites.html">Prerequisites</a></li>
+<li class="toctree-l1"><a class="reference internal" href="installation.html">Installation</a></li>
+<li class="toctree-l1"><a class="reference internal" href="update.html">Updating the application</a></li>
+<li class="toctree-l1"><a class="reference internal" href="command-line-interface.html">Command Line Interface</a></li>
+</ul>
+<p aria-level="2" class="caption" role="heading"><span class="caption-text">Architecture</span></p>
+<ul class="nav bd-sidenav">
+<li class="toctree-l1"><a class="reference internal" href="architecture.html">High level architecture</a></li>
+<li class="toctree-l1"><a class="reference internal" href="webservice.html">Web service</a></li>
+<li class="toctree-l1"><a class="reference internal" href="streaming.html">Streaming service</a></li>
+</ul>
+<p aria-level="2" class="caption" role="heading"><span class="caption-text">Concepts</span></p>
+<ul class="current nav bd-sidenav">
+<li class="toctree-l1 current active"><a class="current reference internal" href="#">Sightings</a></li>
+</ul>
+<p aria-level="2" class="caption" role="heading"><span class="caption-text">Usage</span></p>
+<ul class="nav bd-sidenav">
+<li class="toctree-l1"><a class="reference internal" href="feeds.html">Feed syndication</a></li>
+<li class="toctree-l1"><a class="reference internal" href="api-v1.html">API v1</a></li>
+</ul>
+
+    </div>
+</nav></div>
+    </div>
+  
+  
+  <div class="sidebar-primary-items__end sidebar-primary__section">
+  </div>
+  
+  <div id="rtd-footer-container"></div>
+
+
+      </div>
+      
+      <main id="main-content" class="bd-main" role="main">
+        
+        
+
+<div class="sbt-scroll-pixel-helper"></div>
+
+          <div class="bd-content">
+            <div class="bd-article-container">
+              
+              <div class="bd-header-article d-print-none">
+<div class="header-article-items header-article__inner">
+  
+    <div class="header-article-items__start">
+      
+        <div class="header-article-item"><button class="sidebar-toggle primary-toggle btn btn-sm" title="Toggle primary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
+  <span class="fa-solid fa-bars"></span>
+</button></div>
+      
+    </div>
+  
+  
+    <div class="header-article-items__end">
+      
+        <div class="header-article-item">
+
+<div class="article-header-buttons">
+
+
+
+
+
+<div class="dropdown dropdown-source-buttons">
+  <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false" aria-label="Source repositories">
+    <i class="fab fa-github"></i>
+  </button>
+  <ul class="dropdown-menu">
+      
+      
+      
+      <li><a href="https://github.com/cve-search/vulnerability-lookup" target="_blank"
+   class="btn btn-sm btn-source-repository-button dropdown-item"
+   title="Source repository"
+   data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fab fa-github"></i>
+  </span>
+<span class="btn__text-container">Repository</span>
+</a>
+</li>
+      
+      
+      
+      
+      <li><a href="https://github.com/cve-search/vulnerability-lookup/edit/main/docs/sightings.rst" target="_blank"
+   class="btn btn-sm btn-source-edit-button dropdown-item"
+   title="Suggest edit"
+   data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-pencil-alt"></i>
+  </span>
+<span class="btn__text-container">Suggest edit</span>
+</a>
+</li>
+      
+      
+      
+      
+      <li><a href="https://github.com/cve-search/vulnerability-lookup/issues/new?title=Issue%20on%20page%20%2Fsightings.html&body=Your%20issue%20content%20here." target="_blank"
+   class="btn btn-sm btn-source-issues-button dropdown-item"
+   title="Open an issue"
+   data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-lightbulb"></i>
+  </span>
+<span class="btn__text-container">Open issue</span>
+</a>
+</li>
+      
+  </ul>
+</div>
+
+
+
+
+
+
+<div class="dropdown dropdown-download-buttons">
+  <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false" aria-label="Download this page">
+    <i class="fas fa-download"></i>
+  </button>
+  <ul class="dropdown-menu">
+      
+      
+      
+      <li><a href="_sources/sightings.rst" target="_blank"
+   class="btn btn-sm btn-download-source-button dropdown-item"
+   title="Download source file"
+   data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-file"></i>
+  </span>
+<span class="btn__text-container">.rst</span>
+</a>
+</li>
+      
+      
+      
+      
+      <li>
+<button onclick="window.print()"
+  class="btn btn-sm btn-download-pdf-button dropdown-item"
+  title="Print to PDF"
+  data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-file-pdf"></i>
+  </span>
+<span class="btn__text-container">.pdf</span>
+</button>
+</li>
+      
+  </ul>
+</div>
+
+
+
+
+<button onclick="toggleFullScreen()"
+  class="btn btn-sm btn-fullscreen-button"
+  title="Fullscreen mode"
+  data-bs-placement="bottom" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-expand"></i>
+  </span>
+
+</button>
+
+
+
+<button class="btn btn-sm nav-link pst-navbar-icon theme-switch-button pst-js-only" aria-label="Color mode" data-bs-title="Color mode"  data-bs-placement="bottom" data-bs-toggle="tooltip">
+  <i class="theme-switch fa-solid fa-sun                fa-lg" data-mode="light" title="Light"></i>
+  <i class="theme-switch fa-solid fa-moon               fa-lg" data-mode="dark"  title="Dark"></i>
+  <i class="theme-switch fa-solid fa-circle-half-stroke fa-lg" data-mode="auto"  title="System Settings"></i>
+</button>
+
+
+<button class="btn btn-sm pst-navbar-icon search-button search-button__button pst-js-only" title="Search" aria-label="Search" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <i class="fa-solid fa-magnifying-glass fa-lg"></i>
+</button>
+<button class="sidebar-toggle secondary-toggle btn btn-sm" title="Toggle secondary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <span class="fa-solid fa-list"></span>
+</button>
+</div></div>
+      
+    </div>
+  
+</div>
+</div>
+              
+              
+
+<div id="jb-print-docs-body" class="onlyprint">
+    <h1>Sightings</h1>
+    <!-- Table of contents -->
+    <div id="print-main-content">
+        <div id="jb-print-toc">
+            
+            <div>
+                <h2> Contents </h2>
+            </div>
+            <nav aria-label="Page">
+                <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#presentation">Presentation</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#color-code">Color code</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#example">Example</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#automation">Automation</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#tools">Tools</a><ul class="nav section-nav flex-column">
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#pyvulnerabilitylookup-usage-example">PyVulnerabilityLookup usage example</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+            </nav>
+        </div>
+    </div>
+</div>
+
+              
+                
+<div id="searchbox"></div>
+                <article class="bd-article">
+                  
+  <section id="sightings">
+<span id="id1"></span><h1>Sightings<a class="headerlink" href="#sightings" title="Link to this heading">#</a></h1>
+<section id="presentation">
+<h2>Presentation<a class="headerlink" href="#presentation" title="Link to this heading">#</a></h2>
+<p>Users have the possibility to add observations to vulnerabilities with different types of sightings, such as:
+<em>seen</em>, <em>exploited</em>, <em>not exploited</em>, <em>confirmed</em>, <em>not confirmed</em>, <em>patched</em>, and <em>not patched</em>.</p>
+<div class="pst-scrollable-table-container"><table class="table">
+<thead>
+<tr class="row-odd"><th class="head"><p>Type</p></th>
+<th class="head"><p>Description</p></th>
+<th class="head"><p>Negative/Opposite</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>seen</p></td>
+<td><p>The vulnerability was mentioned, discussed, or seen somewhere by the user.</p></td>
+<td><ul class="simple">
+<li></li>
+</ul>
+</td>
+</tr>
+<tr class="row-odd"><td><p>confirmed</p></td>
+<td><p>The vulnerability is confirmed from an analyst perspective.</p></td>
+<td><p>X</p></td>
+</tr>
+<tr class="row-even"><td><p>exploited</p></td>
+<td><p>This vulnerability was exploited and seen by the user reporting the sighting.</p></td>
+<td><p>X</p></td>
+</tr>
+<tr class="row-odd"><td><p>patched</p></td>
+<td><p>This vulnerability was successfully patched by the user reporting the sighting.</p></td>
+<td><p>X</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<p>You can find the corresponding definition of the MISP taxonomy
+<a class="reference external" href="https://github.com/MISP/misp-taxonomies/blob/fd2fbaf2a450e42a490551e5a8e2fa6df039a6b8/vulnerability/machinetag.json#L26-L63">here</a>.</p>
+</section>
+<section id="color-code">
+<h2>Color code<a class="headerlink" href="#color-code" title="Link to this heading">#</a></h2>
+<p>Color code used in the application:</p>
+<div class="pst-scrollable-table-container"><table class="table">
+<thead>
+<tr class="row-odd"><th class="head"><p>Sighting Type</p></th>
+<th class="head"><p>Color Code</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p><code class="docutils literal notranslate"><span class="pre">exploited</span></code></p></td>
+<td><p><code class="docutils literal notranslate"><span class="pre">hsl(0,</span> <span class="pre">70%,</span> <span class="pre">35%)</span></code> (Darker Red)</p></td>
+</tr>
+<tr class="row-odd"><td><p><code class="docutils literal notranslate"><span class="pre">confirmed</span></code></p></td>
+<td><p><code class="docutils literal notranslate"><span class="pre">hsl(0,</span> <span class="pre">70%,</span> <span class="pre">50%)</span></code> (Medium Red)</p></td>
+</tr>
+<tr class="row-even"><td><p><code class="docutils literal notranslate"><span class="pre">seen</span></code></p></td>
+<td><p><code class="docutils literal notranslate"><span class="pre">hsl(0,</span> <span class="pre">70%,</span> <span class="pre">65%)</span></code> (Lighter Red)</p></td>
+</tr>
+<tr class="row-odd"><td><p><code class="docutils literal notranslate"><span class="pre">patched</span></code></p></td>
+<td><p><code class="docutils literal notranslate"><span class="pre">hsl(120,</span> <span class="pre">50%,</span> <span class="pre">50%)</span></code> (Green)</p></td>
+</tr>
+<tr class="row-even"><td><p><code class="docutils literal notranslate"><span class="pre">not-confirmed</span></code></p></td>
+<td><p><code class="docutils literal notranslate"><span class="pre">hsl(0,</span> <span class="pre">0%,</span> <span class="pre">35%)</span></code> (Darker Grey)</p></td>
+</tr>
+<tr class="row-odd"><td><p><code class="docutils literal notranslate"><span class="pre">not-exploited</span></code></p></td>
+<td><p><code class="docutils literal notranslate"><span class="pre">hsl(0,</span> <span class="pre">0%,</span> <span class="pre">50%)</span></code> (Medium Grey)</p></td>
+</tr>
+<tr class="row-even"><td><p><code class="docutils literal notranslate"><span class="pre">not-patched</span></code></p></td>
+<td><p><code class="docutils literal notranslate"><span class="pre">hsl(0,</span> <span class="pre">0%,</span> <span class="pre">65%)</span></code> (Lighter Grey)</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+</section>
+<section id="example">
+<h2>Example<a class="headerlink" href="#example" title="Link to this heading">#</a></h2>
+<p>Example of a sighting object:</p>
+<div class="highlight-json notranslate"><div class="highlight"><pre><span></span><span class="p">{</span>
+<span class="w">    </span><span class="nt">&quot;uuid&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;f6ed692b-2656-4ce0-bcf1-eaf12dfe281d&quot;</span><span class="p">,</span>
+<span class="w">    </span><span class="nt">&quot;vulnerability_lookup_origin&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;1a89b78e-f703-45f3-bb86-59eb712668bd&quot;</span><span class="p">,</span>
+<span class="w">    </span><span class="nt">&quot;author&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;8dfa6142-8c6d-4072-953e-71c85404aefb&quot;</span><span class="p">,</span>
+<span class="w">    </span><span class="nt">&quot;type&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;seen&quot;</span><span class="p">,</span>
+<span class="w">    </span><span class="nt">&quot;source&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;https://infosec.exchange/users/cve/statuses/113389560858828548&quot;</span><span class="p">,</span>
+<span class="w">    </span><span class="nt">&quot;vulnerability&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;CVE-2024-10312&quot;</span><span class="p">,</span>
+<span class="w">    </span><span class="nt">&quot;creation_timestamp&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;2024-10-29T08:36:31.492184Z&quot;</span>
+<span class="p">}</span>
+</pre></div>
+</div>
+<p>A source is not necessary an URL. It can be any string, for example the UUID of a MISP event.
+Examples: <a class="reference external" href="https://vulnerability.circl.lu/sightings/?query=MISP">https://vulnerability.circl.lu/sightings/?query=MISP</a></p>
+</section>
+<section id="automation">
+<h2>Automation<a class="headerlink" href="#automation" title="Link to this heading">#</a></h2>
+<p>Realistically, sightings are more likely to be created programmatically, for instance,
+based on observations gathered from social networks, network captures, etc.</p>
+<section id="tools">
+<h3>Tools<a class="headerlink" href="#tools" title="Link to this heading">#</a></h3>
+<p>To track vulnerabilities from data found on the Fediverse, you can use
+<a class="reference external" href="https://github.com/CIRCL/FediVuln">FediVuln</a>—a client specifically designed to gather
+vulnerability-related information from the Fediverse and push the information to a
+Vulnerability-Lookup instance as sightings.</p>
+<p><a class="reference external" href="https://github.com/MISP/VulnerabilityLookupSighting">VulnerabilityLookupSighting</a>
+is a client that retrieves vulnerability observations from a
+<a class="reference external" href="https://github.com/MISP/MISP">MISP</a> server and pushes them to a Vulnerability-Lookup instance.</p>
+<p><a class="reference external" href="https://github.com/cedricbonhomme/NucleiVuln">NucleiVuln</a> is client designed to
+monitor and retrieve vulnerability-related information from the
+<a class="reference external" href="https://github.com/projectdiscovery/nuclei-templates">Nuclei Git repository of templates</a>.
+Templates form the core of the Nuclei scanner. When a template is linked to a vulnerability,
+the resulting detection (observation) is classified as <em>confirmed</em>, signifying a higher
+level of certainty compared to the <em>seen</em> classification.</p>
+<p>Our tools on the Python Package Index (PyPI):</p>
+<ul class="simple">
+<li><p><a class="reference external" href="https://pypi.org/project/FediVuln">https://pypi.org/project/FediVuln</a></p></li>
+<li><p><a class="reference external" href="https://pypi.org/project/VulnerabilityLookupSighting">https://pypi.org/project/VulnerabilityLookupSighting</a></p></li>
+<li><p><a class="reference external" href="https://pypi.org/project/NucleiVuln">https://pypi.org/project/NucleiVuln</a></p></li>
+<li><p><a class="reference external" href="https://pypi.org/project/ExploitDBSighting">https://pypi.org/project/ExploitDBSighting</a></p></li>
+<li><p><a class="reference external" href="https://pypi.org/project/kevsight">https://pypi.org/project/kevsight</a></p></li>
+</ul>
+<p>If you want to create your own sigthing tool, it’s recommended to use
+<a class="reference external" href="https://github.com/cve-search/PyVulnerabilityLookup">PyVulnerabilityLookup</a>,
+a Python library to access Vulnerability-Lookup via its REST API.</p>
+<section id="pyvulnerabilitylookup-usage-example">
+<h4>PyVulnerabilityLookup usage example<a class="headerlink" href="#pyvulnerabilitylookup-usage-example" title="Link to this heading">#</a></h4>
+<p>Initalize a PyVulnerabilityLookup object:</p>
+<div class="highlight-Python notranslate"><div class="highlight"><pre><span></span><span class="kn">from</span> <span class="nn">pyvulnerabilitylookup</span> <span class="kn">import</span> <span class="n">PyVulnerabilityLookup</span>
+<span class="n">vuln_lookup</span> <span class="o">=</span> <span class="n">PyVulnerabilityLookup</span><span class="p">(</span><span class="s2">&quot;https://vulnerability.circl.lu/&quot;</span><span class="p">,</span> <span class="n">token</span><span class="o">=</span><span class="s2">&quot;&lt;YOUR-API-TOKEN&gt;&quot;</span><span class="p">)</span>
+</pre></div>
+</div>
+<p>Retrieve sightings for a specific vulnerability:</p>
+<div class="highlight-Python notranslate"><div class="highlight"><pre><span></span><span class="n">sighting_cve_list</span> <span class="o">=</span> <span class="n">vuln_lookup</span><span class="o">.</span><span class="n">get_sightings</span><span class="p">(</span><span class="n">vuln_id</span><span class="o">=</span><span class="s1">&#39;CVE-2024-9474&#39;</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="n">sighting_cve_list</span><span class="p">)</span>
+</pre></div>
+</div>
+<p>Output:</p>
+<div class="highlight-json notranslate"><div class="highlight"><pre><span></span><span class="p">{</span>
+<span class="w">    </span><span class="nt">&quot;metadata&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
+<span class="w">        </span><span class="nt">&quot;count&quot;</span><span class="p">:</span><span class="w"> </span><span class="mi">15</span><span class="p">,</span>
+<span class="w">        </span><span class="nt">&quot;offset&quot;</span><span class="p">:</span><span class="w"> </span><span class="mi">0</span><span class="p">,</span>
+<span class="w">        </span><span class="nt">&quot;limit&quot;</span><span class="p">:</span><span class="w"> </span><span class="mi">1000</span>
+<span class="w">    </span><span class="p">},</span>
+<span class="w">    </span><span class="nt">&quot;data&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">[</span>
+<span class="w">        </span><span class="p">{</span>
+<span class="w">            </span><span class="nt">&quot;uuid&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;b804f360-9d9f-4326-a1ae-e32fb82e268b&quot;</span><span class="p">,</span>
+<span class="w">            </span><span class="nt">&quot;creation_timestamp&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;2024-11-18T22:19:16.087185+00:00&quot;</span><span class="p">,</span>
+<span class="w">            </span><span class="nt">&quot;type&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;seen&quot;</span><span class="p">,</span>
+<span class="w">            </span><span class="nt">&quot;source&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;https://feedsin.space/feed/CISAKevBot/items/2704494&quot;</span><span class="p">,</span>
+<span class="w">            </span><span class="nt">&quot;vulnerability&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;CVE-2024-9474&quot;</span><span class="p">,</span>
+<span class="w">            </span><span class="nt">&quot;author&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
+<span class="w">                </span><span class="nt">&quot;login&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;automation&quot;</span><span class="p">,</span>
+<span class="w">                </span><span class="nt">&quot;name&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;Automation user&quot;</span><span class="p">,</span>
+<span class="w">                </span><span class="nt">&quot;uuid&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;9f56dd64-161d-43a6-b9c3-555944290a09&quot;</span>
+<span class="w">            </span><span class="p">}</span>
+<span class="w">        </span><span class="p">}</span>
+<span class="w">    </span><span class="p">]</span>
+<span class="p">}</span>
+</pre></div>
+</div>
+<p>Create a sew sighting:</p>
+<div class="highlight-Python notranslate"><div class="highlight"><pre><span></span><span class="n">sighting</span> <span class="o">=</span> <span class="p">{</span><span class="s2">&quot;type&quot;</span><span class="p">:</span> <span class="s2">&quot;exploited&quot;</span><span class="p">,</span> <span class="s2">&quot;source&quot;</span><span class="p">:</span> <span class="s2">&quot;&lt;source-of-the-sighting&gt;&quot;</span><span class="p">,</span> <span class="s2">&quot;vulnerability&quot;</span><span class="p">:</span> <span class="s1">&#39;CVE-2024-9474&#39;</span><span class="p">}</span>
+<span class="n">created_sighting</span> <span class="o">=</span> <span class="n">vuln_lookup</span><span class="o">.</span><span class="n">create_sighting</span><span class="p">(</span><span class="n">sighting</span><span class="o">=</span><span class="n">sighting</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="n">created_sighting</span><span class="p">)</span>
+</pre></div>
+</div>
+<p>Output:</p>
+<div class="literal-block-wrapper docutils container" id="id2">
+<div class="code-block-caption"><span class="caption-number">Listing 1 </span><span class="caption-text">Example of Sighting</span><a class="headerlink" href="#id2" title="Link to this code">#</a></div>
+<div class="highlight-json notranslate"><div class="highlight"><pre><span></span><span class="p">{</span>
+<span class="w">    </span><span class="nt">&quot;metadata&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
+<span class="w">        </span><span class="nt">&quot;count&quot;</span><span class="p">:</span><span class="w"> </span><span class="mi">1</span><span class="p">,</span>
+<span class="w">        </span><span class="nt">&quot;offset&quot;</span><span class="p">:</span><span class="w"> </span><span class="mi">0</span><span class="p">,</span>
+<span class="w">        </span><span class="nt">&quot;limit&quot;</span><span class="p">:</span><span class="w"> </span><span class="mi">10</span>
+<span class="w">    </span><span class="p">},</span>
+<span class="w">    </span><span class="nt">&quot;data&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">[</span>
+<span class="w">        </span><span class="p">{</span>
+<span class="w">            </span><span class="nt">&quot;uuid&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;b498cb64-9cbc-423a-aea0-bf58d740c024&quot;</span><span class="p">,</span>
+<span class="w">            </span><span class="nt">&quot;creation_timestamp&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;2024-11-19T10:45:45.634635+01:00&quot;</span><span class="p">,</span>
+<span class="w">            </span><span class="nt">&quot;type&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;exploited&quot;</span><span class="p">,</span>
+<span class="w">            </span><span class="nt">&quot;source&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;&lt;source-of-the-sighting&gt;&quot;</span><span class="p">,</span>
+<span class="w">            </span><span class="nt">&quot;vulnerability&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;CVE-2024-9474&quot;</span><span class="p">,</span>
+<span class="w">            </span><span class="nt">&quot;author&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
+<span class="w">                </span><span class="nt">&quot;login&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;cedric&quot;</span><span class="p">,</span>
+<span class="w">                </span><span class="nt">&quot;name&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;Cédric&quot;</span><span class="p">,</span>
+<span class="w">                </span><span class="nt">&quot;uuid&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;8dfa6142-8c6d-4072-953e-71c85404aefb&quot;</span>
+<span class="w">            </span><span class="p">}</span>
+<span class="w">        </span><span class="p">}</span>
+<span class="w">    </span><span class="p">]</span>
+<span class="p">}</span>
+</pre></div>
+</div>
+</div>
+<p>PyVulnerabilityLookup supports various object types within the VulnerabilityLookup framework.
+Refer to the <a class="reference external" href="https://github.com/cve-search/vulnerability-lookup/blob/main/tests/test_web.py">tests</a> for detailed examples and usage.</p>
+</section>
+</section>
+</section>
+</section>
+
+
+                </article>
+              
+
+              
+              
+              
+              
+                <footer class="prev-next-footer d-print-none">
+                  
+<div class="prev-next-area">
+    <a class="left-prev"
+       href="streaming.html"
+       title="previous page">
+      <i class="fa-solid fa-angle-left"></i>
+      <div class="prev-next-info">
+        <p class="prev-next-subtitle">previous</p>
+        <p class="prev-next-title">Streaming service</p>
+      </div>
+    </a>
+    <a class="right-next"
+       href="feeds.html"
+       title="next page">
+      <div class="prev-next-info">
+        <p class="prev-next-subtitle">next</p>
+        <p class="prev-next-title">Feed syndication</p>
+      </div>
+      <i class="fa-solid fa-angle-right"></i>
+    </a>
+</div>
+                </footer>
+              
+            </div>
+            
+            
+              
+                <dialog id="pst-secondary-sidebar-modal"></dialog>
+                <div id="pst-secondary-sidebar" class="bd-sidebar-secondary bd-toc"><div class="sidebar-secondary-items sidebar-secondary__inner">
+
+
+  <div class="sidebar-secondary-item">
+  <div class="page-toc tocsection onthispage">
+    <i class="fa-solid fa-list"></i> Contents
+  </div>
+  <nav class="bd-toc-nav page-toc">
+    <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#presentation">Presentation</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#color-code">Color code</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#example">Example</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#automation">Automation</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#tools">Tools</a><ul class="nav section-nav flex-column">
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#pyvulnerabilitylookup-usage-example">PyVulnerabilityLookup usage example</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+  </nav></div>
+
+</div></div>
+              
+            
+          </div>
+          <footer class="bd-footer-content">
+            
+<div class="bd-footer-content__inner container">
+  
+  <div class="footer-item">
+    
+<p class="component-author">
+By CIRCL <info@circl.lu>
+</p>
+
+  </div>
+  
+  <div class="footer-item">
+    
+
+  <p class="copyright">
+    
+      © Copyright Computer Incident Response Center Luxembourg (CIRCL) &lt;info@circl.lu&gt;.
+      <br/>
+    
+  </p>
+
+  </div>
+  
+  <div class="footer-item">
+    
+  </div>
+  
+  <div class="footer-item">
+    
+  </div>
+  
+</div>
+          </footer>
+        
+
+      </main>
+    </div>
+  </div>
+  
+  <!-- Scripts loaded after <body> so the DOM is not blocked -->
+  <script defer src="_static/scripts/bootstrap.js?digest=26a4bc78f4c0ddb94549"></script>
+<script defer src="_static/scripts/pydata-sphinx-theme.js?digest=26a4bc78f4c0ddb94549"></script>
+
+  <footer class="bd-footer">
+  </footer>
+  </body>
+</html>

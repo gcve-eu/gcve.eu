@@ -1,0 +1,763 @@
+
+<!DOCTYPE html>
+
+
+<html lang="en" data-content_root="./" >
+
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>Installation &#8212; Vulnerability-Lookup</title>
+  
+  
+  
+  <script data-cfasync="false">
+    document.documentElement.dataset.mode = localStorage.getItem("mode") || "";
+    document.documentElement.dataset.theme = localStorage.getItem("theme") || "";
+  </script>
+  <!-- 
+    this give us a css class that will be invisible only if js is disabled 
+  -->
+  <noscript>
+    <style>
+      .pst-js-only { display: none !important; }
+
+    </style>
+  </noscript>
+  
+  <!-- Loaded before other Sphinx assets -->
+  <link href="_static/styles/theme.css?digest=26a4bc78f4c0ddb94549" rel="stylesheet" />
+<link href="_static/styles/pydata-sphinx-theme.css?digest=26a4bc78f4c0ddb94549" rel="stylesheet" />
+
+    <link rel="stylesheet" type="text/css" href="_static/pygments.css?v=a746c00c" />
+    <link rel="stylesheet" type="text/css" href="_static/styles/sphinx-book-theme.css?v=a3416100" />
+    <link rel="stylesheet" type="text/css" href="_static/custom.css?v=ee704053" />
+  
+  <!-- So that users can add custom icons -->
+  <script src="_static/scripts/fontawesome.js?digest=26a4bc78f4c0ddb94549"></script>
+  <!-- Pre-loaded scripts that we'll load fully later -->
+  <link rel="preload" as="script" href="_static/scripts/bootstrap.js?digest=26a4bc78f4c0ddb94549" />
+<link rel="preload" as="script" href="_static/scripts/pydata-sphinx-theme.js?digest=26a4bc78f4c0ddb94549" />
+
+    <script src="_static/documentation_options.js?v=32e37178"></script>
+    <script src="_static/doctools.js?v=9bcbadda"></script>
+    <script src="_static/sphinx_highlight.js?v=dc90522c"></script>
+    <script src="_static/scripts/sphinx-book-theme.js?v=887ef09a"></script>
+    <script>DOCUMENTATION_OPTIONS.pagename = 'installation';</script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="Updating the application" href="update.html" />
+    <link rel="prev" title="Prerequisites" href="prerequisites.html" />
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <meta name="docsearch:language" content="en"/>
+  <meta name="docsearch:version" content="" />
+  </head>
+  
+  
+  <body data-bs-spy="scroll" data-bs-target=".bd-toc-nav" data-offset="180" data-bs-root-margin="0px 0px -60%" data-default-mode="">
+
+  
+  
+  <div id="pst-skip-link" class="skip-link d-print-none"><a href="#main-content">Skip to main content</a></div>
+  
+  <div id="pst-scroll-pixel-helper"></div>
+  
+  <button type="button" class="btn rounded-pill" id="pst-back-to-top">
+    <i class="fa-solid fa-arrow-up"></i>Back to top</button>
+
+  
+  <dialog id="pst-search-dialog">
+    
+<form class="bd-search d-flex align-items-center"
+      action="search.html"
+      method="get">
+  <i class="fa-solid fa-magnifying-glass"></i>
+  <input type="search"
+         class="form-control"
+         name="q"
+         placeholder="Search..."
+         aria-label="Search..."
+         autocomplete="off"
+         autocorrect="off"
+         autocapitalize="off"
+         spellcheck="false"/>
+  <span class="search-button__kbd-shortcut"><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd>K</kbd></span>
+</form>
+  </dialog>
+
+  <div class="pst-async-banner-revealer d-none">
+  <aside id="bd-header-version-warning" class="d-none d-print-none" aria-label="Version warning"></aside>
+</div>
+
+  
+    <header class="bd-header navbar navbar-expand-lg bd-navbar d-print-none">
+    </header>
+  
+
+  <div class="bd-container">
+    <div class="bd-container__inner bd-page-width">
+      
+      
+      
+      <dialog id="pst-primary-sidebar-modal"></dialog>
+      <div id="pst-primary-sidebar" class="bd-sidebar-primary bd-sidebar">
+        
+
+  
+  <div class="sidebar-header-items sidebar-primary__section">
+    
+    
+    
+    
+  </div>
+  
+    <div class="sidebar-primary-items__start sidebar-primary__section">
+        <div class="sidebar-primary-item">
+
+  
+    
+  
+
+<a class="navbar-brand logo" href="index.html">
+  
+  
+  
+  
+  
+    
+    
+      
+    
+    
+    <img src="_static/VL-hori-coul.jpg" class="logo__image only-light" alt="Vulnerability-Lookup - Home"/>
+    <img src="_static/VL-hori-coul.jpg" class="logo__image only-dark pst-js-only" alt="Vulnerability-Lookup - Home"/>
+  
+  
+</a></div>
+        <div class="sidebar-primary-item">
+
+<button class="btn search-button-field search-button__button pst-js-only" title="Search" aria-label="Search" data-bs-placement="bottom" data-bs-toggle="tooltip">
+ <i class="fa-solid fa-magnifying-glass"></i>
+ <span class="search-button__default-text">Search</span>
+ <span class="search-button__kbd-shortcut"><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd class="kbd-shortcut__modifier">K</kbd></span>
+</button></div>
+        <div class="sidebar-primary-item"><nav class="bd-links bd-docs-nav" aria-label="Main">
+    <div class="bd-toc-item navbar-nav active">
+        
+        <ul class="nav bd-sidenav bd-sidenav__home-link">
+            <li class="toctree-l1">
+                <a class="reference internal" href="index.html">
+                    Vulnerability-Lookup
+                </a>
+            </li>
+        </ul>
+        <p aria-level="2" class="caption" role="heading"><span class="caption-text">Technical considerations</span></p>
+<ul class="current nav bd-sidenav">
+<li class="toctree-l1"><a class="reference internal" href="prerequisites.html">Prerequisites</a></li>
+<li class="toctree-l1 current active"><a class="current reference internal" href="#">Installation</a></li>
+<li class="toctree-l1"><a class="reference internal" href="update.html">Updating the application</a></li>
+<li class="toctree-l1"><a class="reference internal" href="command-line-interface.html">Command Line Interface</a></li>
+</ul>
+<p aria-level="2" class="caption" role="heading"><span class="caption-text">Architecture</span></p>
+<ul class="nav bd-sidenav">
+<li class="toctree-l1"><a class="reference internal" href="architecture.html">High level architecture</a></li>
+<li class="toctree-l1"><a class="reference internal" href="webservice.html">Web service</a></li>
+<li class="toctree-l1"><a class="reference internal" href="streaming.html">Streaming service</a></li>
+</ul>
+<p aria-level="2" class="caption" role="heading"><span class="caption-text">Concepts</span></p>
+<ul class="nav bd-sidenav">
+<li class="toctree-l1"><a class="reference internal" href="sightings.html">Sightings</a></li>
+</ul>
+<p aria-level="2" class="caption" role="heading"><span class="caption-text">Usage</span></p>
+<ul class="nav bd-sidenav">
+<li class="toctree-l1"><a class="reference internal" href="feeds.html">Feed syndication</a></li>
+<li class="toctree-l1"><a class="reference internal" href="api-v1.html">API v1</a></li>
+</ul>
+
+    </div>
+</nav></div>
+    </div>
+  
+  
+  <div class="sidebar-primary-items__end sidebar-primary__section">
+  </div>
+  
+  <div id="rtd-footer-container"></div>
+
+
+      </div>
+      
+      <main id="main-content" class="bd-main" role="main">
+        
+        
+
+<div class="sbt-scroll-pixel-helper"></div>
+
+          <div class="bd-content">
+            <div class="bd-article-container">
+              
+              <div class="bd-header-article d-print-none">
+<div class="header-article-items header-article__inner">
+  
+    <div class="header-article-items__start">
+      
+        <div class="header-article-item"><button class="sidebar-toggle primary-toggle btn btn-sm" title="Toggle primary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
+  <span class="fa-solid fa-bars"></span>
+</button></div>
+      
+    </div>
+  
+  
+    <div class="header-article-items__end">
+      
+        <div class="header-article-item">
+
+<div class="article-header-buttons">
+
+
+
+
+
+<div class="dropdown dropdown-source-buttons">
+  <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false" aria-label="Source repositories">
+    <i class="fab fa-github"></i>
+  </button>
+  <ul class="dropdown-menu">
+      
+      
+      
+      <li><a href="https://github.com/cve-search/vulnerability-lookup" target="_blank"
+   class="btn btn-sm btn-source-repository-button dropdown-item"
+   title="Source repository"
+   data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fab fa-github"></i>
+  </span>
+<span class="btn__text-container">Repository</span>
+</a>
+</li>
+      
+      
+      
+      
+      <li><a href="https://github.com/cve-search/vulnerability-lookup/edit/main/docs/installation.rst" target="_blank"
+   class="btn btn-sm btn-source-edit-button dropdown-item"
+   title="Suggest edit"
+   data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-pencil-alt"></i>
+  </span>
+<span class="btn__text-container">Suggest edit</span>
+</a>
+</li>
+      
+      
+      
+      
+      <li><a href="https://github.com/cve-search/vulnerability-lookup/issues/new?title=Issue%20on%20page%20%2Finstallation.html&body=Your%20issue%20content%20here." target="_blank"
+   class="btn btn-sm btn-source-issues-button dropdown-item"
+   title="Open an issue"
+   data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-lightbulb"></i>
+  </span>
+<span class="btn__text-container">Open issue</span>
+</a>
+</li>
+      
+  </ul>
+</div>
+
+
+
+
+
+
+<div class="dropdown dropdown-download-buttons">
+  <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false" aria-label="Download this page">
+    <i class="fas fa-download"></i>
+  </button>
+  <ul class="dropdown-menu">
+      
+      
+      
+      <li><a href="_sources/installation.rst" target="_blank"
+   class="btn btn-sm btn-download-source-button dropdown-item"
+   title="Download source file"
+   data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-file"></i>
+  </span>
+<span class="btn__text-container">.rst</span>
+</a>
+</li>
+      
+      
+      
+      
+      <li>
+<button onclick="window.print()"
+  class="btn btn-sm btn-download-pdf-button dropdown-item"
+  title="Print to PDF"
+  data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-file-pdf"></i>
+  </span>
+<span class="btn__text-container">.pdf</span>
+</button>
+</li>
+      
+  </ul>
+</div>
+
+
+
+
+<button onclick="toggleFullScreen()"
+  class="btn btn-sm btn-fullscreen-button"
+  title="Fullscreen mode"
+  data-bs-placement="bottom" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-expand"></i>
+  </span>
+
+</button>
+
+
+
+<button class="btn btn-sm nav-link pst-navbar-icon theme-switch-button pst-js-only" aria-label="Color mode" data-bs-title="Color mode"  data-bs-placement="bottom" data-bs-toggle="tooltip">
+  <i class="theme-switch fa-solid fa-sun                fa-lg" data-mode="light" title="Light"></i>
+  <i class="theme-switch fa-solid fa-moon               fa-lg" data-mode="dark"  title="Dark"></i>
+  <i class="theme-switch fa-solid fa-circle-half-stroke fa-lg" data-mode="auto"  title="System Settings"></i>
+</button>
+
+
+<button class="btn btn-sm pst-navbar-icon search-button search-button__button pst-js-only" title="Search" aria-label="Search" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <i class="fa-solid fa-magnifying-glass fa-lg"></i>
+</button>
+<button class="sidebar-toggle secondary-toggle btn btn-sm" title="Toggle secondary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <span class="fa-solid fa-list"></span>
+</button>
+</div></div>
+      
+    </div>
+  
+</div>
+</div>
+              
+              
+
+<div id="jb-print-docs-body" class="onlyprint">
+    <h1>Installation</h1>
+    <!-- Table of contents -->
+    <div id="print-main-content">
+        <div id="jb-print-toc">
+            
+            <div>
+                <h2> Contents </h2>
+            </div>
+            <nav aria-label="Page">
+                <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#system-dependencies">System dependencies</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#prerequisites">Prerequisites</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#redis">Redis</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#kvrocks">Kvrocks</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#clone-the-source-code">Clone the source code</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#id3">Installation</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#configuration">Configuration</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#generic-configuration">Generic configuration</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#modules">Modules</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#import-csaf-sources">Import CSAF sources</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#user-accounts">User accounts</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#usage">Usage</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#launching-the-website-with-systemd">Launching the website with systemd</a></li>
+</ul>
+            </nav>
+        </div>
+    </div>
+</div>
+
+              
+                
+<div id="searchbox"></div>
+                <article class="bd-article">
+                  
+  <section id="installation">
+<h1>Installation<a class="headerlink" href="#installation" title="Link to this heading">#</a></h1>
+<p>This section covers the installation steps of the sofware.</p>
+<section id="system-dependencies">
+<h2>System dependencies<a class="headerlink" href="#system-dependencies" title="Link to this heading">#</a></h2>
+<p>You need Poetry installed, see the <a class="reference external" href="https://python-poetry.org/docs/">install guide</a>.</p>
+</section>
+<section id="prerequisites">
+<h2>Prerequisites<a class="headerlink" href="#prerequisites" title="Link to this heading">#</a></h2>
+<p>You need to have redis cloned and installed in the same directory you clone this template in:
+this repository and and <cite>redis</cite> must be in the same directory, and <strong>not</strong> <cite>redis</cite> cloned in
+this directory. See
+<a class="reference external" href="https://www.lookyloo.eu/docs/main/install-lookyloo.html#_install_redis">this guide</a>.</p>
+<section id="redis">
+<h3>Redis<a class="headerlink" href="#redis" title="Link to this heading">#</a></h3>
+<p><a class="reference external" href="https://redis.io/">Redis</a>: An open source (BSD licensed), in-memory data structure store,
+used as a database, cache and message broker.</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Redis should be installed from the source, and the repository must be
+in one directory up as the one you will be cloning vulnerability-lookup into.</p>
+</div>
+<p>In order to compile and test redis, you will need a few packages:</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>sudo<span class="w"> </span>apt-get<span class="w"> </span>update
+sudo<span class="w"> </span>apt<span class="w"> </span>install<span class="w"> </span>build-essential<span class="w"> </span>tcl
+</pre></div>
+</div>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>git<span class="w"> </span>clone<span class="w"> </span>https://github.com/redis/redis.git
+<span class="nb">cd</span><span class="w"> </span>redis
+git<span class="w"> </span>checkout<span class="w"> </span><span class="m">7</span>.2
+make
+<span class="c1"># Optionally, you can run the tests:</span>
+make<span class="w"> </span><span class="nb">test</span>
+<span class="nb">cd</span><span class="w"> </span>..
+</pre></div>
+</div>
+</section>
+<section id="kvrocks">
+<h3>Kvrocks<a class="headerlink" href="#kvrocks" title="Link to this heading">#</a></h3>
+<p><a class="reference external" href="https://github.com/apache/incubator-kvrocks">Kvrocks</a> is a distributed key value
+NoSQL database that uses RocksDB as storage engine and is compatible with Redis protocol.
+Kvrocks intends to decrease the cost of memory and increase the capability while compared to Redis.</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Kvrocks should be installed from the source, and the repository must
+be in one directory up as the one you will be cloning vulnerability-lookup into.</p>
+</div>
+<p>In order to compile kvrocks, you will need a few packages:</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>sudo<span class="w"> </span>apt-get<span class="w"> </span>update
+sudo<span class="w"> </span>apt<span class="w"> </span>install<span class="w"> </span>git<span class="w"> </span>gcc<span class="w"> </span>g++<span class="w"> </span>make<span class="w"> </span>cmake<span class="w"> </span>autoconf<span class="w"> </span>automake<span class="w"> </span>libtool<span class="w"> </span>python3<span class="w"> </span>libssl-dev
+</pre></div>
+</div>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>git<span class="w"> </span>clone<span class="w"> </span>--recursive<span class="w"> </span>https://github.com/apache/kvrocks.git
+<span class="nb">cd</span><span class="w"> </span>kvrocks
+git<span class="w"> </span>checkout<span class="w"> </span>v2.9.0
+./x.py<span class="w"> </span>build
+<span class="nb">cd</span><span class="w"> </span>..
+</pre></div>
+</div>
+</section>
+</section>
+<section id="clone-the-source-code">
+<h2>Clone the source code<a class="headerlink" href="#clone-the-source-code" title="Link to this heading">#</a></h2>
+<p>Clone Vulnerability Lookup with the submodules.</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>git<span class="w"> </span>clone<span class="w"> </span>--recursive<span class="w"> </span>https://github.com/cve-search/vulnerability-lookup.git
+</pre></div>
+</div>
+</section>
+<section id="id3">
+<h2>Installation<a class="headerlink" href="#id3" title="Link to this heading">#</a></h2>
+<p>From the directory you just cloned, run:</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>poetry<span class="w"> </span>install
+</pre></div>
+</div>
+<p>Initialize the <cite>.env</cite> file:</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span><span class="nb">echo</span><span class="w"> </span><span class="nv">VULNERABILITYLOOKUP_HOME</span><span class="o">=</span><span class="s2">&quot;`pwd`&quot;</span><span class="w"> </span>&gt;&gt;<span class="w"> </span>.env
+</pre></div>
+</div>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p><cite>VULNERABILITYLOOKUP_HOME</cite> is the name you set in <cite>vulnerability-lookup/default/__init__.py</cite></p>
+</div>
+<p>Initialize the submodules (as the repositories are quite large, it can take sometime):</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>git<span class="w"> </span>submodule<span class="w"> </span>update<span class="w"> </span>--init
+</pre></div>
+</div>
+</section>
+<section id="configuration">
+<h2>Configuration<a class="headerlink" href="#configuration" title="Link to this heading">#</a></h2>
+<section id="generic-configuration">
+<h3>Generic configuration<a class="headerlink" href="#generic-configuration" title="Link to this heading">#</a></h3>
+<p>Copy the config file:</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>cp<span class="w"> </span>config/generic.json.sample<span class="w"> </span>config/generic.json
+</pre></div>
+</div>
+<p>And configure it accordingly to your needs.</p>
+</section>
+<section id="modules">
+<h3>Modules<a class="headerlink" href="#modules" title="Link to this heading">#</a></h3>
+<p>Copy the module file:</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>cp<span class="w"> </span>config/modules.cfg.sample<span class="w"> </span>config/modules.cfg
+</pre></div>
+</div>
+<p>And configure the feeder configuration such as the:</p>
+<ul class="simple">
+<li><p><a class="reference external" href="https://nvd.nist.gov/developers/request-an-api-key">NVD API key</a>.</p></li>
+<li><p><a class="reference external" href="https://www.variotdbs.pl/api/register">VARIoT API key</a>.</p></li>
+</ul>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>cp<span class="w"> </span>config/logging.json.sample<span class="w"> </span>config/logging.json
+</pre></div>
+</div>
+</section>
+<section id="import-csaf-sources">
+<h3>Import CSAF sources<a class="headerlink" href="#import-csaf-sources" title="Link to this heading">#</a></h3>
+<ol class="arabic simple">
+<li><p>Build the <a class="reference external" href="https://github.com/csaf-poc/csaf_distribution?tab=readme-ov-file#build-from-sources">support tools</a>.</p></li>
+<li><p>Make sure the downloader exists:</p></li>
+</ol>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>$<span class="w"> </span><span class="o">(</span>git::main<span class="o">)</span><span class="w"> </span>./bin-linux-amd64/csaf_downloader<span class="w"> </span>-h
+Usage:
+csaf_downloader<span class="w"> </span><span class="o">[</span>OPTIONS<span class="o">]</span><span class="w"> </span>domain...
+
+Application<span class="w"> </span>Options:
+-d,<span class="w"> </span>--directory<span class="o">=</span>DIR<span class="w">                             </span>DIRectory<span class="w"> </span>to<span class="w"> </span>store<span class="w"> </span>the<span class="w"> </span>downloaded<span class="w"> </span>files<span class="w"> </span><span class="k">in</span>
+<span class="w">    </span>--insecure<span class="w">                                  </span>Do<span class="w"> </span>not<span class="w"> </span>check<span class="w"> </span>TLS<span class="w"> </span>certificates<span class="w"> </span>from<span class="w"> </span>provider
+<span class="w">    </span>--ignore_sigcheck<span class="w">                           </span>Ignore<span class="w"> </span>signature<span class="w"> </span>check<span class="w"> </span>results,<span class="w"> </span>just<span class="w"> </span>warn<span class="w"> </span>on<span class="w"> </span>mismatch
+<span class="w">    </span>--client_cert<span class="o">=</span>CERT-FILE<span class="w">                     </span>TLS<span class="w"> </span>client<span class="w"> </span>certificate<span class="w"> </span>file<span class="w"> </span><span class="o">(</span>PEM<span class="w"> </span>encoded<span class="w"> </span>data<span class="o">)</span>
+<span class="w">    </span>--client_key<span class="o">=</span>KEY-FILE<span class="w">                       </span>TLS<span class="w"> </span>client<span class="w"> </span>private<span class="w"> </span>key<span class="w"> </span>file<span class="w"> </span><span class="o">(</span>PEM<span class="w"> </span>encoded<span class="w"> </span>data<span class="o">)</span>
+<span class="w">    </span>--client_passphrase<span class="o">=</span>PASSPHRASE<span class="w">              </span>Optional<span class="w"> </span>passphrase<span class="w"> </span><span class="k">for</span><span class="w"> </span>the<span class="w"> </span>client<span class="w"> </span>cert<span class="w"> </span><span class="o">(</span>limited,<span class="w"> </span>experimental,<span class="w"> </span>see<span class="w"> </span>doc<span class="o">)</span>
+<span class="w">    </span>--version<span class="w">                                   </span>Display<span class="w"> </span>version<span class="w"> </span>of<span class="w"> </span>the<span class="w"> </span>binary
+-n,<span class="w"> </span>--no_store<span class="w">                                  </span>Do<span class="w"> </span>not<span class="w"> </span>store<span class="w"> </span>files
+-r,<span class="w"> </span>--rate<span class="o">=</span><span class="w">                                     </span>The<span class="w"> </span>average<span class="w"> </span>upper<span class="w"> </span>limit<span class="w"> </span>of<span class="w"> </span>https<span class="w"> </span>operations<span class="w"> </span>per<span class="w"> </span>second<span class="w"> </span><span class="o">(</span>defaults<span class="w"> </span>to<span class="w"> </span>unlimited<span class="o">)</span>
+-w,<span class="w"> </span>--worker<span class="o">=</span>NUM<span class="w">                                </span>NUMber<span class="w"> </span>of<span class="w"> </span>concurrent<span class="w"> </span>downloads<span class="w"> </span><span class="o">(</span>default:<span class="w"> </span><span class="m">2</span><span class="o">)</span>
+-t,<span class="w"> </span>--time_range<span class="o">=</span>RANGE<span class="w">                          </span>RANGE<span class="w"> </span>of<span class="w"> </span><span class="nb">time</span><span class="w"> </span>from<span class="w"> </span>which<span class="w"> </span>advisories<span class="w"> </span>to<span class="w"> </span>download
+-f,<span class="w"> </span>--folder<span class="o">=</span>FOLDER<span class="w">                             </span>Download<span class="w"> </span>into<span class="w"> </span>a<span class="w"> </span>given<span class="w"> </span>subFOLDER
+-i,<span class="w"> </span>--ignore_pattern<span class="o">=</span>PATTERN<span class="w">                    </span>Do<span class="w"> </span>not<span class="w"> </span>download<span class="w"> </span>files<span class="w"> </span><span class="k">if</span><span class="w"> </span>their<span class="w"> </span>URLs<span class="w"> </span>match<span class="w"> </span>any<span class="w"> </span>of<span class="w"> </span>the<span class="w"> </span>given<span class="w"> </span>PATTERNs
+-H,<span class="w"> </span>--header<span class="o">=</span><span class="w">                                   </span>One<span class="w"> </span>or<span class="w"> </span>more<span class="w"> </span>extra<span class="w"> </span>HTTP<span class="w"> </span>header<span class="w"> </span>fields
+<span class="w">    </span>--validator<span class="o">=</span>URL<span class="w">                             </span>URL<span class="w"> </span>to<span class="w"> </span>validate<span class="w"> </span>documents<span class="w"> </span>remotely
+<span class="w">    </span>--validator_cache<span class="o">=</span>FILE<span class="w">                      </span>FILE<span class="w"> </span>to<span class="w"> </span>cache<span class="w"> </span>remote<span class="w"> </span>validations
+<span class="w">    </span>--validator_preset<span class="o">=</span>PRESETS<span class="w">                  </span>One<span class="w"> </span>or<span class="w"> </span>more<span class="w"> </span>PRESETS<span class="w"> </span>to<span class="w"> </span>validate<span class="w"> </span>remotely<span class="w"> </span><span class="o">(</span>default:<span class="w"> </span><span class="o">[</span>mandatory<span class="o">])</span>
+-m,<span class="w"> </span>--validation_mode<span class="o">=</span>MODE<span class="o">[</span>strict<span class="p">|</span>unsafe<span class="o">]</span><span class="w">       </span>MODE<span class="w"> </span>how<span class="w"> </span>strict<span class="w"> </span>the<span class="w"> </span>validation<span class="w"> </span>is<span class="w"> </span><span class="o">(</span>default:<span class="w"> </span>strict<span class="o">)</span>
+<span class="w">    </span>--forward_url<span class="o">=</span>URL<span class="w">                           </span>URL<span class="w"> </span>of<span class="w"> </span>HTTP<span class="w"> </span>endpoint<span class="w"> </span>to<span class="w"> </span>forward<span class="w"> </span>downloads<span class="w"> </span>to
+<span class="w">    </span>--forward_header<span class="o">=</span><span class="w">                           </span>One<span class="w"> </span>or<span class="w"> </span>more<span class="w"> </span>extra<span class="w"> </span>HTTP<span class="w"> </span>header<span class="w"> </span>fields<span class="w"> </span>used<span class="w"> </span>by<span class="w"> </span>forwarding
+<span class="w">    </span>--forward_queue<span class="o">=</span>LENGTH<span class="w">                      </span>Maximal<span class="w"> </span>queue<span class="w"> </span>LENGTH<span class="w"> </span>before<span class="w"> </span>forwarder<span class="w"> </span><span class="o">(</span>default:<span class="w"> </span><span class="m">5</span><span class="o">)</span>
+<span class="w">    </span>--forward_insecure<span class="w">                          </span>Do<span class="w"> </span>not<span class="w"> </span>check<span class="w"> </span>TLS<span class="w"> </span>certificates<span class="w"> </span>from<span class="w"> </span>forward<span class="w"> </span>endpoint
+<span class="w">    </span>--log_file<span class="o">=</span>FILE<span class="w">                             </span>FILE<span class="w"> </span>to<span class="w"> </span>log<span class="w"> </span>downloading<span class="w"> </span>to<span class="w"> </span><span class="o">(</span>default:<span class="w"> </span>downloader.log<span class="o">)</span>
+<span class="w">    </span>--log_level<span class="o">=</span>LEVEL<span class="o">[</span>debug<span class="p">|</span>info<span class="p">|</span>warn<span class="p">|</span>error<span class="o">]</span><span class="w">    </span>LEVEL<span class="w"> </span>of<span class="w"> </span>logging<span class="w"> </span>details<span class="w"> </span><span class="o">(</span>default:<span class="w"> </span>info<span class="o">)</span>
+-c,<span class="w"> </span>--config<span class="o">=</span>TOML-FILE<span class="w">                          </span>Path<span class="w"> </span>to<span class="w"> </span>config<span class="w"> </span>TOML<span class="w"> </span>file
+
+Help<span class="w"> </span>Options:
+-h,<span class="w"> </span>--help<span class="w">                                      </span>Show<span class="w"> </span>this<span class="w"> </span><span class="nb">help</span><span class="w"> </span>message
+</pre></div>
+</div>
+<ol class="arabic simple" start="3">
+<li><p>Add the <strong>full</strong> path to the downloader in <cite>config/generic.json</cite> key <cite>csaf_downloader_path</cite></p></li>
+</ol>
+</section>
+<section id="user-accounts">
+<h3>User accounts<a class="headerlink" href="#user-accounts" title="Link to this heading">#</a></h3>
+<p>Initialize the database used for the management of user accounts, comments and bundles.
+<code class="docutils literal notranslate"><span class="pre">user_accounts</span></code> must be set to <code class="docutils literal notranslate"><span class="pre">true</span></code> in the <code class="docutils literal notranslate"><span class="pre">config/generic.json</span></code>
+configuration file.</p>
+<p>Create a PostgreSQL user and a database:</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>$<span class="w"> </span>sudo<span class="w"> </span>apt<span class="w"> </span>install<span class="w"> </span>postgresql
+$<span class="w"> </span>sudo<span class="w"> </span>-u<span class="w"> </span>postgres<span class="w"> </span>createuser<span class="w"> </span>&lt;username&gt;
+$<span class="w"> </span>sudo<span class="w"> </span>-u<span class="w"> </span>postgres<span class="w"> </span>createdb<span class="w"> </span>&lt;database&gt;
+
+$<span class="w"> </span>sudo<span class="w"> </span>-u<span class="w"> </span>postgres<span class="w"> </span>psql
+psql<span class="w"> </span><span class="o">(</span><span class="m">15</span>.7<span class="w"> </span><span class="o">(</span>Debian<span class="w"> </span><span class="m">15</span>.7-0+deb12u1<span class="o">))</span>
+Type<span class="w"> </span><span class="s2">&quot;help&quot;</span><span class="w"> </span><span class="k">for</span><span class="w"> </span>help.
+<span class="nv">postgres</span><span class="o">=</span><span class="c1"># alter user &quot;&lt;username&gt;&quot; with encrypted password &#39;&lt;password&gt;&#39;;</span>
+ALTER<span class="w"> </span>ROLE
+<span class="nv">postgres</span><span class="o">=</span><span class="c1"># grant all privileges on database &lt;database&gt; to &quot;&lt;username&gt;&quot;;</span>
+GRANT
+<span class="nv">postgres</span><span class="o">=</span><span class="c1"># ALTER DATABASE &lt;database&gt; OWNER TO &lt;username&gt;;</span>
+ALTER<span class="w"> </span>DATABASE
+</pre></div>
+</div>
+<p>Initialize the database:</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>$<span class="w"> </span>poetry<span class="w"> </span>run<span class="w"> </span>flask<span class="w"> </span>--app<span class="w"> </span>website.app<span class="w"> </span>db_init<span class="w"> </span><span class="c1"># initializes the databse</span>
+$<span class="w"> </span>poetry<span class="w"> </span>run<span class="w"> </span>flask<span class="w"> </span>--app<span class="w"> </span>website.app<span class="w"> </span>db<span class="w"> </span>stamp<span class="w"> </span>head<span class="w"> </span><span class="c1"># add alembic_version table to the database and point to the most recent version</span>
+</pre></div>
+</div>
+<p>After creating the database, you can proceed to create the first admin user:</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>$<span class="w"> </span>poetry<span class="w"> </span>run<span class="w"> </span>flask<span class="w"> </span>--app<span class="w"> </span>website.app<span class="w"> </span>create_admin<span class="w"> </span>--login<span class="w"> </span>admin<span class="w"> </span>--email<span class="w"> </span>admin@example.org<span class="w"> </span>--password<span class="w"> </span>adminPassword
+</pre></div>
+</div>
+</section>
+</section>
+<section id="usage">
+<h2>Usage<a class="headerlink" href="#usage" title="Link to this heading">#</a></h2>
+<p>Start the tool (as usual, from the directory):</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>poetry<span class="w"> </span>run<span class="w"> </span>start
+</pre></div>
+</div>
+<p>You can stop it with:</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>poetry<span class="w"> </span>run<span class="w"> </span>stop
+</pre></div>
+</div>
+<p>With the default configuration, you can access the web interface on <a class="reference external" href="http://0.0.0.0:10001">http://0.0.0.0:10001</a>,
+where you will find the API and can start playing with it.</p>
+<p>Update the tool:</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>poetry<span class="w"> </span>run<span class="w"> </span>update
+</pre></div>
+</div>
+</section>
+<section id="launching-the-website-with-systemd">
+<h2>Launching the website with systemd<a class="headerlink" href="#launching-the-website-with-systemd" title="Link to this heading">#</a></h2>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>This is an alternative method. The website will be automatically launched with the <code class="docutils literal notranslate"><span class="pre">start</span></code> command.</p>
+</div>
+<p>Create a file <code class="docutils literal notranslate"><span class="pre">/etc/systemd/system/vulnerability-lookup-web.service</span></code> with the following contents:</p>
+<div class="highlight-ini notranslate"><div class="highlight"><pre><span></span><span class="k">[Unit]</span>
+<span class="na">Description</span><span class="o">=</span><span class="s">Vulnerability Lookup webservice</span>
+<span class="na">After</span><span class="o">=</span><span class="s">network.target</span>
+
+<span class="k">[Service]</span>
+<span class="na">User</span><span class="o">=</span><span class="s">&lt;system user used to install Vulnerability Lookup&gt;</span>
+<span class="na">Group</span><span class="o">=</span><span class="s">&lt;group of the user used to install Vulnerability Lookup&gt;</span>
+<span class="na">WorkingDirectory</span><span class="o">=</span><span class="s">&lt;path to the directory where you cloned the repository&gt;</span>
+<span class="na">Environment</span><span class="o">=</span><span class="s">PATH=&quot;&lt;path-of-the-virtualenv&gt;/bin/:/usr/bin&quot;</span>
+<span class="na">ExecStart</span><span class="o">=</span><span class="s">/bin/bash -c &quot;run_backend --start</span><span class="w"> </span><span class="c1">; start_website&quot;</span>
+<span class="na">ExecStop</span><span class="o">=</span><span class="s">/bin/bash -c &quot;run_backend --stop&quot;</span>
+
+<span class="k">[Install]</span>
+<span class="na">WantedBy</span><span class="o">=</span><span class="s">multi-user.target</span>
+</pre></div>
+</div>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>$<span class="w"> </span>sudo<span class="w"> </span>systemctl<span class="w"> </span>daemon-reload
+$<span class="w"> </span>sudo<span class="w"> </span>systemctl<span class="w"> </span><span class="nb">enable</span><span class="w"> </span>vulnerability-lookup-web.service
+$<span class="w"> </span>sudo<span class="w"> </span>systemctl<span class="w"> </span>start<span class="w"> </span>vulnerability-lookup-web.service
+$<span class="w"> </span>systemctl<span class="w"> </span>status<span class="w"> </span>vulnerability-lookup-web.service
+</pre></div>
+</div>
+</section>
+</section>
+
+
+                </article>
+              
+
+              
+              
+              
+              
+                <footer class="prev-next-footer d-print-none">
+                  
+<div class="prev-next-area">
+    <a class="left-prev"
+       href="prerequisites.html"
+       title="previous page">
+      <i class="fa-solid fa-angle-left"></i>
+      <div class="prev-next-info">
+        <p class="prev-next-subtitle">previous</p>
+        <p class="prev-next-title">Prerequisites</p>
+      </div>
+    </a>
+    <a class="right-next"
+       href="update.html"
+       title="next page">
+      <div class="prev-next-info">
+        <p class="prev-next-subtitle">next</p>
+        <p class="prev-next-title">Updating the application</p>
+      </div>
+      <i class="fa-solid fa-angle-right"></i>
+    </a>
+</div>
+                </footer>
+              
+            </div>
+            
+            
+              
+                <dialog id="pst-secondary-sidebar-modal"></dialog>
+                <div id="pst-secondary-sidebar" class="bd-sidebar-secondary bd-toc"><div class="sidebar-secondary-items sidebar-secondary__inner">
+
+
+  <div class="sidebar-secondary-item">
+  <div class="page-toc tocsection onthispage">
+    <i class="fa-solid fa-list"></i> Contents
+  </div>
+  <nav class="bd-toc-nav page-toc">
+    <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#system-dependencies">System dependencies</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#prerequisites">Prerequisites</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#redis">Redis</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#kvrocks">Kvrocks</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#clone-the-source-code">Clone the source code</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#id3">Installation</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#configuration">Configuration</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#generic-configuration">Generic configuration</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#modules">Modules</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#import-csaf-sources">Import CSAF sources</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#user-accounts">User accounts</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#usage">Usage</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#launching-the-website-with-systemd">Launching the website with systemd</a></li>
+</ul>
+  </nav></div>
+
+</div></div>
+              
+            
+          </div>
+          <footer class="bd-footer-content">
+            
+<div class="bd-footer-content__inner container">
+  
+  <div class="footer-item">
+    
+<p class="component-author">
+By CIRCL <info@circl.lu>
+</p>
+
+  </div>
+  
+  <div class="footer-item">
+    
+
+  <p class="copyright">
+    
+      © Copyright Computer Incident Response Center Luxembourg (CIRCL) &lt;info@circl.lu&gt;.
+      <br/>
+    
+  </p>
+
+  </div>
+  
+  <div class="footer-item">
+    
+  </div>
+  
+  <div class="footer-item">
+    
+  </div>
+  
+</div>
+          </footer>
+        
+
+      </main>
+    </div>
+  </div>
+  
+  <!-- Scripts loaded after <body> so the DOM is not blocked -->
+  <script defer src="_static/scripts/bootstrap.js?digest=26a4bc78f4c0ddb94549"></script>
+<script defer src="_static/scripts/pydata-sphinx-theme.js?digest=26a4bc78f4c0ddb94549"></script>
+
+  <footer class="bd-footer">
+  </footer>
+  </body>
+</html>

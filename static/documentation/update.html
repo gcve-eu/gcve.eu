@@ -1,0 +1,561 @@
+
+<!DOCTYPE html>
+
+
+<html lang="en" data-content_root="./" >
+
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>Updating the application &#8212; Vulnerability-Lookup</title>
+  
+  
+  
+  <script data-cfasync="false">
+    document.documentElement.dataset.mode = localStorage.getItem("mode") || "";
+    document.documentElement.dataset.theme = localStorage.getItem("theme") || "";
+  </script>
+  <!-- 
+    this give us a css class that will be invisible only if js is disabled 
+  -->
+  <noscript>
+    <style>
+      .pst-js-only { display: none !important; }
+
+    </style>
+  </noscript>
+  
+  <!-- Loaded before other Sphinx assets -->
+  <link href="_static/styles/theme.css?digest=26a4bc78f4c0ddb94549" rel="stylesheet" />
+<link href="_static/styles/pydata-sphinx-theme.css?digest=26a4bc78f4c0ddb94549" rel="stylesheet" />
+
+    <link rel="stylesheet" type="text/css" href="_static/pygments.css?v=a746c00c" />
+    <link rel="stylesheet" type="text/css" href="_static/styles/sphinx-book-theme.css?v=a3416100" />
+    <link rel="stylesheet" type="text/css" href="_static/custom.css?v=ee704053" />
+  
+  <!-- So that users can add custom icons -->
+  <script src="_static/scripts/fontawesome.js?digest=26a4bc78f4c0ddb94549"></script>
+  <!-- Pre-loaded scripts that we'll load fully later -->
+  <link rel="preload" as="script" href="_static/scripts/bootstrap.js?digest=26a4bc78f4c0ddb94549" />
+<link rel="preload" as="script" href="_static/scripts/pydata-sphinx-theme.js?digest=26a4bc78f4c0ddb94549" />
+
+    <script src="_static/documentation_options.js?v=32e37178"></script>
+    <script src="_static/doctools.js?v=9bcbadda"></script>
+    <script src="_static/sphinx_highlight.js?v=dc90522c"></script>
+    <script src="_static/scripts/sphinx-book-theme.js?v=887ef09a"></script>
+    <script>DOCUMENTATION_OPTIONS.pagename = 'update';</script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="Command Line Interface" href="command-line-interface.html" />
+    <link rel="prev" title="Installation" href="installation.html" />
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <meta name="docsearch:language" content="en"/>
+  <meta name="docsearch:version" content="" />
+  </head>
+  
+  
+  <body data-bs-spy="scroll" data-bs-target=".bd-toc-nav" data-offset="180" data-bs-root-margin="0px 0px -60%" data-default-mode="">
+
+  
+  
+  <div id="pst-skip-link" class="skip-link d-print-none"><a href="#main-content">Skip to main content</a></div>
+  
+  <div id="pst-scroll-pixel-helper"></div>
+  
+  <button type="button" class="btn rounded-pill" id="pst-back-to-top">
+    <i class="fa-solid fa-arrow-up"></i>Back to top</button>
+
+  
+  <dialog id="pst-search-dialog">
+    
+<form class="bd-search d-flex align-items-center"
+      action="search.html"
+      method="get">
+  <i class="fa-solid fa-magnifying-glass"></i>
+  <input type="search"
+         class="form-control"
+         name="q"
+         placeholder="Search..."
+         aria-label="Search..."
+         autocomplete="off"
+         autocorrect="off"
+         autocapitalize="off"
+         spellcheck="false"/>
+  <span class="search-button__kbd-shortcut"><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd>K</kbd></span>
+</form>
+  </dialog>
+
+  <div class="pst-async-banner-revealer d-none">
+  <aside id="bd-header-version-warning" class="d-none d-print-none" aria-label="Version warning"></aside>
+</div>
+
+  
+    <header class="bd-header navbar navbar-expand-lg bd-navbar d-print-none">
+    </header>
+  
+
+  <div class="bd-container">
+    <div class="bd-container__inner bd-page-width">
+      
+      
+      
+      <dialog id="pst-primary-sidebar-modal"></dialog>
+      <div id="pst-primary-sidebar" class="bd-sidebar-primary bd-sidebar">
+        
+
+  
+  <div class="sidebar-header-items sidebar-primary__section">
+    
+    
+    
+    
+  </div>
+  
+    <div class="sidebar-primary-items__start sidebar-primary__section">
+        <div class="sidebar-primary-item">
+
+  
+    
+  
+
+<a class="navbar-brand logo" href="index.html">
+  
+  
+  
+  
+  
+    
+    
+      
+    
+    
+    <img src="_static/VL-hori-coul.jpg" class="logo__image only-light" alt="Vulnerability-Lookup - Home"/>
+    <img src="_static/VL-hori-coul.jpg" class="logo__image only-dark pst-js-only" alt="Vulnerability-Lookup - Home"/>
+  
+  
+</a></div>
+        <div class="sidebar-primary-item">
+
+<button class="btn search-button-field search-button__button pst-js-only" title="Search" aria-label="Search" data-bs-placement="bottom" data-bs-toggle="tooltip">
+ <i class="fa-solid fa-magnifying-glass"></i>
+ <span class="search-button__default-text">Search</span>
+ <span class="search-button__kbd-shortcut"><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd class="kbd-shortcut__modifier">K</kbd></span>
+</button></div>
+        <div class="sidebar-primary-item"><nav class="bd-links bd-docs-nav" aria-label="Main">
+    <div class="bd-toc-item navbar-nav active">
+        
+        <ul class="nav bd-sidenav bd-sidenav__home-link">
+            <li class="toctree-l1">
+                <a class="reference internal" href="index.html">
+                    Vulnerability-Lookup
+                </a>
+            </li>
+        </ul>
+        <p aria-level="2" class="caption" role="heading"><span class="caption-text">Technical considerations</span></p>
+<ul class="current nav bd-sidenav">
+<li class="toctree-l1"><a class="reference internal" href="prerequisites.html">Prerequisites</a></li>
+<li class="toctree-l1"><a class="reference internal" href="installation.html">Installation</a></li>
+<li class="toctree-l1 current active"><a class="current reference internal" href="#">Updating the application</a></li>
+<li class="toctree-l1"><a class="reference internal" href="command-line-interface.html">Command Line Interface</a></li>
+</ul>
+<p aria-level="2" class="caption" role="heading"><span class="caption-text">Architecture</span></p>
+<ul class="nav bd-sidenav">
+<li class="toctree-l1"><a class="reference internal" href="architecture.html">High level architecture</a></li>
+<li class="toctree-l1"><a class="reference internal" href="webservice.html">Web service</a></li>
+<li class="toctree-l1"><a class="reference internal" href="streaming.html">Streaming service</a></li>
+</ul>
+<p aria-level="2" class="caption" role="heading"><span class="caption-text">Concepts</span></p>
+<ul class="nav bd-sidenav">
+<li class="toctree-l1"><a class="reference internal" href="sightings.html">Sightings</a></li>
+</ul>
+<p aria-level="2" class="caption" role="heading"><span class="caption-text">Usage</span></p>
+<ul class="nav bd-sidenav">
+<li class="toctree-l1"><a class="reference internal" href="feeds.html">Feed syndication</a></li>
+<li class="toctree-l1"><a class="reference internal" href="api-v1.html">API v1</a></li>
+</ul>
+
+    </div>
+</nav></div>
+    </div>
+  
+  
+  <div class="sidebar-primary-items__end sidebar-primary__section">
+  </div>
+  
+  <div id="rtd-footer-container"></div>
+
+
+      </div>
+      
+      <main id="main-content" class="bd-main" role="main">
+        
+        
+
+<div class="sbt-scroll-pixel-helper"></div>
+
+          <div class="bd-content">
+            <div class="bd-article-container">
+              
+              <div class="bd-header-article d-print-none">
+<div class="header-article-items header-article__inner">
+  
+    <div class="header-article-items__start">
+      
+        <div class="header-article-item"><button class="sidebar-toggle primary-toggle btn btn-sm" title="Toggle primary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
+  <span class="fa-solid fa-bars"></span>
+</button></div>
+      
+    </div>
+  
+  
+    <div class="header-article-items__end">
+      
+        <div class="header-article-item">
+
+<div class="article-header-buttons">
+
+
+
+
+
+<div class="dropdown dropdown-source-buttons">
+  <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false" aria-label="Source repositories">
+    <i class="fab fa-github"></i>
+  </button>
+  <ul class="dropdown-menu">
+      
+      
+      
+      <li><a href="https://github.com/cve-search/vulnerability-lookup" target="_blank"
+   class="btn btn-sm btn-source-repository-button dropdown-item"
+   title="Source repository"
+   data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fab fa-github"></i>
+  </span>
+<span class="btn__text-container">Repository</span>
+</a>
+</li>
+      
+      
+      
+      
+      <li><a href="https://github.com/cve-search/vulnerability-lookup/edit/main/docs/update.rst" target="_blank"
+   class="btn btn-sm btn-source-edit-button dropdown-item"
+   title="Suggest edit"
+   data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-pencil-alt"></i>
+  </span>
+<span class="btn__text-container">Suggest edit</span>
+</a>
+</li>
+      
+      
+      
+      
+      <li><a href="https://github.com/cve-search/vulnerability-lookup/issues/new?title=Issue%20on%20page%20%2Fupdate.html&body=Your%20issue%20content%20here." target="_blank"
+   class="btn btn-sm btn-source-issues-button dropdown-item"
+   title="Open an issue"
+   data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-lightbulb"></i>
+  </span>
+<span class="btn__text-container">Open issue</span>
+</a>
+</li>
+      
+  </ul>
+</div>
+
+
+
+
+
+
+<div class="dropdown dropdown-download-buttons">
+  <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false" aria-label="Download this page">
+    <i class="fas fa-download"></i>
+  </button>
+  <ul class="dropdown-menu">
+      
+      
+      
+      <li><a href="_sources/update.rst" target="_blank"
+   class="btn btn-sm btn-download-source-button dropdown-item"
+   title="Download source file"
+   data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-file"></i>
+  </span>
+<span class="btn__text-container">.rst</span>
+</a>
+</li>
+      
+      
+      
+      
+      <li>
+<button onclick="window.print()"
+  class="btn btn-sm btn-download-pdf-button dropdown-item"
+  title="Print to PDF"
+  data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-file-pdf"></i>
+  </span>
+<span class="btn__text-container">.pdf</span>
+</button>
+</li>
+      
+  </ul>
+</div>
+
+
+
+
+<button onclick="toggleFullScreen()"
+  class="btn btn-sm btn-fullscreen-button"
+  title="Fullscreen mode"
+  data-bs-placement="bottom" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-expand"></i>
+  </span>
+
+</button>
+
+
+
+<button class="btn btn-sm nav-link pst-navbar-icon theme-switch-button pst-js-only" aria-label="Color mode" data-bs-title="Color mode"  data-bs-placement="bottom" data-bs-toggle="tooltip">
+  <i class="theme-switch fa-solid fa-sun                fa-lg" data-mode="light" title="Light"></i>
+  <i class="theme-switch fa-solid fa-moon               fa-lg" data-mode="dark"  title="Dark"></i>
+  <i class="theme-switch fa-solid fa-circle-half-stroke fa-lg" data-mode="auto"  title="System Settings"></i>
+</button>
+
+
+<button class="btn btn-sm pst-navbar-icon search-button search-button__button pst-js-only" title="Search" aria-label="Search" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <i class="fa-solid fa-magnifying-glass fa-lg"></i>
+</button>
+<button class="sidebar-toggle secondary-toggle btn btn-sm" title="Toggle secondary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <span class="fa-solid fa-list"></span>
+</button>
+</div></div>
+      
+    </div>
+  
+</div>
+</div>
+              
+              
+
+<div id="jb-print-docs-body" class="onlyprint">
+    <h1>Updating the application</h1>
+    <!-- Table of contents -->
+    <div id="print-main-content">
+        <div id="jb-print-toc">
+            
+            <div>
+                <h2> Contents </h2>
+            </div>
+            <nav aria-label="Page">
+                <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#updating-the-cve-record-editor">Updating the CVE Record editor</a></li>
+</ul>
+            </nav>
+        </div>
+    </div>
+</div>
+
+              
+                
+<div id="searchbox"></div>
+                <article class="bd-article">
+                  
+  <section id="updating-the-application">
+<h1>Updating the application<a class="headerlink" href="#updating-the-application" title="Link to this heading">#</a></h1>
+<p>All you have to do is:</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>$<span class="w"> </span><span class="nb">cd</span><span class="w"> </span>vulnerability-lookup/
+$<span class="w"> </span>poetry<span class="w"> </span>run<span class="w"> </span>update
+</pre></div>
+</div>
+<section id="updating-the-cve-record-editor">
+<h2>Updating the CVE Record editor<a class="headerlink" href="#updating-the-cve-record-editor" title="Link to this heading">#</a></h2>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>You do not need to do this to update the tool.</p>
+</div>
+<p>We are using the <a class="reference external" href="https://github.com/Vulnogram/Vulnogram">Vulnogram editor</a>.
+The frontend is directly bundled in a HTML template of Vulnerability Lookup.</p>
+<p>If you want to update the bundle you must first generate only the frontend of Vulnogram.
+Follow the instructions
+<a class="reference external" href="https://github.com/Vulnogram/Vulnogram?tab=readme-ov-file#browser-mode-deployment">here</a>.</p>
+<p>Then from the generated index.html file extract the part … and copy it
+in website/web/templates/vulnogram/index.html in the Jinja block <code class="docutils literal notranslate"><span class="pre">vulnogram</span></code>.
+Screenshot:</p>
+<figure class="align-default" id="id1">
+<a class="reference external image-reference" href="/_static/img/vulnogram-code.png"><img alt="Vulnogram code." src="_images/vulnogram-code.png" />
+</a>
+<figcaption>
+<p><span class="caption-number">Fig. 1 </span><span class="caption-text">Vulnogram code.</span><a class="headerlink" href="#id1" title="Link to this image">#</a></p>
+</figcaption>
+</figure>
+<p>The headers (CSS inclusion, etc.), definition of the JSON schema, are already available in the file
+<code class="docutils literal notranslate"><span class="pre">bundle.html</span></code>.</p>
+<p>The JSON schema defined in the file <code class="docutils literal notranslate"><span class="pre">bundle.html</span></code> is a based on the one provided in <code class="docutils literal notranslate"><span class="pre">vulnogram</span></code>
+with few minor changes:</p>
+<ul class="simple">
+<li><p>the format of the identifier, <code class="docutils literal notranslate"><span class="pre">vulnId</span></code>, is by default: <code class="docutils literal notranslate"><span class="pre">^CIRCL-SA-[0-9]{4}-[0-9]{4,19}$</span></code>. This is
+configurable in the <code class="docutils literal notranslate"><span class="pre">generic.json</span></code> configuration file.</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">cveId</span></code> is optional.</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">vulnId</span></code> is mandatory.</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">additionalProperties</span></code> is set to <code class="docutils literal notranslate"><span class="pre">true</span></code> for the <code class="docutils literal notranslate"><span class="pre">cveMetadataPublished</span></code> field. This allows us to
+store the dates of the editions of the vulnerability advisories in <code class="docutils literal notranslate"><span class="pre">vulnerabilitylookup_history</span></code>.</p></li>
+</ul>
+<div class="highlight-json notranslate"><div class="highlight"><pre><span></span><span class="nt">&quot;cveMetadataPublished&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
+<span class="w">    </span><span class="nt">&quot;description&quot;</span><span class="p">:</span><span class="s2">&quot;This is meta data about the CVE ID such as the CVE ID, who requested it, who assigned it, when it was requested, the current state (PUBLISHED, REJECTED, etc.) and so on.  These fields are controlled by the CVE Services.&quot;</span><span class="p">,</span>
+<span class="w">    </span><span class="nt">&quot;title&quot;</span><span class="p">:</span><span class="s2">&quot; &quot;</span><span class="p">,</span>
+<span class="w">    </span><span class="nt">&quot;id&quot;</span><span class="p">:</span><span class="s2">&quot;pubmd&quot;</span><span class="p">,</span>
+<span class="w">    </span><span class="nt">&quot;type&quot;</span><span class="p">:</span><span class="s2">&quot;object&quot;</span><span class="p">,</span>
+<span class="w">    </span><span class="nt">&quot;format&quot;</span><span class="p">:</span><span class="s2">&quot;grid&quot;</span><span class="p">,</span>
+<span class="w">    </span><span class="nt">&quot;options&quot;</span><span class="p">:{},</span>
+<span class="w">    </span><span class="nt">&quot;required&quot;</span><span class="p">:[</span><span class="s2">&quot;vulnId&quot;</span><span class="p">,</span><span class="s2">&quot;assignerOrgId&quot;</span><span class="p">,</span><span class="s2">&quot;state&quot;</span><span class="p">],</span>
+<span class="w">    </span><span class="nt">&quot;properties&quot;</span><span class="p">:{</span>
+<span class="w">        </span><span class="nt">&quot;cveId&quot;</span><span class="p">:{</span><span class="nt">&quot;description&quot;</span><span class="p">:</span><span class="s2">&quot;The CVE identifier that this record pertains to.&quot;</span><span class="p">,</span><span class="nt">&quot;$ref&quot;</span><span class="p">:</span><span class="s2">&quot;#\u002Fdefinitions\u002FcveId&quot;</span><span class="p">,</span><span class="nt">&quot;options&quot;</span><span class="p">:{</span><span class="nt">&quot;grid_columns&quot;</span><span class="p">:</span><span class="mi">3</span><span class="p">},</span><span class="nt">&quot;links&quot;</span><span class="p">:[{</span><span class="nt">&quot;class&quot;</span><span class="p">:</span><span class="s2">&quot;lbl vgi-ext&quot;</span><span class="p">,</span><span class="nt">&quot;href&quot;</span><span class="p">:</span><span class="s2">&quot;&#39;https:\u002F\u002Fwww.cve.org\u002FCVERecord?id=&#39; + context.self&quot;</span><span class="p">,</span><span class="nt">&quot;title&quot;</span><span class="p">:</span><span class="s2">&quot;&#39;CVE.org Entry&quot;</span><span class="p">,</span><span class="nt">&quot;rel&quot;</span><span class="p">:</span><span class="s2">&quot;&#39;cve.org&#39;&quot;</span><span class="p">}]},</span>
+<span class="w">        </span><span class="nt">&quot;vulnId&quot;</span><span class="p">:{</span><span class="nt">&quot;description&quot;</span><span class="p">:</span><span class="s2">&quot;The vulnerability identifier that this record pertains to.&quot;</span><span class="p">,</span><span class="nt">&quot;$ref&quot;</span><span class="p">:</span><span class="s2">&quot;#\u002Fdefinitions\u002FvulnId&quot;</span><span class="p">,</span><span class="nt">&quot;options&quot;</span><span class="p">:{</span><span class="nt">&quot;grid_columns&quot;</span><span class="p">:</span><span class="mi">3</span><span class="p">}},</span>
+<span class="w">        </span><span class="nt">&quot;assignerOrgId&quot;</span><span class="p">:{</span><span class="nt">&quot;$ref&quot;</span><span class="p">:</span><span class="s2">&quot;#\u002Fdefinitions\u002ForgId&quot;</span><span class="p">,</span><span class="nt">&quot;description&quot;</span><span class="p">:</span><span class="s2">&quot;The UUID for the organization to which the CVE ID was originally assigned. This UUID can be used to lookup the organization record in the user registry service.&quot;</span><span class="p">,</span><span class="nt">&quot;options&quot;</span><span class="p">:{</span><span class="nt">&quot;hidden&quot;</span><span class="p">:</span><span class="kc">true</span><span class="p">}},</span><span class="nt">&quot;assignerShortName&quot;</span><span class="p">:{</span><span class="nt">&quot;title&quot;</span><span class="p">:</span><span class="s2">&quot;Assigner&quot;</span><span class="p">,</span><span class="nt">&quot;$ref&quot;</span><span class="p">:</span><span class="s2">&quot;#\u002Fdefinitions\u002FshortName&quot;</span><span class="p">,</span><span class="nt">&quot;description&quot;</span><span class="p">:</span><span class="s2">&quot;The short name for the organization to which the CVE ID was originally assigned.&quot;</span><span class="p">},</span>
+<span class="w">        </span><span class="nt">&quot;requesterUserId&quot;</span><span class="p">:{</span><span class="nt">&quot;$ref&quot;</span><span class="p">:</span><span class="s2">&quot;#\u002Fdefinitions\u002FuserId&quot;</span><span class="p">,</span><span class="nt">&quot;description&quot;</span><span class="p">:</span><span class="s2">&quot;The user that requested the CVE identifier.&quot;</span><span class="p">,</span><span class="nt">&quot;options&quot;</span><span class="p">:{</span><span class="nt">&quot;hidden&quot;</span><span class="p">:</span><span class="kc">true</span><span class="p">},</span><span class="nt">&quot;default&quot;</span><span class="p">:</span><span class="s2">&quot;&quot;</span><span class="p">},</span>
+<span class="w">        </span><span class="nt">&quot;dateUpdated&quot;</span><span class="p">:{</span><span class="nt">&quot;description&quot;</span><span class="p">:</span><span class="s2">&quot;The date\u002Ftime the record was last updated.&quot;</span><span class="p">,</span><span class="nt">&quot;$ref&quot;</span><span class="p">:</span><span class="s2">&quot;#\u002Fdefinitions\u002Ftimestamp&quot;</span><span class="p">,</span><span class="nt">&quot;options&quot;</span><span class="p">:{</span><span class="nt">&quot;hidden&quot;</span><span class="p">:</span><span class="kc">true</span><span class="p">}},</span>
+<span class="w">        </span><span class="nt">&quot;serial&quot;</span><span class="p">:{</span><span class="nt">&quot;type&quot;</span><span class="p">:</span><span class="s2">&quot;integer&quot;</span><span class="p">,</span><span class="nt">&quot;minimum&quot;</span><span class="p">:</span><span class="mi">1</span><span class="p">,</span><span class="nt">&quot;default&quot;</span><span class="p">:</span><span class="mi">1</span><span class="p">,</span><span class="nt">&quot;description&quot;</span><span class="p">:</span><span class="s2">&quot;The system of record causes this to start at 1, and increment by 1 each time a submission from a data provider changes this CVE Record. The incremented value moves to the Rejected schema upon a PUBLISHED-\u003EREJECTED transition, and moves to the Published schema upon a REJECTED-\u003EPUBLISHED transition.&quot;</span><span class="p">,</span><span class="nt">&quot;options&quot;</span><span class="p">:{</span><span class="nt">&quot;hidden&quot;</span><span class="p">:</span><span class="kc">true</span><span class="p">}},</span>
+<span class="w">        </span><span class="nt">&quot;dateReserved&quot;</span><span class="p">:{</span><span class="nt">&quot;$ref&quot;</span><span class="p">:</span><span class="s2">&quot;#\u002Fdefinitions\u002Ftimestamp&quot;</span><span class="p">,</span><span class="nt">&quot;description&quot;</span><span class="p">:</span><span class="s2">&quot;The date\u002Ftime this CVE ID was reserved in the CVE automation workgroup services system. Disclaimer: This date reflects when the CVE ID was reserved, and does not necessarily indicate when this vulnerability was discovered, shared with the affected vendor, publicly disclosed, or updated in CVE.&quot;</span><span class="p">,</span><span class="nt">&quot;options&quot;</span><span class="p">:{</span><span class="nt">&quot;hidden&quot;</span><span class="p">:</span><span class="kc">true</span><span class="p">}},</span>
+<span class="w">        </span><span class="nt">&quot;datePublished&quot;</span><span class="p">:{</span><span class="nt">&quot;$ref&quot;</span><span class="p">:</span><span class="s2">&quot;#\u002Fdefinitions\u002Ftimestamp&quot;</span><span class="p">,</span><span class="nt">&quot;description&quot;</span><span class="p">:</span><span class="s2">&quot;The date\u002Ftime the CVE Record was first published in the CVE List.&quot;</span><span class="p">,</span><span class="nt">&quot;options&quot;</span><span class="p">:{</span><span class="nt">&quot;hidden&quot;</span><span class="p">:</span><span class="kc">true</span><span class="p">}},</span>
+<span class="w">        </span><span class="nt">&quot;state&quot;</span><span class="p">:{</span><span class="nt">&quot;description&quot;</span><span class="p">:</span><span class="s2">&quot;State of CVE - PUBLISHED, REJECTED.&quot;</span><span class="p">,</span><span class="nt">&quot;type&quot;</span><span class="p">:</span><span class="s2">&quot;string&quot;</span><span class="p">,</span><span class="nt">&quot;pattern&quot;</span><span class="p">:</span><span class="s2">&quot;^PUBLISHED$&quot;</span><span class="p">,</span><span class="nt">&quot;enum&quot;</span><span class="p">:[</span><span class="s2">&quot;PUBLISHED&quot;</span><span class="p">],</span><span class="nt">&quot;options&quot;</span><span class="p">:{</span><span class="nt">&quot;hidden&quot;</span><span class="p">:</span><span class="kc">true</span><span class="p">}},</span>
+<span class="w">        </span><span class="nt">&quot;vulnerabilitylookup_history&quot;</span><span class="p">:{</span><span class="nt">&quot;options&quot;</span><span class="p">:{</span><span class="nt">&quot;hidden&quot;</span><span class="p">:</span><span class="kc">true</span><span class="p">}}</span>
+<span class="w">    </span><span class="p">},</span>
+<span class="w">    </span><span class="nt">&quot;additionalProperties&quot;</span><span class="p">:</span><span class="kc">true</span>
+<span class="p">}</span>
+</pre></div>
+</div>
+<p><code class="docutils literal notranslate"><span class="pre">vulnerabilitylookup_history</span></code> is set to hidden.</p>
+</section>
+</section>
+
+
+                </article>
+              
+
+              
+              
+              
+              
+                <footer class="prev-next-footer d-print-none">
+                  
+<div class="prev-next-area">
+    <a class="left-prev"
+       href="installation.html"
+       title="previous page">
+      <i class="fa-solid fa-angle-left"></i>
+      <div class="prev-next-info">
+        <p class="prev-next-subtitle">previous</p>
+        <p class="prev-next-title">Installation</p>
+      </div>
+    </a>
+    <a class="right-next"
+       href="command-line-interface.html"
+       title="next page">
+      <div class="prev-next-info">
+        <p class="prev-next-subtitle">next</p>
+        <p class="prev-next-title">Command Line Interface</p>
+      </div>
+      <i class="fa-solid fa-angle-right"></i>
+    </a>
+</div>
+                </footer>
+              
+            </div>
+            
+            
+              
+                <dialog id="pst-secondary-sidebar-modal"></dialog>
+                <div id="pst-secondary-sidebar" class="bd-sidebar-secondary bd-toc"><div class="sidebar-secondary-items sidebar-secondary__inner">
+
+
+  <div class="sidebar-secondary-item">
+  <div class="page-toc tocsection onthispage">
+    <i class="fa-solid fa-list"></i> Contents
+  </div>
+  <nav class="bd-toc-nav page-toc">
+    <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#updating-the-cve-record-editor">Updating the CVE Record editor</a></li>
+</ul>
+  </nav></div>
+
+</div></div>
+              
+            
+          </div>
+          <footer class="bd-footer-content">
+            
+<div class="bd-footer-content__inner container">
+  
+  <div class="footer-item">
+    
+<p class="component-author">
+By CIRCL <info@circl.lu>
+</p>
+
+  </div>
+  
+  <div class="footer-item">
+    
+
+  <p class="copyright">
+    
+      © Copyright Computer Incident Response Center Luxembourg (CIRCL) &lt;info@circl.lu&gt;.
+      <br/>
+    
+  </p>
+
+  </div>
+  
+  <div class="footer-item">
+    
+  </div>
+  
+  <div class="footer-item">
+    
+  </div>
+  
+</div>
+          </footer>
+        
+
+      </main>
+    </div>
+  </div>
+  
+  <!-- Scripts loaded after <body> so the DOM is not blocked -->
+  <script defer src="_static/scripts/bootstrap.js?digest=26a4bc78f4c0ddb94549"></script>
+<script defer src="_static/scripts/pydata-sphinx-theme.js?digest=26a4bc78f4c0ddb94549"></script>
+
+  <footer class="bd-footer">
+  </footer>
+  </body>
+</html>

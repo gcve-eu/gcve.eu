@@ -1,0 +1,81 @@
+# Hugo configuration file
+title: GCVE - Global CVE Allocation System 
+baseurl: https://gcve.eu/
+
+# import hextra as module
+module:
+  imports:
+  - path: github.com/imfing/hextra
+
+markup:
+  # allow raw html
+  goldmark:
+    renderer:
+      unsafe: true
+
+  # enable hextra syntax highlight
+  highlight:
+    noClasses: false
+
+enableInlineShortcodes: true
+
+outputs:
+  home: [HTML]
+  page: [HTML]
+  section: [HTML, RSS]
+  news: [HTML, RSS]
+
+taxonomies:
+  series: series
+  tags: tags
+
+menu:
+  main:
+    - identifier: about 
+      name: About
+      pageRef: /about
+      weight: 1
+    - name: faq 
+      pageRef: /faq
+      weight: 2
+    - name: Search
+      weight: 3
+      params:
+        type: search
+    - name: Mastodon
+      weight: 4
+      url: "https://social.circl.lu/@gcve"
+      params:
+        icon: mastodon
+    - name: GitHub
+      weight: 9
+      url: "https://github.com/gcve-eu/gcve.eu"
+      params:
+        icon: github
+
+
+params:
+  
+
+  page:
+    # full (100%), wide (90rem), normal (1280px)
+    width: normal
+
+  navbar:
+    displayTitle: true
+    displayLogo: false
+
+  news:
+    list:
+      displayTags: true
+      # date | lastmod | publishDate | title | weight
+      sortBy: date
+      sortOrder: desc # or "asc"
+
+  footer:
+    displayCopyright: false
+    displayPoweredBy: false
+
+
+permalinks:
+  news: '/:year/:month/:day/:slug/'
