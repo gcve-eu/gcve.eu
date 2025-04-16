@@ -1,5 +1,5 @@
 
-Source code of the [https://www.hackathon.lu](https://www.hackathon.lu) website.
+Source code of the [https://gcve.eu](https://gcve.eu) website.
 
 ## License
 
