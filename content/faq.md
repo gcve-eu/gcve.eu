@@ -48,6 +48,8 @@ A: The official registry, including a list of GNAs and their IDs, is maintained 
 
 A: Yes. Any software handling standard CVEs can implicitly handle GCVE IDs with `GNA ID 0`. Additionally, the [vulnerability-lookup](https://www.vulnerability-lookup.org) tool supports the full GNA allocation process and GCVE format.
 
+![GCVE integrated in a CVE view in vulnerability-lookup](/images/usage.png)
+
 **Q10: How can my organization become a GNA?**
 
 A: If you are an existing CNA (CVE Numbering Authority) or an [organisation falling into the eligibility criterias](https://gcve.eu/about/#eligibility-and-process-to-obtain-a-gna-id), you can send an email to `gna@gcve.eu` with your CNA name. You will need to provide information about your organization, like its short name and full name, similar to the format used in the GNA JSON directory file available on gcve.eu.
