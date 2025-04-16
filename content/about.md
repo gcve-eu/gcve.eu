@@ -84,7 +84,7 @@ In addition, the full GNA allocation process is supported in:
 
 You are eligible to receive a GNA ID if you meet one of the following criteria:
 
-- **You are an existing CNA** recognized by the CVE Program.
+- **You are [an existing CNA](/dist/cna_partners.json)** recognized by the CVE Program.
 
 - **You are not a CNA**, but you meet one of the following conditions:
   - You are a registered CSIRT or CERT listed at [FIRST.org](https://www.first.org/), part of the [EU CSIRTs Network](https://csirtsnetwork.eu/), or a member of [TF-CSIRT](https://tf-csirt.org/).
