@@ -72,7 +72,7 @@ The GCVE registry at [https://gcve.eu](https://gcve.eu) will maintain:
 - The current state of allocations (optional or via GNA publication)
 - Public lookup and API support
 
-## Sofware Supporting GCVE
+## Software Supporting GCVE
 
 Any software using CVE can automatically generate a GCVD with the `GCVE-0` prefix. 
 
