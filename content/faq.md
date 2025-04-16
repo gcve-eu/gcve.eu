@@ -22,11 +22,11 @@ A: No, GCVE does not replace existing CVE IDs. It's designed to be backward-comp
 
 **Q5: What is the format of a GCVE identifier?**
 
-A: A GCVE ID uses a four-part format: `GCVE-<UNIQUE ID>-<YEAR->-<GNA ID>`.
+A: A GCVE ID uses a four-part format: `GCVE-<GNA ID>-<YEAR->-<UNIQUE ID>`.
 *   `GCVE`: Standard prefix.
-*   `UNIQUE ID`: An identifier assigned to the GNA, unique for that GNA.
+*   `GNA ID`: An identifier assigned to the GNA, unique for that GNA.
 *   `YEAR`: The year of disclosure or allocation.
-*   `GNA ID`: The unique numeric identifier of the GNA that assigned the ID.
+*   `UNIQUE ID`: The unique numeric identifier of the GNA that assigned the ID.
 
 **Q6: What are the main benefits of using the GCVE system?**
 
