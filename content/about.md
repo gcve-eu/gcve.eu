@@ -30,16 +30,16 @@ GCVE maintains compatibility with existing CVEs using a backward-compatible ID s
 
 The GCVE identifier uses a four-part format:
 
-`GCVE-<UNIQUE ID>-<YEAR>-<GNA ID>`
+`GCVE-<GNA ID>-<YEAR>-<UNIQUE ID>`
 
 ### Format Breakdown
 
 | Field       | Description                                                         |
 |-------------|---------------------------------------------------------------------|
 | `GCVE`      | Prefix indicating a Global CVE ID |
-| `UNIQUE ID` | A GNA-assigned identifier that must be unique for that GNA and  |                 
 | `GNA ID`    | Unique identifier for the GCVE Numbering Authority                  |
 | `YEAR`      | The year of disclosure or allocation                                |
+| `UNIQUE ID` | A GNA-assigned identifier that must be unique for vulnerability allocated at the GNA |                 
 
 ### Examples
 
