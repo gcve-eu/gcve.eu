@@ -1,0 +1,2 @@
+{ "id": 0, "short_name": "CVE", "full_name": "CVE Program" }
+{ "id": 1, "short_name": "CIRCL", "cpe_vendor_name": "circl", "full_name": "Computer Incident Response Center Luxembourg", "gcve_url": "https://vulnerability.circl.lu/", "gcve_api": "https://vulnerability.circl.lu/api/", "gcve_dump": "https://vulnerability.circl.lu/dumps/", "gcve_allocation": "https://vulnerability.circl.lu/" }
