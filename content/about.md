@@ -105,7 +105,7 @@ You must also include the following information in your request using the GCVE J
 
 ## JSON Directory File Available at GCVE.eu
 
-A JSON-L file containing the following information is available
+A JSON-L file containing the following information is available at [https://gcve.eu/dist/gcve.json](/dist/gcve.json)
 
 ~~~json
 {
