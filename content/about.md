@@ -89,6 +89,7 @@ You are eligible to receive a GNA ID if you meet one of the following criteria:
 - **You are not a CNA**, but you meet one of the following conditions:
   - You are a registered CSIRT or CERT listed at [FIRST.org](https://www.first.org/), part of the [EU CSIRTs Network](https://csirtsnetwork.eu/), or a member of [TF-CSIRT](https://tf-csirt.org/).
   - You are a software, hardware, or service provider that regularly discloses vulnerabilities affecting your own products or services, and you have an official CPE vendor name assigned.
+  - You have a public vulnerability disclosure policy and maintain a publicly accessible source for newly disclosed vulnerabilities.
 
 If you fall into one of the above categories, please send an email to **gna@gcve.eu** with your organization’s name and request. This will allow us to assign you a GNA ID.
 
