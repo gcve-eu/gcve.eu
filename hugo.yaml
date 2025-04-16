@@ -35,20 +35,23 @@ menu:
       name: About
       pageRef: /about
       weight: 1
-    - name: faq 
+    - name: FAQ 
       pageRef: /faq
       weight: 2
-    - name: Search
+    - name: Contact
+      pageRef: /contact
       weight: 3
+    - name: Search
+      weight: 4
       params:
         type: search
     - name: Mastodon
-      weight: 4
+      weight: 5
       url: "https://social.circl.lu/@gcve"
       params:
         icon: mastodon
     - name: GitHub
-      weight: 9
+      weight: 6
       url: "https://github.com/gcve-eu/gcve.eu"
       params:
         icon: github
