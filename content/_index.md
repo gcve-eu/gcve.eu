@@ -13,7 +13,7 @@ While remaining compatible with the traditional CVE system, GCVE introduces **GC
 
 {{< cards >}}
   {{< card link="about" title="About" icon="book-open" >}}
-  {{< card link="projects" title="Projects" icon="book-open" >}}
+  {{< card link="faq" title="FAQ" icon="chat" >}}
   {{< card link="news" title="News" icon="newspaper" >}}
 {{< /cards >}}
 
