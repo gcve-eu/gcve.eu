@@ -15,5 +15,6 @@ While remaining compatible with the traditional CVE system, GCVE introduces **GC
   {{< card link="about" title="About" icon="book-open" >}}
   {{< card link="faq" title="FAQ" icon="chat" >}}
   {{< card link="news" title="News" icon="newspaper" >}}
+  {{< card link="contact" title="Contact" icon="mail" >}}
 {{< /cards >}}
 
