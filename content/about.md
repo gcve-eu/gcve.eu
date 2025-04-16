@@ -95,13 +95,13 @@ If you fall into one of the above categories, please send an email to **gna@gcve
 
 You must also include the following information in your request using the GCVE JSON directory format:
 
-- `short_name`
-- `full_name`
-- `cpe_vendor_name`
-- `gcve_url`
-- `gcve_api`
-- `gcve_dump`
-- `gcve_allocation`
+- `short_name` — (required) Short name of the organization  
+- `full_name` — (required) Full legal name of the organization  
+- `cpe_vendor_name` — (optional) Official CPE vendor name, if available  
+- `gcve_url` — URL to the public vulnerability disclosure website  
+- `gcve_api` — URL of the API endpoint providing vulnerability data  
+- `gcve_dump` — URL to a machine-readable dump (e.g., JSON) of vulnerability information  
+- `gcve_allocation` — URL of the interface used to allocate or register new vulnerabilities  
 
 
 ## JSON Directory File Available at GCVE.eu
