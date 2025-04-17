@@ -161,5 +161,11 @@ A JSON-L file containing the following information is available at [https://gcve
   "full_name": "SCHUTZWERK GmbH",
   "gcve_url": "https://www.schutzwerk.com/blog/tags/advisories/"
 }
+{
+  "id": 680,
+  "short_name": "DFN-CERT",
+  "full_name": "DFN-CERT Services GmbH",
+  "gcve_url": "https://adv-archiv.dfn-cert.de/"
+}
 ~~~
 
