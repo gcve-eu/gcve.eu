@@ -13,5 +13,11 @@
     "gcve_api": "https://vulnerability.circl.lu/api/",
     "gcve_dump": "https://vulnerability.circl.lu/dumps/",
     "gcve_allocation": "https://vulnerability.circl.lu/"
+  },
+  {
+    "id": 2,
+    "short_name": "EUVD",
+    "full_name": "European Union Vulnerability Database",
+    "gcve_url": "https://euvd.enisa.europa.eu/"
   }
 ]
