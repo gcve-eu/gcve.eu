@@ -2,3 +2,4 @@
 { "id": 1, "short_name": "CIRCL", "cpe_vendor_name": "circl", "full_name": "Computer Incident Response Center Luxembourg", "gcve_url": "https://vulnerability.circl.lu/", "gcve_api": "https://vulnerability.circl.lu/api/", "gcve_dump": "https://vulnerability.circl.lu/dumps/", "gcve_allocation": "https://vulnerability.circl.lu/" }
 { "id": 2, "short_name": "EUVD", "full_name": "European Union Vulnerability Database", "gcve_url": "https://euvd.enisa.europa.eu/" }
 { "id": 101, "short_name": "ERIC", "cpe_vendor_name": "Ericsson", "full_name": "Ericsson AB", "gcve_dump": "https://www.ericsson.com/en/about-us/security/security-bulletins" }
+{ "id": 102, "short_name": "EACG", "full_name": "Enterprise Architecture Consulting Group", "gcve_api": "https://trustsource.csaf.trustsource.io/.well-known/csaf/provider-metadata.json", "gcve_dump": "https://www.trustsource.io/en/security-policy/" }
