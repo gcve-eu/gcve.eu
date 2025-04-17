@@ -144,5 +144,12 @@ A JSON-L file containing the following information is available at [https://gcve
   "gcve_api": "https://trustsource.csaf.trustsource.io/.well-known/csaf/provider-metadata.json",
   "gcve_dump": "https://www.trustsource.io/en/security-policy/"
 }
+{
+  "id": 103,
+  "short_name": "SCHUTZWERK",
+  "cpe_vendor_name": "SCHUTZWERK",
+  "full_name": "SCHUTZWERK GmbH",
+  "gcve_url": "https://www.schutzwerk.com/blog/tags/advisories/"
+}
 ~~~
 
