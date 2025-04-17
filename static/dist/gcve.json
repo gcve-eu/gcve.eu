@@ -21,6 +21,16 @@
     "gcve_url": "https://euvd.enisa.europa.eu/"
   },
   {
+    "id": 100,
+    "short_name": "VulDB",
+    "full_name": "vuldb.com",
+    "cpe_vendor_name": "vuldb",
+    "gcve_url": "https://vuldb.com/?gna.recent",
+    "gcve_api": "https://vuldb.com/?api",
+    "gcve_dump": "https://vuldb.com/?export",
+    "gcve_allocation": "https://vuldb.com/?id.add"
+  },
+  {
     "id": 101,
     "short_name": "ERIC",
     "cpe_vendor_name": "Ericsson",
