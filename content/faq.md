@@ -56,4 +56,14 @@ A: If you are an existing CNA (CVE Numbering Authority) or an [organization fall
 
 **Q11: What information is available about GNAs on the gcve.eu website?**
 
-A: A JSON Lines file (`.jsonl`) is available, containing details for each registered GNA. This includes their unique `id` (GNA ID), `short_name`, `full_name`, and potentially URLs for their specific GCVE data, API, dumps, and allocation process (like `gcve_url`, `gcve_api`, `gcve_dump`, `gcve_allocation`).
+A: A JSON Lines file (`.jsonl`) and JSON are [available](https://gcve.eu/dist/gcve.json), containing details for each registered GNA. This includes their unique `id` (GNA ID), `short_name`, `full_name`, and potentially URLs for their specific GCVE data, API, dumps, and allocation process (like `gcve_url`, `gcve_api`, `gcve_dump`, `gcve_allocation`).
+
+**Q12: What is the relationship between the open source vulnerability-lookup project, the EUVD (European Union Vulnerability Database), and GCVE.eu?**
+
+Europe has a strong cybersecurity network (thanks to the [EU CSIRTs network](https://csirtsnetwork.eu/)). CIRCL developed the open source [vulnerability-lookup](https://www.vulnerability-lookup.org/) project to address past challenges in collecting diverse sources, ensuring both diversity and stability. The project is co-funded by the European DEP program (NGSOTI) and Luxembourg to support national activities under NIS2.
+
+While maintaining the project, CIRCL identified many shortcomings in ID allocation and correlation when using and operating the [vulnerability.circl.lu](https://vulnerability.circl.lu/) instance(s). To address this, we created [GCVE.eu](https://gcve.eu) as a resilient ID allocation system, designed to ensure autonomy from various vulnerability publishers and improve stability in identifier correlation.
+
+As part of the unified NIS2 activities within the European Union, ENISA — which leads the [EU CSIRTs network](https://csirtsnetwork.eu/) — operates the [EUVD](https://euvd.enisa.europa.eu/), which relies on the [vulnerability-lookup](https://euvd.enisa.europa.eu/faq) software. There is a strong collaboration between CIRCL and ENISA on this topic to improve coordination, tooling, and data quality across the EU vulnerability ecosystem.
+
+
