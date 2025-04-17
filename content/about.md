@@ -8,6 +8,8 @@ The **Global CVE (GCVE)** allocation system is a new, decentralized approach to 
 
 While remaining compatible with the traditional CVE system, GCVE introduces **GCVE Numbering Authorities (GNAs)**. GNAs are independent entities that can allocate identifiers without relying on a centralised block distribution system or rigid policy enforcement.
 
+**Global CVE (GCVE)** is operated by the [CIRCL Computer Incident Response Center Luxembourg](http://www.circl.lu/), which also maintains the core open-source project for vulnerability management, [vulnerability-lookup](https://www.vulnerability-lookup.org/). For more details, see [the background story](https://gcve.eu/faq/#q12-what-is-the-relationship-between-the-open-source-vulnerability-lookup-project-the-euvd-european-union-vulnerability-database-and-gcveeu).
+
 ## Key Concepts
 
 ### GCVE Numbering Authorities (GNA)
