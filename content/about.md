@@ -130,5 +130,12 @@ A JSON-L file containing the following information is available at [https://gcve
   "full_name": "European Union Vulnerability Database",
   "gcve_url": "https://euvd.enisa.europa.eu/"
 }
+{
+  "id": 101,
+  "short_name": "ERIC",
+  "cpe_vendor_name": "Ericsson",
+  "full_name": "Ericsson AB",
+  "gcve_dump": "https://www.ericsson.com/en/about-us/security/security-bulletins"
+}
 ~~~
 
