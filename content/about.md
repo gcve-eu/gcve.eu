@@ -106,7 +106,7 @@ You must also include the following information in your request using the GCVE J
 
 ## JSON Directory File Available at GCVE.eu
 
-A JSON-L file containing the following information is available at [https://gcve.eu/dist/gcve.json](/dist/gcve.json)
+A JSON-L file containing the following information is available at [https://gcve.eu/dist/gcve.json](/dist/gcve.json) or [https://gcve.eu/dist/gcve.jsonl](https://gcve.eu/dist/gcve.jsonl)
 
 ~~~json
 {
@@ -123,6 +123,12 @@ A JSON-L file containing the following information is available at [https://gcve
   "gcve_api": "https://vulnerability.circl.lu/api/",
   "gcve_dump": "https://vulnerability.circl.lu/dumps/",
   "gcve_allocation": "https://vulnerability.circl.lu/"
+}
+{
+  "id": 2,
+  "short_name": "EUVD",
+  "full_name": "European Union Vulnerability Database",
+  "gcve_url": "https://euvd.enisa.europa.eu/"
 }
 ~~~
 
