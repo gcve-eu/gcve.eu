@@ -67,4 +67,13 @@ While maintaining the project, CIRCL identified many shortcomings in ID allocati
 
 As part of the unified NIS2 activities within the European Union, ENISA — which leads the [EU CSIRTs network](https://csirtsnetwork.eu/) — operates the [EUVD](https://euvd.enisa.europa.eu/), which relies on the [vulnerability-lookup](https://euvd.enisa.europa.eu/faq) software. There is a strong collaboration between CIRCL and ENISA on this topic to improve coordination, tooling, and data quality across the EU vulnerability ecosystem.
 
+## **Q13: Is the JSON file distributed by GCVE signed, and how can the signature be verified?**
+
+The [JSON file](https://gcve.eu/dist/gcve.json) distributed by GCVE is [digitally signed](https://gcve.eu/dist/gcve.json.sigsha512) using an RSA public key with SHA-512.
+
+The public key is available at multiple locations:
+
+- Via HTTP: [https://gcve.eu/dist/key/public.pem](https://gcve.eu/dist/key/public.pem)
+- Via DNS: `dig -t TXT _key.gcve.eu`
+- On GitHub: [https://raw.githubusercontent.com/gcve-eu/gcve.eu-directory/refs/heads/main/key/public.pem](https://raw.githubusercontent.com/gcve-eu/gcve.eu-directory/refs/heads/main/key/public.pem)
 
