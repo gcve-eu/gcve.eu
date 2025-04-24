@@ -52,7 +52,7 @@ menu:
         icon: mastodon
     - name: GitHub
       weight: 6
-      url: "https://github.com/gcve-eu/gcve.eu"
+      url: "https://github.com/gcve-eu/"
       params:
         icon: github
 
