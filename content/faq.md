@@ -57,7 +57,7 @@ A: If you are an existing CNA (CVE Numbering Authority) or an [organization fall
 
 ## **Q11: What information is available about GNAs on the gcve.eu website?**
 
-A: A JSON Lines file (`.jsonl`) and JSON are [available](https://gcve.eu/dist/gcve.json), containing details for each registered GNA. This includes their unique `id` (GNA ID), `short_name`, `full_name`, and potentially URLs for their specific GCVE data, API, dumps, and allocation process (like `gcve_url`, `gcve_api`, `gcve_dump`, `gcve_allocation`).
+A: A JSON is [available](https://gcve.eu/dist/gcve.json), containing details for each registered GNA. This includes their unique `id` (GNA ID), `short_name`, `full_name`, and potentially URLs for their specific GCVE data, API, dumps, and allocation process (like `gcve_url`, `gcve_api`, `gcve_dump`, `gcve_allocation`).
 
 ## **Q12: What is the relationship between the open source vulnerability-lookup project, the EUVD (European Union Vulnerability Database), and GCVE.eu?**
 

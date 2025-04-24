@@ -108,66 +108,68 @@ You must also include the following information in your request using the GCVE J
 
 ## JSON Directory File Available at GCVE.eu
 
-A JSON-L file containing the following information is available at [https://gcve.eu/dist/gcve.json](/dist/gcve.json) or [https://gcve.eu/dist/gcve.jsonl](https://gcve.eu/dist/gcve.jsonl)
+A JSON file containing the following information is available at [https://gcve.eu/dist/gcve.json](/dist/gcve.json).
 
 ~~~json
-{
-  "id": 0,
-  "short_name": "CVE",
-  "full_name": "CVE Program"
-}
-{
-  "id": 1,
-  "short_name": "CIRCL",
-  "cpe_vendor_name": "circl",
-  "full_name": "Computer Incident Response Center Luxembourg",
-  "gcve_url": "https://vulnerability.circl.lu/",
-  "gcve_api": "https://vulnerability.circl.lu/api/",
-  "gcve_dump": "https://vulnerability.circl.lu/dumps/",
-  "gcve_allocation": "https://vulnerability.circl.lu/"
-}
-{
-  "id": 2,
-  "short_name": "EUVD",
-  "full_name": "European Union Vulnerability Database",
-  "gcve_url": "https://euvd.enisa.europa.eu/"
-}
-{
-  "id": 100,
-  "short_name": "VulDB",
-  "full_name": "vuldb.com",
-  "cpe_vendor_name": "vuldb",
-  "gcve_url": "https://vuldb.com/?gna.recent",
-  "gcve_api": "https://vuldb.com/?api",
-  "gcve_dump": "https://vuldb.com/?export",
-  "gcve_allocation": "https://vuldb.com/?id.add"
- }
-{
-  "id": 101,
-  "short_name": "ERIC",
-  "cpe_vendor_name": "Ericsson",
-  "full_name": "Ericsson AB",
-  "gcve_dump": "https://www.ericsson.com/en/about-us/security/security-bulletins"
-}
-{
-  "id": 102,
-  "short_name": "EACG",
-  "full_name": "Enterprise Architecture Consulting Group",
-  "gcve_api": "https://trustsource.csaf.trustsource.io/.well-known/csaf/provider-metadata.json",
-  "gcve_dump": "https://www.trustsource.io/en/security-policy/"
-}
-{
-  "id": 103,
-  "short_name": "SCHUTZWERK",
-  "cpe_vendor_name": "SCHUTZWERK",
-  "full_name": "SCHUTZWERK GmbH",
-  "gcve_url": "https://www.schutzwerk.com/blog/tags/advisories/"
-}
-{
-  "id": 680,
-  "short_name": "DFN-CERT",
-  "full_name": "DFN-CERT Services GmbH",
-  "gcve_url": "https://adv-archiv.dfn-cert.de/"
-}
+[
+  {
+    "id": 0,
+    "short_name": "CVE",
+    "full_name": "CVE Program"
+  },
+  {
+    "id": 1,
+    "short_name": "CIRCL",
+    "cpe_vendor_name": "circl",
+    "full_name": "Computer Incident Response Center Luxembourg",
+    "gcve_url": "https://vulnerability.circl.lu/",
+    "gcve_api": "https://vulnerability.circl.lu/api/",
+    "gcve_dump": "https://vulnerability.circl.lu/dumps/",
+    "gcve_allocation": "https://vulnerability.circl.lu/"
+  },
+  {
+    "id": 2,
+    "short_name": "EUVD",
+    "full_name": "European Union Vulnerability Database",
+    "gcve_url": "https://euvd.enisa.europa.eu/"
+  },
+  {
+    "id": 100,
+    "short_name": "VulDB",
+    "full_name": "vuldb.com",
+    "cpe_vendor_name": "vuldb",
+    "gcve_url": "https://vuldb.com/?gna.recent",
+    "gcve_api": "https://vuldb.com/?api",
+    "gcve_dump": "https://vuldb.com/?export",
+    "gcve_allocation": "https://vuldb.com/?id.add"
+  },
+  {
+    "id": 101,
+    "short_name": "ERIC",
+    "cpe_vendor_name": "Ericsson",
+    "full_name": "Ericsson AB",
+    "gcve_dump": "https://www.ericsson.com/en/about-us/security/security-bulletins"
+  },
+  {
+    "id": 102,
+    "short_name": "EACG",
+    "full_name": "Enterprise Architecture Consulting Group",
+    "gcve_api": "https://trustsource.csaf.trustsource.io/.well-known/csaf/provider-metadata.json",
+    "gcve_dump": "https://www.trustsource.io/en/security-policy/"
+  },
+  {
+    "id": 103,
+    "short_name": "SCHUTZWERK",
+    "cpe_vendor_name": "SCHUTZWERK",
+    "full_name": "SCHUTZWERK GmbH",
+    "gcve_url": "https://www.schutzwerk.com/blog/tags/advisories/"
+  },
+  {
+    "id": 680,
+    "short_name": "DFN-CERT",
+    "full_name": "DFN-CERT Services GmbH",
+    "gcve_url": "https://adv-archiv.dfn-cert.de/"
+  }
+]
 ~~~
 
