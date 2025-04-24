@@ -41,6 +41,9 @@ menu:
     - name: Contact
       pageRef: /contact
       weight: 3
+    - name: News
+      pageRef: /news
+      weight: 3
     - name: Search
       weight: 4
       params:
