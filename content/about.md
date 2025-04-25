@@ -165,6 +165,12 @@ A JSON file containing the following information is available at [https://gcve.e
     "gcve_url": "https://www.schutzwerk.com/blog/tags/advisories/"
   },
   {
+    "id": 104,
+    "short_name": "AboutCode.org",
+    "full_name": "AboutCode Europe ASBL",
+    "cpe_vendor_name": "aboutcode-org"
+  },
+  {
     "id": 680,
     "short_name": "DFN-CERT",
     "full_name": "DFN-CERT Services GmbH",
