@@ -38,6 +38,9 @@ menu:
     - name: FAQ 
       pageRef: /faq
       weight: 2
+    - name: BCP
+      pageRef: /bcp
+      weight: 2
     - name: Contact
       pageRef: /contact
       weight: 3
