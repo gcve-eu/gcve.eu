@@ -125,7 +125,8 @@ A JSON file containing the following information is available at [https://gcve.e
     "gcve_url": "https://vulnerability.circl.lu/",
     "gcve_api": "https://vulnerability.circl.lu/api/",
     "gcve_dump": "https://vulnerability.circl.lu/dumps/",
-    "gcve_allocation": "https://vulnerability.circl.lu/"
+    "gcve_allocation": "https://vulnerability.circl.lu/",
+    "gcve_sync_api": "https://vulnerability.circl.lu/"
   },
   {
     "id": 2,
@@ -169,6 +170,11 @@ A JSON file containing the following information is available at [https://gcve.e
     "short_name": "AboutCode.org",
     "full_name": "AboutCode Europe ASBL",
     "cpe_vendor_name": "aboutcode-org"
+  },
+  {
+    "id": 105,
+    "short_name": "OPC",
+    "full_name": "OPC Foundation"
   },
   {
     "id": 680,
