@@ -59,6 +59,11 @@
     "cpe_vendor_name": "aboutcode-org"
   },
   {
+    "id": 105,
+    "short_name": "OPC",
+    "full_name": "OPC Foundation"
+  },
+  {
     "id": 680,
     "short_name": "DFN-CERT",
     "full_name": "DFN-CERT Services GmbH",
