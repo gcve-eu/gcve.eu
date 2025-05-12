@@ -77,3 +77,12 @@ The public key is available at multiple locations:
 - Via DNS: `dig -t TXT _key.gcve.eu`
 - On GitHub: [https://raw.githubusercontent.com/gcve-eu/gcve.eu-directory/refs/heads/main/key/public.pem](https://raw.githubusercontent.com/gcve-eu/gcve.eu-directory/refs/heads/main/key/public.pem)
 
+## **Q14: How does decentralized publication work?**
+
+Vulnerability-Lookup is a reference open-source software that includes a functional model for using the GCVE.eu GNA directory. It allows each user of Vulnerability-Lookup to select which GNAs to gather vulnerability information from.
+
+This enables GNAs to directly publish their vulnerability information without relying on a centralized system.
+
+There is no complex technology or software involved, it's a standard ReST API, implemented and documented as a Best Current Practice (BCP, to be released soon), which can be easily reimplemented by other software solutions.
+
+![Overview of the GCVE GNA publication model](/images/gcve-eu-network.png)
