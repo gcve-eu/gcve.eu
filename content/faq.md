@@ -79,7 +79,7 @@ The public key is available at multiple locations:
 
 ## **Q14: How does decentralized publication work?**
 
-Vulnerability-Lookup is a reference open-source software that includes a functional model for using the GCVE.eu GNA directory. It allows each user of Vulnerability-Lookup to select which GNAs to gather vulnerability information from.
+[Vulnerability-Lookup](https://www.vulnerability-lookup.org/) is a reference open-source software that includes a functional model for using the GCVE.eu GNA directory. It allows each user of Vulnerability-Lookup to select which GNAs to gather vulnerability information from.
 
 This enables GNAs to directly publish their vulnerability information without relying on a centralized system.
 
