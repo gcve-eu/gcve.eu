@@ -64,6 +64,12 @@
     "full_name": "OPC Foundation"
   },
   {
+    "id": 106,
+    "full_name": "National Cyber Security Centre SK-CERT",
+    "short_name": "SK-CERT",
+    "gcve_url": "https://www.sk-cert.sk/"
+  },
+  {
     "id": 680,
     "short_name": "DFN-CERT",
     "full_name": "DFN-CERT Services GmbH",
