@@ -61,6 +61,11 @@ menu:
       url: "https://github.com/gcve-eu/"
       params:
         icon: github
+    - name: LinkedIn
+      weight: 9
+      url: "https://www.linkedin.com/company/107254810"
+      params:
+        icon: linkedin
 
 
 params:
