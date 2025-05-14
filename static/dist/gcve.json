@@ -74,5 +74,10 @@
     "short_name": "DFN-CERT",
     "full_name": "DFN-CERT Services GmbH",
     "gcve_url": "https://adv-archiv.dfn-cert.de/"
+  },
+  {
+    "id": 65535,
+    "short_name": "TEST-GNA-GCVE",
+    "full_name": "GNA id used for testing only"
   }
 ]
