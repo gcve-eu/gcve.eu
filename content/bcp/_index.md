@@ -26,4 +26,5 @@ Adhering to GCVE BCPs is not mandatory, but strongly recommended to ensure the s
 
 ## Published BCP
 
-- [GCVE-BCP-01 - Signature Verification of the Directory File](./gcve-bcp-01/) - Published 25th April 2025 - State: DRAFT (Public Review) - Version 1.0
+- [GCVE-BCP-01 - Signature Verification of the Directory File](./gcve-bcp-01/) - Published 25th April 2025 - State: DRAFT (Public Review) - Version 1.1
+- [GCVE-BCP-02 - Practical Guide to Vulnerability Handling and Disclosure](./gcve-bcp-02/) - Published 16th May 2025 - State: DRAFT (Public Review) - Version 1.0 
