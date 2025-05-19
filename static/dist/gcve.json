@@ -71,8 +71,12 @@
   },
   {
     "id": 107,
-    "fullname": "Thales PSIRT",
-    "short_name": "THA-PSIRT"
+    "short_name": "THA-PSIRT",
+    "full_name": "Thales PSIRT",
+    "cpe_vendor_name": "thalesgroup",
+    "gcve_url": "https://www.thalesgroup.com/en/global/group/psirt",
+    "gcve_dump": "www.thalesgroup.com/en/global/group/psirt/thales-product-security-advisories",
+    "gcve_allocation": "https://www.thalesgroup.com/en/global/group/psirt"
   },
   {
     "id": 680,
