@@ -85,6 +85,13 @@
     "gcve_url": "https://adv-archiv.dfn-cert.de/"
   },
   {
+    "id": 2342,
+    "short_name": "Pentagrid",
+    "full_name": "Pentagrid AG",
+    "gcve_url": "https://www.pentagrid.ch/en/categories/advisory/",
+    "gcve_dump": "https://www.pentagrid.ch/.well-known/csaf/provider-metadata.json"
+  },
+  {
     "id": 65535,
     "short_name": "TEST-GNA-GCVE",
     "full_name": "GNA id used for testing only"
