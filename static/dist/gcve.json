@@ -61,7 +61,9 @@
   {
     "id": 105,
     "short_name": "OPC",
-    "full_name": "OPC Foundation"
+    "full_name": "OPC Foundation",
+    "gcve_dump": "https://opcfoundation.org/security/csaf",
+    "gcve_url": "https://opcfoundation.org/security/csaf"
   },
   {
     "id": 106,
