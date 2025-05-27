@@ -174,13 +174,42 @@ A JSON file containing the following information is available at [https://gcve.e
   {
     "id": 105,
     "short_name": "OPC",
-    "full_name": "OPC Foundation"
+    "full_name": "OPC Foundation",
+    "gcve_dump": "https://opcfoundation.org/security/csaf",
+    "gcve_url": "https://opcfoundation.org/security/csaf"
+  },
+  {
+    "id": 106,
+    "full_name": "National Cyber Security Centre SK-CERT",
+    "short_name": "SK-CERT",
+    "gcve_url": "https://www.sk-cert.sk/"
+  },
+  {
+    "id": 107,
+    "short_name": "THA-PSIRT",
+    "full_name": "Thales PSIRT",
+    "cpe_vendor_name": "thalesgroup",
+    "gcve_url": "https://www.thalesgroup.com/en/global/group/psirt",
+    "gcve_dump": "www.thalesgroup.com/en/global/group/psirt/thales-product-security-advisories",
+    "gcve_allocation": "https://www.thalesgroup.com/en/global/group/psirt"
   },
   {
     "id": 680,
     "short_name": "DFN-CERT",
     "full_name": "DFN-CERT Services GmbH",
     "gcve_url": "https://adv-archiv.dfn-cert.de/"
+  },
+  {
+    "id": 2342,
+    "short_name": "Pentagrid",
+    "full_name": "Pentagrid AG",
+    "gcve_url": "https://www.pentagrid.ch/en/categories/advisory/",
+    "gcve_dump": "https://www.pentagrid.ch/.well-known/csaf/provider-metadata.json"
+  },
+  {
+    "id": 65535,
+    "short_name": "TEST-GNA-GCVE",
+    "full_name": "GNA id used for testing only"
   }
 ]
 ~~~
