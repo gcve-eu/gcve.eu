@@ -194,6 +194,14 @@ A JSON file containing the following information is available at [https://gcve.e
     "gcve_allocation": "https://www.thalesgroup.com/en/global/group/psirt"
   },
   {
+    "id": 108,
+    "short_name": "Securin",
+    "full_name": "Securin Inc",
+    "gcve_url": "https://www.securin.io/disclosure-policy",
+    "gcve_dump": "https://www.securin.io/discover-zero-days"
+
+  },
+  {
     "id": 680,
     "short_name": "DFN-CERT",
     "full_name": "DFN-CERT Services GmbH",
