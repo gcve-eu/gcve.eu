@@ -104,7 +104,7 @@ You must also include the following information in your request using the GCVE J
 - `gcve_api` — URL of the API endpoint providing vulnerability data  
 - `gcve_dump` — URL to a machine-readable dump (e.g., JSON) of vulnerability information  
 - `gcve_allocation` — URL of the interface used to allocate or register new vulnerabilities  
-- `gcve_sync_api` — URL of the interface compatible to retrieve the local GNA publications, as implemented in the [Vulnerability-Lookup open-source software](https://vulnerability-lookup.org/).
+- `gcve_pull_api` — URL of the interface compatible to retrieve the local GNA publications, as implemented in the [Vulnerability-Lookup open-source software](https://vulnerability-lookup.org/).
 
 ## JSON Directory File Available at GCVE.eu
 
@@ -126,7 +126,7 @@ A JSON file containing the following information is available at [https://gcve.e
     "gcve_api": "https://vulnerability.circl.lu/api/",
     "gcve_dump": "https://vulnerability.circl.lu/dumps/",
     "gcve_allocation": "https://vulnerability.circl.lu/",
-    "gcve_sync_api": "https://vulnerability.circl.lu/"
+    "gcve_pull_api": "https://vulnerability.circl.lu/"
   },
   {
     "id": 2,
