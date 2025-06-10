@@ -83,6 +83,6 @@ The public key is available at multiple locations:
 
 This enables GNAs to directly publish their vulnerability information without relying on a centralized system.
 
-There is no complex technology or software involved, it's a standard ReST API, implemented and documented as a Best Current Practice (BCP, to be released soon), which can be easily reimplemented by other software solutions.
+There is no complex technology or software involved, it's a standard ReST API, implemented and documented as a Best Current Practice ([BCP-03](/bcp/gcve-bcp-03/)), which can be easily reimplemented by other software solutions.
 
 ![Overview of the GCVE GNA publication model](/images/gcve-eu-network.png)
