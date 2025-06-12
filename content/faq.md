@@ -43,7 +43,7 @@ A: CIRCL (Computer Incident Response Center Luxembourg) is the first organizatio
 
 ## **Q8: Where can I find the official list of GNAs?**
 
-A: The official registry, including a list of GNAs and their IDs, is maintained at [https://gcve.eu](https://gcve.eu).
+A: The official registry, including a list of GNAs and their IDs, is maintained at [https://gcve.eu](https://gcve.eu) and published as JSON at the following location [https://gcve.eu/dist/gcve.json](https://gcve.eu/dist/gcve.json).
 
 ## **Q9: Is there software that supports GCVE?**
 
