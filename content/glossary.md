@@ -22,3 +22,7 @@ GNAs have the autonomy to:
 - Allocate identifiers at their own pace.
 - Define their own internal policies for vulnerability identification.
 - Operate independently of a centralized block allocation authority.
+
+How can I apply [to become a GNA](https://gcve.eu/about/#eligibility-and-process-to-obtain-a-gna-id)?
+
+![GNA - GCVE.eu logo](/gcve-logos/GNA/JPG/GNA-color.jpg)
