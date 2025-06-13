@@ -86,3 +86,8 @@ This enables GNAs to directly publish their vulnerability information without re
 There is no complex technology or software involved, it's a standard ReST API, implemented and documented as a Best Current Practice ([BCP-03](/bcp/gcve-bcp-03/)), which can be easily reimplemented by other software solutions.
 
 ![Overview of the GCVE GNA publication model](/images/gcve-eu-network.png)
+
+## **Q15: Do you have any logos for GCVE and the GNA?**
+
+For GCVE.eu, there are two sets of logos: one set features the generic logos of the GCVE.eu project, and the other is for GNAs — GCVE Numbering Authorities. All logos are available at [https://gcve.eu/logo/](/logo), including both bitmap and vector-based formats.
+
