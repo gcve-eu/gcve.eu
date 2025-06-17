@@ -12,6 +12,8 @@ While remaining compatible with the traditional CVE system, GCVE introduces **GC
 
 ## Key Concepts
 
+![Overview of the GCVE.eu allocation system](/images/gcve-overview.png)
+
 ### GCVE Numbering Authorities (GNA)
 
 A **GCVE Numbering Authority (GNA)** is an approved entity that is authorised to allocate GCVE identifiers.
