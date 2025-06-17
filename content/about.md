@@ -32,9 +32,13 @@ GCVE maintains compatibility with existing CVEs using a backward-compatible ID s
 
 ## GCVE Identifier Format
 
-The GCVE identifier uses a four-part format:
+The GCVE identifier typically follows a traditional four-part format:
 
-`GCVE-<GNA ID>-<YEAR>-<UNIQUE ID>`
+`GCVE-<GNA-ID>-<YEAR>-<UNIQUE-ID>`
+
+However, a GNA has the flexibility to use an alternative format, provided that the prefix always follows the structure:
+
+`GCVE-<GNA-ID>-<GNA-VALUE>`
 
 ### Format Breakdown
 
