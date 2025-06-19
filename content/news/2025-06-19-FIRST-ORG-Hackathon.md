@@ -7,6 +7,8 @@ tags:
     - announce 
 ---
 
+![](https://gcve.eu/logos/gcve.png)
+
 We will be at the first FIRST.org hackathon, organized during the [FIRST Annual Conference in Copenhagen](https://www.first.org/conference/2025/).
 
 The hackathon, **FIRSTCON25**, will take place in person at the **37th Annual FIRST Conference** on **Sunday, 22nd June**, in Copenhagen.
