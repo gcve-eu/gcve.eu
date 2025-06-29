@@ -205,13 +205,25 @@ A JSON file containing the following information is available at [https://gcve.e
     "full_name": "Securin Inc",
     "gcve_url": "https://www.securin.io/disclosure-policy",
     "gcve_dump": "https://www.securin.io/discover-zero-days"
-
+  },
+  {
+    "id": 109,
+    "short_name": "concinnity-risks",
+    "full_name": "Concinnity Risks LLC",
+    "gcve_url": "https://concinnity-risks.com/"
   },
   {
     "id": 680,
     "short_name": "DFN-CERT",
     "full_name": "DFN-CERT Services GmbH",
     "gcve_url": "https://adv-archiv.dfn-cert.de/"
+  },
+  {
+    "id": 1337,
+    "short_name": "AHA!",
+    "full_name": "Austin Hackers Anonymous",
+    "gcve_url": "https://takeonme.org/cve",
+    "gcve_dump": "https://takeonme.org/cve/#published-cves"
   },
   {
     "id": 2342,
