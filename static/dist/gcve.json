@@ -88,6 +88,12 @@
     "gcve_dump": "https://www.securin.io/discover-zero-days"
   },
   {
+    "id": 109,
+    "short_name": "concinnity-risks",
+    "full_name": "Concinnity Risks LLC",
+    "gcve_url": "https://concinnity-risks.com/"
+  },
+  {
     "id": 680,
     "short_name": "DFN-CERT",
     "full_name": "DFN-CERT Services GmbH",
