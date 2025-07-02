@@ -233,6 +233,12 @@ A JSON file containing the following information is available at [https://gcve.e
     "gcve_dump": "https://www.pentagrid.ch/.well-known/csaf/provider-metadata.json"
   },
   {
+    "id": 31337,
+    "short_name": "Talos",
+    "full_name": "Cisco Talos",
+    "gcve_url": "https://talosintelligence.com/vulnerability_reports"
+  },
+  {
     "id": 65535,
     "short_name": "TEST-GNA-GCVE",
     "full_name": "GNA id used for testing only"
