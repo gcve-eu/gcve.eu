@@ -213,6 +213,13 @@ A JSON file containing the following information is available at [https://gcve.e
     "gcve_url": "https://concinnity-risks.com/"
   },
   {
+    "id": 404,
+    "short_name": "VulnCheck",
+    "full_name": "VulnCheck Inc.",
+    "gcve_url": "https://vulncheck.com/vulnerability-disclosure-policy",
+    "gcve_dump": "https://vulncheck.com/advisories"
+  },
+  {
     "id": 680,
     "short_name": "DFN-CERT",
     "full_name": "DFN-CERT Services GmbH",
