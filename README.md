@@ -1,4 +1,4 @@
-# gcve.eu website
+# gcve.eu website and BCPs
 
 Source code (hugo) of the [https://gcve.eu](https://gcve.eu) website.
 
