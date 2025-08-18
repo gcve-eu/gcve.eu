@@ -111,7 +111,8 @@
     "short_name": "AHA!",
     "full_name": "Austin Hackers Anonymous",
     "gcve_url": "https://takeonme.org/cve",
-    "gcve_dump": "https://takeonme.org/cve/#published-cves"
+    "gcve_dump": "https://takeonme.org/cve/#published-cves",
+    "gcve_pull_api": "https://aha-gcve.todb.workers.dev"
   },
   {
     "id": 2342,
