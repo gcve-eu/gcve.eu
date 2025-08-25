@@ -22,6 +22,14 @@
     "gcve_url": "https://euvd.enisa.europa.eu/"
   },
   {
+    "id": 79,
+    "short_name": "SWISSCOM",
+    "full_name": "Swisscom (Schweiz) AG",
+    "cpe_vendor_name": "swisscom",
+    "gcve_url": "https://github.com/swisscom/bugbounty/tree/main/hall-of-fame",
+    "gcve_allocation": "https://www.swisscom.ch/en/about/security/bug-bounty.html"
+  },
+  {
     "id": 100,
     "short_name": "VulDB",
     "full_name": "vuldb.com",
