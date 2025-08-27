@@ -142,6 +142,14 @@ A JSON file containing the following information is available at [https://gcve.e
     "gcve_url": "https://euvd.enisa.europa.eu/"
   },
   {
+    "id": 79,
+    "short_name": "SWISSCOM",
+    "full_name": "Swisscom (Schweiz) AG",
+    "cpe_vendor_name": "swisscom",
+    "gcve_url": "https://github.com/swisscom/bugbounty/tree/main/hall-of-fame",
+    "gcve_allocation": "https://www.swisscom.ch/en/about/security/bug-bounty.html"
+  },
+  {
     "id": 100,
     "short_name": "VulDB",
     "full_name": "vuldb.com",
@@ -231,7 +239,8 @@ A JSON file containing the following information is available at [https://gcve.e
     "short_name": "AHA!",
     "full_name": "Austin Hackers Anonymous",
     "gcve_url": "https://takeonme.org/cve",
-    "gcve_dump": "https://takeonme.org/cve/#published-cves"
+    "gcve_dump": "https://takeonme.org/cve/#published-cves",
+    "gcve_pull_api": "https://aha-gcve.todb.workers.dev"
   },
   {
     "id": 2342,
