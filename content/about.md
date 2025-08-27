@@ -5,7 +5,6 @@ title: About
 # GCVE: Global CVE Allocation System
 
 The **Global CVE (GCVE)** allocation system is a new, decentralized approach to vulnerability identification and numbering, designed to improve flexibility, scalability, and autonomy for participating entities. 
-
 While remaining compatible with the traditional CVE system, GCVE introduces **GCVE Numbering Authorities (GNAs)**. GNAs are independent entities that can allocate identifiers without relying on a centralised block distribution system or rigid policy enforcement.
 
 **Global CVE (GCVE)** is operated by the [CIRCL Computer Incident Response Center Luxembourg](http://www.circl.lu/), which also maintains the core open-source project for vulnerability management, [vulnerability-lookup](https://www.vulnerability-lookup.org/). For more details, see [the background story](https://gcve.eu/faq/#q12-what-is-the-relationship-between-the-open-source-vulnerability-lookup-project-the-euvd-european-union-vulnerability-database-and-gcveeu).
@@ -40,6 +39,8 @@ However, a GNA has the flexibility to use an alternative format, provided that t
 
 `GCVE-<GNA-ID>-<GNA-VALUE>`
 
+A `GNA-VALUE` must be 7-bit character sets.
+
 ### Format Breakdown
 
 | Field       | Description                                                         |
@@ -63,7 +64,7 @@ However, a GNA has the flexibility to use an alternative format, provided that t
 |--------|------------------------|--------------------------------------|
 | 0      | Legacy CVE Identifiers | All existing CVEs mapped here        |
 | 1      | CIRCL                  | First organization using GCVE model  |
-| ...    | (To be assigned)       | Other GNA IDs will be allocated      |
+| ...    | (To be assigned)       | Other GNA IDs allocated      |
 
 ## Benefits of GCVE
 
@@ -74,7 +75,7 @@ However, a GNA has the flexibility to use an alternative format, provided that t
 
 ## Implementation And Registry
 
-The GCVE registry at [https://gcve.eu](https://gcve.eu) will maintain:
+The GCVE registry at [https://gcve.eu](https://gcve.eu) maintains:
 
 - A list of all GNAs and their IDs
 - The current state of allocations (optional or via GNA publication)
@@ -99,7 +100,7 @@ You are eligible to receive a GNA ID if you meet one of the following criteria:
   - You are a software, hardware, or service provider that regularly discloses vulnerabilities affecting your own products or services, and you have an official CPE vendor name assigned.
   - You have a public vulnerability disclosure policy and maintain a publicly accessible source for newly disclosed vulnerabilities.
 
-If you fall into one of the above categories, please send an email to **gna@gcve.eu** with your organization’s name and request. This will allow us to assign you a GNA ID.
+If you fall into one of the above categories, please send an email to **gna@gcve.eu** with your organization’s name and request. This allows us to assign you a GNA ID.
 
 You must also include the following information in your request using the GCVE JSON directory format:
 
