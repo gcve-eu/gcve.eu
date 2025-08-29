@@ -41,6 +41,8 @@ However, a GNA has the flexibility to use an alternative format, provided that t
 
 A `GNA-VALUE` must be 7-bit character sets.
 
+For more details, [GCVE-BCP-04 - Recommendations and Best Practices for ID Allocation](/bcp/gcve-bcp-04/) is available.
+
 ### Format Breakdown
 
 | Field       | Description                                                         |
