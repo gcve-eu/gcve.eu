@@ -29,3 +29,4 @@ Adhering to GCVE BCPs is not mandatory, but strongly recommended to ensure the s
 - [GCVE-BCP-01 - Signature Verification of the Directory File](./gcve-bcp-01/) [[PDF]](/files/bcp/gcve-bcp-01.pdf) - Published 25th April 2025 - State: PUBLISHED (Public Review) - Version 1.1
 - [GCVE-BCP-02 - Practical Guide to Vulnerability Handling and Disclosure](./gcve-bcp-02/) [[PDF]](/files/bcp/gcve-bcp-02.pdf) - Published 28th July 2025 - State: DRAFT (Public Review) - Version 1.2
 - [GCVE-BCP-03 - Decentralized Publication Standard](./gcve-bcp-03/) [[PDF]](/files/bcp/gcve-bcp-03.pdf) - Published 10th June 2025 - State: DRAFT (Public Review) - Version 1.0
+- [GCVE-BCP-04 - Recommendations and Best Practices for ID Allocation](./gcve-bcp-04) [PDF](files/bcp/gcve-bcp-04.pdf) - Published 29th August 2025 - State: DRAFT (Public Review) - Version 1.1
