@@ -4,7 +4,7 @@ title: Contact
 
 # Contributing
 
-- [GCVE discourse topic](https://discourse.ossbase.org/c/gcve/14) – Each BCP has a thread where you can comment or provide additional information. You can also follow this in the Fediverse at [gcve@discourse.ossbase](gcve@discourse.ossbase).
+- [GCVE discourse topic](https://discourse.ossbase.org/c/gcve/14) – Each BCP has a thread where you can comment or provide additional information. You can also follow this in the Fediverse at [gcve@discourse.ossbase](https://discourse.ossbase.org/c/gcve/14).
 
 # Email Contacts
 
