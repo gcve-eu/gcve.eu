@@ -22,6 +22,13 @@
     "gcve_url": "https://euvd.enisa.europa.eu/"
   },
   {
+    "id": 3,
+    "short_name": "Red Hat",
+    "full_name": "Red Hat Inc.",
+    "gcve_url": "https://access.redhat.com/security/",
+    "gcve_api": "https://access.redhat.com/security/data/csaf/v2/provider-metadata.json"
+  },
+  {
     "id": 79,
     "short_name": "SWISSCOM",
     "full_name": "Swisscom (Schweiz) AG",
