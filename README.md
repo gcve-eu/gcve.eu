@@ -15,6 +15,10 @@ While remaining compatible with the traditional CVE system, GCVE introduces GCVE
 - [FAQ](https://gcve.eu/faq/)
 - [BCP](https://gcve.eu/bcp/)
 
+### Discussions
+
+- [GCVE Discourse](https://discourse.ossbase.org/c/gcve/14)
+
 ## License
 
 [Creative Commons Attribution 4.0 International](https://creativecommons.org/licenses/by/4.0/) (CC BY 4.0)
