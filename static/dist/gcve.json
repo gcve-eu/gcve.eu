@@ -110,6 +110,12 @@
     "gcve_url": "https://concinnity-risks.com/"
   },
   {
+    "id": 110,
+    "short_name": "VVD",
+    "full_name": "Vulnetix Vulnerability Database",
+    "gcve_url": "https://www.vulnetix.com/vdb"
+  },
+  {
     "id": 404,
     "short_name": "VulnCheck",
     "full_name": "VulnCheck Inc.",
