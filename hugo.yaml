@@ -66,6 +66,11 @@ menu:
       url: "https://www.linkedin.com/company/107254810"
       params:
         icon: linkedin
+    - name: Discourse
+      weight: 10
+      url: "https://discourse.ossbase.org/c/gcve/14"
+      params:
+        icon: chat 
 
 
 params:
