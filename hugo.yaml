@@ -47,6 +47,11 @@ menu:
     - name: News
       pageRef: /news
       weight: 5
+    - name: db.gcve.eu
+      url: "https://db.gcve.eu/"
+      params:
+        icon: database
+      weight: 7
     - name: Search
       weight: 6
       params:
