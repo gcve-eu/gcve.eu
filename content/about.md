@@ -144,6 +144,14 @@ A JSON file containing the following information is available at [https://gcve.e
     "gcve_url": "https://euvd.enisa.europa.eu/"
   },
   {
+    "id": 3,
+    "short_name": "Red Hat",
+    "full_name": "Red Hat Inc.",
+    "cpe_vendor_name": "redhat",
+    "gcve_url": "https://access.redhat.com/security/",
+    "gcve_api": "https://access.redhat.com/security/data/csaf/v2/provider-metadata.json"
+  },
+  {
     "id": 79,
     "short_name": "SWISSCOM",
     "full_name": "Swisscom (Schweiz) AG",
@@ -222,6 +230,19 @@ A JSON file containing the following information is available at [https://gcve.e
     "short_name": "concinnity-risks",
     "full_name": "Concinnity Risks LLC",
     "gcve_url": "https://concinnity-risks.com/"
+  },
+  {
+    "id": 110,
+    "short_name": "VVD",
+    "full_name": "Vulnetix Vulnerability Database",
+    "gcve_url": "https://www.vulnetix.com/vdb"
+  },
+  {
+    "id": 111,
+    "short_name": "MOGWAILABS",
+    "full_name": "MOGWAI LABS GmbH",
+    "gcve_url": "https://mogwailabs.de/en/advisories/",
+    "gcve_dump": "https://mogwaialbs.de/.well-known/advisories-gcve.json"
   },
   {
     "id": 404,
