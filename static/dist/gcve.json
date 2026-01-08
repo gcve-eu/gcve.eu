@@ -116,6 +116,13 @@
     "gcve_url": "https://www.vulnetix.com/vdb"
   },
   {
+    "id": 111,
+    "short_name": "MOGWAILABS",
+    "full_name": "MOGWAI LABS GmbH",
+    "gcve_url": "https://mogwailabs.de/en/advisories/",
+    "gcve_dump": "https://mogwaialbs.de/.well-known/advisories-gcve.json"
+  },
+  {
     "id": 404,
     "short_name": "VulnCheck",
     "full_name": "VulnCheck Inc.",
