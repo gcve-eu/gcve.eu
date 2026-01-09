@@ -23,11 +23,39 @@ A: No, GCVE does not replace existing CVE IDs. It's designed to be backward-comp
 
 ## **Q5: What is the format of a GCVE identifier?**
 
-A: A GCVE ID uses a four-part format: `GCVE-<GNA ID>-<YEAR>-<UNIQUE ID>`.
-*   `GCVE`: Standard prefix.
-*   `GNA ID`: An identifier assigned to the GNA, unique for that GNA.
-*   `YEAR`: The year of disclosure or allocation.
-*   `UNIQUE ID`: The unique numeric identifier of the GNA that assigned the ID.
+The GCVE identifier typically follows a traditional four-part format:
+
+`GCVE-<GNA-ID>-<YEAR>-<UNIQUE-ID>`
+
+This format is recommended because it is consistent with models used in other vulnerability identification systems.  
+
+However, GNAs retain the flexibility to use alternative formats, especially if they already maintain their own identifier schemes.  
+
+### Format Breakdown
+
+| Field       | Description                                                         |
+|-------------|---------------------------------------------------------------------|
+| `GCVE`      | Prefix indicating a Global CVE ID |
+| `GNA ID`    | Unique identifier for the GCVE Numbering Authority                  |
+| `YEAR`      | The year of disclosure or allocation                                |
+| `UNIQUE ID` | A GNA-assigned identifier that must be unique for vulnerability allocated at the GNA |                 
+
+If a GNA chooses to use an alternative format, it must still follow this general prefix structure:
+
+`GCVE-<GNA-ID>-<GNA-VALUE>`
+
+The `GNA-VALUE` should be composed of valid 7-bit characters, excluding unprintable control codes and spaces.
+
+The following regular expression can be used to validate a GCVE Identifier: `^GCVE-[0-9]+-[\x22-\x7E]+$`.
+
+When defining a generic GNA value, GNAs should keep in mind the following considerations:
+
+- The practicality and readability of the identifier (even if technically valid).
+- Facilitating sharing and improving the visibility of the identifier.
+
+The GCVE standard allows a certain level of flexibility in how information is conveyed, but it is strongly recommended to maintain a reasonable degree of readability.
+
+For more details, [GCVE-BCP-04 - Recommendations and Best Practices for ID Allocation](/bcp/gcve-bcp-04/).
 
 ## **Q6: What are the main benefits of using the GCVE system?**
 
