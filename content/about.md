@@ -245,6 +245,11 @@ A JSON file containing the following information is available at [https://gcve.e
     "gcve_dump": "https://mogwaialbs.de/.well-known/advisories-gcve.json"
   },
   {
+    "id": 112,
+    "short_name": "CERT-QC",
+    "full_name": "Ministère de la Cybersécurité et du Numérique – CERT-QC"
+  },
+  {
     "id": 404,
     "short_name": "VulnCheck",
     "full_name": "VulnCheck Inc.",
