@@ -123,6 +123,11 @@
     "gcve_dump": "https://mogwaialbs.de/.well-known/advisories-gcve.json"
   },
   {
+    "id": 112,
+    "short_name": "CERT-QC",
+    "full_name": "Ministère de la Cybersécurité et du Numérique – CERT-QC"
+  },
+  {
     "id": 404,
     "short_name": "VulnCheck",
     "full_name": "VulnCheck Inc.",
