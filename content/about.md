@@ -250,6 +250,12 @@ A JSON file containing the following information is available at [https://gcve.e
     "full_name": "Ministère de la Cybersécurité et du Numérique – CERT-QC"
   },
   {
+    "id": 113,
+    "short_name": "Krones",
+    "full_name": "Krones AG",
+    "gcve_url": "https://www.krones.com/media/downloads/krones-vulnerability-disclosure-policy.pdf"
+  },
+  {
     "id": 404,
     "short_name": "VulnCheck",
     "full_name": "VulnCheck Inc.",
@@ -290,4 +296,3 @@ A JSON file containing the following information is available at [https://gcve.e
   }
 ]
 ~~~
-
