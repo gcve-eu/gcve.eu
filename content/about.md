@@ -277,6 +277,13 @@ A JSON file containing the following information is available at [https://gcve.e
     "gcve_url": "https://adv-archiv.dfn-cert.de/"
   },
   {
+    "id": 1291,
+    "short_name": "NCSC-CH",
+    "full_name": "National Cyber Security Centre (NCSC) - Switzerland",
+    "gcve_url": "https://www.ncsc.admin.ch/ncsc/en/home/infos-fuer/infos-it-spezialisten/themen/schwachstelle-melden/cve-list.html",
+    "gcve_allocation": "https://www.ncsc.admin.ch/ncsc/en/home/infos-fuer/infos-it-spezialisten/themen/schwachstelle-melden.html"
+  },
+  {
     "id": 1337,
     "short_name": "AHA!",
     "full_name": "Austin Hackers Anonymous",
