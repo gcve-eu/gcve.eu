@@ -256,6 +256,14 @@ A JSON file containing the following information is available at [https://gcve.e
     "gcve_url": "https://www.krones.com/media/downloads/krones-vulnerability-disclosure-policy.pdf"
   },
   {
+    "id": 114,
+    "short_name": "siemens",
+    "full_name": "Siemens",
+    "cpe_vendor_name": "siemens",
+    "gcve_url": "https://www.siemens.com/cert",
+    "gcve_dump": "https://cert-portal.siemens.com/productcert/csaf/provider-metadata.json"
+  },
+  {
     "id": 404,
     "short_name": "VulnCheck",
     "full_name": "VulnCheck Inc.",
