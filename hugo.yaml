@@ -1,6 +1,7 @@
 # Hugo configuration file
 title: GCVE - Global CVE Allocation System 
 baseurl: https://gcve.eu/
+enableRobotsTXT: true
 
 # import hextra as module
 module:
