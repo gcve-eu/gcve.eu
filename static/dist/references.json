@@ -1,0 +1,13 @@
+{
+  "kev": [
+    {
+      "uuid": "405284c2-e461-4670-8979-7fd2c9755a60",
+      "short_name": "CISA KEV"
+    },
+    {
+      "uuid": "cce329bf-df49-4c6e-a027-80be2e6483bd",
+      "short_name": "EUVD KEV",
+      "gcve_gna_id": 2
+    }
+  ]
+}
