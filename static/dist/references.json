@@ -5,6 +5,11 @@
       "short_name": "CISA KEV"
     },
     {
+      "uuid": "1a89b78e-f703-45f3-bb86-59eb712668bd",
+      "short_name": "CIRCL",
+      "gcve_gna_id": 1
+    },
+    {
       "uuid": "cce329bf-df49-4c6e-a027-80be2e6483bd",
       "short_name": "EUVD KEV",
       "gcve_gna_id": 2
