@@ -2,7 +2,9 @@
   {
     "id": 0,
     "short_name": "CVE",
-    "full_name": "CVE Program"
+    "full_name": "CVE Program",
+    "inserted_at": "2026-01-31T07:42:49Z",
+    "updated_at": "2026-01-31T07:42:49Z"
   },
   {
     "id": 1,
@@ -13,13 +15,17 @@
     "gcve_api": "https://vulnerability.circl.lu/api/",
     "gcve_dump": "https://vulnerability.circl.lu/dumps/",
     "gcve_allocation": "https://vulnerability.circl.lu/",
-    "gcve_pull_api": "https://vulnerability.circl.lu/"
+    "gcve_pull_api": "https://vulnerability.circl.lu/",
+    "inserted_at": "2026-01-31T07:42:49Z",
+    "updated_at": "2026-01-31T07:42:49Z"
   },
   {
     "id": 2,
     "short_name": "EUVD",
     "full_name": "European Union Vulnerability Database",
-    "gcve_url": "https://euvd.enisa.europa.eu/"
+    "gcve_url": "https://euvd.enisa.europa.eu/",
+    "inserted_at": "2026-01-31T07:42:49Z",
+    "updated_at": "2026-01-31T07:42:49Z"
   },
   {
     "id": 3,
@@ -27,7 +33,9 @@
     "full_name": "Red Hat Inc.",
     "cpe_vendor_name": "redhat",
     "gcve_url": "https://access.redhat.com/security/",
-    "gcve_api": "https://access.redhat.com/security/data/csaf/v2/provider-metadata.json"
+    "gcve_api": "https://access.redhat.com/security/data/csaf/v2/provider-metadata.json",
+    "inserted_at": "2026-01-31T07:42:49Z",
+    "updated_at": "2026-01-31T07:42:49Z"
   },
   {
     "id": 79,
@@ -35,7 +43,9 @@
     "full_name": "Swisscom (Schweiz) AG",
     "cpe_vendor_name": "swisscom",
     "gcve_url": "https://github.com/swisscom/bugbounty/tree/main/hall-of-fame",
-    "gcve_allocation": "https://www.swisscom.ch/en/about/security/bug-bounty.html"
+    "gcve_allocation": "https://www.swisscom.ch/en/about/security/bug-bounty.html",
+    "inserted_at": "2026-01-31T07:42:49Z",
+    "updated_at": "2026-01-31T07:42:49Z"
   },
   {
     "id": 100,
@@ -45,47 +55,61 @@
     "gcve_url": "https://vuldb.com/?gna.recent",
     "gcve_api": "https://vuldb.com/?api",
     "gcve_dump": "https://vuldb.com/?export",
-    "gcve_allocation": "https://vuldb.com/?id.add"
+    "gcve_allocation": "https://vuldb.com/?id.add",
+    "inserted_at": "2026-01-31T07:42:49Z",
+    "updated_at": "2026-01-31T07:42:49Z"
   },
   {
     "id": 101,
     "short_name": "ERIC",
     "cpe_vendor_name": "Ericsson",
     "full_name": "Ericsson AB",
-    "gcve_dump": "https://www.ericsson.com/en/about-us/security/security-bulletins"
+    "gcve_dump": "https://www.ericsson.com/en/about-us/security/security-bulletins",
+    "inserted_at": "2026-01-31T07:42:49Z",
+    "updated_at": "2026-01-31T07:42:49Z"
   },
   {
     "id": 102,
     "short_name": "EACG",
     "full_name": "Enterprise Architecture Consulting Group",
     "gcve_api": "https://trustsource.csaf.trustsource.io/.well-known/csaf/provider-metadata.json",
-    "gcve_dump": "https://www.trustsource.io/en/security-policy/"
+    "gcve_dump": "https://www.trustsource.io/en/security-policy/",
+    "inserted_at": "2026-01-31T07:42:49Z",
+    "updated_at": "2026-01-31T07:42:49Z"
   },
   {
     "id": 103,
     "short_name": "SCHUTZWERK",
     "cpe_vendor_name": "SCHUTZWERK",
     "full_name": "SCHUTZWERK GmbH",
-    "gcve_url": "https://www.schutzwerk.com/blog/tags/advisories/"
+    "gcve_url": "https://www.schutzwerk.com/blog/tags/advisories/",
+    "inserted_at": "2026-01-31T07:42:49Z",
+    "updated_at": "2026-01-31T07:42:49Z"
   },
   {
     "id": 104,
     "short_name": "AboutCode.org",
     "full_name": "AboutCode Europe ASBL",
-    "cpe_vendor_name": "aboutcode-org"
+    "cpe_vendor_name": "aboutcode-org",
+    "inserted_at": "2026-01-31T07:42:49Z",
+    "updated_at": "2026-01-31T07:42:49Z"
   },
   {
     "id": 105,
     "short_name": "OPC",
     "full_name": "OPC Foundation",
     "gcve_dump": "https://opcfoundation.org/security/csaf",
-    "gcve_url": "https://opcfoundation.org/security/csaf"
+    "gcve_url": "https://opcfoundation.org/security/csaf",
+    "inserted_at": "2026-01-31T07:42:49Z",
+    "updated_at": "2026-01-31T07:42:49Z"
   },
   {
     "id": 106,
     "full_name": "National Cyber Security Centre SK-CERT",
     "short_name": "SK-CERT",
-    "gcve_url": "https://www.sk-cert.sk/"
+    "gcve_url": "https://www.sk-cert.sk/",
+    "inserted_at": "2026-01-31T07:42:49Z",
+    "updated_at": "2026-01-31T07:42:49Z"
   },
   {
     "id": 107,
@@ -94,44 +118,58 @@
     "cpe_vendor_name": "thalesgroup",
     "gcve_url": "https://www.thalesgroup.com/en/global/group/psirt",
     "gcve_dump": "www.thalesgroup.com/en/global/group/psirt/thales-product-security-advisories",
-    "gcve_allocation": "https://www.thalesgroup.com/en/global/group/psirt"
+    "gcve_allocation": "https://www.thalesgroup.com/en/global/group/psirt",
+    "inserted_at": "2026-01-31T07:42:49Z",
+    "updated_at": "2026-01-31T07:42:49Z"
   },
   {
     "id": 108,
     "short_name": "Securin",
     "full_name": "Securin Inc",
     "gcve_url": "https://www.securin.io/disclosure-policy",
-    "gcve_dump": "https://www.securin.io/discover-zero-days"
+    "gcve_dump": "https://www.securin.io/discover-zero-days",
+    "inserted_at": "2026-01-31T07:42:49Z",
+    "updated_at": "2026-01-31T07:42:49Z"
   },
   {
     "id": 109,
     "short_name": "concinnity-risks",
     "full_name": "Concinnity Risks LLC",
-    "gcve_url": "https://concinnity-risks.com/"
+    "gcve_url": "https://concinnity-risks.com/",
+    "inserted_at": "2026-01-31T07:42:49Z",
+    "updated_at": "2026-01-31T07:42:49Z"
   },
   {
     "id": 110,
     "short_name": "VVD",
     "full_name": "Vulnetix Vulnerability Database",
-    "gcve_url": "https://www.vulnetix.com/vdb"
+    "gcve_url": "https://www.vulnetix.com/vdb",
+    "inserted_at": "2026-01-31T07:42:49Z",
+    "updated_at": "2026-01-31T07:42:49Z"
   },
   {
     "id": 111,
     "short_name": "MOGWAILABS",
     "full_name": "MOGWAI LABS GmbH",
     "gcve_url": "https://mogwailabs.de/en/advisories/",
-    "gcve_dump": "https://mogwaialbs.de/.well-known/advisories-gcve.json"
+    "gcve_dump": "https://mogwaialbs.de/.well-known/advisories-gcve.json",
+    "inserted_at": "2026-01-31T07:42:49Z",
+    "updated_at": "2026-01-31T07:42:49Z"
   },
   {
     "id": 112,
     "short_name": "CERT-QC",
-    "full_name": "Ministère de la Cybersécurité et du Numérique – CERT-QC"
+    "full_name": "Ministère de la Cybersécurité et du Numérique – CERT-QC",
+    "inserted_at": "2026-01-31T07:42:49Z",
+    "updated_at": "2026-01-31T07:42:49Z"
   },
   {
     "id": 113,
     "short_name": "Krones",
     "full_name": "Krones AG",
-    "gcve_url": "https://www.krones.com/media/downloads/krones-vulnerability-disclosure-policy.pdf"
+    "gcve_url": "https://www.krones.com/media/downloads/krones-vulnerability-disclosure-policy.pdf",
+    "inserted_at": "2026-01-31T07:42:49Z",
+    "updated_at": "2026-01-31T07:42:49Z"
   },
   {
     "id": 114,
@@ -139,27 +177,35 @@
     "full_name": "Siemens",
     "cpe_vendor_name": "siemens",
     "gcve_url": "https://www.siemens.com/cert",
-    "gcve_dump": "https://cert-portal.siemens.com/productcert/csaf/provider-metadata.json"
+    "gcve_dump": "https://cert-portal.siemens.com/productcert/csaf/provider-metadata.json",
+    "inserted_at": "2026-01-31T07:42:49Z",
+    "updated_at": "2026-01-31T07:42:49Z"
   },
   {
     "id": 404,
     "short_name": "VulnCheck",
     "full_name": "VulnCheck Inc.",
     "gcve_url": "https://vulncheck.com/vulnerability-disclosure-policy",
-    "gcve_dump": "https://vulncheck.com/advisories"
+    "gcve_dump": "https://vulncheck.com/advisories",
+    "inserted_at": "2026-01-31T07:42:49Z",
+    "updated_at": "2026-01-31T07:42:49Z"
   },
   {
     "id": 680,
     "short_name": "DFN-CERT",
     "full_name": "DFN-CERT Services GmbH",
-    "gcve_url": "https://adv-archiv.dfn-cert.de/"
+    "gcve_url": "https://adv-archiv.dfn-cert.de/",
+    "inserted_at": "2026-01-31T07:42:49Z",
+    "updated_at": "2026-01-31T07:42:49Z"
   },
   {
     "id": 1291,
     "short_name": "NCSC-CH",
     "full_name": "National Cyber Security Centre (NCSC) - Switzerland",
     "gcve_url": "https://www.ncsc.admin.ch/ncsc/en/home/infos-fuer/infos-it-spezialisten/themen/schwachstelle-melden/cve-list.html",
-    "gcve_allocation": "https://www.ncsc.admin.ch/ncsc/en/home/infos-fuer/infos-it-spezialisten/themen/schwachstelle-melden.html"
+    "gcve_allocation": "https://www.ncsc.admin.ch/ncsc/en/home/infos-fuer/infos-it-spezialisten/themen/schwachstelle-melden.html",
+    "inserted_at": "2026-01-31T07:42:49Z",
+    "updated_at": "2026-01-31T07:42:49Z"
   },
   {
     "id": 1337,
@@ -167,24 +213,32 @@
     "full_name": "Austin Hackers Anonymous",
     "gcve_url": "https://takeonme.org/cve",
     "gcve_dump": "https://takeonme.org/cve/#published-cves",
-    "gcve_pull_api": "https://aha-gcve.todb.workers.dev"
+    "gcve_pull_api": "https://aha-gcve.todb.workers.dev",
+    "inserted_at": "2026-01-31T07:42:49Z",
+    "updated_at": "2026-01-31T07:42:49Z"
   },
   {
     "id": 2342,
     "short_name": "Pentagrid",
     "full_name": "Pentagrid AG",
     "gcve_url": "https://www.pentagrid.ch/en/categories/advisory/",
-    "gcve_dump": "https://www.pentagrid.ch/.well-known/csaf/provider-metadata.json"
+    "gcve_dump": "https://www.pentagrid.ch/.well-known/csaf/provider-metadata.json",
+    "inserted_at": "2026-01-31T07:42:49Z",
+    "updated_at": "2026-01-31T07:42:49Z"
   },
   {
     "id": 31337,
     "short_name": "Talos",
     "full_name": "Cisco Talos",
-    "gcve_url": "https://talosintelligence.com/vulnerability_reports"
+    "gcve_url": "https://talosintelligence.com/vulnerability_reports",
+    "inserted_at": "2026-01-31T07:42:49Z",
+    "updated_at": "2026-01-31T07:42:49Z"
   },
   {
     "id": 65535,
     "short_name": "TEST-GNA-GCVE",
-    "full_name": "GNA id used for testing only"
+    "full_name": "GNA id used for testing only",
+    "inserted_at": "2026-01-31T07:42:49Z",
+    "updated_at": "2026-01-31T07:42:49Z"
   }
 ]
