@@ -6,6 +6,10 @@ title: Contact
 
 - [GCVE discourse topic](https://discourse.ossbase.org/c/gcve/14) – Each BCP has a thread where you can comment or provide additional information. You can also follow this in the Fediverse at [gcve@discourse.ossbase](https://discourse.ossbase.org/c/gcve/14).
 
+# Chat
+
+- Matrix `#vulnerability-lookup-public:matrix.circl.lu` - This space is intended for informal discussions. For standard and more detailed discussions, we recommend using [discourse](https://discourse.ossbase.org/c/gcve/14).
+
 # Email Contacts
 
 - [info@gcve.eu](mailto:info@gcve.eu) — General inquiries
