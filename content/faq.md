@@ -117,7 +117,7 @@ There is no complex technology or software involved, it's a standard ReST API, i
 
 ## **Q15: Do you have any logos for GCVE and the GNA?**
 
-For GCVE.eu, there are two sets of logos: one set features the generic logos of the GCVE.eu project, and the other is for GNAs — GCVE Numbering Authorities. All logos are available at [https://gcve.eu/logo/](/logo), including both bitmap and vector-based formats.
+For GCVE.eu, there are two sets of logos: one set features the generic logos of the GCVE initiative, and the other is for GNAs — GCVE Numbering Authorities. All logos are available at [https://gcve.eu/logo/](/logo), including both bitmap and vector-based formats.
 
 ## **Q16: What is [db.gcve.eu](https://db.gcve.eu/)?**
 
