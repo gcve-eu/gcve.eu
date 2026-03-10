@@ -4,7 +4,7 @@ title: Transparent and Open BCP Development Process for GCVE
 
 ## Overview
 
-The GCVE.eu initiative follows a fully transparent and traceable process for developing **[Best Current Practices (BCPs)](https://gcve.eu/bcp/)**.
+The GCVE initiative follows a fully transparent and traceable process for developing **[Best Current Practices (BCPs)](https://gcve.eu/bcp/)**.
 
 All discussions, proposals, reviews, and decisions related to BCPs are conducted openly on the GCVE Discourse platform operated
 by [ossbase.org](https://ossbase.org/):

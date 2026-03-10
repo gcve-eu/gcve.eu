@@ -3,7 +3,7 @@ title: Logos
 toc: true
 ---
 
-For GCVE.eu, there are two sets of logos: one set features the generic logos of the GCVE.eu initiative, and the other is for GNAs — GCVE Numbering Authorities.
+For GCVE.eu, there are two sets of logos: one set features the generic logos of the GCVE initiative, and the other is for GNAs — GCVE Numbering Authorities.
 
 ## GCVE - Global CVE Allocation System
 
