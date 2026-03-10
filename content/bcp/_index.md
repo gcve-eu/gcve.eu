@@ -26,13 +26,15 @@ Adhering to GCVE BCPs is not mandatory, but strongly recommended to ensure the s
 
 ## Published BCP
 
-- [GCVE-BCP-01 - Signature Verification of the Directory File](./gcve-bcp-01/) - [[PDF](/files/bcp/gcve-bcp-01.pdf)] - Published 25th April 2025 - State: PUBLISHED (Public Review) - Version 1.1
-- [GCVE-BCP-02 - Practical Guide to Vulnerability Handling and Disclosure](./gcve-bcp-02/) - [[PDF](/files/bcp/gcve-bcp-02.pdf)] - Published 25th January 2026 - State: PUBLISHED ([Public Review](https://discourse.ossbase.org/t/gcve-bcp-02-practical-guide-to-vulnerability-handling-and-disclosure/)) - Version 1.5
-- [GCVE-BCP-03 - Decentralized Publication Standard](./gcve-bcp-03/) - [[PDF](/files/bcp/gcve-bcp-03.pdf)] - Published 10th June 2025 - State: PUBLISHED (Public Review) - Version 1.0
-- [GCVE-BCP-04 - Recommendations and Best Practices for ID Allocation](./gcve-bcp-04) - [[PDF](/files/bcp/gcve-bcp-04.pdf)] - Published 2nd October 2025 - State: PUBLISHED - Version 1.3
-- [GCVE-BCP-05 - GCVE Vulnerability Format (Modified CVE Record Format)](./gcve-bcp-05) - [[PDF](/files/bcp/gcve-bcp-05.pdf)] - Published 2nd January 2026 - State: PUBLISHED ([Public Review](https://discourse.ossbase.org/t/gcve-bcp-05-drafting-best-practices-for-the-container-format-modified-cve-record-format/)) - Version 1.6
-- [GCVE-BCP-06 - Requirements and Evaluation Criteria for GCVE Numbering Authorities (GNAs)](./gcve-bcp-06) - [[PDF](/files/bcp/gcve-bcp-06.pdf)] - Published 15th February 2026 - State: DRAFT ([Public Review](https://discourse.ossbase.org/t/gcve-bcp-06-drafting-requirements-and-evaluation-criteria-for-gcve-numbering-authorities/732)) - Version 1.0
-- [GCVE-BCP-07 - Known Exploited Vulnerability - KEV Assertion Format](./gcve-bcp-07) - [[PDF](/files/bcp/gcve-bcp-07.pdf)]- Published 27th January 2026 - State: PUBLISHED ([Public Review](https://discourse.ossbase.org/t/kev-known-exploited-vulnerabilities-potential-format-bcp-07)) - Version 1.9
+| BCP | Name | Date | Status | Version | Links |
+|---|---|---|---|---|---|
+| BCP-01 | [Signature Verification of the Directory File](./gcve-bcp-01/) | 2026-03-10 | Published | 1.2 | [[PDF](/files/bcp/gcve-bcp-01.pdf)] |
+| BCP-02 | [Practical Guide to Vulnerability Handling and Disclosure](./gcve-bcp-02/) | 2026-03-10 | Published | 1.6 | [[PDF](/files/bcp/gcve-bcp-02.pdf)] · [Public Review](https://discourse.ossbase.org/t/gcve-bcp-02-practical-guide-to-vulnerability-handling-and-disclosure/) |
+| BCP-03 | [Decentralized Publication Standard](./gcve-bcp-03/) | 2026-03-10 | Published (for Public Review) | 1.3 | [[PDF](/files/bcp/gcve-bcp-03.pdf)] |
+| BCP-04 | [Recommendations and Best Practices for ID Allocation](./gcve-bcp-04) | 2026-03-10 | Published | 1.4 | [[PDF](/files/bcp/gcve-bcp-04.pdf)] |
+| BCP-05 | [GCVE Vulnerability Format (Modified CVE Record Format)](./gcve-bcp-05) | 2026-03-10 | Published (for Public Review) | 1.7 | [[PDF](/files/bcp/gcve-bcp-05.pdf)] · [Public Review](https://discourse.ossbase.org/t/gcve-bcp-05-drafting-best-practices-for-the-container-format-modified-cve-record-format/) |
+| BCP-06 | [Requirements and Evaluation Criteria for GCVE Numbering Authorities (GNAs)](./gcve-bcp-06) | 2026-03-10 | Draft (for Public Review) | 1.1 | [[PDF](/files/bcp/gcve-bcp-06.pdf)] · [Public Review](https://discourse.ossbase.org/t/gcve-bcp-06-drafting-requirements-and-evaluation-criteria-for-gcve-numbering-authorities/732) |
+| BCP-07 | [Known Exploited Vulnerability - KEV Assertion Format](./gcve-bcp-07) | 2026-03-10 | Published (for Public Review) | 2.0 | [[PDF](/files/bcp/gcve-bcp-07.pdf)] · [Public Review](https://discourse.ossbase.org/t/kev-known-exploited-vulnerabilities-potential-format-bcp-07/744) |
 
 ## Contributing
 
