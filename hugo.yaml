@@ -3,6 +3,10 @@ title: GCVE - Global CVE Allocation System
 baseurl: https://gcve.eu/
 enableRobotsTXT: true
 
+author:
+   name: "GCVE"
+   email: "info@gcve.eu"
+
 # import hextra as module
 module:
   imports:
@@ -83,8 +87,6 @@ menu:
 
 
 params:
-  
-
   page:
     # full (100%), wide (90rem), normal (1280px)
     width: normal
@@ -103,7 +105,9 @@ params:
   footer:
     displayCopyright: false
     displayPoweredBy: false
-
+  author:
+    name: "GCVE"
+    email: "info@gcve.eu"
 
 permalinks:
   news: '/:year/:month/:day/:slug/'
