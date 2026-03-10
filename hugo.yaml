@@ -1,5 +1,5 @@
 # Hugo configuration file
-title: GCVE - Global CVE Allocation System 
+title: GCVE initiative - Global CVE Allocation System 
 baseurl: https://gcve.eu/
 enableRobotsTXT: true
 

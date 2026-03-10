@@ -1,9 +1,7 @@
 ---
-title: "GCVE.eu"
+title: "GCVE initiative - Global CVE Allocation System"
 toc: false
 ---
-
-# GCVE: Global CVE Allocation System
 
 ![Logo of the GCVE.eu - Global CVE Allocation System](/logos/gcve.png) 
 
