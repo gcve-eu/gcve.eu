@@ -29,7 +29,7 @@ Adhering to GCVE BCPs is not mandatory, but strongly recommended to ensure the s
 | BCP | Name | Date | Status | Version | Links |
 |---|---|---|---|---|---|
 | BCP-01 | [Signature Verification of the Directory File](./gcve-bcp-01/) | 2026-03-10 | Published | 1.2 | [[PDF](/files/bcp/gcve-bcp-01.pdf)] |
-| BCP-02 | [Practical Guide to Vulnerability Handling and Disclosure](./gcve-bcp-02/) | 2026-03-10 | Published | 1.6 | [[PDF](/files/bcp/gcve-bcp-02.pdf)] · [Public Review](https://discourse.ossbase.org/t/gcve-bcp-02-practical-guide-to-vulnerability-handling-and-disclosure/) |
+| BCP-02 | [Practical Guide to Vulnerability Handling and Disclosure](./gcve-bcp-02/) | 2026-05-02 | Published | 1.7 | [[PDF](/files/bcp/gcve-bcp-02.pdf)] · [Public Review](https://discourse.ossbase.org/t/gcve-bcp-02-practical-guide-to-vulnerability-handling-and-disclosure/) |
 | BCP-03 | [Decentralized Publication Standard](./gcve-bcp-03/) | 2026-03-25 | Published (for Public Review) | 1.4 | [[PDF](/files/bcp/gcve-bcp-03.pdf)] |
 | BCP-04 | [Recommendations and Best Practices for ID Allocation](./gcve-bcp-04) | 2026-03-10 | Published | 1.4 | [[PDF](/files/bcp/gcve-bcp-04.pdf)] |
 | BCP-05 | [GCVE Vulnerability Format (Modified CVE Record Format)](./gcve-bcp-05) | 2026-03-10 | Published (for Public Review) | 1.7 | [[PDF](/files/bcp/gcve-bcp-05.pdf)] · [Public Review](https://discourse.ossbase.org/t/gcve-bcp-05-drafting-best-practices-for-the-container-format-modified-cve-record-format/) |
