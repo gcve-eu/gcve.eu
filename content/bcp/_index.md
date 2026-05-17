@@ -38,6 +38,12 @@ Adhering to GCVE BCPs is not mandatory, but strongly recommended to ensure the s
 | BCP-09| [Scope of a GCVE Record](./gcve-bcp-09) | 2026-05-20 | Draft (for Public Review) | 1.0 | [[PDF](/files/bcp/gcve-bcp-09.pdf)] - [Public Review](https://discourse.ossbase.org/t/gcve-bcp-09-scope-of-a-gcve-record-early-draft/1041) | 
 | BCP-10 | [Improved Common Platform Enumeration for GCVE](./gcve-bcp-10/) | 2026-04-26 | Draft (for Public Review) | 1.0 | [[PDF](/files/bcp/gcve-bcp-10.pdf)] · [Public Review](https://discourse.ossbase.org/t/gcve-bcp-10-improved-common-platform-enumeration-for-gcve/1042) | 
 
+## Extensions
+
+| Extension | Title | Applies To | Description |
+|---|---|---|---|
+| [GCVE BCP-05-X-01](/bcp/extension/gcve-bcp-05-x-01/) [[PDF](/files/bcp/gcve-bcp-05-x-01.pdf)]| AI-Assisted Vulnerability Information Annotation | [GCVE BCP-05](/bcp/gcve-bcp-05/) | Defines metadata for annotating vulnerability records where AI or automated processing contributed to creation, enrichment, classification, or analysis. |
+
 ## Contributing
 
 GCVE BCP is developed in a transparent process described in [Transparent and Open BCP Development Process for GCVE](/process/).
