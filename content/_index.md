@@ -16,6 +16,7 @@ While remaining compatible with the traditional CVE system, GCVE introduces **GC
   {{< card link="faq" title="FAQ" icon="chat" >}}
   {{< card link="bcp" title="BCP" icon="book-open" >}}
   {{< card link="software" title="Software" icon="desktop-computer" >}}
+  {{< card link="gna" title="GNA Directory" icon="book-open" >}}
   {{< card link="/dist/gcve.json" title="GCVE GNA Directory File" icon="desktop-computer" >}}
   {{< card link="news" title="News" icon="newspaper" >}}
   {{< card link="https://db.gcve.eu" title="db.gcve.eu" icon="database" >}}
