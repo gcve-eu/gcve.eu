@@ -195,6 +195,8 @@ The development history also shows attention to operational quality: CSRF protec
 
 CPE Editor adds an important dimension to the broader GCVE effort. Identifiers and enrichment can only take users so far if product naming and platform relationships remain difficult to curate. A moderated, API-accessible mechanism for improving CPE context can help make vulnerability information more usable across tools and organisations.
 
+There will be some additional iteration in the development of CPE Editor and then it will be available next to the [db.gcve.eu service](https://db.gcve.eu/).
+
 ## 5. Better visibility and distribution for the GNA directory
 
 The decentralised character of GCVE depends on its **GCVE Numbering Authorities (GNAs)** and on the ability for participants and consumers to discover authoritative directory information.
