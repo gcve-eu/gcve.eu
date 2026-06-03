@@ -20,6 +20,9 @@ CPE information is a key element in vulnerability management. It allows users, t
 
 Like the rest of the GCVE initiative, the backend is also open source. The implementation is available in the **[gcve-eu/cpe-editor](https://github.com/gcve-eu/cpe-editor/)** repository. The data format used by CPE.GCVE.EU is defined in **[GCVE-BCP-10: Improved Common Platform Enumeration for GCVE](https://gcve.eu/bcp/gcve-bcp-10/)**, which describes the registry model for vendors, products, CPE entries, metadata, relationships and proposals.
 
+<img width="1174" height="1444" alt="Screenshot from 2026-06-03 10-51-28" src="https://github.com/user-attachments/assets/7aceeae1-b802-499d-a474-16affd41b94c" />
+
+
 ## What can you do with CPE.GCVE.EU?
 
 ### Browse vendors and products
@@ -54,6 +57,9 @@ CPE.GCVE.EU is also designed as a collaborative platform.
 Users can propose new vendors and products when they are missing from the catalog. This is especially useful for newly created projects, open-source software, renamed products, or products that are not yet represented in existing CPE datasets.
 
 The goal is to make the catalog easier to improve over time, while keeping the process transparent and reusable.
+
+<img width="1157" height="830" alt="Screenshot from 2026-06-03 10-51-52" src="https://github.com/user-attachments/assets/bd6fc19a-39f7-4402-8637-55aa8359330f" />
+
 
 ### Propose relationships between vendors and products
 
@@ -104,6 +110,8 @@ The API can be used to search and retrieve information about:
 
 This allows developers and security teams to integrate CPE.GCVE.EU into their own workflows, including vulnerability enrichment, asset inventory, exposure management, and vulnerability intelligence platforms.
 
+<img width="1195" height="1274" alt="Screenshot from 2026-06-03 10-52-50" src="https://github.com/user-attachments/assets/8a133925-9266-4d0d-a90f-1e0b4bb8d9cd" />
+
 ### Statistics and visibility
 
 CPE.GCVE.EU also includes extensive statistics.
@@ -111,6 +119,8 @@ CPE.GCVE.EU also includes extensive statistics.
 These statistics help users understand the current state of the catalog, including the number of vendors, products, CPE entries and proposals.
 
 The statistics are useful for tracking growth, identifying areas where data quality can be improved, and measuring the evolution of the catalog over time.
+
+<img width="1174" height="1444" alt="Screenshot from 2026-06-03 10-51-41" src="https://github.com/user-attachments/assets/8cdf05ff-46c5-4f60-81b2-5dd9813dca98" />
 
 ### PURL and CPE relationships
 
