@@ -55,6 +55,9 @@ menu:
     - name: Software
       pageRef: /software
       weight: 6
+    - name: Open Data
+      pageRef: /opendata
+      weight: 7
     - name: db.gcve.eu
       url: "https://db.gcve.eu/"
       params:
