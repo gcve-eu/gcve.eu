@@ -930,10 +930,13 @@ body {
 }
 
 .gcve-who-logo-text {
+  max-width: 100%;
   color: #174bd6;
-  font-size: clamp(1.45rem, 3vw, 2.3rem);
+  font-size: clamp(1.15rem, 1.8vw, 1.5rem);
   font-weight: 900;
-  letter-spacing: 0.08em;
+  letter-spacing: 0.06em;
+  line-height: 1;
+  white-space: nowrap;
 }
 
 .dark .gcve-who-logo-text {
