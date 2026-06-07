@@ -12,22 +12,27 @@ document.addEventListener('DOMContentLoaded', function () {
   overlay.classList.add('hx-bg-transparent');
   overlay.classList.remove("hx-hidden", ...overlayClasses);
 
-  function toggleMenu() {
+  function setMenuOpen(open) {
     // Toggle the hamburger menu
-    menu.classList.toggle('gcve-menu-open');
-    menu.querySelector('svg').classList.toggle('open');
+    menu.classList.toggle('gcve-menu-open', open);
+    menu.setAttribute('aria-expanded', String(open));
+    menu.querySelector('svg').classList.toggle('open', open);
 
     // When the menu is open, we want to show the navigation sidebar.
     // Keep the original Hextra transform classes for phones, and add a
     // project class so the same menu can be opened on tablet-sized screens.
-    sidebarContainer.classList.toggle('gcve-menu-open');
-    sidebarContainer.classList.toggle('max-md:[transform:translate3d(0,-100%,0)]');
-    sidebarContainer.classList.toggle('max-md:[transform:translate3d(0,0,0)]');
+    sidebarContainer.classList.toggle('gcve-menu-open', open);
+    sidebarContainer.classList.toggle('max-md:[transform:translate3d(0,-100%,0)]', !open);
+    sidebarContainer.classList.toggle('max-md:[transform:translate3d(0,0,0)]', open);
 
     // When the menu is open, we want to prevent the body from scrolling
-    document.body.classList.toggle('gcve-menu-open');
-    document.body.classList.toggle('hx-overflow-hidden');
-    document.body.classList.toggle('md:hx-overflow-auto');
+    document.body.classList.toggle('gcve-menu-open', open);
+    document.body.classList.toggle('hx-overflow-hidden', open);
+    document.body.classList.toggle('md:hx-overflow-auto', open);
+  }
+
+  function toggleMenu() {
+    setMenuOpen(!menu.classList.contains('gcve-menu-open'));
   }
 
   menu.addEventListener('click', (e) => {
@@ -47,7 +52,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
   overlay.addEventListener('click', (e) => {
     e.preventDefault();
-    toggleMenu();
+    setMenuOpen(false);
 
     // Hide the overlay
     overlay.classList.remove(...overlayClasses);
