@@ -8,6 +8,7 @@
   --gcve-card: rgba(255, 255, 255, 0.82);
   --gcve-border: rgba(38, 100, 255, 0.16);
   --gcve-shadow: 0 24px 80px rgba(16, 35, 63, 0.12);
+  --gcve-page-max: 88rem;
 }
 
 .dark {
@@ -44,6 +45,13 @@ body {
 
 .content :is(h1, h2, h3) {
   letter-spacing: -0.035em;
+}
+
+/* Let GCVE pages use the available viewport instead of staying in a narrow
+   centered column on large displays. Hextra applies the max-width utility to
+   the page <main>, including the homepage hero shown above the fold. */
+.hx-max-w-6xl {
+  max-width: var(--gcve-page-max) !important;
 }
 
 .gcve-hero {
@@ -96,7 +104,7 @@ body {
 
 .gcve-hero-grid {
   display: grid;
-  grid-template-columns: minmax(0, 1.25fr) minmax(260px, 0.75fr);
+  grid-template-columns: minmax(34rem, 1.25fr) minmax(320px, 0.75fr);
   gap: clamp(2rem, 5vw, 4rem);
   align-items: center;
 }
@@ -124,9 +132,11 @@ body {
 
 .gcve-hero h1 {
   margin: 0;
-  max-width: 11ch;
+  max-width: 13ch;
   color: var(--gcve-ink);
-  font-size: clamp(3rem, 8vw, 6rem);
+  overflow-wrap: normal;
+  word-break: normal;
+  font-size: clamp(3rem, 6vw, 5.6rem);
   line-height: 0.92;
   letter-spacing: -0.075em;
 }
@@ -288,6 +298,12 @@ body {
 .content img[src$="/logos/gcve.png"]:not(.gcve-hero img) {
   max-width: 260px;
   margin-inline: auto;
+}
+
+@media (max-width: 1024px) {
+  .gcve-hero-grid {
+    grid-template-columns: minmax(0, 1fr);
+  }
 }
 
 @media (max-width: 768px) {
