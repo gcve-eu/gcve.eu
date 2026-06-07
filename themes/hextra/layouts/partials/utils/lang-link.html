@@ -7,13 +7,13 @@
 {{ $link := false }}
 
 {{ range $page.AllTranslations }}
-  {{ if eq .Language.Lang $lang }}
+  {{ if eq .Language.Name $lang }}
     {{ $link = .RelPermalink }}
   {{ end }}
 {{ end }}
 
 {{ if not $link }}
-  {{ range where $page.Sites ".Language.Lang" $lang }}
+  {{ range where $page.Sites ".Language.Name" $lang }}
     {{ $link = .Home.RelPermalink }}
   {{ end }}
 {{ end }}

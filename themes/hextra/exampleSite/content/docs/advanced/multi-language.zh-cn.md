@@ -16,13 +16,13 @@ Hextra 支持使用 Hugo 的[多语言模式](https://gohugo.io/content-manageme
 defaultContentLanguage: en
 languages:
   en:
-    languageName: English
+    label: English
     weight: 1
   fr:
-    languageName: Français
+    label: Français
     weight: 2
   ja:
-    languageName: 日本語
+    label: 日本語
     weight: 3
 ```
 

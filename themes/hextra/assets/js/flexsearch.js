@@ -12,7 +12,7 @@ document.addEventListener("DOMContentLoaded", function () {
 });
 
 // Render the search data as JSON.
-// {{ $searchDataFile := printf "%s.search-data.json" .Language.Lang }}
+// {{ $searchDataFile := printf "%s.search-data.json" .Language.Name }}
 // {{ $searchData := resources.Get "json/search-data.json" | resources.ExecuteAsTemplate $searchDataFile . }}
 // {{ if hugo.IsProduction }}
 //   {{ $searchData := $searchData | minify | fingerprint }}
