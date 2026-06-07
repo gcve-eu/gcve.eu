@@ -839,3 +839,150 @@ body {
     min-height: 6rem;
   }
 }
+
+.gcve-who-hero .gcve-hero h1,
+.gcve-who-hero h1 {
+  max-width: 14ch;
+}
+
+.gcve-who-panel {
+  gap: 1rem;
+}
+
+.gcve-who-panel > img {
+  max-width: min(100%, 14rem);
+  max-height: 13rem;
+  object-fit: contain;
+}
+
+.gcve-who-panel > p {
+  margin: 0;
+  color: var(--gcve-muted);
+  font-size: 0.98rem;
+  line-height: 1.6;
+  text-align: center;
+}
+
+.gcve-who-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1.15rem;
+  margin: 1.35rem 0 2.75rem;
+}
+
+.gcve-who-card {
+  position: relative;
+  isolation: isolate;
+  display: grid;
+  grid-template-columns: minmax(6.5rem, 0.28fr) minmax(0, 1fr);
+  gap: 1.1rem;
+  overflow: hidden;
+  padding: 1.2rem;
+  border: 1px solid var(--gcve-border);
+  border-radius: 1.35rem;
+  background: var(--gcve-card);
+  box-shadow: 0 16px 38px rgba(16, 35, 63, 0.07);
+  backdrop-filter: blur(14px);
+}
+
+.gcve-who-card::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: -1;
+  border-radius: inherit;
+  background: linear-gradient(135deg, rgba(38, 100, 255, 0.1), rgba(34, 195, 223, 0.08), transparent 58%);
+}
+
+.gcve-who-card-lead {
+  grid-column: 1 / -1;
+  grid-template-columns: minmax(10rem, 0.3fr) minmax(0, 1fr);
+}
+
+.gcve-who-logo {
+  display: grid;
+  align-self: start;
+  place-items: center;
+  min-height: 7.5rem;
+  padding: 1rem;
+  border: 1px solid rgba(38, 100, 255, 0.11);
+  border-radius: 1.1rem;
+  background: rgba(255, 255, 255, 0.58);
+}
+
+.dark .gcve-who-logo {
+  border-color: rgba(255, 255, 255, 0.08);
+  background: rgba(255, 255, 255, 0.05);
+}
+
+.gcve-who-logo-light {
+  background: rgba(255, 255, 255, 0.86);
+}
+
+.gcve-who-logo img {
+  max-width: min(100%, 12rem);
+  max-height: 6.5rem;
+  object-fit: contain;
+}
+
+.gcve-who-card-lead .gcve-who-logo img {
+  max-height: 9rem;
+}
+
+.gcve-who-logo-text {
+  color: #174bd6;
+  font-size: clamp(1.45rem, 3vw, 2.3rem);
+  font-weight: 900;
+  letter-spacing: 0.08em;
+}
+
+.dark .gcve-who-logo-text {
+  color: #8be9f7;
+}
+
+.gcve-who-card h3 {
+  margin: 0;
+  color: var(--gcve-ink);
+  font-size: clamp(1.35rem, 2vw, 1.8rem);
+  line-height: 1.08;
+  letter-spacing: -0.05em;
+}
+
+.gcve-who-card p:not(.gcve-tool-kicker) {
+  margin: 0.85rem 0 0;
+  color: var(--gcve-muted);
+  line-height: 1.65;
+}
+
+.gcve-inline-link {
+  display: inline-flex;
+  margin-top: 1rem;
+  color: #174bd6;
+  font-weight: 800;
+  text-decoration: none !important;
+}
+
+.gcve-inline-link:hover {
+  color: #0b7285;
+}
+
+.dark .gcve-inline-link {
+  color: #8be9f7;
+}
+
+@media (max-width: 1180px) {
+  .gcve-who-grid {
+    grid-template-columns: minmax(0, 1fr);
+  }
+}
+
+@media (max-width: 720px) {
+  .gcve-who-card,
+  .gcve-who-card-lead {
+    grid-template-columns: minmax(0, 1fr);
+  }
+
+  .gcve-who-logo {
+    min-height: 6rem;
+  }
+}

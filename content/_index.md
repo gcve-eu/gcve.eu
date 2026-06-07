@@ -36,6 +36,7 @@ While remaining compatible with the traditional CVE system, GCVE introduces **GC
 
 {{< cards >}}
   {{< card link="about" title="About GCVE" icon="book-open" subtitle="Understand the goals, design principles, and decentralized allocation model." >}}
+  {{< card link="who" title="Who is behind GCVE?" icon="user-group" subtitle="See the people, organisations, and projects supporting the initiative." >}}
   {{< card link="faq" title="FAQ" icon="chat" subtitle="Quick answers about compatibility, identifiers, GNAs, and participation." >}}
   {{< card link="bcp" title="Best Current Practices" icon="book-open" subtitle="Read the open process documents that guide GCVE operations." >}}
   {{< card link="software" title="Software" icon="desktop-computer" subtitle="Discover implementations, tooling, and integrations around the ecosystem." >}}
