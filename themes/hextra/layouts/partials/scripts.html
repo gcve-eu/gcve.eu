@@ -18,7 +18,7 @@
 {{- if (site.Params.search.enable | default true) -}}
   {{- $searchType := site.Params.search.type | default "flexsearch" -}}
   {{- if eq $searchType "flexsearch" -}}
-    {{- $jsSearchScript := printf "%s.search.js" .Language.Lang -}}
+    {{- $jsSearchScript := printf "%s.search.js" .Language.Name -}}
     {{- $jsSearch := resources.Get "js/flexsearch.js" | resources.ExecuteAsTemplate $jsSearchScript . -}}
     {{- if hugo.IsProduction -}}
       {{- $jsSearch = $jsSearch | minify | fingerprint -}}

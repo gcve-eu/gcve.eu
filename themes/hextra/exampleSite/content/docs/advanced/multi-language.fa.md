@@ -16,13 +16,13 @@ prev: /docs/advanced
 defaultContentLanguage: en
 languages:
   en:
-    languageName: English
+    label: English
     weight: 1
   fa:
-    languageName: فارسی
+    label: فارسی
     weight: 2
   ja:
-    languageName: 日本語
+    label: 日本語
     weight: 3
 ```
 

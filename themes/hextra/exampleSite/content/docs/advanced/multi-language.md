@@ -16,13 +16,13 @@ To make our site multi-language, we need to tell Hugo the supported languages. W
 defaultContentLanguage: en
 languages:
   en:
-    languageName: English
+    label: English
     weight: 1
   fr:
-    languageName: Français
+    label: Français
     weight: 2
   ja:
-    languageName: 日本語
+    label: 日本語
     weight: 3
 ```
 
