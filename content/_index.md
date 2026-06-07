@@ -20,7 +20,7 @@ toc: false
         <div class="gcve-stat"><strong>GNA</strong><span>Independent numbering authorities</span></div>
         <div class="gcve-stat"><strong>BCP</strong><span>Open best current practices</span></div>
         <div class="gcve-stat"><strong>JSON</strong><span>Machine-readable directory</span></div>
-        <div class="gcve-stat"><strong>EU</strong><span>Community-led coordination</span></div>
+        <div class="gcve-stat">Community-lead coordination</div>
       </div>
     </div>
   </div>
