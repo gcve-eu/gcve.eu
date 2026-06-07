@@ -10,7 +10,8 @@ toc: false
       <h1>Who is behind <span class="gcve-gradient-text">GCVE</span>?</h1>
       <p class="gcve-hero-lede">GCVE is an initiative led by CIRCL and developed with an open, collaborative community of organisations and people actively contributing to the project.</p>
       <div class="gcve-hero-actions">
-        <a class="gcve-button gcve-button-primary" href="#contributors-and-supporters">Contributors and supporters</a>
+        <a class="gcve-button gcve-button-primary" href="#gcve-community-board">Community Board</a>
+        <a class="gcve-button gcve-button-secondary" href="#contributors-and-supporters">Contributors and supporters</a>
         <a class="gcve-button gcve-button-secondary" href="https://discourse.ossbase.org/c/gcve/14">Join the discussion</a>
       </div>
     </div>
@@ -30,6 +31,67 @@ toc: false
 As mentioned in the [FAQ](/faq/#q12-what-is-the-relationship-between-the-open-source-vulnerability-lookup-project-the-euvd-european-union-vulnerability-database-and-gcveeu), the **GCVE initiative is led by [CIRCL](https://www.circl.lu/)**. The initiative grew from operational experience running vulnerability publication and lookup infrastructure, and it remains closely connected to open-source vulnerability-management work.
 
 GCVE is not only a website or an identifier format. It is a collaborative effort where people who actively contribute to the project help define the technical direction, improve tooling, discuss Best Current Practices, and extend the ecosystem for real-world vulnerability publication use cases.
+
+<section class="gcve-board-section" id="gcve-community-board">
+  <div class="gcve-board-header">
+    <p class="gcve-eyebrow">Open governance and practical expertise</p>
+    <h2>GCVE Community Board</h2>
+    <p>The GCVE Community Board is composed of people who contribute regularly to the GCVE initiative and provide constructive feedback, useful input, and practical expertise to help advance the field of vulnerability identification and intelligence. Its role is to support the evolution of GCVE, from Best Current Practice documents to concrete software implementations, with the objective of serving the global vulnerability intelligence community.</p>
+    <p>The board operates in an open and collaborative manner. A permanent chat room is available for ongoing discussions, coordination, and exchange of ideas. In addition, a monthly online meeting is organized to discuss important topics, review progress, and address proposals or challenges related to GCVE. The discussions and outcomes of these monthly meetings are public, ensuring transparency and encouraging broader community participation.</p>
+  </div>
+
+  <div class="gcve-board-meta" aria-label="GCVE Community Board working model">
+    <div class="gcve-board-meta-item"><strong>Permanent chat</strong><span>Ongoing coordination and exchange of ideas.</span></div>
+    <div class="gcve-board-meta-item"><strong>Monthly meeting</strong><span>Online discussion of progress, proposals, and challenges.</span></div>
+    <div class="gcve-board-meta-item"><strong>Public outcomes</strong><span>Transparent meeting discussions and outcomes.</span></div>
+  </div>
+
+  <h3 class="gcve-board-members-heading">Members (confirmed)</h3>
+  <div class="gcve-board-grid">
+    <article class="gcve-member-card">
+      <div class="gcve-member-avatar" aria-hidden="true">CB</div>
+      <div>
+        <h4>Cédric Bonhomme</h4>
+        <p>CIRCL</p>
+      </div>
+    </article>
+    <article class="gcve-member-card">
+      <div class="gcve-member-avatar" aria-hidden="true">AD</div>
+      <div>
+        <h4>Alexandre Dulaunoy</h4>
+        <p>CIRCL</p>
+      </div>
+    </article>
+    <article class="gcve-member-card">
+      <div class="gcve-member-avatar" aria-hidden="true">DD</div>
+      <div>
+        <h4>David Durvaux</h4>
+        <p>European Commission</p>
+      </div>
+    </article>
+    <article class="gcve-member-card">
+      <div class="gcve-member-avatar" aria-hidden="true">JG</div>
+      <div>
+        <h4>Jerry Gamblin</h4>
+        <p>Rogolabs</p>
+      </div>
+    </article>
+    <article class="gcve-member-card">
+      <div class="gcve-member-avatar" aria-hidden="true">JJ</div>
+      <div>
+        <h4>Jay Jacobs</h4>
+        <p>Empirical Security</p>
+      </div>
+    </article>
+    <article class="gcve-member-card">
+      <div class="gcve-member-avatar" aria-hidden="true">EL</div>
+      <div>
+        <h4>Eireann Leverett</h4>
+        <p>Concinnity Risks</p>
+      </div>
+    </article>
+  </div>
+</section>
 
 <h2 id="contributors-and-supporters">Contributors and supporters</h2>
 
