@@ -517,9 +517,29 @@ body {
   background: rgba(255, 255, 255, 0.58);
 }
 
+.gcve-stat[href] {
+  text-decoration: none !important;
+  transition: transform 0.18s ease, border-color 0.18s ease, box-shadow 0.18s ease, background-color 0.18s ease;
+}
+
+.gcve-stat[href]:hover,
+.gcve-stat[href]:focus-visible {
+  border-color: rgba(38, 100, 255, 0.28);
+  background: rgba(255, 255, 255, 0.78);
+  box-shadow: 0 12px 28px rgba(16, 35, 63, 0.11);
+  transform: translateY(-2px);
+}
+
 .dark .gcve-stat {
   border-color: rgba(255, 255, 255, 0.08);
   background: rgba(255, 255, 255, 0.05);
+}
+
+.dark .gcve-stat[href]:hover,
+.dark .gcve-stat[href]:focus-visible {
+  border-color: rgba(34, 195, 223, 0.28);
+  background: rgba(255, 255, 255, 0.08);
+  box-shadow: 0 12px 28px rgba(0, 0, 0, 0.24);
 }
 
 .gcve-stat strong {

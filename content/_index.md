@@ -18,7 +18,7 @@ toc: false
       <img src="/logos/gcve.png" alt="GCVE logo" />
       <div class="gcve-stat-grid">
         <div class="gcve-stat"><strong>GNA</strong><span>Independent numbering authorities</span></div>
-        <div class="gcve-stat"><strong>BCP</strong><span>Open best current practices</span></div>
+        <a class="gcve-stat" href="/bcp/" aria-label="Open GCVE Best Current Practices"><strong>BCP</strong><span>Open best current practices</span></a>
         <div class="gcve-stat"><strong>JSON</strong><span>Machine-readable directory</span></div>
         <div class="gcve-stat">Community-lead coordination</div>
       </div>
