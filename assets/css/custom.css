@@ -592,6 +592,13 @@ body {
   margin-inline: auto;
 }
 
+.content .gcve-tool-card-media img[src$="/logos/gcve.png"] {
+  width: 100%;
+  max-width: min(100%, 7rem);
+  max-height: 5.5rem;
+  margin-inline: 0;
+}
+
 @media (max-width: 1024px), (min-width: 1025px) and (max-width: 1280px) {
   .gcve-hero-grid {
     grid-template-columns: minmax(0, 1fr);
