@@ -1,68 +1,160 @@
 ---
 title: GCVE - Software
+toc: false
 ---
 
-[GCVE BCP](/bcp) defines different standards that are implemented in open-source software to support GCVE publication processes and operations.
+<section class="gcve-hero gcve-software-hero">
+  <div class="gcve-hero-grid">
+    <div>
+      <p class="gcve-eyebrow">Open-source GCVE ecosystem</p>
+      <h1>Software for <span class="gcve-gradient-text">GCVE</span></h1>
+      <p class="gcve-hero-lede">Tools, libraries, validators, and integrations that implement GCVE Best Current Practices and help teams publish, curate, enrich, and consume vulnerability information.</p>
+      <div class="gcve-hero-actions">
+        <a class="gcve-button gcve-button-primary" href="#reference-implementation">Reference implementation</a>
+        <a class="gcve-button gcve-button-secondary" href="#supporting-tools">Supporting tools</a>
+      </div>
+    </div>
+    <div class="gcve-hero-panel gcve-software-panel" aria-label="Software focus areas">
+      <div class="gcve-software-panel-header">
+        <img src="/logos/gcve.png" alt="GCVE logo" />
+        <p>BCP-aligned building blocks for distributed vulnerability publication.</p>
+      </div>
+      <div class="gcve-stat-grid">
+        <div class="gcve-stat"><strong>GNA</strong><span>Operate numbering workflows</span></div>
+        <div class="gcve-stat"><strong>CPE</strong><span>Curate product metadata</span></div>
+        <div class="gcve-stat"><strong>KEV</strong><span>Publish exploitation assertions</span></div>
+        <div class="gcve-stat"><strong>AI</strong><span>Annotate assisted enrichment</span></div>
+      </div>
+    </div>
+  </div>
+</section>
 
-# Software
+[GCVE BCP](/bcp) defines standards implemented in open-source software to support GCVE publication processes and operations. The projects below are organized around the same polished, card-based style as the main page so implementers can quickly find production platforms, curation tools, validators, and integration helpers.
 
-## Reference Software Implementation of the GCVE Standard
+<h2 id="reference-implementation">Reference Software Implementation of the GCVE Standard</h2>
 
-{{< cards >}}
-  {{< card link="about" title="vulnerability-lookup" image="https://vulnerability.circl.lu/static/img/VL-hori-coul.png" link="https://www.vulnerability-lookup.org/" >}}
-{{< /cards >}}
+<p class="gcve-section-intro">Start here if you want a complete open-source platform for vulnerability publication and GCVE Numbering Authority operations.</p>
 
-The Vulnerability-Lookup software is a powerful open-source sharing platform that assists security teams, researchers, and system administrators in identifying, tracking, and publishing vulnerabilities. Vulnerability-Lookup implements all the required [GCVE BCP](/bcp) standards to operate a GNA.
+<div class="gcve-software-grid gcve-software-grid-featured">
+  <article class="gcve-tool-card gcve-tool-card-featured">
+    <div class="gcve-tool-card-media gcve-tool-card-media-wide">
+      <img src="https://vulnerability.circl.lu/static/img/VL-hori-coul.png" alt="Vulnerability-Lookup logo" />
+    </div>
+    <div class="gcve-tool-card-body">
+      <p class="gcve-tool-kicker">Reference implementation</p>
+      <h3>vulnerability-lookup</h3>
+      <p>The Vulnerability-Lookup software is a powerful open-source sharing platform that assists security teams, researchers, and system administrators in identifying, tracking, and publishing vulnerabilities. Vulnerability-Lookup implements the required GCVE BCP standards to operate a GNA.</p>
+      <ul class="gcve-tool-list">
+        <li>GCVE-compatible vulnerability publication workflows.</li>
+        <li>Designed for vulnerability intelligence sharing and lookup.</li>
+        <li>Suitable as a complete GNA operational platform.</li>
+      </ul>
+      <div class="gcve-tool-actions">
+        <a class="gcve-button gcve-button-primary" href="https://www.vulnerability-lookup.org/">Open project</a>
+        <a class="gcve-button gcve-button-secondary" href="https://github.com/vulnerability-lookup/vulnerability-lookup">GitHub repository</a>
+      </div>
+    </div>
+  </article>
+</div>
 
-{{% details title="Details" %}}
-- {{< icon "github" >}} [https://github.com/vulnerability-lookup/vulnerability-lookup](https://github.com/vulnerability-lookup/vulnerability-lookup)
-{{% /details %}}
+<h2 id="supporting-tools">Software Supporting the GCVE BCP Standards</h2>
 
-## Software Supporting the GCVE BCP Standards
+<p class="gcve-section-intro">Composable tools for curation, validation, conversion, AI provenance, and client-side integration across GCVE-compatible systems.</p>
 
-### BCP-07 Known Exploited Vulnerability (KEV)
+<div class="gcve-software-grid">
+  <article class="gcve-tool-card">
+    <div class="gcve-tool-card-media">
+      <img src="/logos/gcve.png" alt="GCVE logo" />
+    </div>
+    <div class="gcve-tool-card-body">
+      <p class="gcve-tool-kicker">CPE and product curation</p>
+      <h3>cpe-editor</h3>
+      <p>A collaborative CPE editor for browsing, curating, and publishing Common Platform Enumeration data with moderation workflows, API access, and portable datasets.</p>
+      <ul class="gcve-tool-list">
+        <li>Browse vendors, products, CPE records, and relationships.</li>
+        <li>Review structured public proposals through moderation workflows.</li>
+        <li>Import NVD, PURL-to-CPE, and GCVE enriched CVE data.</li>
+      </ul>
+      <div class="gcve-tool-actions">
+        <a class="gcve-button gcve-button-primary" href="https://cpe.gcve.eu/">Open service</a>
+        <a class="gcve-button gcve-button-secondary" href="https://github.com/gcve-eu/cpe-editor">GitHub repository</a>
+      </div>
+    </div>
+  </article>
 
-{{< cards >}}
-  {{< card link="about" title="gcve-eu-kev" subtitle="GCVE-BCP-07 Known Exploited Vulnerability (KEV) conversion tool." link="https://github.com/gcve-eu/gcve-eu-kev" image="https://gcve.eu/logos/gcve.png">}}
-{{< /cards >}}
+  <article class="gcve-tool-card">
+    <div class="gcve-tool-card-media">
+      <img src="/logos/gcve.png" alt="GCVE logo" />
+    </div>
+    <div class="gcve-tool-card-body">
+      <p class="gcve-tool-kicker">AI-assisted annotation</p>
+      <h3>AI-Assisted Vulnerability Information Annotation</h3>
+      <p>A Python utility that fetches vulnerability records from db.gcve.eu, generates analyst-oriented summaries and recommendations with a configurable local Ollama model, and records GCVE AI provenance metadata.</p>
+      <ul class="gcve-tool-list">
+        <li>Accepts CVE IDs and GCVE IDs from db.gcve.eu.</li>
+        <li>Adds local AI enrichment and BCP-05-X-01 provenance annotations.</li>
+        <li>Outputs enriched JSON for review and downstream processing.</li>
+      </ul>
+      <div class="gcve-tool-actions">
+        <a class="gcve-button gcve-button-primary" href="https://github.com/gcve-eu/gcve-eu-ai-extension">GitHub repository</a>
+      </div>
+    </div>
+  </article>
 
-Python script that downloads the CISA Known Exploited Vulnerabilities (KEV) Catalog/ENISA CNW EUVD KEV (CSV) and converts each entry into a GCVE-BCP-07 Known Exploited Vulnerability (KEV) Assertion JSON object.
+  <article class="gcve-tool-card">
+    <div class="gcve-tool-card-media">
+      <img src="/logos/gcve.png" alt="GCVE logo" />
+    </div>
+    <div class="gcve-tool-card-body">
+      <p class="gcve-tool-kicker">BCP-07 KEV assertions</p>
+      <h3>gcve-eu-kev</h3>
+      <p>Python tooling that downloads Known Exploited Vulnerability feeds and converts entries into GCVE-BCP-07 KEV Assertion JSON objects.</p>
+      <ul class="gcve-tool-list">
+        <li>Transforms list-based KEV feeds into attributable assertions.</li>
+        <li>Supports ingestion into GCVE-compatible systems and pipelines.</li>
+        <li>Helps operational teams preserve structured exploitation context.</li>
+      </ul>
+      <div class="gcve-tool-actions">
+        <a class="gcve-button gcve-button-primary" href="https://github.com/gcve-eu/gcve-eu-kev">GitHub repository</a>
+      </div>
+    </div>
+  </article>
 
-The goal is to transform a list-based KEV feed into attributable, structured exploitation assertions suitable for ingestion into GCVE-compatible systems, vulnerability databases, or analytical pipelines.
+  <article class="gcve-tool-card">
+    <div class="gcve-tool-card-media">
+      <img src="/logos/gcve.png" alt="GCVE logo" />
+    </div>
+    <div class="gcve-tool-card-body">
+      <p class="gcve-tool-kicker">Schemas and validation</p>
+      <h3>bcp-validator</h3>
+      <p>Validators and JSON Schemas for GCVE Best Current Practices, built to help producers, consumers, and integrators validate GCVE-related data structures consistently.</p>
+      <ul class="gcve-tool-list">
+        <li>Implementation-oriented validation for BCP data structures.</li>
+        <li>Reusable JSON Schemas for automated checks.</li>
+        <li>Interoperability support for GCVE producers and consumers.</li>
+      </ul>
+      <div class="gcve-tool-actions">
+        <a class="gcve-button gcve-button-primary" href="https://github.com/gcve-eu/bcp-validator">GitHub repository</a>
+      </div>
+    </div>
+  </article>
 
-{{% details title="Details" %}}
-- {{< icon "github" >}} [https://github.com/gcve-eu/gcve-eu-kev](https://github.com/gcve-eu/gcve-eu-kev)
-{{% /details %}}
-
-### GCVE BCP Validators and Schemas
-
-{{< cards >}}
-  {{< card link="about" title="bcp-validator" subtitle="Validators and JSON Schemas for GCVE Best Current Practices (BCPs)." link="https://github.com/gcve-eu/bcp-validator" image="https://gcve.eu/logos/gcve.png">}}
-{{< /cards >}}
-
-This repository contains validators and JSON Schemas for GCVE Best Current Practices (BCPs).
-
-Its goal is to provide practical, implementation-oriented tooling to help producers, consumers, and integrators validate GCVE-related data structures in a consistent and interoperable way.
-
-{{% details title="Details" %}}
-- {{< icon "github" >}} [https://github.com/gcve-eu/bcp-validator](https://github.com/gcve-eu/bcp-validator)
-{{% /details %}}
-
-
-### Client for the Global CVE Allocation System
-
-#### Python
-
-{{< cards >}}
-  {{< card link="about" title="gcve" subtitle="A Python client for the Global CVE Allocation System" link="https://github.com/gcve-eu/gcve" image="https://gcve.eu/logos/gcve.png">}}
-{{< /cards >}}
-This `gcve` client can be integrated into software such as Vulnerability-Lookup to provide core GCVE functionalities by adhering to the Best Current Practices and provides a command-line to query the GCVE GNA directory.
-
-{{% details title="Details" %}}
-- {{< icon "github" >}} [https://github.com/gcve-eu/gcve](https://github.com/gcve-eu/gcve)
-{{% /details %}}
-
-
-
-
-
+  <article class="gcve-tool-card">
+    <div class="gcve-tool-card-media">
+      <img src="/logos/gcve.png" alt="GCVE logo" />
+    </div>
+    <div class="gcve-tool-card-body">
+      <p class="gcve-tool-kicker">Python client</p>
+      <h3>gcve</h3>
+      <p>A Python client for the Global CVE Allocation System that can be integrated into software such as Vulnerability-Lookup and used from the command line to query the GCVE GNA directory.</p>
+      <ul class="gcve-tool-list">
+        <li>Provides core GCVE client functionality for applications.</li>
+        <li>Follows GCVE Best Current Practices.</li>
+        <li>Includes command-line access to the GNA directory.</li>
+      </ul>
+      <div class="gcve-tool-actions">
+        <a class="gcve-button gcve-button-primary" href="https://github.com/gcve-eu/gcve">GitHub repository</a>
+      </div>
+    </div>
+  </article>
+</div>
