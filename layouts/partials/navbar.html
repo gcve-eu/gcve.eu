@@ -1,0 +1,96 @@
+{{- $logoPath := .Site.Params.navbar.logo.path | default "images/logo.svg" -}}
+{{- $logoLink := .Site.Params.navbar.logo.link | default .Site.Home.RelPermalink -}}
+{{- $logoWidth := .Site.Params.navbar.logo.width | default "34" -}}
+{{- $logoHeight := .Site.Params.navbar.logo.height | default "34" -}}
+{{- $logoDarkPath := .Site.Params.navbar.logo.dark | default $logoPath -}}
+
+{{- $navWidth := "hx-max-w-[90rem]" -}}
+{{- with .Site.Params.navbar.width -}}
+  {{ if eq . "normal" -}}
+    {{ $navWidth = "hx-max-w-screen-xl" -}}
+  {{ else if eq . "full" -}}
+    {{ $navWidth = "max-w-full" -}}
+  {{ end -}}
+{{- end -}}
+
+<div class="nav-container hx-sticky hx-top-0 hx-z-20 hx-w-full hx-bg-transparent print:hx-hidden">
+  <div class="nav-container-blur hx-pointer-events-none hx-absolute hx-z-[-1] hx-h-full hx-w-full hx-bg-white dark:hx-bg-dark hx-shadow-[0_2px_4px_rgba(0,0,0,.02),0_1px_0_rgba(0,0,0,.06)] contrast-more:hx-shadow-[0_0_0_1px_#000] dark:hx-shadow-[0_-1px_0_rgba(255,255,255,.1)_inset] contrast-more:dark:hx-shadow-[0_0_0_1px_#fff]"></div>
+
+  <nav class="gcve-navbar hx-mx-auto hx-flex hx-items-center hx-gap-3 hx-h-16 hx-px-6 {{ $navWidth }}">
+    <a class="gcve-brand hx-flex hx-items-center hx-gap-3 hover:hx-opacity-90 ltr:hx-mr-auto rtl:hx-ml-auto" href="{{ $logoLink }}" aria-label="{{ .Site.Title }}">
+      {{- if (.Site.Params.navbar.displayLogo | default true) }}
+        <span class="gcve-brand-mark" aria-hidden="true">
+          <img class="hx-block dark:hx-hidden" src="{{ $logoPath | relURL }}" alt="" height="{{ $logoHeight }}" width="{{ $logoWidth }}" />
+          <img class="hx-hidden dark:hx-block" src="{{ $logoDarkPath | relURL }}" alt="" height="{{ $logoHeight }}" width="{{ $logoWidth }}" />
+        </span>
+      {{- end }}
+      {{- if (.Site.Params.navbar.displayTitle | default true) }}
+        <span class="gcve-brand-copy" title="{{ .Site.Title }}">
+          <span class="gcve-brand-title">GCVE</span>
+          <span class="gcve-brand-subtitle">Global CVE Allocation System</span>
+        </span>
+      {{- end }}
+    </a>
+
+    {{- $currentPage := . -}}
+    <div class="gcve-nav-links hx-hidden md:hx-flex hx-items-center hx-gap-1" aria-label="Primary navigation">
+      {{- range .Site.Menus.main -}}
+        {{- if and (ne .Params.type "search") (not .Params.icon) -}}
+        {{- $link := .URL -}}
+        {{- $external := strings.HasPrefix $link "http" -}}
+        {{- with .PageRef -}}
+          {{- if hasPrefix . "/" -}}
+            {{- $link = relLangURL (strings.TrimPrefix "/" .) -}}
+          {{- end -}}
+        {{- end -}}
+        {{- $active := or ($currentPage.HasMenuCurrent "main" .) ($currentPage.IsMenuCurrent "main" .) -}}
+        <a
+          title="{{ or (T .Identifier) .Name | safeHTML }}"
+          href="{{ $link }}"
+          {{ if $external }}target="_blank" rel="noreferrer"{{ end }}
+          class="gcve-nav-link{{ if $active }} is-active{{ end }}"
+          {{ if $active }}aria-current="page"{{ end }}
+        >
+          {{ or (T .Identifier) .Name | safeHTML }}
+        </a>
+        {{- end -}}
+      {{- end -}}
+    </div>
+
+    <div class="gcve-nav-tools hx-hidden md:hx-flex hx-items-center hx-gap-2">
+      {{- range .Site.Menus.main -}}
+        {{- if eq .Params.type "search" -}}
+          {{- partial "search.html" (dict "params" .Params) -}}
+        {{- end -}}
+      {{- end -}}
+
+      <div class="gcve-icon-links hx-flex hx-items-center hx-gap-1" aria-label="GCVE external resources">
+        {{- range .Site.Menus.main -}}
+          {{- if .Params.icon -}}
+            {{- $link := .URL -}}
+            {{- $external := strings.HasPrefix $link "http" -}}
+            {{- with .PageRef -}}
+              {{- if hasPrefix . "/" -}}
+                {{- $link = relLangURL (strings.TrimPrefix "/" .) -}}
+              {{- end -}}
+            {{- end -}}
+            {{- $rel := cond (eq .Params.icon "mastodon") "noreferrer me" "noreferrer" -}}
+            {{- $label := or (T .Identifier) .Name | safeHTML -}}
+            <a class="gcve-icon-link{{ if eq .Params.icon "database" }} gcve-database-link{{ end }}" {{ if $external }}target="_blank" rel="{{ $rel }}"{{ end }} href="{{ $link }}" title="{{ $label }}">
+              {{- partial "utils/icon.html" (dict "name" .Params.icon "attributes" "height=18") -}}
+              {{- if eq .Params.icon "database" -}}
+                <span>{{ $label }}</span>
+              {{- else -}}
+                <span class="hx-sr-only">{{ $label }}</span>
+              {{- end -}}
+            </a>
+          {{- end -}}
+        {{- end -}}
+      </div>
+    </div>
+
+    <button type="button" aria-label="Menu" class="hamburger-menu -hx-mr-2 hx-rounded-xl hx-p-2 active:hx-bg-gray-400/20 md:hx-hidden">
+      {{- partial "utils/icon.html" (dict "name" "hamburger-menu" "attributes" "height=24") -}}
+    </button>
+  </nav>
+</div>

@@ -43,6 +43,160 @@ body {
   box-shadow: 0 10px 32px rgba(0, 0, 0, 0.24);
 }
 
+.gcve-navbar {
+  --gcve-nav-surface: rgba(255, 255, 255, 0.64);
+  --gcve-nav-surface-strong: rgba(255, 255, 255, 0.92);
+  --gcve-nav-text: #22324a;
+  --gcve-nav-subtle: #64748b;
+}
+
+.dark .gcve-navbar {
+  --gcve-nav-surface: rgba(255, 255, 255, 0.055);
+  --gcve-nav-surface-strong: rgba(18, 24, 38, 0.92);
+  --gcve-nav-text: #e8f1fb;
+  --gcve-nav-subtle: #9fb0c7;
+}
+
+.gcve-brand {
+  min-width: 0;
+  color: var(--gcve-nav-text);
+  text-decoration: none;
+}
+
+.gcve-brand-mark {
+  display: inline-grid;
+  flex: 0 0 auto;
+  place-items: center;
+  width: 2.45rem;
+  height: 2.45rem;
+  border: 1px solid rgba(38, 100, 255, 0.15);
+  border-radius: 0.9rem;
+  background:
+    radial-gradient(circle at 70% 20%, rgba(34, 195, 223, 0.28), transparent 55%),
+    var(--gcve-nav-surface-strong);
+  box-shadow: 0 10px 28px rgba(16, 35, 63, 0.08);
+}
+
+.dark .gcve-brand-mark {
+  border-color: rgba(34, 195, 223, 0.22);
+  box-shadow: 0 10px 28px rgba(0, 0, 0, 0.22);
+}
+
+.gcve-brand-mark img {
+  width: 1.65rem;
+  height: 1.65rem;
+}
+
+.gcve-brand-copy {
+  display: grid;
+  min-width: 0;
+  line-height: 1.05;
+}
+
+.gcve-brand-title {
+  color: var(--gcve-nav-text);
+  font-size: 1.02rem;
+  font-weight: 850;
+  letter-spacing: -0.025em;
+}
+
+.gcve-brand-subtitle {
+  margin-top: 0.14rem;
+  color: var(--gcve-nav-subtle);
+  font-size: 0.72rem;
+  font-weight: 650;
+  letter-spacing: 0.015em;
+  white-space: nowrap;
+}
+
+.gcve-nav-links,
+.gcve-icon-links {
+  padding: 0.22rem;
+  border: 1px solid rgba(38, 100, 255, 0.11);
+  border-radius: 999px;
+  background: var(--gcve-nav-surface);
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.46);
+}
+
+.dark .gcve-nav-links,
+.dark .gcve-icon-links {
+  border-color: rgba(255, 255, 255, 0.08);
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.05);
+}
+
+.gcve-nav-link,
+.gcve-icon-link {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.42rem;
+  min-height: 2rem;
+  border-radius: 999px;
+  color: var(--gcve-nav-subtle);
+  font-size: 0.86rem;
+  font-weight: 700;
+  line-height: 1;
+  text-decoration: none !important;
+  transition: color 0.18s ease, background-color 0.18s ease, box-shadow 0.18s ease, transform 0.18s ease;
+}
+
+.gcve-nav-link {
+  padding: 0.45rem 0.78rem;
+}
+
+.gcve-icon-link {
+  min-width: 2rem;
+  padding: 0.45rem;
+}
+
+.gcve-database-link {
+  padding-inline: 0.7rem;
+}
+
+.gcve-nav-link:hover,
+.gcve-icon-link:hover,
+.gcve-nav-link.is-active {
+  color: var(--gcve-nav-text);
+  background: var(--gcve-nav-surface-strong);
+  box-shadow: 0 8px 22px rgba(16, 35, 63, 0.08);
+  transform: translateY(-1px);
+}
+
+.dark .gcve-nav-link:hover,
+.dark .gcve-icon-link:hover,
+.dark .gcve-nav-link.is-active {
+  box-shadow: 0 8px 22px rgba(0, 0, 0, 0.24);
+}
+
+.gcve-nav-link.is-active {
+  color: #174bd6;
+}
+
+.dark .gcve-nav-link.is-active {
+  color: #8be9f7;
+}
+
+.gcve-nav-tools .search-wrapper {
+  width: clamp(11rem, 18vw, 15rem);
+}
+
+.gcve-nav-tools .search-input {
+  border: 1px solid rgba(38, 100, 255, 0.11);
+  border-radius: 999px;
+  background: var(--gcve-nav-surface);
+  font-weight: 600;
+}
+
+.dark .gcve-nav-tools .search-input {
+  border-color: rgba(255, 255, 255, 0.08);
+}
+
+@media (max-width: 1180px) {
+  .gcve-brand-subtitle {
+    display: none;
+  }
+}
+
 .content :is(h1, h2, h3) {
   letter-spacing: -0.035em;
 }
@@ -324,5 +478,39 @@ body {
 
   .gcve-hero h1 {
     max-width: 100%;
+  }
+}
+
+@media (max-width: 1100px) {
+  .gcve-nav-tools .search-wrapper {
+    display: none;
+  }
+
+  .gcve-database-link span {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border: 0;
+  }
+
+  .gcve-database-link {
+    min-width: 2rem;
+    padding-inline: 0.45rem;
+  }
+}
+
+@media (max-width: 860px) {
+  .gcve-nav-link {
+    padding-inline: 0.58rem;
+    font-size: 0.8rem;
+  }
+
+  .gcve-nav-tools {
+    display: none !important;
   }
 }
