@@ -45,5 +45,6 @@ While remaining compatible with the traditional CVE system, GCVE introduces **GC
   {{< card link="/dist/gcve.json" title="Directory JSON" icon="desktop-computer" subtitle="Fetch the GCVE GNA directory as a machine-readable file." >}}
   {{< card link="news" title="News" icon="newspaper" subtitle="Follow announcements, releases, community events, and project updates." >}}
   {{< card link="https://db.gcve.eu" title="db.gcve.eu" icon="database" subtitle="Open the GCVE vulnerability intelligence and lookup service." >}}
+  {{< card link="https://cpe.gcve.eu" title="cpe.gcve.eu" icon="database" subtitle="Open the GCVE CPE catalog and collaborative product curation service." >}}
   {{< card link="contact" title="Contact" icon="mail" subtitle="Reach the GCVE team and join community discussion channels." >}}
 {{< /cards >}}
