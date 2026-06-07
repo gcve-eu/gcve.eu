@@ -58,6 +58,8 @@ body {
   position: relative;
   isolation: isolate;
   overflow: hidden;
+  width: 100%;
+  box-sizing: border-box;
   margin: 1.5rem 0 3rem;
   padding: clamp(2rem, 5vw, 4.75rem);
   border: 1px solid var(--gcve-border);
@@ -104,8 +106,8 @@ body {
 
 .gcve-hero-grid {
   display: grid;
-  grid-template-columns: minmax(34rem, 1.25fr) minmax(320px, 0.75fr);
-  gap: clamp(2rem, 5vw, 4rem);
+  grid-template-columns: minmax(0, 1.25fr) minmax(16rem, 0.75fr);
+  gap: clamp(1.5rem, 4vw, 4rem);
   align-items: center;
 }
 
@@ -300,7 +302,7 @@ body {
   margin-inline: auto;
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 1024px), (min-width: 1025px) and (max-width: 1280px) {
   .gcve-hero-grid {
     grid-template-columns: minmax(0, 1fr);
   }
