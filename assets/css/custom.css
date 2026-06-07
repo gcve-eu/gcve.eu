@@ -248,12 +248,6 @@ body {
   box-shadow: 0 14px 34px rgba(34, 195, 223, 0.22);
 }
 
-@media (min-width: 1025px) {
-  .hamburger-menu {
-    display: none !important;
-  }
-}
-
 @media (max-width: 1024px) {
   .gcve-nav-links,
   .gcve-nav-tools {
