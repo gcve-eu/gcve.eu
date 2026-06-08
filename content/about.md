@@ -9,6 +9,10 @@ While remaining compatible with the traditional CVE system, GCVE introduces **GC
 
 **Global CVE (GCVE)** initiative is operated by the [CIRCL Computer Incident Response Center Luxembourg](http://www.circl.lu/), which also maintains the core open-source project for vulnerability management, [vulnerability-lookup](https://www.vulnerability-lookup.org/). For more details, see [the background story](https://gcve.eu/faq/#q12-what-is-the-relationship-between-the-open-source-vulnerability-lookup-project-the-euvd-european-union-vulnerability-database-and-gcveeu).
 
+## Citing GCVE
+
+If you reference the GCVE initiative in academic, technical, or operational publications, please use the recommended citation and BibTeX entry on the [Citation](/citation/) page.
+
 ## Key Concepts
 
 ![Overview of the GCVE.eu allocation system](/images/gcve-overview.png)

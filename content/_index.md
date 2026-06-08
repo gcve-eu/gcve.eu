@@ -39,6 +39,7 @@ While remaining compatible with the traditional CVE system, GCVE introduces **GC
   {{< card link="who" title="Who is behind GCVE?" icon="user-group" subtitle="See the people, organisations, and projects supporting the initiative." >}}
   {{< card link="faq" title="FAQ" icon="chat" subtitle="Quick answers about compatibility, identifiers, GNAs, and participation." >}}
   {{< card link="bcp" title="Best Current Practices" icon="book-open" subtitle="Read the open process documents that guide GCVE operations." >}}
+  {{< card link="citation" title="Citation" icon="academic-cap" subtitle="Find the recommended citation and BibTeX entry for referencing the GCVE initiative." >}}
   {{< card link="software" title="Software" icon="desktop-computer" subtitle="Discover implementations, tooling, and integrations around the ecosystem." >}}
   {{< card link="opendata" title="Open Data" icon="database" subtitle="Find public vulnerability dumps, GCVE/GNA source data, and enriched advisory data sets." >}}
   {{< card link="gna" title="GNA Directory" icon="book-open" subtitle="Browse participating GCVE Numbering Authorities and related metadata." >}}
