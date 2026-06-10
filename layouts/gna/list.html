@@ -1,0 +1,84 @@
+{{ define "main" }}
+  {{- $raw := readFile "static/dist/gcve.json" -}}
+  {{- $gnas := $raw | transform.Unmarshal -}}
+  {{- $resourceCount := 0 -}}
+  {{- range $gnas }}{{ with .gcve_url }}{{ $resourceCount = add $resourceCount 1 }}{{ end }}{{ end -}}
+  <div class="hx-mx-auto hx-flex {{ partial `utils/page-width` . }}">
+    {{ partial "sidebar.html" (dict "context" . "disableSidebar" true "displayPlaceholder" true) }}
+    <article class="hx-w-full hx-break-words hx-flex hx-min-h-[calc(100vh-var(--navbar-height))] hx-min-w-0 hx-justify-center hx-pb-8 hx-pr-[calc(env(safe-area-inset-right)-1.5rem)]">
+      <main class="hx-w-full hx-min-w-0 hx-max-w-6xl hx-px-6 hx-pt-4 md:hx-px-12">
+        <section class="gcve-gna-hero" aria-labelledby="gna-directory-title">
+          <div class="gcve-gna-hero-copy">
+            <p class="gcve-eyebrow">GCVE registry</p>
+            <h1 id="gna-directory-title">{{ .Title }}</h1>
+            <p class="gcve-gna-lede">GCVE Numbering Authorities are autonomous participants that allocate and publish GCVE identifiers. This directory is generated from the public registry data used by the GCVE initiative.</p>
+            <div class="gcve-gna-actions">
+              <a class="gcve-button gcve-button-primary" href="/publishing-vulnerability-information/">Request a GNA ID</a>
+              <a class="gcve-button gcve-button-secondary" href="/dist/gcve.json">Download JSON</a>
+            </div>
+          </div>
+          <div class="gcve-gna-panel" aria-label="GNA registry summary">
+            <img src="/gcve-logos/GNA/SVG/GNA_color.svg" alt="GCVE Numbering Authority logo" />
+            <div class="gcve-stat-grid">
+              <div class="gcve-stat"><strong>{{ len $gnas }}</strong><span>Registered GNA identifiers</span></div>
+              <div class="gcve-stat"><strong>{{ $resourceCount }}</strong><span>Entries with public URLs</span></div>
+              <div class="gcve-stat"><strong>JSON</strong><span>Published open registry data</span></div>
+              <div class="gcve-stat"><strong>GCVE</strong><span>Decentralized allocation model</span></div>
+            </div>
+          </div>
+        </section>
+
+        <section class="gcve-gna-directory" aria-labelledby="gna-list-title">
+          <div class="gcve-gna-section-head">
+            <div>
+              <p class="gcve-eyebrow">Directory</p>
+              <h2 id="gna-list-title">Registered authorities</h2>
+            </div>
+            <label class="gcve-gna-filter">
+              <span>Filter GNAs</span>
+              <input type="search" id="gna-filter" placeholder="Search by ID, name, vendor, or URL" autocomplete="off" />
+            </label>
+          </div>
+          <div class="gcve-gna-grid" id="gna-grid">
+            {{- range sort $gnas "id" "asc" }}
+              {{- $searchText := printf "%v %s %s %s %s %s %s %s %s %s" .id (or .short_name "") (or .full_name "") (or .cpe_vendor_name "") (or .usage "") (or .gcve_url "") (or .gcve_api "") (or .gcve_dump "") (or .gcve_allocation "") (or .gcve_pull_api "") -}}
+              <article class="gcve-gna-card" data-gna-card data-search="{{ $searchText | plainify | lower }}">
+                <div class="gcve-gna-card-top">
+                  <span class="gcve-gna-id">GNA {{ .id }}</span>
+                  {{ with .cpe_vendor_name }}<span class="gcve-gna-vendor">{{ . }}</span>{{ end }}
+                </div>
+                <h3><a href="/gna/{{ .id }}/">{{ .short_name }}</a></h3>
+                <p>{{ or .full_name .usage "GCVE Numbering Authority registry entry." }}</p>
+                <div class="gcve-gna-card-links">
+                  <a href="/gna/{{ .id }}/">View profile</a>
+                  {{ with .gcve_url }}<a href="{{ . }}" target="_blank" rel="noreferrer">Website</a>{{ end }}
+                </div>
+              </article>
+            {{- end }}
+          </div>
+          <p class="gcve-gna-empty" id="gna-empty" hidden>No GNA entries match your filter.</p>
+        </section>
+      </main>
+    </article>
+    <div class="max-xl:hx-hidden hx-h-0 hx-w-64 hx-shrink-0"></div>
+  </div>
+  <script>
+    (() => {
+      const filter = document.getElementById('gna-filter');
+      const cards = Array.from(document.querySelectorAll('[data-gna-card]'));
+      const empty = document.getElementById('gna-empty');
+      if (!filter || cards.length === 0) return;
+      const applyFilter = () => {
+        const query = filter.value.trim().toLowerCase();
+        let visible = 0;
+        for (const card of cards) {
+          const match = !query || card.dataset.search.includes(query);
+          card.hidden = !match;
+          if (match) visible += 1;
+        }
+        if (empty) empty.hidden = visible !== 0;
+      };
+      filter.addEventListener('input', applyFilter);
+    })();
+  </script>
+{{ end }}
