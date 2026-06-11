@@ -1,0 +1,74 @@
+{{ define "main" }}
+  {{- $registry := readFile "static/dist/gcve.json" | transform.Unmarshal -}}
+  {{- $entry := dict -}}
+  {{- $currentID := int .Params.gna_id -}}
+  {{- range $registry -}}
+    {{- if eq (int .id) $currentID -}}
+      {{- $entry = . -}}
+    {{- end -}}
+  {{- end -}}
+  <div class='hx-mx-auto hx-flex {{ partial "utils/page-width" . }}'>
+    {{ partial "sidebar.html" (dict "context" . "disableSidebar" true "displayPlaceholder" false) }}
+    {{ partial "toc.html" . }}
+    <article class="hx-w-full hx-break-words hx-flex hx-min-h-[calc(100vh-var(--navbar-height))] hx-min-w-0 hx-justify-center hx-pb-8 hx-pr-[calc(env(safe-area-inset-right)-1.5rem)]">
+      <main class="hx-w-full hx-min-w-0 hx-max-w-6xl hx-px-6 hx-pt-4 md:hx-px-12">
+        <div class="gcve-gna-profile">
+          <header class="gcve-gna-profile-hero">
+            <div>
+              <p class="gcve-eyebrow">GCVE Numbering Authority</p>
+              <h1>{{ $entry.short_name | default .Title }}</h1>
+              <p class="gcve-gna-profile-name">{{ $entry.full_name | default .Description }}</p>
+            </div>
+            <div class="gcve-gna-profile-badge" aria-label="GNA identifier">
+              <span>GNA</span>
+              <strong>{{ $currentID }}</strong>
+            </div>
+          </header>
+
+          <div class="gcve-gna-profile-grid">
+            <section class="gcve-gna-detail-card gcve-gna-detail-card-main" aria-labelledby="gna-registry-details">
+              <h2 id="gna-registry-details">Registry details</h2>
+              <dl class="gcve-gna-definition-list">
+                <div><dt>Identifier</dt><dd>GNA {{ $currentID }}</dd></div>
+                {{- with $entry.short_name }}<div><dt>Short name</dt><dd>{{ . }}</dd></div>{{ end -}}
+                {{- with $entry.full_name }}<div><dt>Full name</dt><dd>{{ . }}</dd></div>{{ end -}}
+                {{- with $entry.cpe_vendor_name }}<div><dt>CPE vendor</dt><dd><code>{{ . }}</code></dd></div>{{ end -}}
+                {{- with $entry.usage }}<div><dt>Usage</dt><dd>{{ . }}</dd></div>{{ end -}}
+                {{- with $entry.inserted_at }}<div><dt>Inserted</dt><dd>{{ substr . 0 10 }}</dd></div>{{ end -}}
+                {{- with $entry.updated_at }}<div><dt>Updated</dt><dd>{{ substr . 0 10 }}</dd></div>{{ end -}}
+              </dl>
+            </section>
+
+            <section class="gcve-gna-detail-card" aria-labelledby="gna-publication-resources">
+              <h2 id="gna-publication-resources">Publication resources</h2>
+              {{- if or $entry.gcve_url $entry.gcve_api $entry.gcve_dump $entry.gcve_allocation $entry.gcve_pull_api -}}
+                <div class="gcve-gna-resource-list">
+                  {{- with $entry.gcve_url }}<a href="{{ . }}" target="_blank" rel="noreferrer">Website<span>{{ . }}</span></a>{{ end -}}
+                  {{- with $entry.gcve_api }}<a href="{{ . }}" target="_blank" rel="noreferrer">API<span>{{ . }}</span></a>{{ end -}}
+                  {{- with $entry.gcve_dump }}<a href="{{ . }}" target="_blank" rel="noreferrer">Dumps<span>{{ . }}</span></a>{{ end -}}
+                  {{- with $entry.gcve_allocation }}<a href="{{ . }}" target="_blank" rel="noreferrer">Allocation<span>{{ . }}</span></a>{{ end -}}
+                  {{- with $entry.gcve_pull_api }}<a href="{{ . }}" target="_blank" rel="noreferrer">Pull API<span>{{ . }}</span></a>{{ end -}}
+                </div>
+              {{- else -}}
+                <p class="gcve-gna-muted">No publication resources are currently listed for this GNA in the public registry data.</p>
+              {{- end -}}
+            </section>
+
+            <section class="gcve-gna-detail-card gcve-gna-note-card" aria-labelledby="gna-about-directory">
+              <h2 id="gna-about-directory">About this entry</h2>
+              <p>This profile is generated from the public GCVE registry data and mirrors the downloadable registry distributed by GCVE.eu.</p>
+            </section>
+          </div>
+
+          <div class="gcve-gna-profile-actions">
+            <a class="gcve-button gcve-button-primary" href="/gna/">Back to GNA directory</a>
+            <a class="gcve-button gcve-button-secondary" href="/dist/gcve.json">Download registry JSON</a>
+          </div>
+        </div>
+        <div class="hx-mt-16"></div>
+        {{ partial "components/last-updated.html" . }}
+        {{ partial "components/comments.html" . }}
+      </main>
+    </article>
+  </div>
+{{ end }}
