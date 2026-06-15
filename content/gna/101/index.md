@@ -4,23 +4,21 @@ description: "Ericsson AB is registered as GCVE Numbering Authority 101."
 gna_id: 101
 ---
 
-# GNA 101 — ERIC
+# 101 - ERIC
 
-Ericsson AB
-
-## Registry details
+## Summary
 
 | Field | Value |
-| --- | --- |
-| Identifier | GNA 101 |
+|---|---|
+| ID | 101 |
 | Short name | ERIC |
 | Full name | Ericsson AB |
-| CPE vendor | `Ericsson` |
-| Inserted | 2026-01-31 |
-| Updated | 2026-05-22 |
+| Inserted at | 2026-01-31T07:42:49Z |
+| Updated at | 2026-06-15T10:05:14Z |
 
-## Publication resources
+## Details
 
-- **Dumps:** [https://www.ericsson.com/en/about-us/security/security-bulletins](https://www.ericsson.com/en/about-us/security/security-bulletins)
-
-[Back to the GNA directory](/gna/).
+| Field | Value |
+|---|---|
+| cpe_vendor_name | Ericsson |
+| gcve_dump | [https://www.ericsson.com/en/about-us/security/security-bulletins](https://www.ericsson.com/en/about-us/security/security-bulletins) |

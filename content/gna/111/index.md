@@ -4,23 +4,21 @@ description: "MOGWAI LABS GmbH is registered as GCVE Numbering Authority 111."
 gna_id: 111
 ---
 
-# GNA 111 — MOGWAILABS
+# 111 - MOGWAILABS
 
-MOGWAI LABS GmbH
-
-## Registry details
+## Summary
 
 | Field | Value |
-| --- | --- |
-| Identifier | GNA 111 |
+|---|---|
+| ID | 111 |
 | Short name | MOGWAILABS |
 | Full name | MOGWAI LABS GmbH |
-| Inserted | 2026-01-31 |
-| Updated | 2026-05-22 |
+| Inserted at | 2026-01-31T07:42:49Z |
+| Updated at | 2026-06-15T10:05:14Z |
 
-## Publication resources
+## Details
 
-- **Website:** [https://mogwailabs.de/en/advisories/](https://mogwailabs.de/en/advisories/)
-- **Dumps:** [https://mogwaialbs.de/.well-known/advisories-gcve.json](https://mogwaialbs.de/.well-known/advisories-gcve.json)
-
-[Back to the GNA directory](/gna/).
+| Field | Value |
+|---|---|
+| gcve_dump | [https://mogwaialbs.de/.well-known/advisories-gcve.json](https://mogwaialbs.de/.well-known/advisories-gcve.json) |
+| gcve_url | [https://mogwailabs.de/en/advisories/](https://mogwailabs.de/en/advisories/) |

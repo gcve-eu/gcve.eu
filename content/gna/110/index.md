@@ -4,22 +4,20 @@ description: "Vulnetix Vulnerability Database is registered as GCVE Numbering Au
 gna_id: 110
 ---
 
-# GNA 110 — VVD
+# 110 - VVD
 
-Vulnetix Vulnerability Database
-
-## Registry details
+## Summary
 
 | Field | Value |
-| --- | --- |
-| Identifier | GNA 110 |
+|---|---|
+| ID | 110 |
 | Short name | VVD |
 | Full name | Vulnetix Vulnerability Database |
-| Inserted | 2026-01-31 |
-| Updated | 2026-05-22 |
+| Inserted at | 2026-01-31T07:42:49Z |
+| Updated at | 2026-06-15T10:05:14Z |
 
-## Publication resources
+## Details
 
-- **Website:** [https://www.vulnetix.com/vdb](https://www.vulnetix.com/vdb)
-
-[Back to the GNA directory](/gna/).
+| Field | Value |
+|---|---|
+| gcve_url | [https://www.vulnetix.com/vdb](https://www.vulnetix.com/vdb) |

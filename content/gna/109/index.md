@@ -4,22 +4,20 @@ description: "Concinnity Risks LLC is registered as GCVE Numbering Authority 109
 gna_id: 109
 ---
 
-# GNA 109 — concinnity-risks
+# 109 - concinnity-risks
 
-Concinnity Risks LLC
-
-## Registry details
+## Summary
 
 | Field | Value |
-| --- | --- |
-| Identifier | GNA 109 |
+|---|---|
+| ID | 109 |
 | Short name | concinnity-risks |
 | Full name | Concinnity Risks LLC |
-| Inserted | 2026-01-31 |
-| Updated | 2026-05-22 |
+| Inserted at | 2026-01-31T07:42:49Z |
+| Updated at | 2026-06-15T10:05:14Z |
 
-## Publication resources
+## Details
 
-- **Website:** [https://concinnity-risks.com/](https://concinnity-risks.com/)
-
-[Back to the GNA directory](/gna/).
+| Field | Value |
+|---|---|
+| gcve_url | [https://concinnity-risks.com/](https://concinnity-risks.com/) |

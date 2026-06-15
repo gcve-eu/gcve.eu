@@ -4,22 +4,19 @@ description: "Ministère de la Cybersécurité et du Numérique – CERT-QC is r
 gna_id: 112
 ---
 
-# GNA 112 — CERT-QC
+# 112 - CERT-QC
 
-Ministère de la Cybersécurité et du Numérique – CERT-QC
-
-## Registry details
+## Summary
 
 | Field | Value |
-| --- | --- |
-| Identifier | GNA 112 |
+|---|---|
+| ID | 112 |
 | Short name | CERT-QC |
 | Full name | Ministère de la Cybersécurité et du Numérique – CERT-QC |
-| Inserted | 2026-01-31 |
-| Updated | 2026-05-22 |
+| Inserted at | 2026-01-31T07:42:49Z |
+| Updated at | 2026-06-15T10:05:14Z |
 
-## Publication resources
+## Details
 
-No publication resources are currently listed for this GNA in the public registry data.
-
-[Back to the GNA directory](/gna/).
+| Field | Value |
+|---|---|

@@ -4,22 +4,20 @@ description: "National Cyber Security Centre SK-CERT is registered as GCVE Numbe
 gna_id: 106
 ---
 
-# GNA 106 — SK-CERT
+# 106 - SK-CERT
 
-National Cyber Security Centre SK-CERT
-
-## Registry details
+## Summary
 
 | Field | Value |
-| --- | --- |
-| Identifier | GNA 106 |
+|---|---|
+| ID | 106 |
 | Short name | SK-CERT |
 | Full name | National Cyber Security Centre SK-CERT |
-| Inserted | 2026-01-31 |
-| Updated | 2026-05-22 |
+| Inserted at | 2026-01-31T07:42:49Z |
+| Updated at | 2026-06-15T10:05:14Z |
 
-## Publication resources
+## Details
 
-- **Website:** [https://www.sk-cert.sk/](https://www.sk-cert.sk/)
-
-[Back to the GNA directory](/gna/).
+| Field | Value |
+|---|---|
+| gcve_url | [https://www.sk-cert.sk/](https://www.sk-cert.sk/) |

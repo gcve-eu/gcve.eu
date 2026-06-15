@@ -4,23 +4,20 @@ description: "AboutCode Europe ASBL is registered as GCVE Numbering Authority 10
 gna_id: 104
 ---
 
-# GNA 104 — AboutCode.org
+# 104 - AboutCode.org
 
-AboutCode Europe ASBL
-
-## Registry details
+## Summary
 
 | Field | Value |
-| --- | --- |
-| Identifier | GNA 104 |
+|---|---|
+| ID | 104 |
 | Short name | AboutCode.org |
 | Full name | AboutCode Europe ASBL |
-| CPE vendor | `aboutcode-org` |
-| Inserted | 2026-01-31 |
-| Updated | 2026-05-22 |
+| Inserted at | 2026-01-31T07:42:49Z |
+| Updated at | 2026-06-15T10:05:14Z |
 
-## Publication resources
+## Details
 
-No publication resources are currently listed for this GNA in the public registry data.
-
-[Back to the GNA directory](/gna/).
+| Field | Value |
+|---|---|
+| cpe_vendor_name | aboutcode-org |

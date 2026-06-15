@@ -4,22 +4,20 @@ description: "European Union Vulnerability Database is registered as GCVE Number
 gna_id: 2
 ---
 
-# GNA 2 — EUVD
+# 2 - EUVD
 
-European Union Vulnerability Database
-
-## Registry details
+## Summary
 
 | Field | Value |
-| --- | --- |
-| Identifier | GNA 2 |
+|---|---|
+| ID | 2 |
 | Short name | EUVD |
 | Full name | European Union Vulnerability Database |
-| Inserted | 2026-01-31 |
-| Updated | 2026-05-22 |
+| Inserted at | 2026-01-31T07:42:49Z |
+| Updated at | 2026-06-15T10:05:14Z |
 
-## Publication resources
+## Details
 
-- **Website:** [https://euvd.enisa.europa.eu/](https://euvd.enisa.europa.eu/)
-
-[Back to the GNA directory](/gna/).
+| Field | Value |
+|---|---|
+| gcve_url | [https://euvd.enisa.europa.eu/](https://euvd.enisa.europa.eu/) |

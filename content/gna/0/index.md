@@ -4,23 +4,20 @@ description: "CVE Program is registered as GCVE Numbering Authority 0."
 gna_id: 0
 ---
 
-# GNA 0 — CVE
+# 0 - CVE
 
-CVE Program
-
-## Registry details
+## Summary
 
 | Field | Value |
-| --- | --- |
-| Identifier | GNA 0 |
+|---|---|
+| ID | 0 |
 | Short name | CVE |
 | Full name | CVE Program |
-| Usage | This GCVE GNA ID is used as a prefix and MUST be followed by the official CVE ID. |
-| Inserted | 2026-01-31 |
-| Updated | 2026-05-22 |
+| Inserted at | 2026-01-31T07:42:49Z |
+| Updated at | 2026-06-15T10:05:14Z |
 
-## Publication resources
+## Details
 
-No publication resources are currently listed for this GNA in the public registry data.
-
-[Back to the GNA directory](/gna/).
+| Field | Value |
+|---|---|
+| usage | This GCVE GNA ID is used as a prefix and MUST be followed by the official CVE ID. |

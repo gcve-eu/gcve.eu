@@ -4,22 +4,20 @@ description: "Cisco Talos is registered as GCVE Numbering Authority 31337."
 gna_id: 31337
 ---
 
-# GNA 31337 — Talos
+# 31337 - Talos
 
-Cisco Talos
-
-## Registry details
+## Summary
 
 | Field | Value |
-| --- | --- |
-| Identifier | GNA 31337 |
+|---|---|
+| ID | 31337 |
 | Short name | Talos |
 | Full name | Cisco Talos |
-| Inserted | 2026-01-31 |
-| Updated | 2026-05-22 |
+| Inserted at | 2026-01-31T07:42:49Z |
+| Updated at | 2026-06-15T10:05:14Z |
 
-## Publication resources
+## Details
 
-- **Website:** [https://talosintelligence.com/vulnerability_reports](https://talosintelligence.com/vulnerability_reports)
-
-[Back to the GNA directory](/gna/).
+| Field | Value |
+|---|---|
+| gcve_url | [https://talosintelligence.com/vulnerability_reports](https://talosintelligence.com/vulnerability_reports) |

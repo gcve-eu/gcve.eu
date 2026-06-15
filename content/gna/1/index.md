@@ -4,27 +4,25 @@ description: "Computer Incident Response Center Luxembourg is registered as GCVE
 gna_id: 1
 ---
 
-# GNA 1 — CIRCL
+# 1 - CIRCL
 
-Computer Incident Response Center Luxembourg
-
-## Registry details
+## Summary
 
 | Field | Value |
-| --- | --- |
-| Identifier | GNA 1 |
+|---|---|
+| ID | 1 |
 | Short name | CIRCL |
 | Full name | Computer Incident Response Center Luxembourg |
-| CPE vendor | `circl` |
-| Inserted | 2026-01-31 |
-| Updated | 2026-05-22 |
+| Inserted at | 2026-01-31T07:42:49Z |
+| Updated at | 2026-06-15T10:05:14Z |
 
-## Publication resources
+## Details
 
-- **Website:** [https://vulnerability.circl.lu/](https://vulnerability.circl.lu/)
-- **API:** [https://vulnerability.circl.lu/api/](https://vulnerability.circl.lu/api/)
-- **Dumps:** [https://vulnerability.circl.lu/dumps/](https://vulnerability.circl.lu/dumps/)
-- **Allocation:** [https://vulnerability.circl.lu/](https://vulnerability.circl.lu/)
-- **Pull API:** [https://vulnerability.circl.lu/](https://vulnerability.circl.lu/)
-
-[Back to the GNA directory](/gna/).
+| Field | Value |
+|---|---|
+| cpe_vendor_name | circl |
+| gcve_allocation | [https://vulnerability.circl.lu/](https://vulnerability.circl.lu/) |
+| gcve_api | [https://vulnerability.circl.lu/api/](https://vulnerability.circl.lu/api/) |
+| gcve_dump | [https://vulnerability.circl.lu/dumps/](https://vulnerability.circl.lu/dumps/) |
+| gcve_pull_api | [https://vulnerability.circl.lu/](https://vulnerability.circl.lu/) |
+| gcve_url | [https://vulnerability.circl.lu/](https://vulnerability.circl.lu/) |

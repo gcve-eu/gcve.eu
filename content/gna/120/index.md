@@ -4,23 +4,21 @@ description: "Erlang Ecosystem Foundation is registered as GCVE Numbering Author
 gna_id: 120
 ---
 
-# GNA 120 — eef
+# 120 - eef
 
-Erlang Ecosystem Foundation
-
-## Registry details
+## Summary
 
 | Field | Value |
-| --- | --- |
-| Identifier | GNA 120 |
+|---|---|
+| ID | 120 |
 | Short name | eef |
 | Full name | Erlang Ecosystem Foundation |
-| Inserted | 2026-05-22 |
-| Updated | 2026-05-22 |
+| Inserted at | 2026-05-22T14:07:41Z |
+| Updated at | 2026-06-15T10:05:14Z |
 
-## Publication resources
+## Details
 
-- **Website:** [https://cna.erlef.org/](https://cna.erlef.org/)
-- **Dumps:** [https://cna.erlef.org/cves/index.json](https://cna.erlef.org/cves/index.json)
-
-[Back to the GNA directory](/gna/).
+| Field | Value |
+|---|---|
+| gcve_dump | [https://cna.erlef.org/cves/index.json](https://cna.erlef.org/cves/index.json) |
+| gcve_url | [https://cna.erlef.org/](https://cna.erlef.org/) |

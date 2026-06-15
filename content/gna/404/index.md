@@ -4,23 +4,21 @@ description: "VulnCheck Inc. is registered as GCVE Numbering Authority 404."
 gna_id: 404
 ---
 
-# GNA 404 — VulnCheck
+# 404 - VulnCheck
 
-VulnCheck Inc.
-
-## Registry details
+## Summary
 
 | Field | Value |
-| --- | --- |
-| Identifier | GNA 404 |
+|---|---|
+| ID | 404 |
 | Short name | VulnCheck |
 | Full name | VulnCheck Inc. |
-| Inserted | 2026-01-31 |
-| Updated | 2026-05-22 |
+| Inserted at | 2026-01-31T07:42:49Z |
+| Updated at | 2026-06-15T10:05:14Z |
 
-## Publication resources
+## Details
 
-- **Website:** [https://vulncheck.com/vulnerability-disclosure-policy](https://vulncheck.com/vulnerability-disclosure-policy)
-- **Dumps:** [https://vulncheck.com/advisories](https://vulncheck.com/advisories)
-
-[Back to the GNA directory](/gna/).
+| Field | Value |
+|---|---|
+| gcve_dump | [https://vulncheck.com/advisories](https://vulncheck.com/advisories) |
+| gcve_url | [https://vulncheck.com/vulnerability-disclosure-policy](https://vulncheck.com/vulnerability-disclosure-policy) |

@@ -4,25 +4,23 @@ description: "Thales PSIRT is registered as GCVE Numbering Authority 107."
 gna_id: 107
 ---
 
-# GNA 107 — THA-PSIRT
+# 107 - THA-PSIRT
 
-Thales PSIRT
-
-## Registry details
+## Summary
 
 | Field | Value |
-| --- | --- |
-| Identifier | GNA 107 |
+|---|---|
+| ID | 107 |
 | Short name | THA-PSIRT |
 | Full name | Thales PSIRT |
-| CPE vendor | `thalesgroup` |
-| Inserted | 2026-01-31 |
-| Updated | 2026-05-22 |
+| Inserted at | 2026-01-31T07:42:49Z |
+| Updated at | 2026-06-15T10:05:14Z |
 
-## Publication resources
+## Details
 
-- **Website:** [https://www.thalesgroup.com/en/global/group/psirt](https://www.thalesgroup.com/en/global/group/psirt)
-- **Dumps:** [www.thalesgroup.com/en/global/group/psirt/thales-product-security-advisories](www.thalesgroup.com/en/global/group/psirt/thales-product-security-advisories)
-- **Allocation:** [https://www.thalesgroup.com/en/global/group/psirt](https://www.thalesgroup.com/en/global/group/psirt)
-
-[Back to the GNA directory](/gna/).
+| Field | Value |
+|---|---|
+| cpe_vendor_name | thalesgroup |
+| gcve_allocation | [https://www.thalesgroup.com/en/global/group/psirt](https://www.thalesgroup.com/en/global/group/psirt) |
+| gcve_dump | www.thalesgroup.com/en/global/group/psirt/thales-product-security-advisories |
+| gcve_url | [https://www.thalesgroup.com/en/global/group/psirt](https://www.thalesgroup.com/en/global/group/psirt) |

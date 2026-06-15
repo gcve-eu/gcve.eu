@@ -4,22 +4,20 @@ description: "DFN-CERT Services GmbH is registered as GCVE Numbering Authority 6
 gna_id: 680
 ---
 
-# GNA 680 — DFN-CERT
+# 680 - DFN-CERT
 
-DFN-CERT Services GmbH
-
-## Registry details
+## Summary
 
 | Field | Value |
-| --- | --- |
-| Identifier | GNA 680 |
+|---|---|
+| ID | 680 |
 | Short name | DFN-CERT |
 | Full name | DFN-CERT Services GmbH |
-| Inserted | 2026-01-31 |
-| Updated | 2026-05-22 |
+| Inserted at | 2026-01-31T07:42:49Z |
+| Updated at | 2026-06-15T10:05:14Z |
 
-## Publication resources
+## Details
 
-- **Website:** [https://adv-archiv.dfn-cert.de/](https://adv-archiv.dfn-cert.de/)
-
-[Back to the GNA directory](/gna/).
+| Field | Value |
+|---|---|
+| gcve_url | [https://adv-archiv.dfn-cert.de/](https://adv-archiv.dfn-cert.de/) |

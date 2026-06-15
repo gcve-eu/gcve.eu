@@ -4,24 +4,22 @@ description: "Austin Hackers Anonymous is registered as GCVE Numbering Authority
 gna_id: 1337
 ---
 
-# GNA 1337 — AHA!
+# 1337 - AHA!
 
-Austin Hackers Anonymous
-
-## Registry details
+## Summary
 
 | Field | Value |
-| --- | --- |
-| Identifier | GNA 1337 |
+|---|---|
+| ID | 1337 |
 | Short name | AHA! |
 | Full name | Austin Hackers Anonymous |
-| Inserted | 2026-01-31 |
-| Updated | 2026-05-22 |
+| Inserted at | 2026-01-31T07:42:49Z |
+| Updated at | 2026-06-15T10:05:14Z |
 
-## Publication resources
+## Details
 
-- **Website:** [https://takeonme.org/cve](https://takeonme.org/cve)
-- **Dumps:** [https://takeonme.org/cve/#published-cves](https://takeonme.org/cve/#published-cves)
-- **Pull API:** [https://aha-gcve.todb.workers.dev](https://aha-gcve.todb.workers.dev)
-
-[Back to the GNA directory](/gna/).
+| Field | Value |
+|---|---|
+| gcve_dump | [https://takeonme.org/cve/#published-cves](https://takeonme.org/cve/#published-cves) |
+| gcve_pull_api | [https://aha-gcve.todb.workers.dev](https://aha-gcve.todb.workers.dev) |
+| gcve_url | [https://takeonme.org/cve](https://takeonme.org/cve) |

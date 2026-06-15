@@ -4,23 +4,21 @@ description: "Fluid Attacks is registered as GCVE Numbering Authority 116."
 gna_id: 116
 ---
 
-# GNA 116 — FLAT
+# 116 - FLAT
 
-Fluid Attacks
-
-## Registry details
+## Summary
 
 | Field | Value |
-| --- | --- |
-| Identifier | GNA 116 |
+|---|---|
+| ID | 116 |
 | Short name | FLAT |
 | Full name | Fluid Attacks |
-| Inserted | 2026-03-16 |
-| Updated | 2026-05-22 |
+| Inserted at | 2026-03-16T15:00:07Z |
+| Updated at | 2026-06-15T10:05:14Z |
 
-## Publication resources
+## Details
 
-- **Website:** [https://fluidattacks.com/advisories/policy](https://fluidattacks.com/advisories/policy)
-- **Dumps:** [https://fluidattacks.com/advisories](https://fluidattacks.com/advisories)
-
-[Back to the GNA directory](/gna/).
+| Field | Value |
+|---|---|
+| gcve_dump | [https://fluidattacks.com/advisories](https://fluidattacks.com/advisories) |
+| gcve_url | [https://fluidattacks.com/advisories/policy](https://fluidattacks.com/advisories/policy) |

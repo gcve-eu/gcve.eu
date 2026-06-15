@@ -4,24 +4,22 @@ description: "Red Hat Inc. is registered as GCVE Numbering Authority 3."
 gna_id: 3
 ---
 
-# GNA 3 — Red Hat
+# 3 - Red Hat
 
-Red Hat Inc.
-
-## Registry details
+## Summary
 
 | Field | Value |
-| --- | --- |
-| Identifier | GNA 3 |
+|---|---|
+| ID | 3 |
 | Short name | Red Hat |
 | Full name | Red Hat Inc. |
-| CPE vendor | `redhat` |
-| Inserted | 2026-01-31 |
-| Updated | 2026-05-22 |
+| Inserted at | 2026-01-31T07:42:49Z |
+| Updated at | 2026-06-15T10:05:14Z |
 
-## Publication resources
+## Details
 
-- **Website:** [https://access.redhat.com/security/](https://access.redhat.com/security/)
-- **API:** [https://access.redhat.com/security/data/csaf/v2/provider-metadata.json](https://access.redhat.com/security/data/csaf/v2/provider-metadata.json)
-
-[Back to the GNA directory](/gna/).
+| Field | Value |
+|---|---|
+| cpe_vendor_name | redhat |
+| gcve_api | [https://access.redhat.com/security/data/csaf/v2/provider-metadata.json](https://access.redhat.com/security/data/csaf/v2/provider-metadata.json) |
+| gcve_url | [https://access.redhat.com/security/](https://access.redhat.com/security/) |

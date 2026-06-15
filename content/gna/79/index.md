@@ -4,24 +4,22 @@ description: "Swisscom (Schweiz) AG is registered as GCVE Numbering Authority 79
 gna_id: 79
 ---
 
-# GNA 79 — SWISSCOM
+# 79 - SWISSCOM
 
-Swisscom (Schweiz) AG
-
-## Registry details
+## Summary
 
 | Field | Value |
-| --- | --- |
-| Identifier | GNA 79 |
+|---|---|
+| ID | 79 |
 | Short name | SWISSCOM |
 | Full name | Swisscom (Schweiz) AG |
-| CPE vendor | `swisscom` |
-| Inserted | 2026-01-31 |
-| Updated | 2026-05-22 |
+| Inserted at | 2026-01-31T07:42:49Z |
+| Updated at | 2026-06-15T10:05:14Z |
 
-## Publication resources
+## Details
 
-- **Website:** [https://github.com/swisscom/bugbounty/tree/main/hall-of-fame](https://github.com/swisscom/bugbounty/tree/main/hall-of-fame)
-- **Allocation:** [https://www.swisscom.ch/en/about/security/bug-bounty.html](https://www.swisscom.ch/en/about/security/bug-bounty.html)
-
-[Back to the GNA directory](/gna/).
+| Field | Value |
+|---|---|
+| cpe_vendor_name | swisscom |
+| gcve_allocation | [https://www.swisscom.ch/en/about/security/bug-bounty.html](https://www.swisscom.ch/en/about/security/bug-bounty.html) |
+| gcve_url | [https://github.com/swisscom/bugbounty/tree/main/hall-of-fame](https://github.com/swisscom/bugbounty/tree/main/hall-of-fame) |

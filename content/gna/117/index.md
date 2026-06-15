@@ -4,23 +4,21 @@ description: "Moksha is registered as GCVE Numbering Authority 117."
 gna_id: 117
 ---
 
-# GNA 117 — Moksha
+# 117 - Moksha
 
-Moksha
-
-## Registry details
+## Summary
 
 | Field | Value |
-| --- | --- |
-| Identifier | GNA 117 |
+|---|---|
+| ID | 117 |
 | Short name | Moksha |
 | Full name | Moksha |
-| Inserted | 2026-04-28 |
-| Updated | 2026-05-22 |
+| Inserted at | 2026-04-28T12:14:19Z |
+| Updated at | 2026-06-15T10:05:14Z |
 
-## Publication resources
+## Details
 
-- **Website:** [https://cna.moksha.dk/about](https://cna.moksha.dk/about)
-- **Dumps:** [https://cna.moksha.dk/index.json](https://cna.moksha.dk/index.json)
-
-[Back to the GNA directory](/gna/).
+| Field | Value |
+|---|---|
+| gcve_dump | [https://cna.moksha.dk/index.json](https://cna.moksha.dk/index.json) |
+| gcve_url | [https://cna.moksha.dk/about](https://cna.moksha.dk/about) |

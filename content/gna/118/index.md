@@ -4,24 +4,22 @@ description: "Nozomi Networks, Inc. is registered as GCVE Numbering Authority 11
 gna_id: 118
 ---
 
-# GNA 118 — Nozomi Networks
+# 118 - Nozomi Networks
 
-Nozomi Networks, Inc.
-
-## Registry details
+## Summary
 
 | Field | Value |
-| --- | --- |
-| Identifier | GNA 118 |
+|---|---|
+| ID | 118 |
 | Short name | Nozomi Networks |
 | Full name | Nozomi Networks, Inc. |
-| CPE vendor | `nozominetworks` |
-| Inserted | 2026-05-07 |
-| Updated | 2026-05-22 |
+| Inserted at | 2026-05-07T13:30:52Z |
+| Updated at | 2026-06-15T10:05:14Z |
 
-## Publication resources
+## Details
 
-- **Website:** [https://security.nozominetworks.com/](https://security.nozominetworks.com/)
-- **Dumps:** [https://security.nozominetworks.com/rss.xml](https://security.nozominetworks.com/rss.xml)
-
-[Back to the GNA directory](/gna/).
+| Field | Value |
+|---|---|
+| cpe_vendor_name | nozominetworks |
+| gcve_dump | [https://security.nozominetworks.com/rss.xml](https://security.nozominetworks.com/rss.xml) |
+| gcve_url | [https://security.nozominetworks.com/](https://security.nozominetworks.com/) |

@@ -4,23 +4,21 @@ description: "National Cyber Security Centre (NCSC) - Switzerland is registered 
 gna_id: 1291
 ---
 
-# GNA 1291 — NCSC-CH
+# 1291 - NCSC-CH
 
-National Cyber Security Centre (NCSC) - Switzerland
-
-## Registry details
+## Summary
 
 | Field | Value |
-| --- | --- |
-| Identifier | GNA 1291 |
+|---|---|
+| ID | 1291 |
 | Short name | NCSC-CH |
 | Full name | National Cyber Security Centre (NCSC) - Switzerland |
-| Inserted | 2026-01-31 |
-| Updated | 2026-05-22 |
+| Inserted at | 2026-01-31T07:42:49Z |
+| Updated at | 2026-06-15T10:05:14Z |
 
-## Publication resources
+## Details
 
-- **Website:** [https://www.ncsc.admin.ch/ncsc/en/home/infos-fuer/infos-it-spezialisten/themen/schwachstelle-melden/cve-list.html](https://www.ncsc.admin.ch/ncsc/en/home/infos-fuer/infos-it-spezialisten/themen/schwachstelle-melden/cve-list.html)
-- **Allocation:** [https://www.ncsc.admin.ch/ncsc/en/home/infos-fuer/infos-it-spezialisten/themen/schwachstelle-melden.html](https://www.ncsc.admin.ch/ncsc/en/home/infos-fuer/infos-it-spezialisten/themen/schwachstelle-melden.html)
-
-[Back to the GNA directory](/gna/).
+| Field | Value |
+|---|---|
+| gcve_allocation | [https://www.ncsc.admin.ch/ncsc/en/home/infos-fuer/infos-it-spezialisten/themen/schwachstelle-melden.html](https://www.ncsc.admin.ch/ncsc/en/home/infos-fuer/infos-it-spezialisten/themen/schwachstelle-melden.html) |
+| gcve_url | [https://www.ncsc.admin.ch/ncsc/en/home/infos-fuer/infos-it-spezialisten/themen/schwachstelle-melden/cve-list.html](https://www.ncsc.admin.ch/ncsc/en/home/infos-fuer/infos-it-spezialisten/themen/schwachstelle-melden/cve-list.html) |

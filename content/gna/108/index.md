@@ -4,23 +4,21 @@ description: "Securin Inc is registered as GCVE Numbering Authority 108."
 gna_id: 108
 ---
 
-# GNA 108 — Securin
+# 108 - Securin
 
-Securin Inc
-
-## Registry details
+## Summary
 
 | Field | Value |
-| --- | --- |
-| Identifier | GNA 108 |
+|---|---|
+| ID | 108 |
 | Short name | Securin |
 | Full name | Securin Inc |
-| Inserted | 2026-01-31 |
-| Updated | 2026-05-22 |
+| Inserted at | 2026-01-31T07:42:49Z |
+| Updated at | 2026-06-15T10:05:14Z |
 
-## Publication resources
+## Details
 
-- **Website:** [https://www.securin.io/disclosure-policy](https://www.securin.io/disclosure-policy)
-- **Dumps:** [https://www.securin.io/discover-zero-days](https://www.securin.io/discover-zero-days)
-
-[Back to the GNA directory](/gna/).
+| Field | Value |
+|---|---|
+| gcve_dump | [https://www.securin.io/discover-zero-days](https://www.securin.io/discover-zero-days) |
+| gcve_url | [https://www.securin.io/disclosure-policy](https://www.securin.io/disclosure-policy) |

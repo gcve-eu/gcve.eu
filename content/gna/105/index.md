@@ -4,23 +4,21 @@ description: "OPC Foundation is registered as GCVE Numbering Authority 105."
 gna_id: 105
 ---
 
-# GNA 105 — OPC
+# 105 - OPC
 
-OPC Foundation
-
-## Registry details
+## Summary
 
 | Field | Value |
-| --- | --- |
-| Identifier | GNA 105 |
+|---|---|
+| ID | 105 |
 | Short name | OPC |
 | Full name | OPC Foundation |
-| Inserted | 2026-01-31 |
-| Updated | 2026-05-22 |
+| Inserted at | 2026-01-31T07:42:49Z |
+| Updated at | 2026-06-15T10:05:14Z |
 
-## Publication resources
+## Details
 
-- **Website:** [https://opcfoundation.org/security/csaf](https://opcfoundation.org/security/csaf)
-- **Dumps:** [https://opcfoundation.org/security/csaf](https://opcfoundation.org/security/csaf)
-
-[Back to the GNA directory](/gna/).
+| Field | Value |
+|---|---|
+| gcve_dump | [https://opcfoundation.org/security/csaf](https://opcfoundation.org/security/csaf) |
+| gcve_url | [https://opcfoundation.org/security/csaf](https://opcfoundation.org/security/csaf) |

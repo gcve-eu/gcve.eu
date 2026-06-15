@@ -4,26 +4,25 @@ description: "Adrian \"syrex1013\" Dacka is registered as GCVE Numbering Authori
 gna_id: 115
 ---
 
-# GNA 115 — Adrian Dacka
+# 115 - Adrian Dacka
 
-Adrian "syrex1013" Dacka
-
-## Registry details
+## Summary
 
 | Field | Value |
-| --- | --- |
-| Identifier | GNA 115 |
+|---|---|
+| ID | 115 |
 | Short name | Adrian Dacka |
 | Full name | Adrian "syrex1013" Dacka |
-| CPE vendor | `syrex1013` |
-| Inserted | 2026-02-16 |
-| Updated | 2026-05-22 |
+| Inserted at | 2026-02-16T07:57:56Z |
+| Updated at | 2026-06-15T10:05:14Z |
 
-## Publication resources
+## Details
 
-- **Website:** [https://32b0a928.cve-disclosure-site.pages.dev](https://32b0a928.cve-disclosure-site.pages.dev)
-- **API:** [https://32b0a928.cve-disclosure-site.pages.dev/api/gcve/api](https://32b0a928.cve-disclosure-site.pages.dev/api/gcve/api)
-- **Allocation:** [https://32b0a928.cve-disclosure-site.pages.dev/api/gcve/allocation](https://32b0a928.cve-disclosure-site.pages.dev/api/gcve/allocation)
-- **Pull API:** [https://32b0a928.cve-disclosure-site.pages.dev/api/gcve/pull-api](https://32b0a928.cve-disclosure-site.pages.dev/api/gcve/pull-api)
-
-[Back to the GNA directory](/gna/).
+| Field | Value |
+|---|---|
+| cpe_vendor_name | syrex1013 |
+| gcve_allocation | [https://32b0a928.cve-disclosure-site.pages.dev/api/gcve/allocation](https://32b0a928.cve-disclosure-site.pages.dev/api/gcve/allocation) |
+| gcve_api | [https://32b0a928.cve-disclosure-site.pages.dev/api/gcve/api](https://32b0a928.cve-disclosure-site.pages.dev/api/gcve/api) |
+| gcve_dump: | [https://32b0a928.cve-disclosure-site.pages.dev/api/gcve/dump](https://32b0a928.cve-disclosure-site.pages.dev/api/gcve/dump) |
+| gcve_pull_api | [https://32b0a928.cve-disclosure-site.pages.dev/api/gcve/pull-api](https://32b0a928.cve-disclosure-site.pages.dev/api/gcve/pull-api) |
+| gcve_url | [https://32b0a928.cve-disclosure-site.pages.dev](https://32b0a928.cve-disclosure-site.pages.dev) |

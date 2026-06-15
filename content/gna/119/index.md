@@ -4,23 +4,21 @@ description: "olearysec.com Security Research is registered as GCVE Numbering Au
 gna_id: 119
 ---
 
-# GNA 119 — olearysec
+# 119 - olearysec
 
-olearysec.com Security Research
-
-## Registry details
+## Summary
 
 | Field | Value |
-| --- | --- |
-| Identifier | GNA 119 |
+|---|---|
+| ID | 119 |
 | Short name | olearysec |
 | Full name | olearysec.com Security Research |
-| Inserted | 2026-05-22 |
-| Updated | 2026-05-22 |
+| Inserted at | 2026-05-22T11:42:14Z |
+| Updated at | 2026-06-15T10:05:14Z |
 
-## Publication resources
+## Details
 
-- **Website:** [https://olearysec.com/advisories/](https://olearysec.com/advisories/)
-- **Dumps:** [https://olearysec.com/advisories.json](https://olearysec.com/advisories.json)
-
-[Back to the GNA directory](/gna/).
+| Field | Value |
+|---|---|
+| gcve_dump | [https://olearysec.com/advisories.json](https://olearysec.com/advisories.json) |
+| gcve_url | [https://olearysec.com/advisories/](https://olearysec.com/advisories/) |

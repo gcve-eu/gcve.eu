@@ -4,22 +4,20 @@ description: "Krones AG is registered as GCVE Numbering Authority 113."
 gna_id: 113
 ---
 
-# GNA 113 — Krones
+# 113 - Krones
 
-Krones AG
-
-## Registry details
+## Summary
 
 | Field | Value |
-| --- | --- |
-| Identifier | GNA 113 |
+|---|---|
+| ID | 113 |
 | Short name | Krones |
 | Full name | Krones AG |
-| Inserted | 2026-01-31 |
-| Updated | 2026-05-22 |
+| Inserted at | 2026-01-31T07:42:49Z |
+| Updated at | 2026-06-15T10:05:14Z |
 
-## Publication resources
+## Details
 
-- **Website:** [https://www.krones.com/media/downloads/krones-vulnerability-disclosure-policy.pdf](https://www.krones.com/media/downloads/krones-vulnerability-disclosure-policy.pdf)
-
-[Back to the GNA directory](/gna/).
+| Field | Value |
+|---|---|
+| gcve_url | [https://www.krones.com/media/downloads/krones-vulnerability-disclosure-policy.pdf](https://www.krones.com/media/downloads/krones-vulnerability-disclosure-policy.pdf) |
