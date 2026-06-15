@@ -46,7 +46,7 @@ GCVE is not only a website or an identifier format. It is a collaborative effort
     <div class="gcve-board-meta-item"><strong>Public outcomes</strong><span>Transparent meeting discussions and outcomes.</span></div>
   </div>
 
-  <h3 class="gcve-board-members-heading">Members (confirmed)</h3>
+  <h3 class="gcve-board-members-heading">Members</h3>
   <div class="gcve-board-grid">
     <article class="gcve-member-card">
       <div class="gcve-member-avatar" aria-hidden="true">CB</div>
