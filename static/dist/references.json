@@ -19,6 +19,13 @@
       "gcve_gna_id": 2,
       "automation_url": "https://github.com/enisaeu/CNW/raw/refs/heads/main/kev.csv",
       "description": "ENISA via the CSIRTs network provides list of known-exploited seen in the CSIRTs network."
+    },
+    {
+      "uuid": "caeb2787-0d58-4236-9039-7c86c3e566f3",
+      "short_name": "KEVintel KEV",
+      "url": "https://kevintel.com/",
+      "automation_url": "https://kevintel.com/api/v1/kevs",
+      "description": "KEVintel provides a list of known-exploited vulnerabilities."
     }
   ]
 }
