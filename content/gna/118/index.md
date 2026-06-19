@@ -14,7 +14,7 @@ gna_id: 118
 | Short name | Nozomi Networks |
 | Full name | Nozomi Networks, Inc. |
 | Inserted at | 2026-05-07T13:30:52Z |
-| Updated at | 2026-06-15T10:05:14Z |
+| Updated at | 2026-06-15T14:02:44Z |
 
 ## Details
 

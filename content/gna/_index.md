@@ -36,6 +36,7 @@ GCVE Numbering Authorities are autonomous participants that allocate and publish
 | [GNA 119](119/) | olearysec | olearysec.com Security Research |  |  |
 | [GNA 120](120/) | eef | Erlang Ecosystem Foundation |  |  |
 | [GNA 121](121/) | Passbolt | Passbolt SA | passbolt |  |
+| [GNA 122](122/) | OneSpan | OneSpan Inc. | Onespan |  |
 | [GNA 404](404/) | VulnCheck | VulnCheck Inc. |  |  |
 | [GNA 680](680/) | DFN-CERT | DFN-CERT Services GmbH |  |  |
 | [GNA 1291](1291/) | NCSC-CH | National Cyber Security Centre (NCSC) - Switzerland |  |  |

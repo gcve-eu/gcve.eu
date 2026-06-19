@@ -14,7 +14,7 @@ gna_id: 103
 | Short name | SCHUTZWERK |
 | Full name | SCHUTZWERK GmbH |
 | Inserted at | 2026-01-31T07:42:49Z |
-| Updated at | 2026-06-15T10:05:14Z |
+| Updated at | 2026-06-15T14:02:44Z |
 
 ## Details
 
