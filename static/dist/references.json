@@ -2,7 +2,7 @@
   "kev": [
     {
       "uuid": "405284c2-e461-4670-8979-7fd2c9755a60",
-      "short_name": "CISA",
+      "short_name": "CISA KEV",
       "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
       "automation_url": "https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json",
       "description": "For the benefit of the cybersecurity community and network defenders—and to help every organization better manage vulnerabilities and keep pace with threat activity—CISA maintains the authoritative source of vulnerabilities that have been exploited in the wild. Organizations should use the KEV catalog as an input to their vulnerability management prioritization framework."
@@ -11,23 +11,14 @@
       "uuid": "1a89b78e-f703-45f3-bb86-59eb712668bd",
       "short_name": "CIRCL",
       "gcve_gna_id": 1,
-      "url": "https://vulnerability.circl.lu/known-exploited-vulnerabilities-catalog",
       "description": "CIRCL provides a known-exploited vulnerability and supporting the different status_reason described in GCVE BCP-07."
     },
     {
       "uuid": "cce329bf-df49-4c6e-a027-80be2e6483bd",
-      "short_name": "ENISA",
+      "short_name": "EUVD KEV",
       "gcve_gna_id": 2,
-      "url": "https://github.com/enisaeu/CNW/tree/main/advisories/eukev",
-      "automation_url": "https://github.com/enisaeu/CNW/tree/main/advisories/eukev",
+      "automation_url": "https://github.com/enisaeu/CNW/raw/refs/heads/main/kev.csv",
       "description": "ENISA via the CSIRTs network provides list of known-exploited seen in the CSIRTs network."
-    },
-    {
-      "uuid": "caeb2787-0d58-4236-9039-7c86c3e566f3",
-      "short_name": "KEVIntel",
-      "url": "https://kevintel.com",
-      "automation_url": "https://kevintel.com/api/v1/kevs",
-      "description": "Evidence-backed KEV intelligence enriched with confidence scoring, exploitation status, CISA KEV status, and sensor telemetry."
     }
   ]
 }
