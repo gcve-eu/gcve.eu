@@ -396,7 +396,7 @@ body {
 
 .gcve-hero-grid {
   display: grid;
-  grid-template-columns: minmax(0, 1.15fr) minmax(20rem, 0.85fr);
+  grid-template-columns: minmax(0, 0.95fr) minmax(22rem, 0.8fr);
   gap: clamp(1.5rem, 4vw, 4rem);
   align-items: center;
 }
@@ -428,7 +428,7 @@ body {
   color: var(--gcve-ink);
   overflow-wrap: normal;
   word-break: normal;
-  font-size: clamp(3rem, 6vw, 5.6rem);
+  font-size: clamp(2.75rem, 5.2vw, 4.9rem);
   line-height: 0.92;
   letter-spacing: -0.075em;
 }
@@ -490,7 +490,7 @@ body {
 
 .gcve-hero-panel {
   position: relative;
-  width: min(100%, 26rem);
+  width: min(100%, 28rem);
   justify-self: end;
   padding: clamp(1.35rem, 2.4vw, 1.75rem);
   border: 1px solid var(--gcve-border);
@@ -509,12 +509,12 @@ body {
 .gcve-stat-grid {
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));
-  gap: 0.95rem;
+  gap: clamp(0.85rem, 1.6vw, 1rem);
 }
 
 .gcve-stat {
   min-height: 8.25rem;
-  padding: 1.15rem;
+  padding: clamp(0.9rem, 1.8vw, 1.15rem);
   border: 1px solid rgba(38, 100, 255, 0.11);
   border-radius: 1rem;
   background: rgba(255, 255, 255, 0.58);
@@ -556,7 +556,7 @@ body {
   display: block;
   margin-top: 0.35rem;
   color: var(--gcve-muted);
-  font-size: clamp(0.92rem, 1.2vw, 1rem);
+  font-size: clamp(0.9rem, 1.05vw, 1rem);
   line-height: 1.45;
 }
 
