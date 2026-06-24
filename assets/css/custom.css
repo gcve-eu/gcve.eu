@@ -506,6 +506,12 @@ body {
   display: block;
 }
 
+@media (min-width: 769px) {
+  .gcve-home-hero .gcve-hero-panel {
+    transform: translateX(clamp(1.25rem, 4vw, 3rem));
+  }
+}
+
 .gcve-stat-grid {
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));

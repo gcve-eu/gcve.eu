@@ -3,7 +3,7 @@ title: "GCVE initiative - Global CVE Allocation System"
 toc: false
 ---
 
-<section class="gcve-hero">
+<section class="gcve-hero gcve-home-hero">
   <div class="gcve-hero-grid">
     <div>
       <p class="gcve-eyebrow">Decentralized vulnerability identifiers</p>
