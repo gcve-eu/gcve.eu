@@ -13,6 +13,7 @@ GCVE Numbering Authorities are autonomous participants that allocate and publish
 | [GNA 1](1/) | CIRCL | Computer Incident Response Center Luxembourg | circl |  |
 | [GNA 2](2/) | EUVD | European Union Vulnerability Database |  |  |
 | [GNA 3](3/) | Red Hat | Red Hat Inc. | redhat |  |
+| [GNA 25](25/) | exim | Exim Project | Exim |  |
 | [GNA 79](79/) | SWISSCOM | Swisscom (Schweiz) AG | swisscom |  |
 | [GNA 100](100/) | VulDB | vuldb.com | vuldb |  |
 | [GNA 101](101/) | ERIC | Ericsson AB | Ericsson |  |
@@ -37,6 +38,7 @@ GCVE Numbering Authorities are autonomous participants that allocate and publish
 | [GNA 120](120/) | eef | Erlang Ecosystem Foundation |  |  |
 | [GNA 121](121/) | Passbolt | Passbolt SA | passbolt |  |
 | [GNA 122](122/) | OneSpan | OneSpan Inc. | Onespan |  |
+| [GNA 123](123/) | CI-ISAC Australia | CI-ISAC Australia Ltd |  |  |
 | [GNA 404](404/) | VulnCheck | VulnCheck Inc. |  |  |
 | [GNA 680](680/) | DFN-CERT | DFN-CERT Services GmbH |  |  |
 | [GNA 1291](1291/) | NCSC-CH | National Cyber Security Centre (NCSC) - Switzerland |  |  |

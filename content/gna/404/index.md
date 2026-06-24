@@ -14,7 +14,7 @@ gna_id: 404
 | Short name | VulnCheck |
 | Full name | VulnCheck Inc. |
 | Inserted at | 2026-01-31T07:42:49Z |
-| Updated at | 2026-06-15T14:02:44Z |
+| Updated at | 2026-06-24T07:14:18Z |
 
 ## Details
 

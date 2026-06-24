@@ -14,7 +14,7 @@ gna_id: 117
 | Short name | Moksha |
 | Full name | Moksha |
 | Inserted at | 2026-04-28T12:14:19Z |
-| Updated at | 2026-06-15T14:02:44Z |
+| Updated at | 2026-06-24T07:14:18Z |
 
 ## Details
 

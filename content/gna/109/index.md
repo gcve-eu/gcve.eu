@@ -14,7 +14,7 @@ gna_id: 109
 | Short name | concinnity-risks |
 | Full name | Concinnity Risks LLC |
 | Inserted at | 2026-01-31T07:42:49Z |
-| Updated at | 2026-06-15T14:02:44Z |
+| Updated at | 2026-06-24T07:14:18Z |
 
 ## Details
 
