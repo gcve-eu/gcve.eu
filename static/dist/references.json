@@ -7,7 +7,7 @@
       "automation_url": "https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json",
       "description": "For the benefit of the cybersecurity community and network defenders—and to help every organization better manage vulnerabilities and keep pace with threat activity—CISA maintains the authoritative source of vulnerabilities that have been exploited in the wild. Organizations should use the KEV catalog as an input to their vulnerability management prioritization framework.",
       "meta": {
-        "license": "CC0"
+        "license": "CC0-1.0"
       }
     },
     {
@@ -19,7 +19,7 @@
       "description": "CIRCL provides a known-exploited vulnerability catalog and supports the different status reasons described in GCVE BCP-07.",
       "bcp_07_url": "https://vulnerability.circl.lu/api/kev/?vulnerability_lookup_origin=1a89b78e-f703-45f3-bb86-59eb712668bd",
       "meta": {
-        "license": "CC0"
+        "license": "CC0-1.0"
       }
     },
     {
