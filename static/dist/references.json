@@ -13,7 +13,8 @@
       "gcve_gna_id": 1,
       "url": "https://vulnerability.circl.lu/known-exploited-vulnerabilities-catalog",
       "automation_url": "https://vulnerability.circl.lu/api/kev/?vulnerability_lookup_origin=1a89b78e-f703-45f3-bb86-59eb712668bd",
-      "description": "CIRCL provides a known-exploited vulnerability catalog and supports the different status reasons described in GCVE BCP-07."
+      "description": "CIRCL provides a known-exploited vulnerability catalog and supports the different status reasons described in GCVE BCP-07.",
+      "bcp_07_url": "https://vulnerability.circl.lu/api/kev/?vulnerability_lookup_origin=1a89b78e-f703-45f3-bb86-59eb712668bd"
     },
     {
       "uuid": "cce329bf-df49-4c6e-a027-80be2e6483bd",
