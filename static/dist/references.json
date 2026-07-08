@@ -35,7 +35,10 @@
       "short_name": "Shadowserver",
       "url": "https://dashboard.shadowserver.org/statistics/honeypot/vulnerability/monitoring",
       "automation_url": "https://transform.shadowserver.org/api2/",
-      "description": "Vulnerabilities actively exploited in the wild as observed by The Shadowserver Foundation's global honeypot network (honeypot/exploited-vulnerabilities API), ranked by number of unique IPs per day and enriched with CVSS scores and CISA KEV status."
+      "description": "Vulnerabilities actively exploited in the wild as observed by The Shadowserver Foundation's global honeypot network (honeypot/exploited-vulnerabilities API), ranked by number of unique IPs per day and enriched with CVSS scores and CISA KEV status.",
+      "meta": {
+        "license": "CC-BY-NC-4.0"
+      }
     },
     {
       "uuid": "caeb2787-0d58-4236-9039-7c86c3e566f3",
