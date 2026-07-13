@@ -45,6 +45,7 @@ GCVE Numbering Authorities are autonomous participants that allocate and publish
 | [GNA 1337](1337/) | AHA! | Austin Hackers Anonymous |  |  |
 | [GNA 2342](2342/) | Pentagrid | Pentagrid AG |  |  |
 | [GNA 31337](31337/) | Talos | Cisco Talos |  |  |
+| [GNA 65530](65530/) | GCVE-CVE-Extension | GNA Dedicated to CVE Extension and Proposal - ID must be aligned with CVE ID reference |  |  |
 | [GNA 65535](65535/) | TEST-GNA-GCVE | GNA id used for testing only |  |  |
 
 To request a GNA ID, see [Publishing Vulnerability Information](/publishing-vulnerability-information/).

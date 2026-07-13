@@ -14,7 +14,7 @@ gna_id: 116
 | Short name | FLAT |
 | Full name | Fluid Attacks |
 | Inserted at | 2026-03-16T15:00:07Z |
-| Updated at | 2026-06-24T07:14:18Z |
+| Updated at | 2026-07-13T16:30:07Z |
 
 ## Details
 

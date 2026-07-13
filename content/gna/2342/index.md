@@ -14,7 +14,7 @@ gna_id: 2342
 | Short name | Pentagrid |
 | Full name | Pentagrid AG |
 | Inserted at | 2026-01-31T07:42:49Z |
-| Updated at | 2026-06-24T07:14:18Z |
+| Updated at | 2026-07-13T16:30:07Z |
 
 ## Details
 

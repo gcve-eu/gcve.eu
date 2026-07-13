@@ -14,7 +14,7 @@ gna_id: 121
 | Short name | Passbolt |
 | Full name | Passbolt SA |
 | Inserted at | 2026-06-15T09:20:56Z |
-| Updated at | 2026-06-24T07:14:18Z |
+| Updated at | 2026-07-13T16:30:07Z |
 
 ## Details
 
