@@ -17,26 +17,8 @@
       "uuid": "cce329bf-df49-4c6e-a027-80be2e6483bd",
       "short_name": "EUVD KEV",
       "gcve_gna_id": 2,
-      "url": "https://github.com/enisaeu/CNW",
-      "automation_url": "https://raw.githubusercontent.com/enisaeu/CNW/refs/heads/main/advisories/eukev/eukev.json",
-      "description": "ENISA, via the CSIRTs network, provides a list of known-exploited vulnerabilities observed across the CSIRTs network."
-    },
-    {
-      "uuid": "c8fb6bf1-f81f-4cb8-95b1-eadbb3b54ee8",
-      "short_name": "Shadowserver",
-      "url": "https://dashboard.shadowserver.org/statistics/honeypot/vulnerability/monitoring",
-      "automation_url": "https://transform.shadowserver.org/api2/",
-      "description": "Vulnerabilities actively exploited in the wild as observed by The Shadowserver Foundation's global honeypot network (honeypot/exploited-vulnerabilities API), ranked by number of unique IPs per day and enriched with CVSS scores and CISA KEV status.",
-      "meta": {
-        "license": "CC-BY-NC-4.0"
-      }
-    },
-    {
-      "uuid": "caeb2787-0d58-4236-9039-7c86c3e566f3",
-      "short_name": "KEVIntel",
-      "url": "https://kevintel.com",
-      "automation_url": "https://kevintel.com/api/v1/kevs",
-      "description": "Evidence-backed KEV intelligence enriched with confidence scoring, exploitation status, CISA KEV status, and sensor telemetry."
+      "automation_url": "https://github.com/enisaeu/CNW/raw/refs/heads/main/kev.csv",
+      "description": "ENISA via the CSIRTs network provides list of known-exploited seen in the CSIRTs network."
     }
   ]
 }

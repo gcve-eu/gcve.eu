@@ -5,7 +5,7 @@
     "full_name": "CVE Program",
     "usage": "This GCVE GNA ID is used as a prefix and MUST be followed by the official CVE ID.",
     "inserted_at": "2026-01-31T07:42:49Z",
-    "updated_at": "2026-07-13T16:26:53Z"
+    "updated_at": "2026-07-13T16:30:07Z"
   },
   {
     "id": 1,
@@ -18,7 +18,7 @@
     "gcve_allocation": "https://vulnerability.circl.lu/",
     "gcve_pull_api": "https://vulnerability.circl.lu/",
     "inserted_at": "2026-01-31T07:42:49Z",
-    "updated_at": "2026-07-13T16:26:53Z"
+    "updated_at": "2026-07-13T16:30:07Z"
   },
   {
     "id": 2,
@@ -26,7 +26,7 @@
     "full_name": "European Union Vulnerability Database",
     "gcve_url": "https://euvd.enisa.europa.eu/",
     "inserted_at": "2026-01-31T07:42:49Z",
-    "updated_at": "2026-07-13T16:26:53Z"
+    "updated_at": "2026-07-13T16:30:07Z"
   },
   {
     "id": 3,
@@ -36,7 +36,7 @@
     "gcve_url": "https://access.redhat.com/security/",
     "gcve_api": "https://access.redhat.com/security/data/csaf/v2/provider-metadata.json",
     "inserted_at": "2026-01-31T07:42:49Z",
-    "updated_at": "2026-07-13T16:26:53Z"
+    "updated_at": "2026-07-13T16:30:07Z"
   },
   {
     "id": 25,
@@ -45,7 +45,7 @@
     "cpe_vendor_name": "Exim",
     "gcve_url": "https://www.exim.org/static/doc/security/",
     "inserted_at": "2026-06-22T19:48:16Z",
-    "updated_at": "2026-07-13T16:26:53Z"
+    "updated_at": "2026-07-13T16:30:07Z"
   },
   {
     "id": 79,
@@ -55,7 +55,7 @@
     "gcve_url": "https://github.com/swisscom/bugbounty/tree/main/hall-of-fame",
     "gcve_allocation": "https://www.swisscom.ch/en/about/security/bug-bounty.html",
     "inserted_at": "2026-01-31T07:42:49Z",
-    "updated_at": "2026-07-13T16:26:53Z"
+    "updated_at": "2026-07-13T16:30:07Z"
   },
   {
     "id": 100,
@@ -67,7 +67,7 @@
     "gcve_dump": "https://vuldb.com/?export",
     "gcve_allocation": "https://vuldb.com/?id.add",
     "inserted_at": "2026-01-31T07:42:49Z",
-    "updated_at": "2026-07-13T16:26:53Z"
+    "updated_at": "2026-07-13T16:30:07Z"
   },
   {
     "id": 101,
@@ -76,7 +76,7 @@
     "full_name": "Ericsson AB",
     "gcve_dump": "https://www.ericsson.com/en/about-us/security/security-bulletins",
     "inserted_at": "2026-01-31T07:42:49Z",
-    "updated_at": "2026-07-13T16:26:53Z"
+    "updated_at": "2026-07-13T16:30:07Z"
   },
   {
     "id": 102,
@@ -85,7 +85,7 @@
     "gcve_api": "https://trustsource.csaf.trustsource.io/.well-known/csaf/provider-metadata.json",
     "gcve_dump": "https://www.trustsource.io/en/security-policy/",
     "inserted_at": "2026-01-31T07:42:49Z",
-    "updated_at": "2026-07-13T16:26:53Z"
+    "updated_at": "2026-07-13T16:30:07Z"
   },
   {
     "id": 103,
@@ -94,7 +94,7 @@
     "full_name": "SCHUTZWERK GmbH",
     "gcve_url": "https://www.schutzwerk.com/blog/tags/advisories/",
     "inserted_at": "2026-01-31T07:42:49Z",
-    "updated_at": "2026-07-13T16:26:53Z"
+    "updated_at": "2026-07-13T16:30:07Z"
   },
   {
     "id": 104,
@@ -102,7 +102,7 @@
     "full_name": "AboutCode Europe ASBL",
     "cpe_vendor_name": "aboutcode-org",
     "inserted_at": "2026-01-31T07:42:49Z",
-    "updated_at": "2026-07-13T16:26:53Z"
+    "updated_at": "2026-07-13T16:30:07Z"
   },
   {
     "id": 105,
@@ -111,7 +111,7 @@
     "gcve_dump": "https://opcfoundation.org/security/csaf",
     "gcve_url": "https://opcfoundation.org/security/csaf",
     "inserted_at": "2026-01-31T07:42:49Z",
-    "updated_at": "2026-07-13T16:26:53Z"
+    "updated_at": "2026-07-13T16:30:07Z"
   },
   {
     "id": 106,
@@ -119,7 +119,7 @@
     "short_name": "SK-CERT",
     "gcve_url": "https://www.sk-cert.sk/",
     "inserted_at": "2026-01-31T07:42:49Z",
-    "updated_at": "2026-07-13T16:26:53Z"
+    "updated_at": "2026-07-13T16:30:07Z"
   },
   {
     "id": 107,
@@ -130,7 +130,7 @@
     "gcve_dump": "www.thalesgroup.com/en/global/group/psirt/thales-product-security-advisories",
     "gcve_allocation": "https://www.thalesgroup.com/en/global/group/psirt",
     "inserted_at": "2026-01-31T07:42:49Z",
-    "updated_at": "2026-07-13T16:26:53Z"
+    "updated_at": "2026-07-13T16:30:07Z"
   },
   {
     "id": 108,
@@ -139,7 +139,7 @@
     "gcve_url": "https://www.securin.io/disclosure-policy",
     "gcve_dump": "https://www.securin.io/discover-zero-days",
     "inserted_at": "2026-01-31T07:42:49Z",
-    "updated_at": "2026-07-13T16:26:53Z"
+    "updated_at": "2026-07-13T16:30:07Z"
   },
   {
     "id": 109,
@@ -147,7 +147,7 @@
     "full_name": "Concinnity Risks LLC",
     "gcve_url": "https://concinnity-risks.com/",
     "inserted_at": "2026-01-31T07:42:49Z",
-    "updated_at": "2026-07-13T16:26:53Z"
+    "updated_at": "2026-07-13T16:30:07Z"
   },
   {
     "id": 110,
@@ -155,7 +155,7 @@
     "full_name": "Vulnetix Vulnerability Database",
     "gcve_url": "https://www.vulnetix.com/vdb",
     "inserted_at": "2026-01-31T07:42:49Z",
-    "updated_at": "2026-07-13T16:26:53Z"
+    "updated_at": "2026-07-13T16:30:07Z"
   },
   {
     "id": 111,
@@ -164,14 +164,14 @@
     "gcve_url": "https://mogwailabs.de/en/advisories/",
     "gcve_dump": "https://mogwaialbs.de/.well-known/advisories-gcve.json",
     "inserted_at": "2026-01-31T07:42:49Z",
-    "updated_at": "2026-07-13T16:26:53Z"
+    "updated_at": "2026-07-13T16:30:07Z"
   },
   {
     "id": 112,
     "short_name": "CERT-QC",
     "full_name": "Ministère de la Cybersécurité et du Numérique – CERT-QC",
     "inserted_at": "2026-01-31T07:42:49Z",
-    "updated_at": "2026-07-13T16:26:53Z"
+    "updated_at": "2026-07-13T16:30:07Z"
   },
   {
     "id": 113,
@@ -179,7 +179,7 @@
     "full_name": "Krones AG",
     "gcve_url": "https://www.krones.com/media/downloads/krones-vulnerability-disclosure-policy.pdf",
     "inserted_at": "2026-01-31T07:42:49Z",
-    "updated_at": "2026-07-13T16:26:53Z"
+    "updated_at": "2026-07-13T16:30:07Z"
   },
   {
     "id": 114,
@@ -189,7 +189,7 @@
     "gcve_url": "https://www.siemens.com/cert",
     "gcve_dump": "https://cert-portal.siemens.com/productcert/csaf/provider-metadata.json",
     "inserted_at": "2026-01-31T07:42:49Z",
-    "updated_at": "2026-07-13T16:26:53Z"
+    "updated_at": "2026-07-13T16:30:07Z"
   },
   {
     "id": 115,
@@ -202,7 +202,7 @@
     "gcve_allocation": "https://32b0a928.cve-disclosure-site.pages.dev/api/gcve/allocation",
     "gcve_pull_api": "https://32b0a928.cve-disclosure-site.pages.dev/api/gcve/pull-api",
     "inserted_at": "2026-02-16T07:57:56Z",
-    "updated_at": "2026-07-13T16:26:53Z"
+    "updated_at": "2026-07-13T16:30:07Z"
   },
   {
     "id": 116,
@@ -211,7 +211,7 @@
     "gcve_url": "https://fluidattacks.com/advisories/policy",
     "gcve_dump": "https://fluidattacks.com/advisories",
     "inserted_at": "2026-03-16T15:00:07Z",
-    "updated_at": "2026-07-13T16:26:53Z"
+    "updated_at": "2026-07-13T16:30:07Z"
   },
   {
     "id": 117,
@@ -220,7 +220,7 @@
     "gcve_url": "https://cna.moksha.dk/about",
     "gcve_dump": "https://cna.moksha.dk/index.json",
     "inserted_at": "2026-04-28T12:14:19Z",
-    "updated_at": "2026-07-13T16:26:53Z"
+    "updated_at": "2026-07-13T16:30:07Z"
   },
   {
     "id": 118,
@@ -230,7 +230,7 @@
     "gcve_url": "https://security.nozominetworks.com/",
     "gcve_dump": "https://security.nozominetworks.com/rss.xml",
     "inserted_at": "2026-05-07T13:30:52Z",
-    "updated_at": "2026-07-13T16:26:53Z"
+    "updated_at": "2026-07-13T16:30:07Z"
   },
   {
     "id": 119,
@@ -239,7 +239,7 @@
     "gcve_url": "https://olearysec.com/advisories/",
     "gcve_dump": "https://olearysec.com/advisories.json",
     "inserted_at": "2026-05-22T11:42:14Z",
-    "updated_at": "2026-07-13T16:26:53Z"
+    "updated_at": "2026-07-13T16:30:07Z"
   },
   {
     "id": 120,
@@ -248,7 +248,7 @@
     "gcve_url": "https://cna.erlef.org/",
     "gcve_dump": "https://cna.erlef.org/cves/index.json",
     "inserted_at": "2026-05-22T14:07:41Z",
-    "updated_at": "2026-07-13T16:26:53Z"
+    "updated_at": "2026-07-13T16:30:07Z"
   },
   {
     "id": 121,
@@ -257,7 +257,7 @@
     "cpe_vendor": "passbolt",
     "gcve_url": "https://www.passbolt.com/incidents",
     "inserted_at": "2026-06-15T09:20:56Z",
-    "updated_at": "2026-07-13T16:26:53Z"
+    "updated_at": "2026-07-13T16:30:07Z"
   },
   {
     "id": 122,
@@ -266,7 +266,7 @@
     "cpe_vendor": "Onespan",
     "gcve_url": "https://www.onespan.com/support/security/psirt",
     "inserted_at": "2026-06-15T14:02:44Z",
-    "updated_at": "2026-07-13T16:26:53Z"
+    "updated_at": "2026-07-13T16:30:07Z"
   },
   {
     "id": 123,
@@ -276,7 +276,7 @@
     "gcve_dump": "https://def.ci-isac.org.au/vuln/dumps/",
     "gcve_allocation": "https://ci-isac.org.au/vulnerability-disclosure-policy",
     "inserted_at": "2026-06-24T07:14:18Z",
-    "updated_at": "2026-07-13T16:26:53Z"
+    "updated_at": "2026-07-13T16:30:07Z"
   },
   {
     "id": 404,
@@ -285,7 +285,7 @@
     "gcve_url": "https://vulncheck.com/vulnerability-disclosure-policy",
     "gcve_dump": "https://vulncheck.com/advisories",
     "inserted_at": "2026-01-31T07:42:49Z",
-    "updated_at": "2026-07-13T16:26:53Z"
+    "updated_at": "2026-07-13T16:30:07Z"
   },
   {
     "id": 680,
@@ -293,7 +293,7 @@
     "full_name": "DFN-CERT Services GmbH",
     "gcve_url": "https://adv-archiv.dfn-cert.de/",
     "inserted_at": "2026-01-31T07:42:49Z",
-    "updated_at": "2026-07-13T16:26:53Z"
+    "updated_at": "2026-07-13T16:30:07Z"
   },
   {
     "id": 1291,
@@ -302,7 +302,7 @@
     "gcve_url": "https://www.ncsc.admin.ch/ncsc/en/home/infos-fuer/infos-it-spezialisten/themen/schwachstelle-melden/cve-list.html",
     "gcve_allocation": "https://www.ncsc.admin.ch/ncsc/en/home/infos-fuer/infos-it-spezialisten/themen/schwachstelle-melden.html",
     "inserted_at": "2026-01-31T07:42:49Z",
-    "updated_at": "2026-07-13T16:26:53Z"
+    "updated_at": "2026-07-13T16:30:07Z"
   },
   {
     "id": 1337,
@@ -312,7 +312,7 @@
     "gcve_dump": "https://takeonme.org/cve/#published-cves",
     "gcve_pull_api": "https://aha-gcve.todb.workers.dev",
     "inserted_at": "2026-01-31T07:42:49Z",
-    "updated_at": "2026-07-13T16:26:53Z"
+    "updated_at": "2026-07-13T16:30:07Z"
   },
   {
     "id": 2342,
@@ -321,7 +321,7 @@
     "gcve_url": "https://www.pentagrid.ch/en/categories/advisory/",
     "gcve_dump": "https://www.pentagrid.ch/.well-known/csaf/provider-metadata.json",
     "inserted_at": "2026-01-31T07:42:49Z",
-    "updated_at": "2026-07-13T16:26:53Z"
+    "updated_at": "2026-07-13T16:30:07Z"
   },
   {
     "id": 31337,
@@ -329,7 +329,7 @@
     "full_name": "Cisco Talos",
     "gcve_url": "https://talosintelligence.com/vulnerability_reports",
     "inserted_at": "2026-01-31T07:42:49Z",
-    "updated_at": "2026-07-13T16:26:53Z"
+    "updated_at": "2026-07-13T16:30:07Z"
   },
   {
     "id": 65530,
@@ -337,7 +337,7 @@
     "full_name": "GNA Dedicated to CVE Extension and Proposal - ID must be aligned with CVE ID reference",
     "gcve_url": "https://discourse.ossbase.org/t/gcve-bcp-11-community-proposed-updates-to-existing-cve-records/1110",
     "inserted_at": "2026-07-13T16:26:53Z",
-    "updated_at": "2026-07-13T16:26:53Z"
+    "updated_at": "2026-07-13T16:30:07Z"
   },
   {
     "id": 65535,
@@ -345,6 +345,6 @@
     "full_name": "GNA id used for testing only",
     "usage": "This GNA ID is reserved for testing purposes. It may appear in publications generated by instances testing the publication process; however, any content produced using this GNA ID MUST NOT be considered valid.",
     "inserted_at": "2026-01-31T07:42:49Z",
-    "updated_at": "2026-07-13T16:26:53Z"
+    "updated_at": "2026-07-13T16:30:07Z"
   }
 ]
