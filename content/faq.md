@@ -124,4 +124,8 @@ For GCVE.eu, there are two sets of logos: one set features the generic logos of 
 [db.gcve.eu](https://db.gcve.eu/) is a public and open instance of [vulnerability-lookup](https://vulnerability-lookup.org), providing users with a unified interface to access and correlate vulnerability information from all available GNA sources and other public databases.
 
 We strongly encourage other organizations, in particular **GCVE Numbering Authorities (GNAs)**, to deploy their own instances in order to publish and manage vulnerabilities in a **distributed, federated, and resilient** manner, in line with the GCVE model.
- 
+
+## **Q17: How do you deal with disputes?**
+
+We are not the CVE program. It's just fine to have disagreements.
+
