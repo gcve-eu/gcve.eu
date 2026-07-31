@@ -37,6 +37,7 @@ Adhering to GCVE BCPs is not mandatory, but strongly recommended to ensure the s
 | BCP-07 | [Known Exploited Vulnerability - KEV Assertion Format](./gcve-bcp-07/) | 2026-07-03 | 🌓 Published (for Public Review) | 2.1 | [PDF](/files/bcp/gcve-bcp-07.pdf) · [Public Review](https://discourse.ossbase.org/t/kev-known-exploited-vulnerabilities-potential-format-bcp-07/744) |
 | BCP-09 | [Scope of a GCVE Record](./gcve-bcp-09/) | 2026-05-20 | ✎ Draft (for Public Review) | 1.0 | [PDF](/files/bcp/gcve-bcp-09.pdf) · [Public Review](https://discourse.ossbase.org/t/gcve-bcp-09-scope-of-a-gcve-record-early-draft/1041) |
 | BCP-10 | [Improved Common Platform Enumeration for GCVE](./gcve-bcp-10/) | 2026-04-26 | ✎ Draft (for Public Review) | 1.0 | [PDF](/files/bcp/gcve-bcp-10.pdf) · [Public Review](https://discourse.ossbase.org/t/gcve-bcp-10-improved-common-platform-enumeration-for-gcve/1042) |
+| BCP-12 | [Sighting Format](./gcve-bcp-12/) | 2026-07-30 | ✎ Draft (for Public Review) | 0.9 | [PDF](/files/bcp/gcve-bcp-12.pdf) - [Public Review](https://discourse.ossbase.org/t/gcve-bcp-12-sighting-format/1085) | 
 
 ## Extensions
 
