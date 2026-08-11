@@ -40,6 +40,7 @@ GCVE Numbering Authorities are autonomous participants that allocate and publish
 | [GNA 122](122/) | OneSpan | OneSpan Inc. | Onespan |  |
 | [GNA 123](123/) | CI-ISAC Australia | CI-ISAC Australia Ltd |  |  |
 | [GNA 124](124/) | SUSE | SUSE Software Solutions Germany GmbH | suse |  |
+| [GNA 125](125/) | Postiz | Postiz | gitroomhq |  |
 | [GNA 404](404/) | VulnCheck | VulnCheck Inc. |  |  |
 | [GNA 680](680/) | DFN-CERT | DFN-CERT Services GmbH |  |  |
 | [GNA 1291](1291/) | NCSC-CH | National Cyber Security Centre (NCSC) - Switzerland |  |  |

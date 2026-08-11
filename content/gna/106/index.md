@@ -14,7 +14,7 @@ gna_id: 106
 | Short name | SK-CERT |
 | Full name | National Cyber Security Centre SK-CERT |
 | Inserted at | 2026-01-31T07:42:49Z |
-| Updated at | 2026-08-10T09:47:15Z |
+| Updated at | 2026-08-11T06:56:05Z |
 
 ## Details
 
