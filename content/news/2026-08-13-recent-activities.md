@@ -2,7 +2,7 @@
 title: "GCVE recent activities: standards, software and a growing GNA community"
 date: 2026-08-13
 author: "GCVE.eu"
-description: "A review of GCVE activities from 26 May to 13 August 2026, including work on BCP-07, draft BCP-11 and BCP-12, the GCVE Lab proposal, Vulnerability-Lookup 5.0, CPE.GCVE.EU and seven new GNAs."
+description: "A review of GCVE activities from 26 May to 13 August 2026, including work on BCP-07, draft BCP-11 and BCP-12, Luxembourg–Québec cooperation, the GCVE Lab proposal, Vulnerability-Lookup 5.0, CPE.GCVE.EU and seven new GNAs."
 tags:
   - GCVE
   - GNA
@@ -19,7 +19,7 @@ This review covers **26 May to 13 August 2026**. During this period, the work ad
 
 - **standards**, with a revised Known Exploited Vulnerability (KEV) assertion format, updated AI-provenance guidance, draft work on community-proposed updates to existing CVE records and a new vulnerability-sighting format;
 - **software and services**, with Vulnerability-Lookup 5.0 and the launch of CPE.GCVE.EU;
-- **community growth**, with seven additional GCVE Numbering Authorities (GNAs), including vendors, open-source projects and a sectoral coordination organisation, as well as a proposal for a GCVE Lab within the project.
+- **community growth and cooperation**, with seven additional GCVE Numbering Authorities (GNAs), including vendors, open-source projects and a sectoral coordination organisation, a Luxembourg–Québec cybersecurity partnership involving GCVE, and a proposal for a GCVE Lab within the project.
 
 These are complementary developments. BCPs describe interoperable practices, open-source implementations make those practices usable, and GNAs provide the independent sources that make a decentralised system valuable.
 
@@ -32,6 +32,7 @@ These are complementary developments. BCPs describe interoperable practices, ope
 | Product identification | CPE.GCVE.EU launched as a collaborative catalogue for vendors, products, CPEs, PURLs and their relationships | [CPE.GCVE.EU](https://cpe.gcve.eu/) and [`cpe-editor`](https://github.com/gcve-eu/cpe-editor) |
 | GNA community | Seven GNAs joined: Exim, Passbolt, OneSpan, CI-ISAC Australia, SUSE, Postiz and GCVE-CVE-Extension | [GNA directory](https://gcve.eu/gna/) |
 | KEV ecosystem | The catalogue directory expanded with KEVIntel and The Shadowserver Foundation, including licence metadata | [KEV catalogue references](https://gcve.eu/dist/references.json) |
+| International cooperation | Luxembourg and Québec identified GCVE as an initiative for collaboration through their cybersecurity partnership | [Silicon Luxembourg](https://www.siliconluxembourg.lu/luxembourg-quebec-cybersecurity-partnership/) |
 | Community experimentation | A GCVE Lab was proposed as part of the project, with its shape and contribution model open for community discussion | [GCVE Lab proposal](https://discourse.ossbase.org/t/gcve-lab-proposal/1117) |
 | Project transparency | New open-data, software and community pages, improved directory presentation, research citations and expanded FAQ guidance | [GCVE.eu](https://gcve.eu/) |
 
@@ -147,7 +148,15 @@ Several entries also expose machine-readable publication or discovery endpoints.
 
 GNA 65530 represents a different use case and provides the namespace associated with the draft BCP-11 work described above. It is reserved for community-proposed information associated with existing CVE identifiers, providing a distinct namespace for extensions without confusing those proposals with the original authority's record.
 
-## 5. GCVE Lab: a proposal for experimentation and contribution
+## 5. Luxembourg–Québec cooperation broadened GCVE's international links
+
+The period also brought an important international dimension to GCVE. As [reported by Silicon Luxembourg](https://www.siliconluxembourg.lu/luxembourg-quebec-cybersecurity-partnership/), Luxembourg and Québec established a cybersecurity partnership that identifies GCVE as one of the initiatives on which their respective ecosystems can collaborate.
+
+The partnership creates an additional bridge between cybersecurity communities in Europe and North America. For GCVE, this kind of cross-border cooperation can help bring more operational perspectives into the project, encourage organisations on both sides of the Atlantic to contribute, and support the wider adoption of open, decentralised approaches to vulnerability coordination and publication.
+
+This complements the growth of the GNA network: GCVE is not only adding individual authorities and publication endpoints, but also becoming a practical subject of cooperation between established cybersecurity ecosystems.
+
+## 6. GCVE Lab: a proposal for experimentation and contribution
 
 The community also published a [proposal for a GCVE Lab](https://discourse.ossbase.org/t/gcve-lab-proposal/1117), which is intended to become part of the wider GCVE project.
 
@@ -157,7 +166,7 @@ At the time of this review, GCVE Lab is a **proposal under discussion**, not a f
 
 This proposed incubation space complements the existing GCVE model: BCPs document practices, operational services implement them, and the Lab can provide a place for earlier-stage ideas and collaborative experiments that may inform both.
 
-## 6. Directory and website improvements made the ecosystem easier to navigate
+## 7. Directory and website improvements made the ecosystem easier to navigate
 
 Growth also requires discoverability. During June, the generated GNA pages were moved to a consistent Markdown-based structure and their index, layout and presentation were improved. The homepage now links more clearly to the directory, and signed directory artefacts continued to be refreshed as authorities and references changed.
 
@@ -172,7 +181,7 @@ The wider site received a substantial usability and transparency refresh, includ
 
 These changes are supporting infrastructure rather than a new protocol, but they matter. A decentralised project needs clear routes to its standards, implementations, data, participants and governance just as much as it needs machine-readable endpoints.
 
-## 7. What these developments mean for GCVE
+## 8. What these developments mean for GCVE
 
 The period from late May to mid-August shows GCVE maturing across the full publication chain:
 
@@ -183,10 +192,11 @@ The period from late May to mid-August shows GCVE maturing across the full publi
 5. **Exploitation claims, community-proposed CVE updates and operational observations can travel separately from the base record** through BCP-07, draft BCP-11 and BCP-12.
 6. **Consumers can discover a growing set of independent authorities and feeds** through the signed GNA directory.
 7. **Experimental ideas and community contributions have a proposed incubation path** through GCVE Lab.
+8. **International partners have a new route for cooperation around GCVE** through the Luxembourg–Québec cybersecurity partnership.
 
 No single component provides the whole ecosystem. The value comes from their combination: autonomous authorities, open standards, reusable software, traceable assertions and accessible public data.
 
-## 8. Participate and provide feedback
+## 9. Participate and provide feedback
 
 GCVE's BCPs and proposals are shaped by implementation and public review. Contributions to the [draft BCP-11 discussion](https://discourse.ossbase.org/t/gcve-bcp-11-community-proposed-updates-to-existing-cve-records/1110), feedback on the [BCP-12 public review](https://discourse.ossbase.org/t/gcve-bcp-12-sighting-format/1085/6), and ideas for the [GCVE Lab proposal](https://discourse.ossbase.org/t/gcve-lab-proposal/1117) are especially welcome. Wider GCVE discussions take place in the [GCVE category on ossbase.org](https://discourse.ossbase.org/c/gcve/14).
 
