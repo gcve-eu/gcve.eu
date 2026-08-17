@@ -209,4 +209,4 @@ Organisations and projects can participate by:
 - consuming the [open datasets and feeds](https://gcve.eu/opendata/);
 - applying to become a [GCVE Numbering Authority](https://gcve.eu/about/#eligibility-and-process-to-obtain-a-gna-id).
 
-The last eleven weeks have added standards, practical software and new publishers. The next stage is broader implementation: more independent publication endpoints, more interoperable assertions and sightings, and continued feedback from the organisations using GCVE in real vulnerability-handling workflows.
+The period from 26 May through 13 August has added standards, practical software and new publishers. The next stage is broader implementation: more independent publication endpoints, more interoperable assertions and sightings, and continued feedback from the organisations using GCVE in real vulnerability-handling workflows.
