@@ -14,7 +14,7 @@ gna_id: 2
 | Short name | EUVD |
 | Full name | European Union Vulnerability Database |
 | Inserted at | 2026-01-31T07:42:49Z |
-| Updated at | 2026-08-11T06:56:05Z |
+| Updated at | 2026-08-19T11:26:23Z |
 
 ## Details
 

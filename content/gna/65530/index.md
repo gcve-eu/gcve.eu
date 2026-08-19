@@ -14,7 +14,7 @@ gna_id: 65530
 | Short name | GCVE-CVE-Extension |
 | Full name | GNA Dedicated to CVE Extension and Proposal - ID must be aligned with CVE ID reference |
 | Inserted at | 2026-07-13T16:26:53Z |
-| Updated at | 2026-08-11T06:56:05Z |
+| Updated at | 2026-08-19T11:26:23Z |
 
 ## Details
 

@@ -14,7 +14,7 @@ gna_id: 124
 | Short name | SUSE |
 | Full name | SUSE Software Solutions Germany GmbH |
 | Inserted at | 2026-08-10T09:47:15Z |
-| Updated at | 2026-08-11T06:56:05Z |
+| Updated at | 2026-08-19T11:26:23Z |
 
 ## Details
 

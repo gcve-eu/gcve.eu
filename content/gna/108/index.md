@@ -14,7 +14,7 @@ gna_id: 108
 | Short name | Securin |
 | Full name | Securin Inc |
 | Inserted at | 2026-01-31T07:42:49Z |
-| Updated at | 2026-08-11T06:56:05Z |
+| Updated at | 2026-08-19T11:26:23Z |
 
 ## Details
 

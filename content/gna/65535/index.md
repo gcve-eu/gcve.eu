@@ -14,7 +14,7 @@ gna_id: 65535
 | Short name | TEST-GNA-GCVE |
 | Full name | GNA id used for testing only |
 | Inserted at | 2026-01-31T07:42:49Z |
-| Updated at | 2026-08-11T06:56:05Z |
+| Updated at | 2026-08-19T11:26:23Z |
 
 ## Details
 
