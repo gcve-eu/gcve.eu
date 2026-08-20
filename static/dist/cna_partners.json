@@ -17624,7 +17624,7 @@
         {
           "label": "Policy",
           "language": "",
-          "url": "https://www.mitsubishielectric.com/en/psirt/disclosurepolicy/index.html"
+          "url": "https://www.mitsubishielectric.com/psirt/disclosurepolicy/index.html"
         }
       ],
       "security_advisories": {
@@ -17632,7 +17632,7 @@
         "advisories": [
           {
             "label": "Advisories",
-            "url": "https://www.mitsubishielectric.com/en/psirt/vulnerability/index.html"
+            "url": "https://www.mitsubishielectric.com/psirt/vulnerability/index.html"
           }
         ]
       },
@@ -22354,17 +22354,17 @@
     "scope": "Postiz products and projects only including: the core repository for postiz-app (github.com/gitroomhq/postiz-app); all gitroomhq repositories that are official components, tooling, or integrations of Postiz; official Postiz container images published under gitroomhq on GHCR; official Postiz CLI tools and NPM packages (NPM org: @postiz); Postiz-Cloud related infrastructure and services. (API, Frontend, Configurations etc.); and plugins for Postiz maintained within the gitroomhq organization.",
     "program_role": "CNA",
     "organization_type": "Vendor, Open Source, Hosted Service",
-    "country": "Israel",
+    "country": "USA",
     "metadata": {
-      "cna_id": "CNA-2026-0053",
+      "cna_id": "CNA-2026-0055",
       "short_name": "postiz",
       "contact": [
         {
           "email": [],
           "contact": [
             {
-              "label": "Report a Vulnerability page",
-              "url": "https://github.com/gitroomhq/postiz-app/security/advisories/new"
+              "label": "Postiz Security Contact page",
+              "url": "https://postiz.gadvisory.org/request"
             }
           ],
           "form": []
@@ -22382,7 +22382,7 @@
         "advisories": [
           {
             "label": "Advisories",
-            "url": "https://github.com/gitroomhq/postiz-app/security/advisories?state=published"
+            "url": "https://postiz.gadvisory.org/advisories"
           }
         ]
       },
@@ -23915,7 +23915,7 @@
         {
           "label": "Policy",
           "language": "",
-          "url": "https://rockwellautomation.custhelp.com/app/answers/answer_view/a_id/1136474"
+          "url": "https://www.rockwellautomation.com/en-us/company/about-us/legal-notices/vulnerability-policy.html..html"
         }
       ],
       "security_advisories": {
@@ -27687,7 +27687,7 @@
     "organization_type": "Vendor",
     "country": "Romania",
     "metadata": {
-      "cna_id": "CNA-2026-0054",
+      "cna_id": "CNA-2026-0056",
       "short_name": "Syncro",
       "contact": [
         {
@@ -30363,6 +30363,66 @@
       ],
       "source_page": "https://www.cve.org/PartnerInformation/ListofPartners",
       "partner_page": "https://www.cve.org/PartnerInformation/ListofPartners/partner/TYPO3"
+    }
+  },
+  {
+    "partner": "Ubiquiti, Inc.",
+    "scope": "Vulnerabilities in all Ubiquiti products and products of Ubiquiti subsidiaries only.",
+    "program_role": "CNA",
+    "organization_type": "Vendor",
+    "country": "USA",
+    "metadata": {
+      "cna_id": "CNA-2026-0057",
+      "short_name": "Ubiquiti",
+      "contact": [
+        {
+          "email": [
+            {
+              "label": "Email",
+              "emailAddr": "security@ui.com"
+            }
+          ],
+          "contact": [],
+          "form": []
+        }
+      ],
+      "disclosure_policy": [
+        {
+          "label": "Disclosure Policy",
+          "language": "",
+          "url": "http://ui.com/downloads/compliance/vulnerability-disclosure-policy.pdf"
+        }
+      ],
+      "security_advisories": {
+        "alerts": [],
+        "advisories": [
+          {
+            "label": "Advisories",
+            "url": "https://community.ui.com/releases?security-updates"
+          }
+        ]
+      },
+      "resources": [],
+      "is_root": false,
+      "root": {
+        "shortName": "n/a",
+        "organizationName": "n/a"
+      },
+      "top_level_root": {
+        "shortName": "mitre",
+        "organizationName": "MITRE Corporation"
+      },
+      "roles": [
+        {
+          "helpText": "",
+          "role": "CNA"
+        }
+      ],
+      "organization_types": [
+        "Vendor"
+      ],
+      "source_page": "https://www.cve.org/PartnerInformation/ListofPartners",
+      "partner_page": "https://www.cve.org/PartnerInformation/ListofPartners/partner/Ubiquiti"
     }
   },
   {
