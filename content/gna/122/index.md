@@ -14,7 +14,7 @@ gna_id: 122
 | Short name | OneSpan |
 | Full name | OneSpan Inc. |
 | Inserted at | 2026-06-15T14:02:44Z |
-| Updated at | 2026-07-13T16:30:07Z |
+| Updated at | 2026-08-19T11:26:23Z |
 
 ## Details
 

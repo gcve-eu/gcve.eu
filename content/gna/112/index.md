@@ -14,7 +14,7 @@ gna_id: 112
 | Short name | CERT-QC |
 | Full name | Ministère de la Cybersécurité et du Numérique – CERT-QC |
 | Inserted at | 2026-01-31T07:42:49Z |
-| Updated at | 2026-07-13T16:30:07Z |
+| Updated at | 2026-08-19T11:26:23Z |
 
 ## Details
 

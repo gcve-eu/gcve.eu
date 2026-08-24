@@ -14,7 +14,7 @@ gna_id: 115
 | Short name | Adrian Dacka |
 | Full name | Adrian "syrex1013" Dacka |
 | Inserted at | 2026-02-16T07:57:56Z |
-| Updated at | 2026-07-13T16:30:07Z |
+| Updated at | 2026-08-19T11:26:23Z |
 
 ## Details
 

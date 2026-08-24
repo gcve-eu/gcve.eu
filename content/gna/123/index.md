@@ -14,7 +14,7 @@ gna_id: 123
 | Short name | CI-ISAC Australia |
 | Full name | CI-ISAC Australia Ltd |
 | Inserted at | 2026-06-24T07:14:18Z |
-| Updated at | 2026-07-13T16:30:07Z |
+| Updated at | 2026-08-19T11:26:23Z |
 
 ## Details
 
