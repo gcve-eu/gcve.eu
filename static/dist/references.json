@@ -27,7 +27,7 @@
       "short_name": "ENISA",
       "gcve_gna_id": 2,
       "url": "https://github.com/enisaeu/CNW",
-      "automation_url": "https://raw.githubusercontent.com/enisaeu/CNW/refs/heads/main/advisories/eukev/eukev.json",
+      "automation_url": "https://raw.githubusercontent.com/enisaeu/CNW/refs/heads/main/eukev/eukev.json",
       "description": "ENISA, via the CSIRTs network, provides a list of known-exploited vulnerabilities observed across the CSIRTs network."
     },
     {

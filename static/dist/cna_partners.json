@@ -2457,6 +2457,7 @@
     "country": "USA",
     "metadata": {
       "cna_id": "CNA-2023-0005",
+      "gna_id": "1337",
       "short_name": "AHA",
       "contact": [
         {
@@ -5841,6 +5842,7 @@
     "country": "Luxembourg",
     "metadata": {
       "cna_id": "CNA-2026-0027",
+      "gna_id": "1",
       "short_name": "CIRCL",
       "contact": [
         {
@@ -9121,6 +9123,7 @@
     "country": "Sweden",
     "metadata": {
       "cna_id": "CNA-2024-0010",
+      "gna_id": "101",
       "short_name": "ERIC",
       "contact": [
         {
@@ -9181,6 +9184,7 @@
     "country": "USA",
     "metadata": {
       "cna_id": "CNA-2025-0023",
+      "gna_id": "120",
       "short_name": "EEF",
       "contact": [
         {
@@ -10003,6 +10007,7 @@
     "country": "Colombia",
     "metadata": {
       "cna_id": "CNA-2021-0020",
+      "gna_id": "116",
       "short_name": "Fluid_Attacks",
       "contact": [
         {
@@ -18166,6 +18171,7 @@
     "country": "Slovak Republic",
     "metadata": {
       "cna_id": "CNA-2022-0034",
+      "gna_id": "106",
       "short_name": "SK-CERT",
       "contact": [
         {
@@ -22357,6 +22363,7 @@
     "country": "USA",
     "metadata": {
       "cna_id": "CNA-2026-0055",
+      "gna_id": "125",
       "short_name": "postiz",
       "contact": [
         {
@@ -24697,6 +24704,7 @@
     "country": "Germany",
     "metadata": {
       "cna_id": "CNA-2025-0024",
+      "gna_id": "103",
       "short_name": "SCHUTZWERK",
       "contact": [
         {
@@ -25363,6 +25371,7 @@
     "country": "USA",
     "metadata": {
       "cna_id": "CNA-2023-0054",
+      "gna_id": "108",
       "short_name": "securin",
       "contact": [
         {
@@ -25851,6 +25860,7 @@
     "country": "Germany",
     "metadata": {
       "cna_id": "CNA-2017-0006",
+      "gna_id": "114",
       "short_name": "siemens",
       "contact": [
         {
@@ -27376,6 +27386,7 @@
     "country": "USA",
     "metadata": {
       "cna_id": "CNA-2014-0003",
+      "gna_id": "124",
       "short_name": "suse",
       "contact": [
         {
@@ -27996,6 +28007,7 @@
     "country": "USA",
     "metadata": {
       "cna_id": "CNA-2016-0017",
+      "gna_id": "31337",
       "short_name": "talos",
       "contact": [
         {
@@ -28738,6 +28750,7 @@
     "country": "France",
     "metadata": {
       "cna_id": "CNA-2021-0045",
+      "gna_id": "107",
       "short_name": "THA-PSIRT",
       "contact": [
         {
@@ -30981,6 +30994,7 @@
     "country": "Switzerland",
     "metadata": {
       "cna_id": "CNA-2001-0063",
+      "gna_id": "100",
       "short_name": "VulDB",
       "contact": [
         {
@@ -31041,6 +31055,7 @@
     "country": "USA",
     "metadata": {
       "cna_id": "CNA-2023-0021",
+      "gna_id": "404",
       "short_name": "VulnCheck",
       "contact": [
         {
