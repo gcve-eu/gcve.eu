@@ -39,9 +39,9 @@
     },
     {
       "uuid": "caeb2787-0d58-4236-9039-7c86c3e566f3",
-      "short_name": "Previdian",
-      "url": "https://previdian.com",
-      "automation_url": "https://previdian.com/api/v1/kevs",
+      "short_name": "KEVIntel",
+      "url": "https://kevintel.com",
+      "automation_url": "https://kevintel.com/api/v1/kevs",
       "description": "Evidence-backed KEV intelligence enriched with confidence scoring, exploitation status, CISA KEV status, and sensor telemetry."
     }
   ]
