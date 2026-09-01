@@ -14,7 +14,7 @@ gna_id: 1337
 | Short name | AHA! |
 | Full name | Austin Hackers Anonymous |
 | Inserted at | 2026-01-31T07:42:49Z |
-| Updated at | 2026-08-19T11:26:23Z |
+| Updated at | 2026-09-01T09:10:56Z |
 
 ## Details
 
