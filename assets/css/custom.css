@@ -574,6 +574,112 @@ body {
   line-height: 1.65;
 }
 
+.gcve-news-box {
+  margin: 2.75rem 0 3.25rem;
+  padding: clamp(1.35rem, 3vw, 2rem);
+  border: 1px solid var(--gcve-border);
+  border-radius: 1.5rem;
+  background:
+    radial-gradient(circle at 95% 0, rgba(34, 195, 223, 0.13), transparent 20rem),
+    var(--gcve-card);
+  box-shadow: var(--gcve-shadow);
+  backdrop-filter: blur(14px);
+}
+
+.gcve-news-header {
+  display: flex;
+  align-items: end;
+  justify-content: space-between;
+  gap: 1rem;
+  margin-bottom: 1.4rem;
+}
+
+.gcve-news-header .gcve-eyebrow {
+  margin-bottom: 0.25rem;
+}
+
+.gcve-news-header h2 {
+  margin: 0;
+  border: 0;
+  color: var(--gcve-ink);
+  font-size: clamp(1.6rem, 3vw, 2.15rem);
+  letter-spacing: -0.035em;
+}
+
+.gcve-news-all {
+  flex: 0 0 auto;
+  color: var(--gcve-blue);
+  font-weight: 750;
+  text-decoration: none;
+}
+
+.gcve-news-all:hover {
+  text-decoration: underline;
+  text-underline-offset: 0.2em;
+}
+
+.gcve-news-list {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 1rem;
+}
+
+.gcve-news-item {
+  min-width: 0;
+  padding: 1.15rem;
+  border: 1px solid rgba(38, 100, 255, 0.12);
+  border-radius: 1rem;
+  background: rgba(255, 255, 255, 0.58);
+}
+
+.dark .gcve-news-item {
+  border-color: rgba(255, 255, 255, 0.08);
+  background: rgba(255, 255, 255, 0.045);
+}
+
+.gcve-news-item time {
+  color: var(--gcve-muted);
+  font-size: 0.78rem;
+  font-weight: 750;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+}
+
+.gcve-news-item h3 {
+  margin: 0.55rem 0 0.65rem;
+  font-size: 1.05rem;
+  line-height: 1.35;
+}
+
+.gcve-news-item h3 a {
+  color: var(--gcve-ink);
+  text-decoration: none;
+}
+
+.gcve-news-item h3 a:hover {
+  color: var(--gcve-blue);
+}
+
+.gcve-news-item p {
+  margin: 0;
+  color: var(--gcve-muted);
+  font-size: 0.9rem;
+  line-height: 1.55;
+}
+
+@media (max-width: 800px) {
+  .gcve-news-list {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 520px) {
+  .gcve-news-header {
+    align-items: start;
+    flex-direction: column;
+  }
+}
+
 .hextra-cards {
   gap: 1rem !important;
 }
