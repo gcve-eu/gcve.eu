@@ -1,0 +1,22 @@
+{{- $news := where site.RegularPages "Section" "news" -}}
+{{- $news = first 3 (sort $news "Date" "desc") -}}
+<section class="gcve-news-box" aria-labelledby="gcve-recent-news-heading">
+  <div class="gcve-news-header">
+    <div>
+      <p class="gcve-eyebrow">From the community</p>
+      <h2 id="gcve-recent-news-heading">Recent news</h2>
+    </div>
+    <a class="gcve-news-all" href="{{ relURL "news/" }}">View all news <span aria-hidden="true">&rarr;</span></a>
+  </div>
+  <div class="gcve-news-list">
+    {{- range $news }}
+      <article class="gcve-news-item">
+        <time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "2 January 2006" }}</time>
+        <h3><a href="{{ .RelPermalink }}">{{ .Title }}</a></h3>
+        {{- with or .Description .Summary }}
+          <p>{{ . | plainify | truncate 155 }}</p>
+        {{- end }}
+      </article>
+    {{- end }}
+  </div>
+</section>
