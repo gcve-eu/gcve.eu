@@ -44,6 +44,7 @@ Adhering to GCVE BCPs is not mandatory, but strongly recommended to ensure the s
 | Extension | Title | Applies To | Description |
 |---|---|---|---|
 | [GCVE BCP-05-X-01](/bcp/extension/gcve-bcp-05-x-01/) [PDF](/files/bcp/gcve-bcp-05-x-01.pdf) | AI-Assisted Vulnerability Information Annotation | [GCVE BCP-05](/bcp/gcve-bcp-05/) | Defines metadata for annotating vulnerability records where AI or automated processing contributed to creation, enrichment, classification, or analysis. |
+| [GCVE BCP-05-X-02](/bcp/extension/gcve-bcp-05-x-02) [PDF](/files/bcp/gcve-bcp-05-x-01.pdf) | Patch-to-Vulnerability Generation Provenance | [GCVE BCP-05](/bcp/gcve-bcp-05/)| This extension records provenance and analyst-review information produced when a software patch is transformed into vulnerability metadata. It makes the source patch, generator, model, assumptions, rationales, and draft status available to downstream GCVE consumers without adding a tool-specific extension directly to the containing CVE container. |
 
 ## Contributing
 
