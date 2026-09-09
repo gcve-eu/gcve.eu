@@ -14,10 +14,13 @@ gna_id: 128
 | Short name | bcsec |
 | Full name | Bertoldi Cybersecurity |
 | Inserted at | 2026-09-01T09:10:56Z |
-| Updated at | 2026-09-01T09:10:56Z |
+| Updated at | 2026-09-04T06:53:49Z |
 
 ## Details
 
 | Field | Value |
 |---|---|
-| gcve_url | [https://bcsec.io](https://bcsec.io) |
+| gcve_allocation | [https://bcsec.io/vulnerability-disclosure-policy.html](https://bcsec.io/vulnerability-disclosure-policy.html) |
+| gcve_dump | [https://bcsec.io/dumps/](https://bcsec.io/dumps/) |
+| gcve_pull_api | [https://bcsec.io/](https://bcsec.io/) |
+| gcve_url | [https://bcsec.io/vulnerability-disclosure-policy.html](https://bcsec.io/vulnerability-disclosure-policy.html) |

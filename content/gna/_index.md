@@ -49,6 +49,7 @@ GCVE Numbering Authorities are autonomous participants that allocate and publish
 | [GNA 680](680/) | DFN-CERT | DFN-CERT Services GmbH |  |  |
 | [GNA 1291](1291/) | NCSC-CH | National Cyber Security Centre (NCSC) - Switzerland |  |  |
 | [GNA 1337](1337/) | AHA! | Austin Hackers Anonymous |  |  |
+| [GNA 1988](1988/) | VULNARCHIVE | Vulnerability Disclosure Archive |  |  |
 | [GNA 2342](2342/) | Pentagrid | Pentagrid AG |  |  |
 | [GNA 31337](31337/) | Talos | Cisco Talos |  |  |
 | [GNA 65530](65530/) | GCVE-CVE-Extension | GNA Dedicated to CVE Extension and Proposal - ID must be aligned with CVE ID reference |  |  |

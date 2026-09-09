@@ -14,7 +14,7 @@ gna_id: 69
 | Short name | CESNET-CERTS |
 | Full name | CSIRT of Czech NREN |
 | Inserted at | 2026-08-11T15:14:47Z |
-| Updated at | 2026-09-01T09:10:56Z |
+| Updated at | 2026-09-04T06:53:49Z |
 
 ## Details
 

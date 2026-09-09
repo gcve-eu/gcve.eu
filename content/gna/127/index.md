@@ -14,7 +14,7 @@ gna_id: 127
 | Short name | HackRTU |
 | Full name | HackRTU |
 | Inserted at | 2026-09-01T08:57:33Z |
-| Updated at | 2026-09-01T09:10:56Z |
+| Updated at | 2026-09-04T06:53:49Z |
 
 ## Details
 

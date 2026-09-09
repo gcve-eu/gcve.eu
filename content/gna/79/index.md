@@ -14,7 +14,7 @@ gna_id: 79
 | Short name | SWISSCOM |
 | Full name | Swisscom (Schweiz) AG |
 | Inserted at | 2026-01-31T07:42:49Z |
-| Updated at | 2026-09-01T09:10:56Z |
+| Updated at | 2026-09-04T06:53:49Z |
 
 ## Details
 

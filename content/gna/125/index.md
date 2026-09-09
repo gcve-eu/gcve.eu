@@ -14,7 +14,7 @@ gna_id: 125
 | Short name | Postiz |
 | Full name | Postiz |
 | Inserted at | 2026-08-11T06:56:05Z |
-| Updated at | 2026-09-01T09:10:56Z |
+| Updated at | 2026-09-04T06:53:49Z |
 
 ## Details
 
