@@ -606,6 +606,66 @@
     }
   },
   {
+    "partner": "Airoha Technology Corp.",
+    "scope": "Airoha product issues only.",
+    "program_role": "CNA",
+    "organization_type": "Vendor",
+    "country": "Taiwan",
+    "metadata": {
+      "cna_id": "CNA-2026-0063",
+      "short_name": "Airoha",
+      "contact": [
+        {
+          "email": [
+            {
+              "label": "Email",
+              "emailAddr": "security@airoha.com"
+            }
+          ],
+          "contact": [],
+          "form": []
+        }
+      ],
+      "disclosure_policy": [
+        {
+          "label": "Policy",
+          "language": "",
+          "url": "https://www.airoha.com/about/governance/intellectual/security-contact#disclosure-policy"
+        }
+      ],
+      "security_advisories": {
+        "alerts": [],
+        "advisories": [
+          {
+            "label": "Advisories",
+            "url": "https://www.airoha.com/product-security-bulletin"
+          }
+        ]
+      },
+      "resources": [],
+      "is_root": false,
+      "root": {
+        "shortName": "n/a",
+        "organizationName": "n/a"
+      },
+      "top_level_root": {
+        "shortName": "mitre",
+        "organizationName": "MITRE Corporation"
+      },
+      "roles": [
+        {
+          "helpText": "",
+          "role": "CNA"
+        }
+      ],
+      "organization_types": [
+        "Vendor"
+      ],
+      "source_page": "https://www.cve.org/PartnerInformation/ListofPartners",
+      "partner_page": "https://www.cve.org/PartnerInformation/ListofPartners/partner/Airoha"
+    }
+  },
+  {
     "partner": "AISLE Incorporated",
     "scope": "All AISLE products as well as vulnerabilities discovered in third-party software not covered by other CNA’s scope.",
     "program_role": "CNA",
@@ -8753,6 +8813,7 @@
     "country": "Spain",
     "metadata": {
       "cna_id": "CNA-2024-0026",
+      "gna_id": "129",
       "short_name": "Edgewatch",
       "contact": [
         {
@@ -9298,6 +9359,66 @@
       "source_page": "https://www.cve.org/PartnerInformation/ListofPartners",
       "partner_page": "https://www.cve.org/PartnerInformation/ListofPartners/partner/EEF",
       "scope_html": "Vulnerabilities in active packages hosted on <a href='https://hex.pm/' target='_blank'>Hex.pm</a>, and in active projects hosted under the GitHub organizations <a href='https://github.com/elixir-lang' target='_blank'>@elixir-lang</a>, <a href='https://github.com/erlang' target='_blank'>@erlang</a>, <a href='https://github.com/erlef-cna' target='_blank'>@erlef-cna</a>, <a href='https://github.com/erlef' target='_blank'>@erlef</a>, <a href='https://github.com/gleam-lang' target='_blank'>@gleam-lang</a>, <a href='https://github.com/hexpm' target='_blank'>@hexpm</a>, <a href='https://github.com/nerves-hub'>@nerves-hub</a>, <a href='https://github.com/nerves-project'>@nerves-project</a>, and <a href='https://github.com/OpenRiak'>@OpenRiak</a> unless covered by the scope of another CNA."
+    }
+  },
+  {
+    "partner": "esaqa GmbH",
+    "scope": "All products developed and maintained by esaqa GmbH.",
+    "program_role": "CNA",
+    "organization_type": "Vendor",
+    "country": "Germany",
+    "metadata": {
+      "cna_id": "CNA-2026-0065",
+      "short_name": "esaqa",
+      "contact": [
+        {
+          "email": [
+            {
+              "label": "Email",
+              "emailAddr": "security@esaqa.com"
+            }
+          ],
+          "contact": [],
+          "form": []
+        }
+      ],
+      "disclosure_policy": [
+        {
+          "label": "Policy",
+          "language": "",
+          "url": "https://esaqa.com/vulnerability-disclosure-policy"
+        }
+      ],
+      "security_advisories": {
+        "alerts": [],
+        "advisories": [
+          {
+            "label": "Advisories",
+            "url": "https://gitlab.com/esaqa/esaqa/security-advisories"
+          }
+        ]
+      },
+      "resources": [],
+      "is_root": false,
+      "root": {
+        "shortName": "ENISA",
+        "organizationName": "EU Agency for Cybersecurity (ENISA)"
+      },
+      "top_level_root": {
+        "shortName": "mitre",
+        "organizationName": "MITRE Corporation"
+      },
+      "roles": [
+        {
+          "helpText": "",
+          "role": "CNA"
+        }
+      ],
+      "organization_types": [
+        "Vendor"
+      ],
+      "source_page": "https://www.cve.org/PartnerInformation/ListofPartners",
+      "partner_page": "https://www.cve.org/PartnerInformation/ListofPartners/partner/esaqa"
     }
   },
   {
@@ -13378,6 +13499,66 @@
       ],
       "source_page": "https://www.cve.org/PartnerInformation/ListofPartners",
       "partner_page": "https://www.cve.org/PartnerInformation/ListofPartners/partner/Hologic"
+    }
+  },
+  {
+    "partner": "Honeywell Aerospace",
+    "scope": "All Honeywell Aerospace products.",
+    "program_role": "CNA",
+    "organization_type": "Vendor",
+    "country": "USA",
+    "metadata": {
+      "cna_id": "CNA-2026-0066",
+      "short_name": "HONA",
+      "contact": [
+        {
+          "email": [],
+          "contact": [
+            {
+              "label": "Report a Vulnerability page",
+              "url": "https://www.honeywellaerospace.com/us/en/product-security"
+            }
+          ],
+          "form": []
+        }
+      ],
+      "disclosure_policy": [
+        {
+          "label": "Policy",
+          "language": "",
+          "url": "https://www.honeywellaerospace.com/us/en/product-security"
+        }
+      ],
+      "security_advisories": {
+        "alerts": [],
+        "advisories": [
+          {
+            "label": "Advisories",
+            "url": "https://www.honeywellaerospace.com/us/en/product-security"
+          }
+        ]
+      },
+      "resources": [],
+      "is_root": false,
+      "root": {
+        "shortName": "icscert",
+        "organizationName": "Cybersecurity and Infrastructure Security Agency (CISA) Industrial Control Systems (ICS)"
+      },
+      "top_level_root": {
+        "shortName": "CISA",
+        "organizationName": "Cybersecurity and Infrastructure Security Agency (CISA)"
+      },
+      "roles": [
+        {
+          "helpText": "",
+          "role": "CNA"
+        }
+      ],
+      "organization_types": [
+        "Vendor"
+      ],
+      "source_page": "https://www.cve.org/PartnerInformation/ListofPartners",
+      "partner_page": "https://www.cve.org/PartnerInformation/ListofPartners/partner/HONA"
     }
   },
   {
@@ -32836,6 +33017,66 @@
       "source_page": "https://www.cve.org/PartnerInformation/ListofPartners",
       "partner_page": "https://www.cve.org/PartnerInformation/ListofPartners/partner/Zabbix",
       "scope_html": "Zabbix products and Zabbix projects listed on <a href='https://git.zabbix.com/' target='_blank'>https://git.zabbix.com/</a> only."
+    }
+  },
+  {
+    "partner": "Zenitel Norway AS",
+    "scope": "Zenitel products only.",
+    "program_role": "CNA",
+    "organization_type": "Vendor",
+    "country": "Norway",
+    "metadata": {
+      "cna_id": "CNA-2026-0064",
+      "short_name": "Zenitel",
+      "contact": [
+        {
+          "email": [
+            {
+              "label": "Email",
+              "emailAddr": "security@zenitel.com"
+            }
+          ],
+          "contact": [],
+          "form": []
+        }
+      ],
+      "disclosure_policy": [
+        {
+          "label": "Policy",
+          "language": "",
+          "url": "https://zenitel.com/security/vulnerability-disclosure"
+        }
+      ],
+      "security_advisories": {
+        "alerts": [],
+        "advisories": [
+          {
+            "label": "Advisories",
+            "url": "https://zenitel.com/security/security-advisories"
+          }
+        ]
+      },
+      "resources": [],
+      "is_root": false,
+      "root": {
+        "shortName": "ENISA",
+        "organizationName": "EU Agency for Cybersecurity (ENISA)"
+      },
+      "top_level_root": {
+        "shortName": "mitre",
+        "organizationName": "MITRE Corporation"
+      },
+      "roles": [
+        {
+          "helpText": "",
+          "role": "CNA"
+        }
+      ],
+      "organization_types": [
+        "Vendor"
+      ],
+      "source_page": "https://www.cve.org/PartnerInformation/ListofPartners",
+      "partner_page": "https://www.cve.org/PartnerInformation/ListofPartners/partner/Zenitel"
     }
   },
   {
