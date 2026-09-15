@@ -7,6 +7,8 @@ description: "Directory of GCVE Numbering Authorities (GNAs) from the public GCV
 
 GCVE Numbering Authorities are autonomous participants that allocate and publish GCVE identifiers. This directory is maintained in Markdown from the public GCVE registry data.
 
+Browse the authority profiles below or <a href="/dist/gcve.json" download>download the complete GNA directory as JSON</a> for machine-readable use.
+
 | GNA ID | Short name | Full name | CPE vendor | Website |
 | --- | --- | --- | --- | --- |
 | [GNA 0](0/) | CVE | CVE Program |  |  |
