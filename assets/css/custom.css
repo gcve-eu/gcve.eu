@@ -928,6 +928,11 @@ body {
   min-width: 0;
 }
 
+/* Cards without a media panel should use the full card width. */
+.gcve-tool-card > .gcve-tool-card-body:only-child {
+  grid-column: 1 / -1;
+}
+
 .gcve-tool-kicker {
   margin: 0 0 0.45rem;
   color: #0b7285;
