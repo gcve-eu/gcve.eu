@@ -36,7 +36,7 @@ While remaining compatible with the traditional CVE system, GCVE introduces **GC
 
 <p class="gcve-section-intro">Start with the core concepts, follow the latest updates, or jump directly to the machine-readable data and vulnerability intelligence services.</p>
 
-{{< cards >}}
+{{< cards cols="4" >}}
   {{< card link="about" title="About GCVE" icon="book-open" subtitle="Understand the goals, design principles, and decentralized allocation model." >}}
   {{< card link="who" title="Who is behind GCVE?" icon="user-group" subtitle="See the people, organisations, and projects supporting the initiative." >}}
   {{< card link="faq" title="FAQ" icon="chat" subtitle="Quick answers about compatibility, identifiers, GNAs, and participation." >}}

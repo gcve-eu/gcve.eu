@@ -344,6 +344,28 @@ body {
   max-width: var(--gcve-page-max) !important;
 }
 
+/* The landing page benefits from a wider canvas than prose-heavy pages. Keep
+   its gutters comfortable while allowing the hero and navigation cards to use
+   nearly all of a desktop viewport. */
+.gcve-home-layout {
+  width: 100%;
+  max-width: 112rem;
+}
+
+.gcve-home-article {
+  padding-inline: max(env(safe-area-inset-left), env(safe-area-inset-right), 1rem);
+}
+
+.gcve-home-main {
+  max-width: none;
+}
+
+@media (min-width: 1440px) {
+  .gcve-home-main {
+    padding-inline: clamp(2.5rem, 3vw, 4rem);
+  }
+}
+
 .gcve-hero {
   position: relative;
   isolation: isolate;
