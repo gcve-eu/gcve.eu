@@ -7,8 +7,6 @@ description: "Directory of GCVE Numbering Authorities (GNAs) from the public GCV
 
 GCVE Numbering Authorities are autonomous participants that allocate and publish GCVE identifiers. This directory is maintained in Markdown from the public GCVE registry data.
 
-Browse the authority profiles below or <a href="/dist/gcve.json" download>download the complete GNA directory as JSON</a> for machine-readable use.
-
 | GNA ID | Short name | Full name | CPE vendor | Website |
 | --- | --- | --- | --- | --- |
 | [GNA 0](0/) | CVE | CVE Program |  |  |
@@ -47,6 +45,7 @@ Browse the authority profiles below or <a href="/dist/gcve.json" download>downlo
 | [GNA 126](126/) | cvdportal | CVD Portal |  |  |
 | [GNA 127](127/) | HackRTU | HackRTU |  |  |
 | [GNA 128](128/) | bcsec | Bertoldi Cybersecurity |  |  |
+| [GNA 129](129/) | Edgewatch | Occentus Network SL |  |  |
 | [GNA 404](404/) | VulnCheck | VulnCheck Inc. |  |  |
 | [GNA 680](680/) | DFN-CERT | DFN-CERT Services GmbH |  |  |
 | [GNA 1291](1291/) | NCSC-CH | National Cyber Security Centre (NCSC) - Switzerland |  |  |

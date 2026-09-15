@@ -14,7 +14,7 @@ gna_id: 114
 | Short name | siemens |
 | Full name | Siemens |
 | Inserted at | 2026-01-31T07:42:49Z |
-| Updated at | 2026-09-04T06:53:49Z |
+| Updated at | 2026-09-15T14:59:19Z |
 
 ## Details
 

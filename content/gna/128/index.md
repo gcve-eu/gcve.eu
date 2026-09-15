@@ -14,7 +14,7 @@ gna_id: 128
 | Short name | bcsec |
 | Full name | Bertoldi Cybersecurity |
 | Inserted at | 2026-09-01T09:10:56Z |
-| Updated at | 2026-09-04T06:53:49Z |
+| Updated at | 2026-09-15T14:59:19Z |
 
 ## Details
 

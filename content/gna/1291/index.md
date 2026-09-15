@@ -14,7 +14,7 @@ gna_id: 1291
 | Short name | NCSC-CH |
 | Full name | National Cyber Security Centre (NCSC) - Switzerland |
 | Inserted at | 2026-01-31T07:42:49Z |
-| Updated at | 2026-09-04T06:53:49Z |
+| Updated at | 2026-09-15T14:59:19Z |
 
 ## Details
 

@@ -14,7 +14,7 @@ gna_id: 126
 | Short name | cvdportal |
 | Full name | CVD Portal |
 | Inserted at | 2026-08-19T11:26:23Z |
-| Updated at | 2026-09-04T06:53:49Z |
+| Updated at | 2026-09-15T14:59:19Z |
 
 ## Details
 
