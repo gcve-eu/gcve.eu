@@ -1,395 +1,89 @@
 ---
-title: About 
+title: About GCVE
+description: "About the GCVE initiative, its decentralised identifier system, open standards, services, and community."
 ---
 
-# GCVE - Global CVE Allocation System
+# About GCVE
 
-The **Global CVE (GCVE)** allocation system is a new, decentralized approach to vulnerability identification and numbering, designed to improve flexibility, scalability, and autonomy for participating entities. 
-While remaining compatible with the traditional CVE system, GCVE introduces **GCVE Numbering Authorities (GNAs)**. GNAs are independent entities that can allocate identifiers without relying on a centralised block distribution system or rigid policy enforcement.
+The **Global CVE (GCVE)** initiative is an open, decentralised approach to vulnerability identification, publication, and exchange. It gives participating organisations autonomy over identifier allocation and disclosure while retaining a simple mapping for existing CVE identifiers.
 
-**Global CVE (GCVE)** initiative is operated by the [CIRCL Computer Incident Response Center Luxembourg](http://www.circl.lu/), which also maintains the core open-source project for vulnerability management, [vulnerability-lookup](https://www.vulnerability-lookup.org/). For more details, see [the background story](https://gcve.eu/faq/#q12-what-is-the-relationship-between-the-open-source-vulnerability-lookup-project-the-euvd-european-union-vulnerability-database-and-gcveeu).
+GCVE is operated by [CIRCL — Computer Incident Response Center Luxembourg](https://www.circl.lu/) and developed in the open with vulnerability coordinators, vendors, researchers, tool developers, and data consumers. CIRCL also maintains [Vulnerability-Lookup](https://www.vulnerability-lookup.org/), the open-source platform that powers GCVE services and provides a reference implementation of several GCVE practices.
 
-## Citing GCVE
+<div class="gcve-hero-actions">
+  <a class="gcve-button gcve-button-primary" href="/gna/">Explore the GNA directory</a>
+  <a class="gcve-button gcve-button-secondary" href="/bcp/">Read the GCVE BCPs</a>
+</div>
 
-If you reference the GCVE initiative in academic, technical, or operational publications, please use the recommended citation and BibTeX entry on the [Citation](/citation/) page.
+## How GCVE works
 
-## Key Concepts
+A **GCVE Numbering Authority (GNA)** is an autonomous participant authorised to allocate GCVE identifiers. Each GNA receives a unique numeric namespace and can define its own vulnerability-identification and disclosure policy without requesting identifier blocks from a central allocation authority.
 
-![Overview of the GCVE.eu allocation system](/images/gcve-overview.png)
-
-### GCVE Numbering Authorities (GNA)
-
-A **GCVE Numbering Authority (GNA)** is an approved entity that is authorised to allocate GCVE identifiers.
-
-Each GNA is assigned a unique numeric identifier, which becomes part of the GCVE ID format.
-
-GNAs have the autonomy to:
-
-- Allocate identifiers at their own pace.
-- Define their own internal policies for vulnerability identification.
-- Operate independently of a centralized block allocation authority.
-
-### Compatibility with CVE
-
-GCVE maintains compatibility with existing CVEs using a backward-compatible ID scheme.
-
-## GCVE Identifier Format
-
-The GCVE identifier typically follows a traditional four-part format:
-
-`GCVE-<GNA-ID>-<YEAR>-<UNIQUE-ID>`
-
-However, a GNA has the flexibility to use an alternative format, provided that the prefix always follows the structure:
+The identifier starts with the authority's namespace:
 
 `GCVE-<GNA-ID>-<GNA-VALUE>`
 
-A `GNA-VALUE` must be 7-bit character sets.
+A commonly used form is `GCVE-<GNA-ID>-<YEAR>-<UNIQUE-ID>`. For example, `GCVE-1-2025-00001` belongs to GNA 1. Existing CVE identifiers map directly into the reserved GNA 0 namespace: `CVE-2023-40224` becomes `GCVE-0-2023-40224`.
 
-For more details, [GCVE-BCP-04 - Recommendations and Best Practices for ID Allocation](/bcp/gcve-bcp-04/) is available.
+This model provides:
 
-### Format Breakdown
+- **Autonomy:** GNAs allocate and publish identifiers at their own pace and under their own policies.
+- **Interoperability:** shared formats and discovery mechanisms allow independently operated systems to exchange data.
+- **Scalability:** allocation does not depend on a central block-distribution workflow.
+- **Compatibility:** existing CVE identifiers retain an unambiguous representation through GNA 0.
+- **Provenance:** the GNA namespace makes the source of an identifier explicit.
 
-| Field       | Description                                                         |
-|-------------|---------------------------------------------------------------------|
-| `GCVE`      | Prefix indicating a Global CVE ID |
-| `GNA ID`    | Unique identifier for the GCVE Numbering Authority                  |
-| `YEAR`      | The year of disclosure or allocation                                |
-| `UNIQUE ID` | A GNA-assigned identifier that must be unique for vulnerability allocated at the GNA |                 
+Detailed allocation recommendations are available in [GCVE-BCP-04](/bcp/gcve-bcp-04/). The current authorities, their public endpoints, and their individual profiles are maintained in the [GNA directory](/gna/), where the complete directory can also be downloaded as JSON.
 
-### Examples
+## From identifiers to an operational ecosystem
 
-| GCVE ID              | Description                                                |
-|----------------------|------------------------------------------------------------|
-| `GCVE-0-2023-40224`  | Existing CVE (`CVE-2023-40224`) mapped into GCVE format     |
-| `GCVE-1-2025-00001`  | using the GCVE allocation system           |
-| `GCVE-5-2024-12345`  | Vulnerability assigned by GNA with ID 5 in the year 2024   |
+GCVE has grown beyond identifier allocation into a set of open practices, software, data, and public services. These components are designed to work together while remaining independently reusable.
 
-## Reserved GNA Identifiers
+### Best Current Practices
 
-| GNA ID | Assigned Entity       | Notes                                |
-|--------|------------------------|--------------------------------------|
-| 0      | Legacy CVE Identifiers | All existing CVEs mapped here        |
-| 1      | CIRCL                  | First organization using GCVE model  |
-| ...    | (To be assigned)       | Other GNA IDs allocated      |
+The [GCVE Best Current Practice catalogue](/bcp/) documents the community's shared approaches to:
 
-## Benefits of GCVE
+- directory signing and verification;
+- vulnerability handling and disclosure;
+- decentralised publication and identifier allocation;
+- the GCVE vulnerability record format;
+- GNA requirements and evaluation;
+- Known Exploited Vulnerability (KEV) assertions;
+- record scope, improved product enumeration, and vulnerability sightings;
+- transparent provenance for AI-assisted annotations and patch-derived vulnerability information.
 
-- **Decentralized Allocation:** GNAs manage their own allocations without requesting blocks from a centralised distribution system.
-- **Policy Flexibility:** GNAs can operate under their own disclosure or allocation guidelines.
-- **Scalability:** Eliminates bottlenecks and the need to reach consensus or solve disputes as in the existing centralised system.
-- **Compatibility:** Seamless transition for legacy CVEs via `GNA ID 0`.
+Each document is clearly marked as published, under public review, or in draft. BCPs are living, community-developed guidance rather than a centrally imposed policy. The [open BCP development process](/process/) explains how proposals are discussed and improved.
 
-## Implementation And Registry
+### Public services
 
-The GCVE registry at [https://gcve.eu](https://gcve.eu) maintains:
+<div class="gcve-software-grid">
+  <article class="gcve-tool-card">
+    <div class="gcve-tool-card-body">
+      <p class="gcve-tool-kicker">Vulnerability intelligence</p>
+      <h3>DB.GCVE.EU</h3>
+      <p>A public Vulnerability-Lookup instance for searching, correlating, and exploring vulnerability information from GCVE and many other sources. It also demonstrates decentralised GNA publication, sightings, comments, bundles, and KEV data in an operational service.</p>
+      <div class="gcve-tool-actions"><a class="gcve-button gcve-button-primary" href="https://db.gcve.eu/">Open DB.GCVE.EU</a></div>
+    </div>
+  </article>
+  <article class="gcve-tool-card">
+    <div class="gcve-tool-card-body">
+      <p class="gcve-tool-kicker">Products and packages</p>
+      <h3>CPE.GCVE.EU</h3>
+      <p>A collaborative catalogue for vendors, products, CPEs, PURLs, and their relationships. It supports browsable records, community proposals, moderated changes, deterministic identifiers, and API-based reuse using the model described in GCVE-BCP-10.</p>
+      <div class="gcve-tool-actions"><a class="gcve-button gcve-button-primary" href="https://cpe.gcve.eu/">Open CPE.GCVE.EU</a></div>
+    </div>
+  </article>
+</div>
 
-- A list of all GNAs and their IDs
-- The current state of allocations (optional or via GNA publication)
-- Public lookup and API support
+Both services are backed by open-source software. See the [software catalogue](/software/) for Vulnerability-Lookup, the CPE editor, GCVE utilities, schemas, and related projects, or browse [GCVE open data](/opendata/) for machine-readable dumps and enriched data sets.
 
-## Software Supporting GCVE
+## Participate as a GNA
 
-Any software using CVE can automatically generate a GCVD with the `GCVE-0` prefix. 
+Existing CVE Numbering Authorities, recognised CSIRTs and CERTs, and organisations that regularly publish vulnerability information may be eligible for a GNA ID. Applicants should maintain a public disclosure policy or publication source and be prepared to provide the relevant organisation and machine-readable endpoint metadata.
 
-In addition, the full GNA allocation process is supported in:
+The complete eligibility criteria, requested metadata, and application steps are on [Publishing Vulnerability Information](/publishing-vulnerability-information/). GNA requests can be sent to **gna@gcve.eu**.
 
-- [vulnerability-lookup](https://www.vulnerability-lookup.org)
+## Community, governance, and citation
 
-## Eligibility and Process to Obtain a GNA ID
+GCVE develops its practices transparently and welcomes review, implementation feedback, and contributions. Learn about the people and governance around the initiative on the [community page](/who/), join the discussion on the [GCVE forum](https://discourse.ossbase.org/c/gcve/14), or [contact the project](/contact/).
 
-You are eligible to receive a GNA ID if you meet one of the following criteria:
-
-- **You are [an existing CNA](/dist/cna_partners.json)** recognized by the CVE Program.
-
-- **You are not a CNA**, but you meet one of the following conditions:
-  - You are a registered CSIRT or CERT listed at [FIRST.org](https://www.first.org/), part of the [EU CSIRTs Network](https://csirtsnetwork.eu/), or a member of [TF-CSIRT](https://tf-csirt.org/).
-  - You are a software, hardware, or service provider that regularly discloses vulnerabilities affecting your own products or services, and you have an official CPE vendor name assigned.
-  - You have a public vulnerability disclosure policy and maintain a publicly accessible source for newly disclosed vulnerabilities in [GCVE-BCP 05 format](/bcp/gcve-bcp-05/).
-
-If you fall into one of the above categories, please send an email to **gna@gcve.eu** with your organization’s name and request. This allows us to assign you a GNA ID.
-
-You must also include the following information in your request using the GCVE JSON directory format:
-
-- `short_name` — (required) Short name of the organization  
-- `full_name` — (required) Full legal name of the organization  
-- `cpe_vendor_name` — (optional) Official CPE vendor name, if available  
-- `gcve_url` — URL to the public vulnerability disclosure website  
-- `gcve_api` — URL of the API endpoint providing vulnerability data  
-- `gcve_dump` — URL to a machine-readable dump (e.g., JSON) of vulnerability information  
-- `gcve_allocation` — URL of the interface used to allocate or register new vulnerabilities  
-- `gcve_pull_api` — URL of the interface compatible to retrieve the local GNA publications, as implemented in the [Vulnerability-Lookup open-source software](https://vulnerability-lookup.org/).
-
-## JSON Directory File Available at GCVE.eu
-
-A JSON file containing the following information is available at [https://gcve.eu/dist/gcve.json](/dist/gcve.json).
-
-~~~json
-[
-  {
-    "id": 0,
-    "short_name": "CVE",
-    "full_name": "CVE Program",
-    "usage": "This GCVE GNA ID is used as a prefix and MUST be followed by the official CVE ID.",
-    "inserted_at": "2026-01-31T07:42:49Z",
-    "updated_at": "2026-03-16T15:00:07Z"
-  },
-  {
-    "id": 1,
-    "short_name": "CIRCL",
-    "cpe_vendor_name": "circl",
-    "full_name": "Computer Incident Response Center Luxembourg",
-    "gcve_url": "https://vulnerability.circl.lu/",
-    "gcve_api": "https://vulnerability.circl.lu/api/",
-    "gcve_dump": "https://vulnerability.circl.lu/dumps/",
-    "gcve_allocation": "https://vulnerability.circl.lu/",
-    "gcve_pull_api": "https://vulnerability.circl.lu/",
-    "inserted_at": "2026-01-31T07:42:49Z",
-    "updated_at": "2026-03-16T15:00:07Z"
-  },
-  {
-    "id": 2,
-    "short_name": "EUVD",
-    "full_name": "European Union Vulnerability Database",
-    "gcve_url": "https://euvd.enisa.europa.eu/",
-    "inserted_at": "2026-01-31T07:42:49Z",
-    "updated_at": "2026-03-16T15:00:07Z"
-  },
-  {
-    "id": 3,
-    "short_name": "Red Hat",
-    "full_name": "Red Hat Inc.",
-    "cpe_vendor_name": "redhat",
-    "gcve_url": "https://access.redhat.com/security/",
-    "gcve_api": "https://access.redhat.com/security/data/csaf/v2/provider-metadata.json",
-    "inserted_at": "2026-01-31T07:42:49Z",
-    "updated_at": "2026-03-16T15:00:07Z"
-  },
-  {
-    "id": 79,
-    "short_name": "SWISSCOM",
-    "full_name": "Swisscom (Schweiz) AG",
-    "cpe_vendor_name": "swisscom",
-    "gcve_url": "https://github.com/swisscom/bugbounty/tree/main/hall-of-fame",
-    "gcve_allocation": "https://www.swisscom.ch/en/about/security/bug-bounty.html",
-    "inserted_at": "2026-01-31T07:42:49Z",
-    "updated_at": "2026-03-16T15:00:07Z"
-  },
-  {
-    "id": 100,
-    "short_name": "VulDB",
-    "full_name": "vuldb.com",
-    "cpe_vendor_name": "vuldb",
-    "gcve_url": "https://vuldb.com/?gna.recent",
-    "gcve_api": "https://vuldb.com/?api",
-    "gcve_dump": "https://vuldb.com/?export",
-    "gcve_allocation": "https://vuldb.com/?id.add",
-    "inserted_at": "2026-01-31T07:42:49Z",
-    "updated_at": "2026-03-16T15:00:07Z"
-  },
-  {
-    "id": 101,
-    "short_name": "ERIC",
-    "cpe_vendor_name": "Ericsson",
-    "full_name": "Ericsson AB",
-    "gcve_dump": "https://www.ericsson.com/en/about-us/security/security-bulletins",
-    "inserted_at": "2026-01-31T07:42:49Z",
-    "updated_at": "2026-03-16T15:00:07Z"
-  },
-  {
-    "id": 102,
-    "short_name": "EACG",
-    "full_name": "Enterprise Architecture Consulting Group",
-    "gcve_api": "https://trustsource.csaf.trustsource.io/.well-known/csaf/provider-metadata.json",
-    "gcve_dump": "https://www.trustsource.io/en/security-policy/",
-    "inserted_at": "2026-01-31T07:42:49Z",
-    "updated_at": "2026-03-16T15:00:07Z"
-  },
-  {
-    "id": 103,
-    "short_name": "SCHUTZWERK",
-    "cpe_vendor_name": "SCHUTZWERK",
-    "full_name": "SCHUTZWERK GmbH",
-    "gcve_url": "https://www.schutzwerk.com/blog/tags/advisories/",
-    "inserted_at": "2026-01-31T07:42:49Z",
-    "updated_at": "2026-03-16T15:00:07Z"
-  },
-  {
-    "id": 104,
-    "short_name": "AboutCode.org",
-    "full_name": "AboutCode Europe ASBL",
-    "cpe_vendor_name": "aboutcode-org",
-    "inserted_at": "2026-01-31T07:42:49Z",
-    "updated_at": "2026-03-16T15:00:07Z"
-  },
-  {
-    "id": 105,
-    "short_name": "OPC",
-    "full_name": "OPC Foundation",
-    "gcve_dump": "https://opcfoundation.org/security/csaf",
-    "gcve_url": "https://opcfoundation.org/security/csaf",
-    "inserted_at": "2026-01-31T07:42:49Z",
-    "updated_at": "2026-03-16T15:00:07Z"
-  },
-  {
-    "id": 106,
-    "full_name": "National Cyber Security Centre SK-CERT",
-    "short_name": "SK-CERT",
-    "gcve_url": "https://www.sk-cert.sk/",
-    "inserted_at": "2026-01-31T07:42:49Z",
-    "updated_at": "2026-03-16T15:00:07Z"
-  },
-  {
-    "id": 107,
-    "short_name": "THA-PSIRT",
-    "full_name": "Thales PSIRT",
-    "cpe_vendor_name": "thalesgroup",
-    "gcve_url": "https://www.thalesgroup.com/en/global/group/psirt",
-    "gcve_dump": "www.thalesgroup.com/en/global/group/psirt/thales-product-security-advisories",
-    "gcve_allocation": "https://www.thalesgroup.com/en/global/group/psirt",
-    "inserted_at": "2026-01-31T07:42:49Z",
-    "updated_at": "2026-03-16T15:00:07Z"
-  },
-  {
-    "id": 108,
-    "short_name": "Securin",
-    "full_name": "Securin Inc",
-    "gcve_url": "https://www.securin.io/disclosure-policy",
-    "gcve_dump": "https://www.securin.io/discover-zero-days",
-    "inserted_at": "2026-01-31T07:42:49Z",
-    "updated_at": "2026-03-16T15:00:07Z"
-  },
-  {
-    "id": 109,
-    "short_name": "concinnity-risks",
-    "full_name": "Concinnity Risks LLC",
-    "gcve_url": "https://concinnity-risks.com/",
-    "inserted_at": "2026-01-31T07:42:49Z",
-    "updated_at": "2026-03-16T15:00:07Z"
-  },
-  {
-    "id": 110,
-    "short_name": "VVD",
-    "full_name": "Vulnetix Vulnerability Database",
-    "gcve_url": "https://www.vulnetix.com/vdb",
-    "inserted_at": "2026-01-31T07:42:49Z",
-    "updated_at": "2026-03-16T15:00:07Z"
-  },
-  {
-    "id": 111,
-    "short_name": "MOGWAILABS",
-    "full_name": "MOGWAI LABS GmbH",
-    "gcve_url": "https://mogwailabs.de/en/advisories/",
-    "gcve_dump": "https://mogwaialbs.de/.well-known/advisories-gcve.json",
-    "inserted_at": "2026-01-31T07:42:49Z",
-    "updated_at": "2026-03-16T15:00:07Z"
-  },
-  {
-    "id": 112,
-    "short_name": "CERT-QC",
-    "full_name": "Ministère de la Cybersécurité et du Numérique – CERT-QC",
-    "inserted_at": "2026-01-31T07:42:49Z",
-    "updated_at": "2026-03-16T15:00:07Z"
-  },
-  {
-    "id": 113,
-    "short_name": "Krones",
-    "full_name": "Krones AG",
-    "gcve_url": "https://www.krones.com/media/downloads/krones-vulnerability-disclosure-policy.pdf",
-    "inserted_at": "2026-01-31T07:42:49Z",
-    "updated_at": "2026-03-16T15:00:07Z"
-  },
-  {
-    "id": 114,
-    "short_name": "siemens",
-    "full_name": "Siemens",
-    "cpe_vendor_name": "siemens",
-    "gcve_url": "https://www.siemens.com/cert",
-    "gcve_dump": "https://cert-portal.siemens.com/productcert/csaf/provider-metadata.json",
-    "inserted_at": "2026-01-31T07:42:49Z",
-    "updated_at": "2026-03-16T15:00:07Z"
-  },
-  {
-    "id": 115,
-    "short_name": "Adrian Dacka",
-    "full_name": "Adrian \"syrex1013\" Dacka",
-    "cpe_vendor_name": "syrex1013",
-    "gcve_url": "https://32b0a928.cve-disclosure-site.pages.dev",
-    "gcve_api": "https://32b0a928.cve-disclosure-site.pages.dev/api/gcve/api",
-    "gcve_dump:": "https://32b0a928.cve-disclosure-site.pages.dev/api/gcve/dump",
-    "gcve_allocation": "https://32b0a928.cve-disclosure-site.pages.dev/api/gcve/allocation",
-    "gcve_pull_api": "https://32b0a928.cve-disclosure-site.pages.dev/api/gcve/pull-api",
-    "inserted_at": "2026-02-16T07:57:56Z",
-    "updated_at": "2026-03-16T15:00:07Z"
-  },
-  {
-    "id": 116,
-    "short_name": "FluidAttacks",
-    "full_name": "Fluid Attacks",
-    "gcve_url": "https://fluidattacks.com/advisories/policy",
-    "gcve_dump": "https://fluidattacks.com/advisories",
-    "inserted_at": "2026-03-16T15:00:07Z",
-    "updated_at": "2026-03-16T15:00:07Z"
-  },
-  {
-    "id": 404,
-    "short_name": "VulnCheck",
-    "full_name": "VulnCheck Inc.",
-    "gcve_url": "https://vulncheck.com/vulnerability-disclosure-policy",
-    "gcve_dump": "https://vulncheck.com/advisories",
-    "inserted_at": "2026-01-31T07:42:49Z",
-    "updated_at": "2026-03-16T15:00:07Z"
-  },
-  {
-    "id": 680,
-    "short_name": "DFN-CERT",
-    "full_name": "DFN-CERT Services GmbH",
-    "gcve_url": "https://adv-archiv.dfn-cert.de/",
-    "inserted_at": "2026-01-31T07:42:49Z",
-    "updated_at": "2026-03-16T15:00:07Z"
-  },
-  {
-    "id": 1291,
-    "short_name": "NCSC-CH",
-    "full_name": "National Cyber Security Centre (NCSC) - Switzerland",
-    "gcve_url": "https://www.ncsc.admin.ch/ncsc/en/home/infos-fuer/infos-it-spezialisten/themen/schwachstelle-melden/cve-list.html",
-    "gcve_allocation": "https://www.ncsc.admin.ch/ncsc/en/home/infos-fuer/infos-it-spezialisten/themen/schwachstelle-melden.html",
-    "inserted_at": "2026-01-31T07:42:49Z",
-    "updated_at": "2026-03-16T15:00:07Z"
-  },
-  {
-    "id": 1337,
-    "short_name": "AHA!",
-    "full_name": "Austin Hackers Anonymous",
-    "gcve_url": "https://takeonme.org/cve",
-    "gcve_dump": "https://takeonme.org/cve/#published-cves",
-    "gcve_pull_api": "https://aha-gcve.todb.workers.dev",
-    "inserted_at": "2026-01-31T07:42:49Z",
-    "updated_at": "2026-03-16T15:00:07Z"
-  },
-  {
-    "id": 2342,
-    "short_name": "Pentagrid",
-    "full_name": "Pentagrid AG",
-    "gcve_url": "https://www.pentagrid.ch/en/categories/advisory/",
-    "gcve_dump": "https://www.pentagrid.ch/.well-known/csaf/provider-metadata.json",
-    "inserted_at": "2026-01-31T07:42:49Z",
-    "updated_at": "2026-03-16T15:00:07Z"
-  },
-  {
-    "id": 31337,
-    "short_name": "Talos",
-    "full_name": "Cisco Talos",
-    "gcve_url": "https://talosintelligence.com/vulnerability_reports",
-    "inserted_at": "2026-01-31T07:42:49Z",
-    "updated_at": "2026-03-16T15:00:07Z"
-  },
-  {
-    "id": 65535,
-    "short_name": "TEST-GNA-GCVE",
-    "full_name": "GNA id used for testing only",
-    "usage": "This GNA ID is reserved for testing purposes. It may appear in publications generated by instances testing the publication process; however, any content produced using this GNA ID MUST NOT be considered valid.",
-    "inserted_at": "2026-01-31T07:42:49Z",
-    "updated_at": "2026-03-16T15:00:07Z"
-  }
-]
-~~~
+For the history and relationship between GCVE, Vulnerability-Lookup, and other vulnerability databases, see the [FAQ](/faq/#q12-what-is-the-relationship-between-the-open-source-vulnerability-lookup-project-the-euvd-european-union-vulnerability-database-and-gcveeu). If you reference the initiative in academic, technical, or operational work, please use the recommended entry on the [citation page](/citation/).
