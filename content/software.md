@@ -1,6 +1,7 @@
 ---
 title: GCVE - Software
 toc: false
+layout: software
 ---
 
 <section class="gcve-hero gcve-software-hero">
@@ -62,6 +63,64 @@ toc: false
 <p class="gcve-section-intro">Composable tools for curation, validation, conversion, AI provenance, and client-side integration across GCVE-compatible systems.</p>
 
 <div class="gcve-software-grid">
+  <article class="gcve-tool-card">
+    <div class="gcve-tool-card-media">
+      <img src="/logos/gcve.png" alt="GCVE logo" />
+    </div>
+    <div class="gcve-tool-card-body">
+      <p class="gcve-tool-kicker">Advisory authoring</p>
+      <h3>Vulniverse</h3>
+      <p>A modern toolkit for creating and editing CVE and GCVE vulnerability records. Vulniverse replaces Vulnogram with a streamlined, up-to-date interface for vulnerability advisory authors.</p>
+      <ul class="gcve-tool-list">
+        <li>Creates and edits structured CVE and GCVE records.</li>
+        <li>Offers a modern interface for advisory-authoring workflows.</li>
+        <li>Provides an open-source successor to Vulnogram.</li>
+      </ul>
+      <div class="gcve-tool-actions">
+        <a class="gcve-button gcve-button-primary" href="https://github.com/vulnerability-lookup/vulniverse">GitHub repository</a>
+      </div>
+    </div>
+  </article>
+
+  <article class="gcve-tool-card">
+    <div class="gcve-tool-card-media">
+      <img src="/logos/gcve.png" alt="GCVE logo" />
+    </div>
+    <div class="gcve-tool-card-body">
+      <p class="gcve-tool-kicker">Historic vulnerability publication</p>
+      <h3>VULNARCHIVE</h3>
+      <p>A provenance-preserving archive and vulnerability-publication pipeline for historic security mailing lists. VULNARCHIVE imports messages, extracts structured vulnerability facts, compares them with known CVEs, and routes uncertain decisions to analysts before publishing eligible records as GCVE GNA 1988.</p>
+      <ul class="gcve-tool-list">
+        <li>Preserves the provenance of historic security mailing-list messages.</li>
+        <li>Combines automated extraction and CVE comparison with analyst review.</li>
+        <li>Implements GCVE BCPs, including BCP-03 and BCP-05.</li>
+      </ul>
+      <div class="gcve-tool-actions">
+        <a class="gcve-button gcve-button-primary" href="https://vuln.freearchive.org/">Open service</a>
+        <a class="gcve-button gcve-button-secondary" href="https://github.com/rommelfs/VULNARCHIVE">GitHub repository</a>
+      </div>
+    </div>
+  </article>
+
+  <article class="gcve-tool-card">
+    <div class="gcve-tool-card-media">
+      <img src="/logos/gcve.png" alt="GCVE logo" />
+    </div>
+    <div class="gcve-tool-card-body">
+      <p class="gcve-tool-kicker">AI-assisted advisory drafting</p>
+      <h3>patch2vuln</h3>
+      <p>A command-line tool that turns a git-format patch into a structured draft vulnerability advisory using a locally hosted AI model.</p>
+      <ul class="gcve-tool-list">
+        <li>Accepts standard git-format patches as input.</li>
+        <li>Uses a locally hosted model to keep analysis under the operator's control.</li>
+        <li>Produces a structured advisory draft for human review.</li>
+      </ul>
+      <div class="gcve-tool-actions">
+        <a class="gcve-button gcve-button-primary" href="https://github.com/gcve-eu/gcve-lab-patch2vuln">GitHub repository</a>
+      </div>
+    </div>
+  </article>
+
   <article class="gcve-tool-card">
     <div class="gcve-tool-card-media">
       <img src="/logos/gcve.png" alt="GCVE logo" />
