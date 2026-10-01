@@ -191,26 +191,28 @@ body {
   padding-top: 5rem;
 }
 
-/* Make line numbers a quiet, fixed gutter instead of a second code block. */
+/* Present numbered code as one surface, with lightweight alternating rows. */
 .hextra-code-block .lntable {
   position: relative;
   border-collapse: separate;
   border-spacing: 0;
+  background: rgba(38, 100, 255, 0.05);
 }
 
 .hextra-code-block .lntable .lntd:first-child {
   position: sticky;
   left: 0;
   z-index: 1;
-  border-right: 1px solid var(--gcve-border);
-  background: #f3f6fa;
   user-select: none;
+}
+
+.hextra-code-block .lntable .lntd pre {
+  border-radius: 0;
+  background: transparent;
 }
 
 .hextra-code-block .lntable .lntd:first-child pre {
   min-width: 3rem;
-  border-radius: 0;
-  background: transparent;
   text-align: right;
 }
 
@@ -220,8 +222,18 @@ body {
   padding-inline: 0.75rem;
 }
 
-.dark .hextra-code-block .lntable .lntd:first-child {
-  background: #151c29;
+.hextra-code-block .lntable .lntd .lnt:nth-child(even),
+.hextra-code-block .lntable .lntd .line:nth-child(even) {
+  background: rgba(38, 100, 255, 0.045);
+}
+
+.dark .hextra-code-block .lntable {
+  background: rgba(147, 197, 253, 0.08);
+}
+
+.dark .hextra-code-block .lntable .lntd .lnt:nth-child(even),
+.dark .hextra-code-block .lntable .lntd .line:nth-child(even) {
+  background: rgba(147, 197, 253, 0.035);
 }
 
 .gcve-nav-tools .search-wrapper {
