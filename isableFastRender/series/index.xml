@@ -1,0 +1,21 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>GCVE - Global CVE Allocation System – Series</title>
+    <link>https://gcve.eu/series/</link>
+    <description>Recent content in Series on GCVE - Global CVE Allocation System</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <managingEditor>info@gcve.eu (GCVE)</managingEditor>
+    <webMaster>info@gcve.eu (GCVE)</webMaster>
+    
+	  <atom:link href="https://gcve.eu/series/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      
+        
+      
+    
+    
+  </channel>
+</rss>
+

@@ -1,0 +1,549 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>GCVE - Global CVE Allocation System – Announce</title>
+    <link>https://gcve.eu/tags/announce/</link>
+    <description>Recent content in Announce on GCVE - Global CVE Allocation System</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <managingEditor>info@gcve.eu (GCVE)</managingEditor>
+    <webMaster>info@gcve.eu (GCVE)</webMaster>
+    <lastBuildDate>Tue, 17 Feb 2026 00:00:00 +0000</lastBuildDate>
+    
+	  <atom:link href="https://gcve.eu/tags/announce/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      
+        
+      
+    
+    
+    <item>
+      <title>db.gcve.eu updated with Vulnerability-Lookup 4.0: Enabling Federated Vulnerability Intelligence</title>
+      <link>https://gcve.eu/2026/02/17/db-gcve-eu-updates-2026/</link>
+      <pubDate>Tue, 17 Feb 2026 00:00:00 +0000</pubDate>
+      <author>info@gcve.eu (GCVE)</author>
+      <guid>https://gcve.eu/2026/02/17/db-gcve-eu-updates-2026/</guid>
+      <description>
+        
+        
+        &lt;p&gt;Following the &lt;a href=&#34;https://gcve.eu/2026/01/07/gcve-db-announce/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;initial announcement of &lt;strong&gt;db.gcve.eu&lt;/strong&gt;&lt;/a&gt;, the GCVE project is pleased to announce a major update of the platform. The service is now running the latest version of &lt;strong&gt;&lt;a href=&#34;https://www.vulnerability-lookup.org/2026/02/16/vulnerability-lookup-4-0-0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Vulnerability-Lookup (4.0)&lt;/a&gt;&lt;/strong&gt;, introducing federated synchronisation capabilities that significantly expand how vulnerability intelligence can be shared, enriched, and consumed across organisations.&lt;/p&gt;
+&lt;h2&gt;From a Database to a Federated Ecosystem&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;from-a-database-to-a-federated-ecosystem&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#from-a-database-to-a-federated-ecosystem&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;With the integration of Vulnerability-Lookup 4.0, &lt;strong&gt;&lt;a href=&#34;https://db.gcve.eu/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;db.gcve.eu&lt;/a&gt;&lt;/strong&gt; evolves from a standalone vulnerability database into a federated intelligence platform. The new version introduces synchronisation mechanisms allowing multiple independent instances (being GNA or not) to exchange structured information, including:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Known Exploited Vulnerabilities (&lt;a href=&#34;https://gcve.eu/bcp/gcve-bcp-07/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;KEV&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;Sightings&lt;/li&gt;
+&lt;li&gt;Bundles&lt;/li&gt;
+&lt;li&gt;Comments&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;This update represents an important milestone for GCVE’s vision: enabling decentralised and autonomous vulnerability publication while maintaining interoperability between participants.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://gcve.eu/images/db-gcve-eu-overview.png&#34; alt=&#34;Overview of db.gcve.eu federated system&#34; loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
+&lt;h2&gt;Supporting GCVE Numbering Authorities (GNA)&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;supporting-gcve-numbering-authorities-gna&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#supporting-gcve-numbering-authorities-gna&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;The GCVE ecosystem is designed to empower &lt;strong&gt;GCVE Numbering Authorities (GNAs)&lt;/strong&gt; with full autonomy. Organisations acting as GNAs can now:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Publish vulnerability information independently&lt;/li&gt;
+&lt;li&gt;Maintain their own infrastructure and policies&lt;/li&gt;
+&lt;li&gt;Synchronise selected datasets with trusted peers&lt;/li&gt;
+&lt;li&gt;Contribute to a global vulnerability intelligence network without relying on a central authority&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;This federated model aligns with GCVE’s core principle: decentralisation with collaboration.&lt;/p&gt;
+&lt;h2&gt;Federation in Practice&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;federation-in-practice&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#federation-in-practice&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;The updated &lt;strong&gt;&lt;a href=&#34;https://db.gcve.eu/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;db.gcve.eu&lt;/a&gt;&lt;/strong&gt; already synchronises with multiple Vulnerability-Lookup instances. For example, the &lt;a href=&#34;https://vulnerability.circl.lu/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CIRCL instance&lt;/a&gt; contributes a continuously growing log of vulnerability sightings, enriching the shared ecosystem with operational intelligence observed in the wild.&lt;/p&gt;
+&lt;p&gt;Each participating organisation remains fully in control of what is shared. Instances can selectively expose or consume:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;KEV data&lt;/li&gt;
+&lt;li&gt;Sighting information&lt;/li&gt;
+&lt;li&gt;Analytical bundles&lt;/li&gt;
+&lt;li&gt;Community comments&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;This approach enables trusted collaboration while respecting organisational boundaries and data-sharing policies.&lt;/p&gt;
+&lt;h2&gt;A System for Everyone — Not Only GNAs&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;a-system-for-everyone--not-only-gnas&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#a-system-for-everyone--not-only-gnas&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;While GCVE provides a framework for vulnerability numbering and publication, the benefits of the federated system extend far beyond GNAs.&lt;/p&gt;
+&lt;p&gt;Any organisation worldwide can deploy its own &lt;a href=&#34;https://vulnerability-lookup.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Vulnerability-Lookup&lt;/a&gt; instance to:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Maintain an internal vulnerability knowledge base&lt;/li&gt;
+&lt;li&gt;Aggregate intelligence from a broader federation&lt;/li&gt;
+&lt;li&gt;Enrich local analysis with crowdsourced context&lt;/li&gt;
+&lt;li&gt;Share intelligence back with the community when willing to do so&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;In practice, organisations gain access to a distributed intelligence network while keeping full ownership of their data and infrastructure.&lt;/p&gt;
+&lt;h2&gt;Toward Autonomous Vulnerability Intelligence&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;toward-autonomous-vulnerability-intelligence&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#toward-autonomous-vulnerability-intelligence&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;The update of &lt;strong&gt;&lt;a href=&#34;https://db.gcve.eu/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;db.gcve.eu&lt;/a&gt;&lt;/strong&gt; demonstrates how decentralised vulnerability management can scale through federation rather than centralisation. By combining GCVE’s autonomous numbering model with Vulnerability-Lookup’s synchronisation capabilities, organisations can now participate in a collaborative ecosystem that is:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Distributed&lt;/li&gt;
+&lt;li&gt;Interoperable&lt;/li&gt;
+&lt;li&gt;Autonomous&lt;/li&gt;
+&lt;li&gt;Community-driven&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;This is another step toward a resilient, open, and globally distributed vulnerability intelligence infrastructure.&lt;/p&gt;
+&lt;p&gt;Organisations interested in running their own instance or participating in the federation are encouraged to follow &lt;a href=&#34;https://www.vulnerability-lookup.org/documentation/installation.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;technical documentation and deployment guides&lt;/a&gt;.&lt;/p&gt;
+&lt;h2&gt;Contact&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;contact&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#contact&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;For questions, feedback, or collaboration inquiries, please contact:  &lt;strong&gt;&lt;a href=&#34;mailto:info@gcve.eu&#34; &gt;info@gcve.eu&lt;/a&gt;&lt;/strong&gt; or &lt;strong&gt;&lt;a href=&#34;mailto:gna@gcve.eu&#34; &gt;gna@gcve.eu&lt;/a&gt;&lt;/strong&gt; if you want to become a GNA or announcing that you run an instance.&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>What&#39;s going on at GCVE during the past 6 weeks?</title>
+      <link>https://gcve.eu/2026/02/15/what-s-new-2026-02-15/</link>
+      <pubDate>Sun, 15 Feb 2026 00:00:00 +0000</pubDate>
+      <author>info@gcve.eu (GCVE)</author>
+      <guid>https://gcve.eu/2026/02/15/what-s-new-2026-02-15/</guid>
+      <description>
+        
+        
+        &lt;h1&gt;GCVE.eu — Six Weeks of Progress: Standards, Implementations, and a Growing Ecosystem&lt;/h1&gt;&lt;p&gt;The past six weeks have been an important milestone for the &lt;strong&gt;GCVE.eu&lt;/strong&gt; initiative. What started as an experiment in decentralized vulnerability identification and coordination continues to evolve into a mature ecosystem supported by standards, implementations, and a rapidly growing community.&lt;/p&gt;
+&lt;p&gt;This post summarizes the latest developments across specifications, implementations, and community growth.&lt;/p&gt;
+&lt;h2&gt;BCP-07 KEV Standard Published and Already Implemented&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;bcp-07-kev-standard-published-and-already-implemented&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#bcp-07-kev-standard-published-and-already-implemented&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;One of the most significant achievements is the &lt;strong&gt;&lt;a href=&#34;https://gcve.eu/bcp/gcve-bcp-07/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;official publication of BCP-07&lt;/a&gt;&lt;/strong&gt;, defining the &lt;strong&gt;Known Exploited Vulnerabilities (KEV)&lt;/strong&gt; standard within the GCVE ecosystem.&lt;/p&gt;
+&lt;p&gt;BCP-07 establishes a structured and interoperable way to share exploitation status information across GCVE Numbering Authorities (GNAs) and tooling ecosystems. The goal is simple but essential: provide reliable, machine-readable signals about vulnerabilities that are actively exploited in the wild.&lt;/p&gt;
+&lt;p&gt;Even more importantly:&lt;/p&gt;
+&lt;p&gt;✅ &lt;strong&gt;BCP-07 is already implemented in &lt;a href=&#34;https://vulnerability-lookup.&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Vulnerability-Lookup&lt;/a&gt;.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://gcve.eu/images/kev.png&#34; alt=&#34;KEV support in vulnerability-lookup 3.0&#34; loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;This immediate implementation demonstrates one of the core design principles behind GCVE: specifications are meant to be operational from day one, not theoretical documents waiting for adoption.&lt;/p&gt;
+&lt;h3&gt;Extension: Evidence Calculation&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;extension-evidence-calculation&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#extension-evidence-calculation&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;Following the first real-world deployment, practical feedback quickly led to improvements. An extension to BCP-07 has been introduced to support &lt;strong&gt;&lt;a href=&#34;https://gcve.eu/bcp/gcve-bcp-07/#evidenceconfidence&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;confidence calculation&lt;/a&gt;&lt;/strong&gt;, allowing:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;clearer justification of KEV status,&lt;/li&gt;
+&lt;li&gt;improved transparency,&lt;/li&gt;
+&lt;li&gt;better trust evaluation across GNAs,&lt;/li&gt;
+&lt;li&gt;reproducible scoring and validation mechanisms.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;This iterative evolution reflects the &lt;a href=&#34;https://gcve.eu/process/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;open governance model of GCVE&lt;/a&gt; specifications grow through implementation and operational experience.&lt;/p&gt;
+&lt;h2&gt;First Draft of BCP-06: Evaluating GCVE Numbering Authorities&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;first-draft-of-bcp-06-evaluating-gcve-numbering-authorities&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#first-draft-of-bcp-06-evaluating-gcve-numbering-authorities&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Another major step forward is the publication of the first draft of:&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;BCP-06 — Requirements and Evaluation Criteria for GCVE Numbering Authorities (GNAs)&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://gcve.eu/bcp/gcve-bcp-06/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://gcve.eu/bcp/gcve-bcp-06/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;BCP-06 answers an important question for decentralized vulnerability coordination:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;em&gt;How do we ensure quality and trust without centralization?&lt;/em&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;The document introduces:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;multiple &lt;strong&gt;GNA operational models&lt;/strong&gt;,&lt;/li&gt;
+&lt;li&gt;evaluation criteria for quality and reliability,&lt;/li&gt;
+&lt;li&gt;governance expectations,&lt;/li&gt;
+&lt;li&gt;transparency and accountability principles,&lt;/li&gt;
+&lt;li&gt;guidance for assessing trustworthiness of numbering authorities.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Rather than enforcing a single rigid structure, BCP-06 recognizes diversity in operational realities while defining measurable quality indicators.&lt;/p&gt;
+&lt;h2&gt;GCVE and the Cyber Resilience Act (CRA)&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;gcve-and-the-cyber-resilience-act-cra&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#gcve-and-the-cyber-resilience-act-cra&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;A new draft document explores how GCVE can support organizations facing upcoming regulatory requirements under the &lt;strong&gt;Cyber Resilience Act (CRA)&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;Draft available here:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://discourse.ossbase.org/t/cra-and-gcve-overview/1017&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://discourse.ossbase.org/t/cra-and-gcve-overview/1017&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;The document outlines how GCVE may help with:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;vulnerability disclosure obligations,&lt;/li&gt;
+&lt;li&gt;coordinated publication workflows,&lt;/li&gt;
+&lt;li&gt;traceability of vulnerability handling,&lt;/li&gt;
+&lt;li&gt;decentralized yet auditable processes,&lt;/li&gt;
+&lt;li&gt;alignment with European regulatory expectations.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img src=&#34;https://gcve.eu/images/cra.png&#34; alt=&#34;CRA and GCVE overview process&#34; loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;This work represents an important bridge between &lt;strong&gt;open-source infrastructure&lt;/strong&gt; and &lt;strong&gt;regulatory compliance&lt;/strong&gt;, showing how community-driven standards can reduce operational friction for vendors and maintainers.&lt;/p&gt;
+&lt;h2&gt;New Ecosystem Page: Operational from Day One&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;new-ecosystem-page-operational-from-day-one&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#new-ecosystem-page-operational-from-day-one&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;To better support adopters, we introduced a new page listing all &lt;strong&gt;&lt;a href=&#34;https://gcve.eu/software/&#34; &gt;open-source software developed within the GCVE ecosystem&lt;/a&gt;&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;The objective is practical:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Help users become operational immediately.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;The page aggregates tools that enable:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;vulnerability publication,&lt;/li&gt;
+&lt;li&gt;synchronization,&lt;/li&gt;
+&lt;li&gt;lookup and enrichment,&lt;/li&gt;
+&lt;li&gt;KEV consumption,&lt;/li&gt;
+&lt;li&gt;GNA operations.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;GCVE is not only defining standards, it is building a complete operational stack.&lt;/p&gt;
+&lt;h2&gt;Community Growth and New Contributors&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;community-growth-and-new-contributors&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#community-growth-and-new-contributors&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Beyond technical milestones, the most exciting development is the &lt;strong&gt;growth of the community&lt;/strong&gt; around GCVE.&lt;/p&gt;
+&lt;p&gt;Over the past weeks we have seen:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;new &lt;strong&gt;contributors&lt;/strong&gt; joining development and specification efforts,&lt;/li&gt;
+&lt;li&gt;increased &lt;strong&gt;support from organizations and individuals&lt;/strong&gt;,&lt;/li&gt;
+&lt;li&gt;a growing number of &lt;strong&gt;GNA members&lt;/strong&gt;,&lt;/li&gt;
+&lt;li&gt;expanding adoption by early &lt;strong&gt;users and integrators&lt;/strong&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;This momentum confirms that decentralized vulnerability identification is not just a concept, it is becoming a shared effort supported by practitioners across ecosystems.&lt;/p&gt;
+&lt;h2&gt;What This Means for GCVE&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;what-this-means-for-gcve&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#what-this-means-for-gcve&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;The last six weeks demonstrate a clear transition:&lt;/p&gt;
+&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th&gt;Then&lt;/th&gt;
+          &lt;th&gt;Now&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td&gt;Conceptual framework&lt;/td&gt;
+          &lt;td&gt;Operational standards&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;Draft ideas&lt;/td&gt;
+          &lt;td&gt;Implemented specifications&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;Early adopters&lt;/td&gt;
+          &lt;td&gt;Growing ecosystem&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;Individual effort&lt;/td&gt;
+          &lt;td&gt;Community-driven initiative&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;GCVE is steadily moving toward a sustainable, decentralized model for vulnerability coordination — one that prioritizes openness, interoperability, and operational reality.&lt;/p&gt;
+&lt;h2&gt;Thank You&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;thank-you&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#thank-you&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;None of this progress would be possible without the growing community supporting GCVE: contributors, GNAs, implementers, reviewers, and users providing feedback through real deployments.&lt;/p&gt;
+&lt;p&gt;The project is accelerating, and the ecosystem is expanding faster than ever.&lt;/p&gt;
+&lt;p&gt;If you are interested in participating — whether as a contributor, a GNA, or a user — now is the perfect time to get involved.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;GCVE.eu&lt;/strong&gt; continues to evolve collaboratively, openly, and operationally.&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>GCVE BCP-07 – First Implementation in Vulnerability-Lookup</title>
+      <link>https://gcve.eu/2026/02/02/gcve-bcp-07-first-implementation-in-vulnerability-lookup/</link>
+      <pubDate>Mon, 02 Feb 2026 00:00:00 +0000</pubDate>
+      <author>info@gcve.eu (GCVE)</author>
+      <guid>https://gcve.eu/2026/02/02/gcve-bcp-07-first-implementation-in-vulnerability-lookup/</guid>
+      <description>
+        
+        
+        &lt;p&gt;We are excited to announce the successful implementation of &lt;strong&gt;GCVE BCP-07&lt;/strong&gt; in &lt;strong&gt;Vulnerability-Lookup&lt;/strong&gt;, marking the first production-grade adoption of this Best Current Practice within an operational vulnerability intelligence platform.&lt;/p&gt;
+&lt;p&gt;With the release of &lt;strong&gt;Vulnerability-Lookup 3.0.0&lt;/strong&gt;, &lt;a href=&#34;https://gcve.eu/bcp/gcve-bcp-07/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;GCVE BCP-07&lt;/a&gt; moves from specification to reality. This release introduces native support for &lt;strong&gt;federated Known Exploited Vulnerabilities (KEV) catalogs&lt;/strong&gt;, fully aligned with the GCVE framework.&lt;/p&gt;
+&lt;p&gt;👉 &lt;a href=&#34;https://www.vulnerability-lookup.org/2026/02/02/vulnerability-lookup-3-0-0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Read the Vulnerability-Lookup 3.0.0 release announcement&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://gcve.eu/images/kev.png&#34; alt=&#34;Screenshot of the KEV GCVE BCP-07 implementation in vulnerability-lookup&#34; loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
+&lt;h2&gt;From Centralized Lists to Federated KEV Intelligence&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;from-centralized-lists-to-federated-kev-intelligence&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#from-centralized-lists-to-federated-kev-intelligence&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;GCVE BCP-07 was designed to address a structural limitation of traditional KEV lists: their centralized nature and lack of contextual attribution. While such lists are invaluable, they often do not clearly express &lt;em&gt;who&lt;/em&gt; observed exploitation, &lt;em&gt;under which conditions&lt;/em&gt;, and &lt;em&gt;with what level of confidence&lt;/em&gt;.&lt;/p&gt;
+&lt;p&gt;BCP-07 introduces a simple but powerful shift:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;KEV information is published by &lt;strong&gt;Global Numbering Authorities (GNAs)&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;Each assertion is &lt;strong&gt;explicitly attributed&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;Multiple perspectives can coexist without conflict&lt;/li&gt;
+&lt;li&gt;Consumers decide which sources they trust&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Vulnerability-Lookup 3.0.0 is the first platform to fully operationalize this model.&lt;/p&gt;
+&lt;h2&gt;KEV Federation, Out of the Box&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;kev-federation-out-of-the-box&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#kev-federation-out-of-the-box&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Any Vulnerability-Lookup instance can now:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Publish its own GCVE-BCP-07–compliant KEV catalog&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Consume KEV catalogs from other GNAs&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Present multiple KEV perspectives side by side&lt;/strong&gt;, transparently and consistently&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;This is not a theoretical capability. It is live and in production today.&lt;/p&gt;
+&lt;h3&gt;KEV catalogs already available&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;kev-catalogs-already-available&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#kev-catalogs-already-available&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;CIRCL KEV&lt;/strong&gt;&lt;br&gt;
+&lt;a href=&#34;https://vulnerability.circl.lu/known-exploited-vulnerabilities-catalog/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://vulnerability.circl.lu/known-exploited-vulnerabilities-catalog/&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;CISA KEV&lt;/strong&gt;&lt;br&gt;
+&lt;a href=&#34;https://vulnerability.circl.lu/known-exploited-vulnerabilities-catalog/?catalog_uuid=405284c2-e461-4670-8979-7fd2c9755a60&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://vulnerability.circl.lu/known-exploited-vulnerabilities-catalog/?catalog_uuid=405284c2-e461-4670-8979-7fd2c9755a60&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;ENISA KEV (EUVD / CSIRTs Network)&lt;/strong&gt;&lt;br&gt;
+&lt;a href=&#34;https://vulnerability.circl.lu/known-exploited-vulnerabilities-catalog/?catalog_uuid=cce329bf-df49-4c6e-a027-80be2e6483bd&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://vulnerability.circl.lu/known-exploited-vulnerabilities-catalog/?catalog_uuid=cce329bf-df49-4c6e-a027-80be2e6483bd&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;The &lt;strong&gt;GCVE-operated instance&lt;/strong&gt;, available at&lt;br&gt;
+👉 &lt;a href=&#34;https://db.gcve.eu&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://db.gcve.eu&lt;/a&gt;&lt;br&gt;
+is fully synchronised with these catalogs and demonstrates the federated model in action.&lt;/p&gt;
+&lt;p&gt;The reference file is available at:&lt;br&gt;
+&lt;a href=&#34;https://gcve.eu/dist/references.json&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://gcve.eu/dist/references.json&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;And is localy cached in all Vulnerability-Lookup instances thanks to the &lt;a href=&#34;https://pypi.org/project/gcve/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;GCVE Python client&lt;/a&gt; (included in Vulnerability-Lookup)&lt;/p&gt;
+&lt;h2&gt;Why This Matters for the Cybersecurity Community&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;why-this-matters-for-the-cybersecurity-community&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#why-this-matters-for-the-cybersecurity-community&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;For organizations involved in vulnerability management, incident response, and risk prioritization, GCVE BCP-07 enables:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Clear provenance&lt;/strong&gt; of exploitation claims&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Parallel intelligence streams&lt;/strong&gt; from multiple trusted authorities&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Reduced dependency on a single centralized source&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Greater resilience&lt;/strong&gt; against outages, delays, or blind spots&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Federation is not just an architectural choice — it is a strategic one. In a landscape where exploitation signals are often sparse, bursty, and context-dependent, robustness comes from diversity and transparency of sources.&lt;/p&gt;
+&lt;p&gt;GCVE BCP-07 enables exactly that.&lt;/p&gt;
+&lt;h2&gt;A Collective Effort&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;a-collective-effort&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#a-collective-effort&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;This first implementation would not be possible without the continued commitment of organizations that openly publish KEV data.&lt;/p&gt;
+&lt;p&gt;A warm thank you to &lt;strong&gt;CISA&lt;/strong&gt; and &lt;strong&gt;ENISA&lt;/strong&gt; for their sustained efforts and for making their KEV information available to the global community. Their contributions are foundational building blocks for effective vulnerability prioritization and collective cyber defense.&lt;/p&gt;
+&lt;h2&gt;The future&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;the-future&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#the-future&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;GCVE BCP-07 is now implemented, operational, and federated.&lt;br&gt;
+We look forward to seeing more GNAs, platforms, and organizations join this growing ecosystem.&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>GCVE January 2026 - News and Updates</title>
+      <link>https://gcve.eu/2026/01/26/gcve-2026-new-year/</link>
+      <pubDate>Mon, 26 Jan 2026 00:00:00 +0000</pubDate>
+      <author>info@gcve.eu (GCVE)</author>
+      <guid>https://gcve.eu/2026/01/26/gcve-2026-new-year/</guid>
+      <description>
+        
+        
+        &lt;p&gt;The last days have been a bit wild for the GCVE initiative.&lt;/p&gt;
+&lt;p&gt;What started as steady work suddenly picked up real momentum:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;The public GCVE.eu database instance - &lt;a href=&#34;https://gcve.eu/2026/01/07/gcve-db-announce/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://db.gcve.eu/&lt;/a&gt; - caught the attention of the media, sparking discussions well beyond our usual circles&lt;/li&gt;
+&lt;li&gt;We published updates to the &lt;a href=&#34;https://gcve.eu/bcp/gcve-bcp-07/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;GCVE KEV Assertion Standard Format (BCP-07)&lt;/a&gt;, refining how known-exploited information can be asserted and shared&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://gcve.eu/bcp/gcve-bcp-02/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;GCVE-BCP-02 - Practical Guide to Vulnerability Handling and Disclosure&lt;/a&gt; has been updated to improve the recommendations on vendor feed generation&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/vulnerability-lookup/vulnerability-lookup/releases/tag/v2.21.0&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Vulnerability-Lookup 2.21.0 was released&lt;/a&gt;, bringing improvements aligned with the GCVE ecosystem&lt;/li&gt;
+&lt;li&gt;We received a lot of valuable feedback especially on the specs, the tooling, and the overall direction&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://gcve.eu/dist/gcve.json&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;New GNAs joined the GCVE directory&lt;/a&gt;, and new contributors stepped in to help shape both the specifications and the software&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Seeing this level of engagement, critique, and contribution in such a short time is incredibly motivating. It reinforces why an open, decentralized, and collaborative approach to vulnerability identification and sharing matters.&lt;/p&gt;
+&lt;p&gt;Huge thanks to everyone who tested, commented, challenged assumptions, wrote code, improved text, or simply helped spread the word. This is very much a community effort and it’s only getting started. 💙&lt;/p&gt;
+&lt;p&gt;Don&amp;rsquo;t hesitate to follow us at &lt;a href=&#34;https://social.circl.lu/@gcve&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;GCVE-EU&lt;/a&gt;.&lt;/p&gt;
+&lt;h2&gt;Contact&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;contact&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#contact&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;For questions, feedback, or collaboration inquiries, please contact:  &lt;strong&gt;&lt;a href=&#34;mailto:info@gcve.eu&#34; &gt;info@gcve.eu&lt;/a&gt;&lt;/strong&gt; or &lt;strong&gt;&lt;a href=&#34;mailto:gna@gcve.eu&#34; &gt;gna@gcve.eu&lt;/a&gt;&lt;/strong&gt; if you want to become a GNA.&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>GCVE Announces the Launch of db.gcve.eu: A New Open Public Vulnerability Advisory Database</title>
+      <link>https://gcve.eu/2026/01/07/gcve-db-announce/</link>
+      <pubDate>Wed, 07 Jan 2026 00:00:00 +0000</pubDate>
+      <author>info@gcve.eu (GCVE)</author>
+      <guid>https://gcve.eu/2026/01/07/gcve-db-announce/</guid>
+      <description>
+        
+        
+        &lt;p&gt;&lt;strong&gt;Luxembourg, 2026/01/07&lt;/strong&gt; - The GCVE initiative is proud to announce the public launch of &lt;a href=&#34;https://db.gcve.eu/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;db.gcve.eu&lt;/a&gt;, a new open and freely accessible vulnerability advisory database. The platform aggregates and correlates vulnerability information from &lt;strong&gt;more than 25 public sources&lt;/strong&gt;, including &lt;strong&gt;GCVE GNA (Numbering Authority) sources&lt;/strong&gt; and other established vulnerability databases.&lt;/p&gt;
+&lt;p&gt;The goal of &lt;a href=&#34;https://db.gcve.eu/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;db.gcve.eu&lt;/a&gt; is to provide the community with a &lt;strong&gt;single, unified, and openly accessible reference point&lt;/strong&gt; for vulnerability intelligence, enabling defenders, researchers, CSIRTs, vendors, and open-source projects to more easily track, correlate, and analyze security advisories across ecosystems.&lt;/p&gt;
+&lt;h2&gt;A Unified View of Vulnerabilities&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;a-unified-view-of-vulnerabilities&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#a-unified-view-of-vulnerabilities&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;&lt;a href=&#34;https://db.gcve.eu/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;db.gcve.eu&lt;/a&gt; continuously collects and correlates data from a wide range of public vulnerability sources, offering:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Aggregation of vulnerability advisories from &lt;a href=&#34;https://db.gcve.eu/about#sources&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;25+ sources&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Native integration of &lt;strong&gt;&lt;a href=&#34;https://gcve.eu/about/#gcve-numbering-authorities-gna&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;GCVE GNA&lt;/a&gt;&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;Correlation across multiple databases and identifiers&lt;/li&gt;
+&lt;li&gt;Normalized, structured, and searchable vulnerability records&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;By bringing together data from decentralized publishers and existing vulnerability databases, &lt;a href=&#34;https://db.gcve.eu/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;db.gcve.eu&lt;/a&gt; helps reduce fragmentation and improves visibility across the global vulnerability landscape.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://gcve.eu/images/db-gcve.png&#34; alt=&#34;Screenshot of db.gcve.eu&#34; loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
+&lt;h2&gt;Built on Open Source and Open Standards&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;built-on-open-source-and-open-standards&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#built-on-open-source-and-open-standards&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;The platform is powered by &lt;strong&gt;&lt;a href=&#34;https://www.vulnerability-lookup.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;vulnerability-lookup&lt;/a&gt;&lt;/strong&gt;, an open-source project that implements all &lt;strong&gt;&lt;a href=&#34;https://gcve.eu/bcp/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Best Current Practices (BCPs)&lt;/a&gt;&lt;/strong&gt; defined by the GCVE initiative. This ensures that data collection, synchronization, and publication follow open, transparent, and reproducible processes.&lt;/p&gt;
+&lt;p&gt;vulnerability-lookup is designed to support decentralized vulnerability publishing while enabling efficient aggregation and correlation, a core principle of the GCVE model.&lt;/p&gt;
+&lt;h2&gt;Open Access, Open Data, Open API&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;open-access-open-data-open-api&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#open-access-open-data-open-api&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;In line with the GCVE commitment to openness and transparency, db.gcve.eu is provided with:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Public web interface:&lt;/strong&gt; &lt;a href=&#34;https://db.gcve.eu/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://db.gcve.eu/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Public API:&lt;/strong&gt; &lt;a href=&#34;https://db.gcve.eu/api/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://db.gcve.eu/api/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Open data dumps:&lt;/strong&gt; available for bulk access and offline analysis&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;All data is made available enabling reuse in tools, research, and operational workflows.&lt;/p&gt;
+&lt;h2&gt;Supporting a Decentralized Vulnerability Ecosystem&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;supporting-a-decentralized-vulnerability-ecosystem&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#supporting-a-decentralized-vulnerability-ecosystem&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;&lt;a href=&#34;https://db.gcve.eu/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;db.gcve.eu&lt;/a&gt; is a concrete step towards the GCVE vision of a &lt;strong&gt;decentralized, federated, and resilient vulnerability disclosure ecosystem&lt;/strong&gt;. By enabling GNAs and other publishers to contribute data independently, while still benefiting from global correlation, GCVE aims to reduce single points of failure and foster innovation in vulnerability management.&lt;/p&gt;
+&lt;h2&gt;About GCVE&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;about-gcve&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#about-gcve&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;The GCVE initiative is an open, community-driven effort to design and operate a decentralized vulnerability identification and publication framework. GCVE introduces the concept of &lt;strong&gt;GCVE Numbering Authorities (GNAs)&lt;/strong&gt;, which are empowered to allocate and publish vulnerability identifiers independently, while remaining interoperable through shared protocols and best practices.&lt;/p&gt;
+&lt;p&gt;More information about GCVE and its specifications is available at:&lt;br&gt;
+&lt;a href=&#34;https://gcve.eu/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://gcve.eu/&lt;/a&gt;&lt;/p&gt;
+&lt;h2&gt;Funding and Hosting&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;funding-and-hosting&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#funding-and-hosting&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;The project is co-funded by &lt;a href=&#34;https://www.circl.lu/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CIRCL&lt;/a&gt; and the European Union (ECCC) under the &lt;a href=&#34;https://www.circl.lu/pub/press/20240131/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;FETTA project&lt;/a&gt;, supporting the development of open, resilient, and strengthen EU Cyber Threat Intelligence.&lt;/p&gt;
+&lt;p&gt;The db.gcve.eu platform is &lt;strong&gt;hosted and operated by CIRCL in its own datacenter located in the Grand-Duchy of Luxembourg (Europe)&lt;/strong&gt;. This ensures full control over the infrastructure, data, and operations. By combining open-source software, open data, and European-controlled infrastructure, GCVE and CIRCL contribute to strengthening digital sovereignty, strategic autonomy, and trust in vulnerability information sharing.&lt;/p&gt;
+&lt;p&gt;While the infrastructure relies on a global hardware supply chain and therefore includes non-EU manufactured equipment, the platform is fully operated, administered, and governed from within Europe by CIRCL.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://gcve.eu/images/gcve-db-server.png&#34; alt=&#34;Servers for db.gcve.eu&#34; loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
+&lt;h2&gt;Contact&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;contact&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#contact&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;For questions, feedback, or collaboration inquiries, please contact:  &lt;strong&gt;&lt;a href=&#34;mailto:info@gcve.eu&#34; &gt;info@gcve.eu&lt;/a&gt;&lt;/strong&gt; or &lt;strong&gt;&lt;a href=&#34;mailto:gna@gcve.eu&#34; &gt;gna@gcve.eu&lt;/a&gt;&lt;/strong&gt; if you want to become a GNA.&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>GCVE: Global CVE Allocation System - A Year in Review</title>
+      <link>https://gcve.eu/2025/12/23/gcve-2025-review/</link>
+      <pubDate>Tue, 23 Dec 2025 00:00:00 +0000</pubDate>
+      <author>info@gcve.eu (GCVE)</author>
+      <guid>https://gcve.eu/2025/12/23/gcve-2025-review/</guid>
+      <description>
+        
+        
+        &lt;h1&gt;GCVE in 8 Months: Building a Decentralized Vulnerability Identification System&lt;/h1&gt;&lt;p&gt;In less than a year, in practice, &lt;strong&gt;just eight months&lt;/strong&gt;, the GCVE initiative went from concept to a &lt;strong&gt;fully operational, decentralized vulnerability identification and publication system&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;This post summarizes what we built, why it matters, and where we stand today.&lt;/p&gt;
+&lt;h2&gt;A New Model for Vulnerability Identification&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;a-new-model-for-vulnerability-identification&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#a-new-model-for-vulnerability-identification&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;GCVE was created to address a long-standing structural limitation in vulnerability management: &lt;strong&gt;centralized allocation and control&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;Instead of relying on a single global authority, GCVE introduces a &lt;strong&gt;resilient and autonomous system&lt;/strong&gt; where independent entities can:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Obtain &lt;strong&gt;allocation prefixes&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Identify and allocate vulnerability information&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;Publish vulnerabilities &lt;strong&gt;without depending on a central bottleneck&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;Interoperate through open, documented mechanisms&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;At its core, GCVE is about &lt;strong&gt;federation, autonomy, and resilience&lt;/strong&gt;, while remaining compatible with existing vulnerability ecosystems.&lt;/p&gt;
+&lt;h2&gt;Autonomous Prefix Allocation at Scale&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;autonomous-prefix-allocation-at-scale&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#autonomous-prefix-allocation-at-scale&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;One of the first milestones was setting up a &lt;strong&gt;robust allocation mechanism&lt;/strong&gt; for GCVE prefixes.&lt;/p&gt;
+&lt;p&gt;This allows entities willing to take responsibility for vulnerability identification to become &lt;strong&gt;&lt;a href=&#34;https://gcve.eu/about/#eligibility-and-process-to-obtain-a-gna-id&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;GCVE Numbering Authorities (GNAs)&lt;/a&gt;&lt;/strong&gt;. Each GNA receives a unique prefix and gains the freedom to:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Allocate identifiers independently&lt;/li&gt;
+&lt;li&gt;Publish vulnerability data under their own governance&lt;/li&gt;
+&lt;li&gt;Synchronize their data with others through open protocols&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;This design deliberately avoids gatekeeping and emphasizes &lt;strong&gt;accountability over central control&lt;/strong&gt;.&lt;/p&gt;
+&lt;h2&gt;Five Best Current Practices (BCPs)&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;five-best-current-practices-bcps&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#five-best-current-practices-bcps&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;To ensure consistency, trust, and interoperability, we delivered &lt;strong&gt;five Best Current Practice documents&lt;/strong&gt; covering both technical and operational aspects of the GCVE system.&lt;/p&gt;
+&lt;p&gt;These BCPs span topics such as:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Operation of the GCVE system&lt;/li&gt;
+&lt;li&gt;Identifier allocation and governance&lt;/li&gt;
+&lt;li&gt;Synchronization mechanisms&lt;/li&gt;
+&lt;li&gt;Vulnerability data handling and publication&lt;/li&gt;
+&lt;li&gt;Best practices for responsible vulnerability management&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Four out of the five BCPs are already published&lt;/strong&gt; and available at:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://gcve.eu/bcp/gcve-bcp-01/&#34; &gt;GCVE-BCP-01 - Signature Verification of the Directory File&lt;/a&gt; - [&lt;a href=&#34;https://gcve.eu/files/bcp/gcve-bcp-01.pdf&#34; &gt;PDF&lt;/a&gt;] - Published 25th April 2025 - State: PUBLISHED (Public Review) - Version 1.1&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://gcve.eu/bcp/gcve-bcp-02/&#34; &gt;GCVE-BCP-02 - Practical Guide to Vulnerability Handling and Disclosure&lt;/a&gt; - [&lt;a href=&#34;https://gcve.eu/files/bcp/gcve-bcp-02.pdf&#34; &gt;PDF&lt;/a&gt;] - Published 9th December 2025 - State: PUBLISHED (Public Review) - Version 1.3&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://gcve.eu/bcp/gcve-bcp-03/&#34; &gt;GCVE-BCP-03 - Decentralized Publication Standard&lt;/a&gt; - [&lt;a href=&#34;https://gcve.eu/files/bcp/gcve-bcp-03.pdf&#34; &gt;PDF&lt;/a&gt;] - Published 10th June 2025 - State: DRAFT (Public Review) - Version 1.0&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://gcve.eu/bcp/gcve-bcp-04&#34; &gt;GCVE-BCP-04 - Recommendations and Best Practices for ID Allocation&lt;/a&gt; - [&lt;a href=&#34;https://gcve.eu/files/bcp/gcve-bcp-04.pdf&#34; &gt;PDF&lt;/a&gt;] - Published 2nd October 2025 - State: PUBLISHED - Version 1.3&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://gcve.eu/bcp/gcve-bcp-05&#34; &gt;GCVE-BCP-05 - GCVE Vulnerability Format (Modified CVE Record Format)&lt;/a&gt; - [&lt;a href=&#34;https://gcve.eu/files/bcp/gcve-bcp-05.pdf&#34; &gt;PDF&lt;/a&gt;] - Published 9th December 2025 - State: DRAFT (Public Review) - Version 1.5&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Importantly, these are not theoretical documents — they are &lt;strong&gt;actively implemented and &lt;a href=&#34;https://vulnerability.circl.lu/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;deployed&lt;/a&gt;&lt;/strong&gt;.&lt;/p&gt;
+&lt;h2&gt;From Specification to Implementation&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;from-specification-to-implementation&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#from-specification-to-implementation&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;GCVE is not just a set of ideas or documents.&lt;/p&gt;
+&lt;p&gt;The published BCPs are already &lt;strong&gt;implemented in multiple software projects&lt;/strong&gt;, including:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;&lt;a href=&#34;https://www.vulnerability-lookup.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;vulnerability-lookup&lt;/a&gt;&lt;/strong&gt;, which provides a &lt;strong&gt;complete, &lt;a href=&#34;https://github.com/vulnerability-lookup/vulnerability-lookup&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;functional reference implementation&lt;/a&gt;&lt;/strong&gt; for:
+&lt;ul&gt;
+&lt;li&gt;Publishing vulnerabilities&lt;/li&gt;
+&lt;li&gt;Synchronizing data across GNAs&lt;/li&gt;
+&lt;li&gt;Operating a distributed vulnerability database&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;This proves that decentralized vulnerability publication is not only possible, but &lt;strong&gt;practical and deployable today&lt;/strong&gt;.&lt;/p&gt;
+&lt;h2&gt;A Network Built on Open Information&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;a-network-built-on-open-information&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#a-network-built-on-open-information&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;In parallel with the technical work, we built a &lt;strong&gt;growing network of GNAs and contributors&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;Key characteristics of this network:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Participation based &lt;strong&gt;only on open information&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;No privileged access or closed data feeds&lt;/li&gt;
+&lt;li&gt;Transparent processes&lt;/li&gt;
+&lt;li&gt;Shared responsibility for data quality and stewardship&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;This reinforces one of GCVE’s core principles: &lt;strong&gt;openness as a foundation for trust&lt;/strong&gt;.&lt;/p&gt;
+&lt;h2&gt;What We Achieved in 8 Months&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;what-we-achieved-in-8-months&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#what-we-achieved-in-8-months&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;To summarize:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;✅ Designed and deployed a &lt;strong&gt;decentralized vulnerability identification model&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;✅ Implemented &lt;strong&gt;autonomous prefix allocation&lt;/strong&gt; for GNAs&lt;/li&gt;
+&lt;li&gt;✅ Delivered &lt;strong&gt;5 BCP documents&lt;/strong&gt;, with &lt;strong&gt;4 already published&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;✅ Deployed &lt;strong&gt;real-world software implementations&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;✅ Built a &lt;strong&gt;distributed network of GNAs and contributors&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;✅ Proved that vulnerability publishing can be &lt;strong&gt;federated, resilient, and open&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;Looking Forward&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;looking-forward&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#looking-forward&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;GCVE is still young, but the foundation is now solid:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Specifications exist&lt;/li&gt;
+&lt;li&gt;Implementations run in production&lt;/li&gt;
+&lt;li&gt;Governance is documented&lt;/li&gt;
+&lt;li&gt;The community is growing&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;The next phase will focus on &lt;strong&gt;adoption, interoperability, and feedback&lt;/strong&gt;, ensuring that GCVE continues to evolve as a practical, community-driven alternative for vulnerability identification and publication.&lt;/p&gt;
+&lt;p&gt;If you are interested in operating a GNA, contributing implementations, or &lt;a href=&#34;https://gcve.eu/contact/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;providing feedback&lt;/a&gt; on the BCPs, now is the right time to get involved.&lt;/p&gt;
+&lt;p&gt;GCVE operates a &lt;a href=&#34;https://discourse.ossbase.org/c/gcve/14&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;public discourse instance for GCVE&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;GCVE was an experiment but after eight months, it is already a working system.&lt;/em&gt;&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>GCVE: Global CVE Allocation System - Video and Presentation Published (VSS 2025)</title>
+      <link>https://gcve.eu/2025/07/22/gcve-vss-2025/</link>
+      <pubDate>Tue, 22 Jul 2025 00:00:00 +0000</pubDate>
+      <author>info@gcve.eu (GCVE)</author>
+      <guid>https://gcve.eu/2025/07/22/gcve-vss-2025/</guid>
+      <description>
+        
+        
+        &lt;p&gt;During CIRCL &lt;a href=&#34;https://www.circl.lu/pub/vss-2025/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;VSS 2025&lt;/a&gt;, we introduced the &lt;a href=&#34;https://gcve.eu&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;GCVE&lt;/a&gt; initiative and outlined the process for becoming a GNA. The presentation covered the initiative’s history, objectives, tools, and the current distributed publication framework. A video recording of the session is now available for viewing.&lt;/p&gt;
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+      &lt;iframe allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen&#34; loading=&#34;eager&#34; referrerpolicy=&#34;strict-origin-when-cross-origin&#34; src=&#34;https://www.youtube.com/embed/Va3almPab1M?autoplay=0&amp;amp;controls=1&amp;amp;end=0&amp;amp;loop=0&amp;amp;mute=0&amp;amp;start=0&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; title=&#34;YouTube video&#34;&gt;&lt;/iframe&gt;
+    &lt;/div&gt;
+
+&lt;p&gt;Presentation in PDF: &lt;a href=&#34;https://gcve.eu/presentation/gcve-eu-vss-2025.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://gcve.eu/presentation/gcve-eu-vss-2025.pdf&lt;/a&gt;
+Video :television: &lt;a href=&#34;https://youtu.be/Va3almPab1M&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://youtu.be/Va3almPab1M&lt;/a&gt;&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Join Us at the FIRSTCON25 Hackathon: Advancing GCVE.eu Initiative</title>
+      <link>https://gcve.eu/2025/06/19/gcve-first-org-hackathon-2025/</link>
+      <pubDate>Thu, 19 Jun 2025 00:00:00 +0000</pubDate>
+      <author>info@gcve.eu (GCVE)</author>
+      <guid>https://gcve.eu/2025/06/19/gcve-first-org-hackathon-2025/</guid>
+      <description>
+        
+        
+        &lt;p&gt;&lt;img src=&#34;https://gcve.eu/logos/gcve.png&#34; alt=&#34;&#34; loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;We will be at the first FIRST.org hackathon, organized during the &lt;a href=&#34;https://www.first.org/conference/2025/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;FIRST Annual Conference in Copenhagen&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;The hackathon, &lt;strong&gt;FIRSTCON25&lt;/strong&gt;, will take place in person at the &lt;strong&gt;37th Annual FIRST Conference&lt;/strong&gt; on &lt;strong&gt;Sunday, 22nd June&lt;/strong&gt;, in Copenhagen.&lt;/p&gt;
+&lt;p&gt;During the hackathon, various topics and projects (not limited to the following) can be tackled:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Improving the software stack to support and distribute the directory.&lt;/li&gt;
+&lt;li&gt;Enhancing existing BCPs.&lt;/li&gt;
+&lt;li&gt;Reviewing and assisting in the creation of new BCPs.&lt;/li&gt;
+&lt;li&gt;Improving the &lt;a href=&#34;https://vulnerability-lookup.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;vulnerability-lookup.org&lt;/a&gt; software stack used by GCVE.eu users.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;For more details about the &lt;a href=&#34;https://discourse.ossbase.org/t/gcve-eu-processes-standards-bcp-and-tooling/95&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;proposed GCVE activities at the FIRST.org hackathon&lt;/a&gt;, and to follow live updates, visit the discussion link.&lt;/p&gt;
+&lt;p&gt;If you would like to join the hackathon, you can register at &lt;a href=&#34;https://pretix.eu/circl/hackathonfirst25/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://pretix.eu/circl/hackathonfirst25/&lt;/a&gt;.&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>GCVE Releases Draft Standard BCP-03 for Decentralized Vulnerability Publication</title>
+      <link>https://gcve.eu/2025/06/10/gcve-bcp-distributed-publication-announced/</link>
+      <pubDate>Tue, 10 Jun 2025 00:00:00 +0000</pubDate>
+      <author>info@gcve.eu (GCVE)</author>
+      <guid>https://gcve.eu/2025/06/10/gcve-bcp-distributed-publication-announced/</guid>
+      <description>
+        
+        
+        &lt;p&gt;A &lt;a href=&#34;https://gcve.eu/bcp/&#34; &gt;Best Current Practice (BCP)&lt;/a&gt; in the context of the GCVE initiative is a community-driven guideline that documents recommended procedures, configurations, or operational principles to support the secure, reliable, and consistent implementation of GCVE-related infrastructure, tools, and services.&lt;/p&gt;
+&lt;p&gt;The GCVE Working Group has released the draft for &lt;a href=&#34;https://gcve.eu/bcp/gcve-bcp-03/&#34; &gt;BCP-03&lt;/a&gt;, a new Decentralized Publication Standard. This standard allows Global Naming Authorities (GNAs) to publish vulnerability information directly via HTTP REST APIs or static files, removing reliance on a central system. Clients can discover these publication endpoints through the GCVE directory, enabling them to pull data from their own curated set of trusted sources. To facilitate adoption, a reference implementation is available in the open-source &lt;a href=&#34;https://www.vulnerability-lookup.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Vulnerability-Lookup project&lt;/a&gt;.&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>The first publication of the GCVE-BCP-01 - Signature Verification of the Directory File</title>
+      <link>https://gcve.eu/2025/04/25/gcve-bcp-announced/</link>
+      <pubDate>Fri, 25 Apr 2025 00:00:00 +0000</pubDate>
+      <author>info@gcve.eu (GCVE)</author>
+      <guid>https://gcve.eu/2025/04/25/gcve-bcp-announced/</guid>
+      <description>
+        
+        
+        &lt;p&gt;A &lt;a href=&#34;https://gcve.eu/bcp/&#34; &gt;Best Current Practice (BCP)&lt;/a&gt; in the context of the GCVE initiative is a community-driven guideline that documents recommended procedures, configurations, or operational principles to support the secure, reliable, and consistent implementation of GCVE-related infrastructure, tools, and services.&lt;/p&gt;
+&lt;p&gt;GCVE.eu has published its first Best Current Practice document, &lt;a href=&#34;https://gcve.eu/bcp/gcve-bcp-01/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;GCVE-BCP-01&lt;/a&gt;, which outlines the recommended method for verifying the integrity and authenticity of the GCVE directory file using OpenSSL and a public key. This BCP ensures that all consumers of the directory validate the file’s signature before use, reinforcing trust and security within the GCVE ecosystem. All implementers and users are strongly encouraged to follow the outlined verification process. The BCP is a draft for public review. Feedback is more than welcome.&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>GCVE - Global CVE Allocation System Announced</title>
+      <link>https://gcve.eu/2025/04/16/gcve-allocation-announced/</link>
+      <pubDate>Wed, 16 Apr 2025 00:00:00 +0000</pubDate>
+      <author>info@gcve.eu (GCVE)</author>
+      <guid>https://gcve.eu/2025/04/16/gcve-allocation-announced/</guid>
+      <description>
+        
+        
+        &lt;p&gt;Introducing the &lt;strong&gt;Global CVE (GCVE) Allocation System&lt;/strong&gt; (&lt;a href=&#34;https://gcve.eu&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://gcve.eu&lt;/a&gt;), a new decentralized approach to identifying and numbering security vulnerabilities. GCVE empowers independent &lt;strong&gt;GCVE Numbering Authorities (GNAs)&lt;/strong&gt; to assign vulnerability IDs directly, offering greater autonomy and speed compared to traditional centralized methods. This system is designed to complement the existing CVE® program, ensuring seamless compatibility by representing all standard CVEs under the reserved &lt;code&gt;GNA ID 0&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;The primary benefits of GCVE include enhanced &lt;strong&gt;flexibility&lt;/strong&gt; for participating organizations to define their own processes, improved &lt;strong&gt;scalability&lt;/strong&gt; by removing central bottlenecks, and &lt;strong&gt;decentralized allocation&lt;/strong&gt; managed by the GNAs themselves. We invite organizations involved in vulnerability management to explore this new system and consider becoming a GNA. For more details, visit &lt;a href=&#34;https://gcve.eu&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://gcve.eu&lt;/a&gt; or contact &lt;code&gt;info@gcve.eu&lt;/code&gt;.&lt;/p&gt;
+
+      </description>
+    </item>
+    
+  </channel>
+</rss>
+

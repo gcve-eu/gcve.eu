@@ -1,0 +1,3173 @@
+[
+  {
+    "partner": "1E Limited",
+    "scope": "All 1E products (including end-of-life/end-of-service products), as well as vulnerabilities in third-party software discovered by 1E that are not in another CNA\u2019s scope.",
+    "program_role": "CNA",
+    "organization_type": "Vendor, Researcher",
+    "country": "UK"
+  },
+  {
+    "partner": "42Gears Mobility Systems Pvt Ltd",
+    "scope": "42Gears branded products and technologies only.",
+    "program_role": "CNA",
+    "organization_type": "Vendor",
+    "country": "India"
+  },
+  {
+    "partner": "9front Systems",
+    "scope": "All software produced as part of the Plan9front open source operating system, as well as its applications and cyberinfrastructure. Vulnerabilities discovered by or reported to 9front Systems for all Plan 9 software not covered by the scope of another CNA.",
+    "program_role": "CNA",
+    "organization_type": "Open Source",
+    "country": "USA"
+  },
+  {
+    "partner": "Absolute Software",
+    "scope": "Absolute issues only.",
+    "program_role": "CNA",
+    "organization_type": "Vendor",
+    "country": "USA"
+  },
+  {
+    "partner": "Acronis International GmbH",
+    "scope": "All Acronis products, including Acronis Cyber Protect, Acronis Cyber Protect Home Office, Acronis DeviceLock DLP, and Acronis Snap Deploy.",
+    "program_role": "CNA",
+    "organization_type": "Vendor",
+    "country": "Switzerland"
+  },
+  {
+    "partner": "Adobe Systems Incorporated",
+    "scope": "Adobe issues only.",
+    "program_role": "CNA",
+    "organization_type": "Vendor",
+    "country": "USA"
+  },
+  {
+    "partner": "Advanced Micro Devices Inc.",
+    "scope": "AMD branded products and technologies only.",
+    "program_role": "CNA",
+    "organization_type": "Vendor",
+    "country": "USA"
+  },
+  {
+    "partner": "Airbus",
+    "scope": "All Airbus products (supported products and end-of-life/end-of-service products), as well as vulnerabilities in third-party software discovered by Airbus that are not in another CNA\u2019s scope.",
+    "program_role": "CNA",
+    "organization_type": "Vendor, Researcher",
+    "country": "Netherlands"
+  },
+  {
+    "partner": "AlgoSec",
+    "scope": "AlgoSec products only.",
+    "program_role": "CNA",
+    "organization_type": "Vendor",
+    "country": "Israel"
+  },
+  {
+    "partner": "Alias Robotics S.L.",
+    "scope": "All Alias Robotics products, as well as vulnerabilities in third-party robots and robot components (software and hardware), as well as machine tool and machine tool components, discovered by Alias Robotics that are not in another CNA\u2019s scope.",
+    "program_role": "CNA",
+    "organization_type": "Vendor, Researcher",
+    "country": "Spain"
+  },
+  {
+    "partner": "Alibaba, Inc.",
+    "scope": "Projects listed on itsAlibaba GitHub websiteonly.",
+    "program_role": "CNA",
+    "organization_type": "Vendor, Open Source",
+    "country": "China"
+  },
+  {
+    "partner": "Amazon",
+    "scope": "All Amazon and AWS products (including subsidiaries, supported, and EOL/EOS products), as well as vulnerabilities in third party software discovered by Amazon/AWS that are not in another CNA\u2019s scope.",
+    "program_role": "CNA",
+    "organization_type": "Vendor, Bug Bounty Provider, Open Source",
+    "country": "USA"
+  },
+  {
+    "partner": "AMI",
+    "scope": "Vulnerabilities in AMI firmware and software products, as well as vulnerabilities discovered by AMI that are not covered by another CNA scope.",
+    "program_role": "CNA",
+    "organization_type": "Vendor, Open Source, Researcher",
+    "country": "USA"
+  },
+  {
+    "partner": "Ampere Computing",
+    "scope": "Ampere issues only.",
+    "program_role": "CNA",
+    "organization_type": "Vendor",
+    "country": "USA"
+  },
+  {
+    "partner": "Analog Devices, Inc.",
+    "scope": "Vulnerabilities in ADI firmware and software products.",
+    "program_role": "CNA",
+    "organization_type": "Vendor",
+    "country": "USA"
+  },
+  {
+    "partner": "Android (associated with Google Inc. or Open Handset Alliance)",
+    "scope": "Android issues, as well as vulnerabilities in third-party software discovered by Android that are not in another CNA\u2019s scope.",
+    "program_role": "CNA",
+    "organization_type": "Vendor, Open Source, Researcher",
+    "country": "USA"
+  },
+  {
+    "partner": "Apache Software Foundation",
+    "scope": "All Apache Software Foundation issues only.",
+    "program_role": "CNA",
+    "organization_type": "Vendor, Open Source",
+    "country": "USA"
+  },
+  {
+    "partner": "AppCheck Ltd.",
+    "scope": "Vulnerabilities discovered by AppCheck that are not within another CNA\u2019s scope.",
+    "program_role": "CNA",
+    "organization_type": "Researcher",
+    "country": "UK"
+  },
+  {
+    "partner": "Apple Inc.",
+    "scope": "Apple issues only.",
+    "program_role": "CNA",
+    "organization_type": "Vendor",
+    "country": "USA"
+  },
+  {
+    "partner": "ARC Informatique",
+    "scope": "ARC Informatique products and services.",
+    "program_role": "CNA",
+    "organization_type": "Vendor",
+    "country": "France"
+  },
+  {
+    "partner": "ARCON Techsolutions Private Limited",
+    "scope": "Vulnerabilities in ARCON\u2019s products only.",
+    "program_role": "CNA",
+    "organization_type": "Vendor",
+    "country": "India"
+  },
+  {
+    "partner": "Arista Networks, Inc.",
+    "scope": "All Arista products only.",
+    "program_role": "CNA",
+    "organization_type": "Vendor",
+    "country": "USA"
+  },
+  {
+    "partner": "Arm Limited",
+    "scope": "Arm-branded products and technologies and Arm-managed open source projects.",
+    "program_role": "CNA",
+    "organization_type": "Open Source, Vendor",
+    "country": "UK"
+  },
+  {
+    "partner": "Arxscan, Inc.",
+    "scope": "Arxscan issues only.",
+    "program_role": "CNA",
+    "organization_type": "Vendor",
+    "country": "USA"
+  },
+  {
+    "partner": "Asea Brown Boveri Ltd. (ABB)",
+    "scope": "ABB issues only.",
+    "program_role": "CNA",
+    "organization_type": "Vendor",
+    "country": "Switzerland"
+  },
+  {
+    "partner": "ASR Microelectronics Co., Ltd.",
+    "scope": "ASR products only.",
+    "program_role": "CNA",
+    "organization_type": "Vendor",
+    "country": "China"
+  },
+  {
+    "partner": "ASUSTeK Computer Incorporation",
+    "scope": "ASUS issues only.",
+    "program_role": "CNA",
+    "organization_type": "Vendor",
+    "country": "Taiwan"
+  },
+  {
+    "partner": "ASUSTOR, Inc.",
+    "scope": "ASUSTOR issues only.",
+    "program_role": "CNA",
+    "organization_type": "Vendor",
+    "country": "Taiwan"
+  },
+  {
+    "partner": "ATISoluciones Dise\u00f1o de Sistemas Electr\u00f3nicos, S.L.",
+    "scope": "AtiSoluciones products only.",
+    "program_role": "CNA",
+    "organization_type": "Vendor",
+    "country": "Spain"
+  },
+  {
+    "partner": "Atlassian",
+    "scope": "All Atlassian products, as well as Atlassian-maintained projects hosted onhttps://bitbucket.org/andhttps://github.com/atlassian/.",
+    "program_role": "CNA",
+    "organization_type": "Vendor, Open Source",
+    "country": "Australia"
+  },
+  {
+    "partner": "Austin Hackers Anonymous",
+    "scope": "Vulnerabilities in the AHA! website and other AHA! controlled assets, as well as vulnerabilities identified in assets owned, operated, or maintained by another organization unless covered by the scope of another CNA.",
+    "program_role": "CNA",
+    "organization_type": "Researcher",
+    "country": "USA"
+  },
+  {
+    "partner": "Autodesk",
+    "scope": "All currently supportedAutodesk Applications and Cloud Services.",
+    "program_role": "CNA",
+    "organization_type": "Vendor",
+    "country": "USA"
+  },
+  {
+    "partner": "Automotive Security Research Group (ASRG)",
+    "scope": "All automotive and related infrastructure vulnerabilities that are not in another CNA\u2019s scope.",
+    "program_role": "CNA",
+    "organization_type": "Researcher",
+    "country": "USA"
+  },
+  {
+    "partner": "Automox Inc.",
+    "scope": "All products created by Automox.",
+    "program_role": "CNA",
+    "organization_type": "Vendor, Hosted Service",
+    "country": "USA"
+  },
+  {
+    "partner": "Avaya, Inc.",
+    "scope": "All Avaya Generally Available (GA) products that are not in another CNA\u2019s scope. A CVE ID will not be issued for End of Manufacturing Support (EoMS) products/versions.",
+    "program_role": "CNA",
+    "organization_type": "Vendor",
+    "country": "USA"
+  },
+  {
+    "partner": "Axis Communications AB",
+    "scope": "All products of Axis Communications AB and 2N including end-of-life/end-of-service products.",
+    "program_role": "CNA",
+    "organization_type": "Vendor",
+    "country": "Sweden"
+  },
+  {
+    "partner": "B. Braun SE",
+    "scope": "B. Braun\u2019s commercially available products only.",
+    "program_role": "CNA",
+    "organization_type": "Vendor",
+    "country": "Germany"
+  },
+  {
+    "partner": "Baicells Technologies Co., Ltd.",
+    "scope": "All Baicells products.",
+    "program_role": "CNA",
+    "organization_type": "Vendor",
+    "country": "China"
+  },
+  {
+    "partner": "Baidu, Inc.",
+    "scope": "Projects listed on Baidu\u2019sPaddlePaddle GitHub websiteonly.",
+    "program_role": "CNA",
+    "organization_type": "Vendor, Open Source",
+    "country": "China"
+  },
+  {
+    "partner": "Baxter Healthcare",
+    "scope": "Baxter\u2019s commercially available products only.",
+    "program_role": "CNA",
+    "organization_type": "Vendor",
+    "country": "USA"
+  },
+  {
+    "partner": "Beckman Coulter Diagnostics",
+    "scope": "Beckman Coulter Diagnostics manufactured products and technologies only.",
+    "program_role": "CNA",
+    "organization_type": "Vendor",
+    "country": "USA"
+  },
+  {
+    "partner": "Beckman Coulter Life Sciences",
+    "scope": "Beckman Coulter Life Sciences manufactured products and technologies only.",
+    "program_role": "CNA",
+    "organization_type": "Vendor",
+    "country": "USA"
+  },
+  {
+    "partner": "Becton, Dickinson and Company (BD)",
+    "scope": "BD software-enabled medical devices only.",
+    "program_role": "CNA",
+    "organization_type": "Vendor",
+    "country": "USA"
+  },
+  {
+    "partner": "BeyondTrust Inc.",
+    "scope": "All BeyondTrust products, includingPasswordSafe,Privileged Remote Access,Remote Support,Privilege Management for Windows/Mac,Privilege Management for Unix/Linux,Identity Security Insights,Active Directory (AD) Bridge, andTotal PASM.",
+    "program_role": "CNA",
+    "organization_type": "Vendor",
+    "country": "USA"
+  },
+  {
+    "partner": "Biohacking Village",
+    "scope": "Vulnerabilities discovered by researchers in collaboration with Biohacking Village, with approval of Biohacking Village\u2019s sponsors, that are not in another CNA\u2019s scope.",
+    "program_role": "CNA",
+    "organization_type": "Researcher",
+    "country": "USA"
+  },
+  {
+    "partner": "Bitdefender",
+    "scope": "All Bitdefender products, as well as vulnerabilities in third-party software discovered by Bitdefender that are not in another CNA\u2019s scope.",
+    "program_role": "CNA",
+    "organization_type": "Vendor, Researcher",
+    "country": "Romania"
+  },
+  {
+    "partner": "Bizerba SE & Co. KG",
+    "scope": "Bizerba products only.",
+    "program_role": "CNA",
+    "organization_type": "Vendor",
+    "country": "Germany"
+  },
+  {
+    "partner": "Black Duck Software, Inc.",
+    "scope": "All Black Duck (formerly Synopsys Software Integrity Group) products, as well as vulnerabilities in third-party software discovered by Black Duck that are not in another CNA\u2019s scope.",
+    "program_role": "CNA",
+    "organization_type": "Vendor, Researcher",
+    "country": "USA"
+  },
+  {
+    "partner": "Black Lantern Security",
+    "scope": "Vulnerabilities in vendor products discovered by BLSOPS, or related parties, while performing vulnerability research or security assessments, unless covered by another CNA\u2019s scope.",
+    "program_role": "CNA",
+    "organization_type": "Researcher",
+    "country": "USA"
+  },
+  {
+    "partner": "BlackBerry",
+    "scope": "All BlackBerry products identified onhttps://www.blackberry.com/us/en.",
+    "program_role": "CNA",
+    "organization_type": "Vendor",
+    "country": "Canada"
+  },
+  {
+    "partner": "Brocade Communications Systems LLC, a Broadcom Company",
+    "scope": "Brocade products only.",
+    "program_role": "CNA",
+    "organization_type": "Vendor",
+    "country": "USA"
+  },
+  {
+    "partner": "Bugcrowd Inc.",
+    "scope": "Vulnerabilities discovered by researchers in collaboration with Bugcrowd, with approval of Bugcrowd\u2019s clients, and not in the scope of another CNA.",
+    "program_role": "CNA",
+    "organization_type": "Bug Bounty Provider, Vendor, Open Source",
+    "country": "USA"
+  },
+  {
+    "partner": "CA Technologies - A Broadcom Company",
+    "scope": "CA Technologies issues only. Note that Broadcom PSIRT handles all CA issues.",
+    "program_role": "CNA",
+    "organization_type": "Vendor",
+    "country": "USA"
+  },
+  {
+    "partner": "Caliptra Project",
+    "scope": "Caliptra Project components and vulnerabilities that are not in another CNA\u2019s scope.",
+    "program_role": "CNA",
+    "organization_type": "Open Source",
+    "country": "USA"
+  },
+  {
+    "partner": "Canon EMEA",
+    "scope": "Products, services, and solutions developed internally by Canon EMEA and those from Canon Production Printing, IRIS, NT-ware, and Therefore Corporation.",
+    "program_role": "CNA",
+    "organization_type": "Vendor",
+    "country": "UK"
+  },
+  {
+    "partner": "Canon Inc.",
+    "scope": "Vulnerabilities in products and services designed and developed by Canon Inc.",
+    "program_role": "CNA",
+    "organization_type": "Vendor",
+    "country": "Japan"
+  },
+  {
+    "partner": "Canonical Ltd.",
+    "scope": "All Canonical issues (including Ubuntu Linux) only.",
+    "program_role": "CNA",
+    "organization_type": "Vendor, Open Source",
+    "country": "UK"
+  },
+  {
+    "partner": "Carrier Global Corporation",
+    "scope": "Carrier Global products only.",
+    "program_role": "CNA",
+    "organization_type": "Hosted Service, Vendor",
+    "country": "USA"
+  },
+  {
+    "partner": "Cato Networks",
+    "scope": "All Cato Networks products and vulnerabilities in third-party products affecting Cato products unless covered by the scope of another CNA.",
+    "program_role": "CNA",
+    "organization_type": "Vendor, Researcher",
+    "country": "Israel"
+  },
+  {
+    "partner": "Censys",
+    "scope": "All Censys products, and vulnerabilities discovered by Censys that are not in another CNA\u2019s scope.",
+    "program_role": "CNA",
+    "organization_type": "Vendor, Researcher",
+    "country": "USA"
+  },
+  {
+    "partner": "Centreon",
+    "scope": "All Centreon product issues only.",
+    "program_role": "CNA",
+    "organization_type": "Vendor, Open Source",
+    "country": "France"
+  },
+  {
+    "partner": "Cepheid",
+    "scope": "Cepheid products.",
+    "program_role": "CNA",
+    "organization_type": "Vendor",
+    "country": "USA"
+  },
+  {
+    "partner": "CERT.PL",
+    "scope": "Vulnerabilities in software discovered by CERT.PL, and vulnerabilities reported to CERT.PL for coordinated disclosure, which are not in another CNA\u2019s scope.",
+    "program_role": "CNA",
+    "organization_type": "CERT",
+    "country": "Poland"
+  },
+  {
+    "partner": "CERT/CC",
+    "scope": "Vulnerability assignment related to its vulnerability coordination role.",
+    "program_role": "CNA",
+    "organization_type": "CERT",
+    "country": "USA"
+  },
+  {
+    "partner": "CERT@VDE",
+    "scope": "Products of CERT@VDE cooperative partners and brands listed athttps://cert.vde.com/en/cna/. Also, industrial and infrastructure control systems (and its components) of European Union (EU) based vendors unless covered by the scope of another CNA.  Partners and brands include but are not limited to: ADS-TEC Industrial IT, Auma, sipos, Beckhoff, Bender, Bucher Automation, CLAAS, 365FarmNet, Satinfo, Carlo Gavazzi Controls, Codesys, DURAG GROUP, Draeger, Endress+Hauser, Euchner, Festo Didactic, Festo, Frauscher, GEA, HIMA, Harman, Helmholz, Hilscher, K4 DIGITAL, KEB, Krohne, Kuka, Lenze, BHN Services, MB connect line, Miele, Murrelektronik, PHOENIX CONTACT, Etherwan Systems, Innominate, Pepperl+Fuchs, Pilz, SMA, SWARCO, Trumpf, TRUMPF Laser, TRUMPF Werkzeugmaschinen, VARTA Storage, VEGA, WAGO, M&M Software, Weidmueller, Welotec, Wiesemann & Theis, ifm.",
+    "program_role": "CNA",
+    "organization_type": "CERT",
+    "country": "Germany"
+  },
+  {
+    "partner": "Check Point Software Ltd.",
+    "scope": "Check Point Security Gateways product line only, and any vulnerabilities discovered by Check Point that are not in another CNA\u2019s scope.",
+    "program_role": "CNA",
+    "organization_type": "Vendor, Researcher",
+    "country": "Israel"
+  },
+  {
+    "partner": "Checkmarx",
+    "scope": "Vulnerabilities in Checkmarx products and open source vulnerabilities discovered by, or reported to, Checkmarx, that are not in another CNA\u2019s scope.",
+    "program_role": "CNA",
+    "organization_type": "Vendor, Open Source, Researcher",
+    "country": "Israel"
+  },
+  {
+    "partner": "Checkmk GmbH",
+    "scope": "All products of Checkmk GmbH including Checkmk and Checkmk Appliance, Nagvis, Robotmk, and packages published onexchange.checkmk.com.",
+    "program_role": "CNA",
+    "organization_type": "Vendor, Open Source",
+    "country": "Germany"
+  },
+  {
+    "partner": "Chrome",
+    "scope": "Chrome issues and projects that are not in another CNA\u2019s scope.",
+    "program_role": "CNA",
+    "organization_type": "Vendor, Open Source, Researcher",
+    "country": "USA"
+  },
+  {
+    "partner": "ChromeOS Project",
+    "scope": "Vulnerabilities that are (1) reported to ChromeOS Security, (2) affect ChromeOS device software and hardware, including our open source dependencies, and (3) are not covered by another CNA\u2019s scope.",
+    "program_role": "CNA",
+    "organization_type": "Vendor, Bug Bounty Provider",
+    "country": "USA"
+  },
+  {
+    "partner": "Ciena Corporation",
+    "scope": "Ciena and Blue Planet branded products and technologies only.",
+    "program_role": "CNA",
+    "organization_type": "Vendor",
+    "country": "USA"
+  },
+  {
+    "partner": "cirosec GmbH",
+    "scope": "Vulnerabilities discovered by or reported to cirosec researchers that are not in another CNA\u2019s scope.",
+    "program_role": "CNA",
+    "organization_type": "Researcher",
+    "country": "Germany"
+  },
+  {
+    "partner": "Cisco Systems, Inc.",
+    "scope": "All Cisco products, and any third-party research targets that are not in another CNA\u2019s scope. Cisco will not issue a CVE ID for issues reported on products that are past the Last Day of Support milestone, as defined on Cisco\u2019s End-of-Life Policy, which is available athttps://www.cisco.com/c/en/us/products/eos-eol-policy.html.",
+    "program_role": "CNA",
+    "organization_type": "Hosted Service, Open Source, Researcher, Vendor",
+    "country": "USA"
+  },
+  {
+    "partner": "Citrix Systems, Inc.",
+    "scope": "Citrix issues only.",
+    "program_role": "CNA",
+    "organization_type": "Vendor",
+    "country": "USA"
+  },
+  {
+    "partner": "ClickHouse, Inc.",
+    "scope": "ClickHouse-owned products, not including end-of-life components.",
+    "program_role": "CNA",
+    "organization_type": "Vendor, Open Source",
+    "country": "USA"
+  },
+  {
+    "partner": "Cloudflare, Inc.",
+    "scope": "All Cloudflare products, projects hosted athttps://github.com/cloudflare/, and any vulnerabilities discovered by Cloudflare that are not in another CNA\u2019s scope.",
+    "program_role": "CNA",
+    "organization_type": "Vendor",
+    "country": "USA"
+  },
+  {
+    "partner": "Concrete CMS",
+    "scope": "Concrete CMS Core versions 8.5 and above.",
+    "program_role": "CNA",
+    "organization_type": "Open Source",
+    "country": "USA"
+  },
+  {
+    "partner": "ConnectWise LLC",
+    "scope": "All ConnectWise products and services and vulnerabilities discovered by ConnectWise in third party products that are not within another CNA\u2019s scope.",
+    "program_role": "CNA",
+    "organization_type": "Vendor, Researcher",
+    "country": "USA"
+  },
+  {
+    "partner": "CPAN Security Group",
+    "scope": "Vulnerabilities in Perl and CPAN Modules (including End-of-Life Perl versions) found athttps://perl.org,https://cpan.org, orhttps://metacpan.org/, excluding distributions of Perl or CPAN Modules maintained by third-party redistributors.",
+    "program_role": "CNA",
+    "organization_type": "Open Source",
+    "country": "Canada"
+  },
+  {
+    "partner": "Crafter CMS",
+    "scope": "Crafter CMSissues only.",
+    "program_role": "CNA",
+    "organization_type": "Vendor, Open Source",
+    "country": "USA"
+  },
+  {
+    "partner": "Crestron Electronics, Inc.",
+    "scope": "Crestron products.",
+    "program_role": "CNA",
+    "organization_type": "Vendor",
+    "country": "USA"
+  },
+  {
+    "partner": "CrowdStrike Holdings, Inc.",
+    "scope": "All CrowdStrike products.",
+    "program_role": "CNA",
+    "organization_type": "Vendor",
+    "country": "USA"
+  },
+  {
+    "partner": "CTOne Inc.",
+    "scope": "Vulnerabilities in cellular (LTE/4G/5G) devices and protocols that are not in another CNA\u2019s scope.",
+    "program_role": "CNA",
+    "organization_type": "Vendor, Researcher, Bug Bounty Provider",
+    "country": "Taiwan"
+  },
+  {
+    "partner": "curl",
+    "scope": "All products made and managed by the curl project. This includes curl, libcurl, and trurl.",
+    "program_role": "CNA",
+    "organization_type": "Open Source",
+    "country": "Sweden"
+  },
+  {
+    "partner": "Cybellum Technologies LTD",
+    "scope": "All Cybellum products, as well as vulnerabilities in third-party software discovered by Cybellum that are not in another CNA\u2019s scope.",
+    "program_role": "CNA",
+    "organization_type": "Vendor",
+    "country": "Israel"
+  },
+  {
+    "partner": "Cyber Security Agency of Singapore",
+    "scope": "Vulnerabilities reported to CSA unless covered by the scope of another CNA.",
+    "program_role": "CNA",
+    "organization_type": "CERT",
+    "country": "Singapore"
+  },
+  {
+    "partner": "Cyber Security Works Pvt. Ltd.",
+    "scope": "Vulnerabilities in third-party software discovered by CSW that are not in another CNA\u2019s scope.",
+    "program_role": "CNA",
+    "organization_type": "Researcher",
+    "country": "India"
+  },
+  {
+    "partner": "CyberArk Labs",
+    "scope": "Vulnerabilities discovered by CyberArk Labs that are not in another CNA\u2019s scope.",
+    "program_role": "CNA",
+    "organization_type": "Vendor, Researcher",
+    "country": "Israel"
+  },
+  {
+    "partner": "CyberDanube",
+    "scope": "All CyberDanube products, as well as vulnerabilities in third-party hardware/software discovered by CyberDanube or partners actively engaged in vulnerability research coordination, which are not within the scope of another CNA.",
+    "program_role": "CNA",
+    "organization_type": "Researcher, Vendor",
+    "country": "Austria"
+  },
+  {
+    "partner": "Cybersecurity and Infrastructure Security Agency (CISA)",
+    "scope": "Top-Level Root Scope:Vulnerabilities that are (1) reported to or observed by CISA and (2) affect critical infrastructure, U.S. civilian government, industrial control systems, or medical devices, and (3) are not covered by another CNA\u2019s scope.ADP Scope:View scopehere.",
+    "program_role": "Top-Level Root,ADP",
+    "organization_type": "N/A",
+    "country": "USA"
+  },
+  {
+    "partner": "Cybersecurity and Infrastructure Security Agency (CISA) Industrial Control Systems (ICS)",
+    "scope": "Vulnerabilities that are (1) reported to or observed by CISA, (2) affect industrial control systems or medical devices, and (3) are not covered by another CNA\u2019s scope.",
+    "program_role": "Root,CNA-LR",
+    "organization_type": "CERT",
+    "country": "USA"
+  },
+  {
+    "partner": "Cybersecurity and Infrastructure Security Agency (CISA) U.S. Civilian Government",
+    "scope": "Vulnerabilities that are (1) reported to or observed by CISA, (2) affect critical infrastructure or U.S. civilian government, and (3) are not covered by another CNA\u2019s scope.",
+    "program_role": "CNA",
+    "organization_type": "CERT",
+    "country": "USA"
+  },
+  {
+    "partner": "Cytiva",
+    "scope": "Cytiva branded products only.",
+    "program_role": "CNA",
+    "organization_type": "Vendor",
+    "country": "USA"
+  },
+  {
+    "partner": "Dahua Technologies",
+    "scope": "Dahua consumer Internet of Things (IoT) products, excludes End-of-Life products.",
+    "program_role": "CNA",
+    "organization_type": "Vendor",
+    "country": "China"
+  },
+  {
+    "partner": "Danfoss",
+    "scope": "Danfoss products only.",
+    "program_role": "CNA",
+    "organization_type": "Vendor",
+    "country": "Denmark"
+  },
+  {
+    "partner": "Dassault Syst\u00e8mes",
+    "scope": "All websites of the corporate group and of any subsidiaries, including but not limited towww.3ds.comandwww.solidworks.com; all Software as a Service solutions, such as 3DEXPERIENCE or ScienceCloud, but also any online hosting linked to our brands; and all Dassault Syst\u00e8mes licensed software products.",
+    "program_role": "CNA",
+    "organization_type": "Vendor",
+    "country": "France"
+  },
+  {
+    "partner": "Debian GNU/Linux",
+    "scope": "Debian issues only.",
+    "program_role": "CNA",
+    "organization_type": "Vendor, Open Source",
+    "country": "USA"
+  },
+  {
+    "partner": "DeepSurface Security, Inc.",
+    "scope": "All DeepSurface products, as well as vulnerabilities in third-party software discovered by DeepSurface that are not in another CNA\u2019s scope.",
+    "program_role": "CNA",
+    "organization_type": "Vendor, Researcher",
+    "country": "USA"
+  },
+  {
+    "partner": "Delinea, Inc.",
+    "scope": "Vulnerabilities in Delinea products or services listed ondelinea.com, or vulnerabilities in third-party products or services discovered by or reported to Delinea, unless covered by the scope of another CNA.",
+    "program_role": "CNA",
+    "organization_type": "Vendor, Hosted Service, Researcher",
+    "country": "USA"
+  },
+  {
+    "partner": "Dell",
+    "scope": "Dell, Dell EMC, and VCE issues only.",
+    "program_role": "CNA",
+    "organization_type": "Vendor",
+    "country": "USA"
+  },
+  {
+    "partner": "Delta Electronics, Inc.",
+    "scope": "Delta Electronics products as listed onwww.deltaww.com.",
+    "program_role": "CNA",
+    "organization_type": "Vendor",
+    "country": "Taiwan"
+  },
+  {
+    "partner": "DevCycle",
+    "scope": "All DevCycle products (including end-of-life/end-of-service products) as listed onhttps://devcycle.com/.",
+    "program_role": "CNA",
+    "organization_type": "Vendor, Hosted Service, Open Source",
+    "country": "Canada"
+  },
+  {
+    "partner": "Devolutions Inc.",
+    "scope": "Remote Desktop Manager and Devolutions Server products.",
+    "program_role": "CNA",
+    "organization_type": "Vendor, Open Source",
+    "country": "Canada"
+  },
+  {
+    "partner": "DFINITY Foundation",
+    "scope": "All Internet Computer projects as found on the following GitHub pages:https://github.com/dfinityandhttps://github.com/dfinity-lab.",
+    "program_role": "CNA",
+    "organization_type": "Vendor, Open Source",
+    "country": "Switzerland"
+  },
+  {
+    "partner": "Digi International Inc.",
+    "scope": "Digi branded products and services only.",
+    "program_role": "CNA",
+    "organization_type": "Vendor",
+    "country": "USA"
+  },
+  {
+    "partner": "DirectCyber",
+    "scope": "Issues in third-party products identified by or reported to DirectCyber, unless covered by the scope of another CNA.",
+    "program_role": "CNA",
+    "organization_type": "Researcher, Open Source",
+    "country": "Australia"
+  },
+  {
+    "partner": "Docker Inc.",
+    "scope": "All Docker products, including Docker Desktop and Docker Hub, as well as Docker maintained open source projects.",
+    "program_role": "CNA",
+    "organization_type": "Vendor, Open Source",
+    "country": "USA"
+  },
+  {
+    "partner": "Document Foundation, The",
+    "scope": "Projects within The Document Foundation only, e.g., LibreOffice, LibreOffice Online; The Document Foundation discourages reporting denial of service bugs as security issues.",
+    "program_role": "CNA",
+    "organization_type": "Vendor, Open Source",
+    "country": "Germany"
+  },
+  {
+    "partner": "dotCMS LLC",
+    "scope": "All dotCMS product services including the vulnerabilities reported in our open source core located athttps://github.com/dotCMS/core.",
+    "program_role": "CNA",
+    "organization_type": "Hosted Service",
+    "country": "USA"
+  },
+  {
+    "partner": "Dragos, Inc.",
+    "scope": "Dragos products and third-party products it researches related to operational technology (OT)/industrial control systems (ICS) not covered by another CNA.",
+    "program_role": "CNA",
+    "organization_type": "Vendor, Researcher",
+    "country": "USA"
+  },
+  {
+    "partner": "Dremio Corporation",
+    "scope": "All Dremio Corporation products.",
+    "program_role": "CNA",
+    "organization_type": "Vendor, Open Source",
+    "country": "USA"
+  },
+  {
+    "partner": "Drupal.org",
+    "scope": "All projects hosted underdrupal.org, including End of Life (EOL) code.",
+    "program_role": "CNA",
+    "organization_type": "Vendor, Open Source",
+    "country": "USA"
+  },
+  {
+    "partner": "Dual Vipers LLC",
+    "scope": "Dual Vipers projects and products (both open and closed source), as well as vulnerabilities in third-party software discovered by Dual Vipers that are not in another CNA\u2019s scope.",
+    "program_role": "CNA",
+    "organization_type": "Hosted Service, Open Source, Researcher, Vendor",
+    "country": "USA"
+  },
+  {
+    "partner": "Dutch Institute for Vulnerability Disclosure (DIVD)",
+    "scope": "Vulnerabilities in software discovered by DIVD, and vulnerabilities reported to DIVD for coordinated disclosure, which are not in another CNA\u2019s scope.",
+    "program_role": "CNA",
+    "organization_type": "Researcher",
+    "country": "Netherlands"
+  },
+  {
+    "partner": "Eaton",
+    "scope": "Eaton issues only.",
+    "program_role": "CNA",
+    "organization_type": "Vendor",
+    "country": "Ireland"
+  },
+  {
+    "partner": "Eclipse Foundation",
+    "scope": "All projects hosted by the Eclipse Foundation as listed athttps://www.eclipse.org/projects/and services provided by the Eclipse Foundation to support open source projects as listed athttps://www.eclipsestatus.io/.",
+    "program_role": "CNA",
+    "organization_type": "Vendor, Open Source",
+    "country": "Belgium"
+  },
+  {
+    "partner": "Edgewatch Security Intelligence",
+    "scope": "Vulnerabilities in third-party software discovered by Edgewatch that are not in another CNA\u2019s scope.",
+    "program_role": "CNA",
+    "organization_type": "Hosted Service, Researcher",
+    "country": "Spain"
+  },
+  {
+    "partner": "ELAN Microelectronics Corp.",
+    "scope": "ELAN issues only.",
+    "program_role": "CNA",
+    "organization_type": "Vendor",
+    "country": "Taiwan"
+  },
+  {
+    "partner": "Elastic",
+    "scope": "Elasticsearch, Kibana, Beats, Logstash, X-Pack, and Elastic Cloud Enterprise products only.",
+    "program_role": "CNA",
+    "organization_type": "Vendor",
+    "country": "Netherlands"
+  },
+  {
+    "partner": "Electronic Arts, Inc.",
+    "scope": "EA issues only.",
+    "program_role": "CNA",
+    "organization_type": "Vendor",
+    "country": "USA"
+  },
+  {
+    "partner": "EnterpriseDB Corporation",
+    "scope": "All EnterpriseDB products and vulnerabilities identified in open source libraries used by EnterpriseDB products unless covered by another CNA\u2019s scope.",
+    "program_role": "CNA",
+    "organization_type": "Vendor, Open Source",
+    "country": "USA"
+  },
+  {
+    "partner": "Environmental Systems Research Institute, Inc.",
+    "scope": "All Esri products only.",
+    "program_role": "CNA",
+    "organization_type": "Vendor",
+    "country": "USA"
+  },
+  {
+    "partner": "Ericsson",
+    "scope": "Ericsson issues only.",
+    "program_role": "CNA",
+    "organization_type": "Vendor",
+    "country": "Sweden"
+  },
+  {
+    "partner": "ESET, spol. s r.o.",
+    "scope": "All ESET products only and vulnerabilities discovered by ESET that are not covered by another CNA\u2019s scope.",
+    "program_role": "CNA",
+    "organization_type": "Vendor, Researcher",
+    "country": "Slovak Republic"
+  },
+  {
+    "partner": "EU Agency for Cybersecurity (ENISA)",
+    "scope": "Vulnerabilities in information technology (IT) products discovered by European Union (EU) Computer Security Incident Response Teams (CSIRTs) or reported to EU CSIRTs for coordinated disclosure, as long as they do not fall under a CNA with a more specific scope.",
+    "program_role": "CNA",
+    "organization_type": "Consortium",
+    "country": "Greece"
+  },
+  {
+    "partner": "Exodus Intelligence",
+    "scope": "Vulnerabilities discovered by Exodus Intelligence as well as acquisitions from independent researchers via its Research Sponsorship Program (RSP).",
+    "program_role": "CNA",
+    "organization_type": "Bug Bounty Provider, Researcher",
+    "country": "USA"
+  },
+  {
+    "partner": "F5, Inc.",
+    "scope": "All F5 products and services, commercial and open source, which have not yet reached End of Technical Support (EoTS). All legacy acquisition products and brands including, but not limited to, NGINX, Shape Security, Volterra, and Threat Stack. F5 does not issue CVEs for products which are no longer supported.",
+    "program_role": "CNA",
+    "organization_type": "Vendor, Open Source",
+    "country": "USA"
+  },
+  {
+    "partner": "Fedora Project",
+    "scope": "Vulnerabilities in open source projects affecting the Fedora Project, that are not covered by a more specific CNA. CVEs can be assigned to vulnerabilities affecting end-of-life or unsupported releases by the Fedora Project.",
+    "program_role": "CNA",
+    "organization_type": "Vendor, Open Source",
+    "country": "USA"
+  },
+  {
+    "partner": "Fidelis Cybersecurity, Inc.",
+    "scope": "Fidelis issues only.",
+    "program_role": "CNA",
+    "organization_type": "Vendor",
+    "country": "USA"
+  },
+  {
+    "partner": "Financial Security Institute (FSI)",
+    "scope": "Vulnerability assignment related to FSI\u2019s vulnerability coordination role in the South Korea financial sector that are not in another CNA\u2019s scope.",
+    "program_role": "CNA",
+    "organization_type": "CERT, Researcher, Bug Bounty Provider",
+    "country": "South Korea"
+  },
+  {
+    "partner": "Flexera Software LLC",
+    "scope": "All Flexera products, and vulnerabilities discovered by Secunia Research that are not in another CNA\u2019s scope.",
+    "program_role": "CNA",
+    "organization_type": "Vendor, Open Source, Researcher",
+    "country": "USA"
+  },
+  {
+    "partner": "floragunn GmbH",
+    "scope": "All issues related to Search Guard only.",
+    "program_role": "CNA",
+    "organization_type": "Vendor, Open Source",
+    "country": "Germany"
+  },
+  {
+    "partner": "Fluid Attacks",
+    "scope": "Vulnerabilities in third-party software discovered by Fluid Attacks that are not in another CNA\u2019s scope.",
+    "program_role": "CNA",
+    "organization_type": "Researcher",
+    "country": "Colombia"
+  },
+  {
+    "partner": "Forcepoint",
+    "scope": "Forcepoint products only.",
+    "program_role": "CNA",
+    "organization_type": "Vendor",
+    "country": "USA"
+  },
+  {
+    "partner": "Forescout Technologies",
+    "scope": "Forescout issues only.",
+    "program_role": "CNA",
+    "organization_type": "Vendor",
+    "country": "USA"
+  },
+  {
+    "partner": "ForgeRock, Inc.",
+    "scope": "ForgeRock issues only.",
+    "program_role": "CNA",
+    "organization_type": "Vendor, Open Source",
+    "country": "USA"
+  },
+  {
+    "partner": "Fortinet, Inc.",
+    "scope": "Fortinet issues only.",
+    "program_role": "CNA",
+    "organization_type": "Vendor",
+    "country": "USA"
+  },
+  {
+    "partner": "Fortra, LLC",
+    "scope": "All Fortra products and vulnerabilities discovered by Fortra in other products not covered by the scope of another CNA.",
+    "program_role": "CNA",
+    "organization_type": "Vendor, Researcher",
+    "country": "USA"
+  },
+  {
+    "partner": "FPT Software Co., Ltd.",
+    "scope": "All products and services developed and operated by FPT Software, as well as vulnerabilities in third-party software discovered by FPT Software that are not in another CNA\u2019s scope.",
+    "program_role": "CNA",
+    "organization_type": "Vendor, Researcher",
+    "country": "Vietnam"
+  },
+  {
+    "partner": "Frappe Technologies Pvt. Ltd.",
+    "scope": "Vulnerabilities relating to Frappe Framework, ERPNext product, erpnext.com, and frappecloud.com hosting services, as well as other vulnerabilities discovered by Frappe Technologies that are not under the scope of any other CNA.",
+    "program_role": "CNA",
+    "organization_type": "Bug Bounty Provider",
+    "country": "India"
+  },
+  {
+    "partner": "FreeBSD",
+    "scope": "Primarily FreeBSD issues only.",
+    "program_role": "CNA",
+    "organization_type": "Vendor, Open Source",
+    "country": "USA"
+  },
+  {
+    "partner": "FULL INTERNET",
+    "scope": "All FULL products, as well as vulnerabilities in third-party software discovered by FULL that are not in another CNA\u2019s scope.",
+    "program_role": "CNA",
+    "organization_type": "Bug Bounty Provider, Hosted Service, Vendor, Researcher",
+    "country": "Brazil"
+  },
+  {
+    "partner": "Gallagher Group Ltd.",
+    "scope": "All Gallagher security products only.",
+    "program_role": "CNA",
+    "organization_type": "Vendor",
+    "country": "New Zealand"
+  },
+  {
+    "partner": "GE Healthcare",
+    "scope": "GE Healthcare products.",
+    "program_role": "CNA",
+    "organization_type": "Vendor",
+    "country": "USA"
+  },
+  {
+    "partner": "GE Vernova",
+    "scope": "All GE Vernova products.",
+    "program_role": "CNA",
+    "organization_type": "Vendor",
+    "country": "USA"
+  },
+  {
+    "partner": "Genetec Inc.",
+    "scope": "Genetec products and solutions only.",
+    "program_role": "CNA",
+    "organization_type": "Hosted Service, Vendor",
+    "country": "Canada"
+  },
+  {
+    "partner": "Gitea Limited",
+    "scope": "Gitea issues only.",
+    "program_role": "CNA",
+    "organization_type": "Open Source, Vendor",
+    "country": "China"
+  },
+  {
+    "partner": "GitHub, Inc.",
+    "scope": "CVEs requested by code owners using the GitHub Security Advisories feature and vulnerabilities affecting open source projects discovered by security researchers at GitHub or Microsoft not covered by another CNA\u2019s scope.",
+    "program_role": "CNA",
+    "organization_type": "Vendor, Open Source, Researcher",
+    "country": "USA"
+  },
+  {
+    "partner": "GitHub, Inc. (Products Only)",
+    "scope": "GitHub Enterprise Server issues only.",
+    "program_role": "CNA",
+    "organization_type": "Vendor",
+    "country": "USA"
+  },
+  {
+    "partner": "GitLab Inc.",
+    "scope": "The GitLab application, any project hosted on GitLab.com in a public repository, and any vulnerabilities discovered by GitLab that are not in another CNA\u2019s scope.",
+    "program_role": "CNA",
+    "organization_type": "Vendor, Researcher",
+    "country": "USA"
+  },
+  {
+    "partner": "Glyph & Cog, LLC",
+    "scope": "Xpdf open source project, including the xpdf viewer and associated command line tools.",
+    "program_role": "CNA",
+    "organization_type": "Open Source, Vendor",
+    "country": "USA"
+  },
+  {
+    "partner": "GNU C Library",
+    "scope": "Security issues and vulnerabilities in the GNU C Library.",
+    "program_role": "CNA",
+    "organization_type": "Open Source",
+    "country": "USA"
+  },
+  {
+    "partner": "Go Project",
+    "scope": "Vulnerabilities in software published by the Go Project (including the Go standard library, Go toolchain, and the golang.org modules) and publicly disclosed vulnerabilities in publicly importable packages in the Go ecosystem, unless covered by another CNA\u2019s scope.",
+    "program_role": "CNA",
+    "organization_type": "Vendor, Open Source",
+    "country": "USA"
+  },
+  {
+    "partner": "Google Devices",
+    "scope": "Google Devices - Pixel, Nest, and Chromecast.",
+    "program_role": "CNA",
+    "organization_type": "Vendor",
+    "country": "USA"
+  },
+  {
+    "partner": "Google LLC",
+    "scope": "Root Scope:Alphabet organizations.CNA Scope:Google products, including open source software published and maintained by Google, and vulnerabilities in third-party software discovered by Google that are not in another CNA\u2019s scope.",
+    "program_role": "Root,CNA",
+    "organization_type": "Vendor, Open Source, Researcher",
+    "country": "USA"
+  },
+  {
+    "partner": "Government Technology Agency of Singapore Cyber Security Group (GovTech CSG)",
+    "scope": "Vulnerabilities discovered by GovTech CSG only that are not in another CNA\u2019s scope.",
+    "program_role": "CNA",
+    "organization_type": "Researcher",
+    "country": "Singapore"
+  },
+  {
+    "partner": "Grafana Labs",
+    "scope": "All Grafana Labs open source and commercial products.",
+    "program_role": "CNA",
+    "organization_type": "Vendor, Open Source",
+    "country": "USA"
+  },
+  {
+    "partner": "GraphQL Java",
+    "scope": "GraphQL Java, Java DataLoader, GraphQL Java Extended Scalars, and GraphQL Java Extended Validation.",
+    "program_role": "CNA",
+    "organization_type": "Vendor, Open Source",
+    "country": "Australia"
+  },
+  {
+    "partner": "Green Rocket Security Inc.",
+    "scope": "Green Rocket Security products including EOL unless covered by another CNA\u2019s scope.",
+    "program_role": "CNA",
+    "organization_type": "Vendor",
+    "country": "USA"
+  },
+  {
+    "partner": "Gridware Cybersecurity",
+    "scope": "Gridware software, services, and infrastructure issues, as well as vulnerabilities discovered by or reported to Gridware researchers that are not in another CNA\u2019s scope.",
+    "program_role": "CNA",
+    "organization_type": "Researcher",
+    "country": "Australia"
+  },
+  {
+    "partner": "HackerOne",
+    "scope": "Provides CVE IDs for its customers as part of its bug bounty and vulnerability coordination platform.",
+    "program_role": "CNA",
+    "organization_type": "Bug Bounty Provider",
+    "country": "USA"
+  },
+  {
+    "partner": "Halborn",
+    "scope": "All blockchain and Web3 products that rely on smart contracts written in Rust, Go, and Solidity, as well as blockchain associated Web2 and Web3 infrastructure not covered by another CNA.",
+    "program_role": "CNA",
+    "organization_type": "Researcher",
+    "country": "USA"
+  },
+  {
+    "partner": "Hallo Welt! GmbH",
+    "scope": "BlueSpice vulnerabilities only.",
+    "program_role": "CNA",
+    "organization_type": "Vendor",
+    "country": "Germany"
+  },
+  {
+    "partner": "Hangzhou Hikvision Digital Technology Co., Ltd.",
+    "scope": "AllHikvision Internet of Things (IoT) productsincluding cameras and digital video recorders (DVRs).",
+    "program_role": "CNA",
+    "organization_type": "Vendor",
+    "country": "China"
+  },
+  {
+    "partner": "Hanwha Vision Co., Ltd.",
+    "scope": "Hanwha Vision (formerly Samsung Techwin and Hanwha Techwin) products and solutions only, including end-of-life (EOL).",
+    "program_role": "CNA",
+    "organization_type": "Vendor",
+    "country": "South Korea"
+  },
+  {
+    "partner": "HashiCorp Inc.",
+    "scope": "All HashiCorp products and projects unless covered by another CNA\u2019s scope.",
+    "program_role": "CNA",
+    "organization_type": "Vendor",
+    "country": "USA"
+  },
+  {
+    "partner": "HCL Software",
+    "scope": "All HCL products only.",
+    "program_role": "CNA",
+    "organization_type": "Vendor",
+    "country": "India"
+  },
+  {
+    "partner": "HemoCue AB",
+    "scope": "HemoCue branded products and technologies only.",
+    "program_role": "CNA",
+    "organization_type": "Vendor",
+    "country": "Sweden"
+  },
+  {
+    "partner": "HeroDevs",
+    "scope": "End of life open source projects supported by HeroDevs if hosted onHeroDevs.com, or issues in open source projects discovered by or reported to HeroDevs, unless covered by the scope of another CNA.",
+    "program_role": "CNA",
+    "organization_type": "Vendor, Open Source, Researcher",
+    "country": "USA"
+  },
+  {
+    "partner": "Hewlett Packard Enterprise (HPE)",
+    "scope": "HPE and acquisitions issues only.",
+    "program_role": "CNA",
+    "organization_type": "Vendor",
+    "country": "USA"
+  },
+  {
+    "partner": "HiddenLayer, Inc.",
+    "scope": "All HiddenLayer systems, services, and products, as well as vulnerabilities in third-party software discovered by HiddenLayer that are not in another CNA\u2019s scope.",
+    "program_role": "CNA",
+    "organization_type": "Vendor, Hosted Service, Researcher",
+    "country": "USA"
+  },
+  {
+    "partner": "Hillstone Networks Inc.",
+    "scope": "Vulnerabilities in our products listed athttps://www.hillstonenet.com/hillstone-networks-product-portfolioand the products we sell only in China listed athttps://www.hillstonenet.com.cn/product_service/, not including our websites.",
+    "program_role": "CNA",
+    "organization_type": "Vendor",
+    "country": "China"
+  },
+  {
+    "partner": "Hitachi Energy",
+    "scope": "Hitachi Energy products only.",
+    "program_role": "CNA",
+    "organization_type": "Vendor",
+    "country": "Switzerland"
+  },
+  {
+    "partner": "Hitachi Vantara",
+    "scope": "All Hitachi Vantara products and technologies.",
+    "program_role": "CNA",
+    "organization_type": "Vendor",
+    "country": "USA"
+  },
+  {
+    "partner": "Hitachi, Ltd.",
+    "scope": "Hitachi products excluding Hitachi Energy and Hitachi Vantara products.",
+    "program_role": "CNA",
+    "organization_type": "Vendor",
+    "country": "Japan"
+  },
+  {
+    "partner": "Honeywell International Inc.",
+    "scope": "All Honeywell products.",
+    "program_role": "CNA",
+    "organization_type": "Vendor",
+    "country": "USA"
+  },
+  {
+    "partner": "Honor Device Co., Ltd.",
+    "scope": "Vulnerabilities in Honor products and services unless covered by the scope of another CNA.",
+    "program_role": "CNA",
+    "organization_type": "Vendor",
+    "country": "China"
+  },
+  {
+    "partner": "HP Inc.",
+    "scope": "Issues with any HP-branded product, including computing software and hardware, imaging and printing, as well as HyperX, Teradici, Poly, and Plantronics branded devices.",
+    "program_role": "CNA",
+    "organization_type": "Vendor",
+    "country": "USA"
+  },
+  {
+    "partner": "Huawei Technologies",
+    "scope": "Huawei issues only.",
+    "program_role": "CNA",
+    "organization_type": "Vendor",
+    "country": "China"
+  },
+  {
+    "partner": "Huntress Labs Inc.",
+    "scope": "All Huntress products, as well as vulnerabilities in third-party software discovered by Huntress that are not in another CNA\u2019s scope.",
+    "program_role": "CNA",
+    "organization_type": "Vendor, Researcher",
+    "country": "USA"
+  },
+  {
+    "partner": "HYPR Corp",
+    "scope": "All HYPR products only.",
+    "program_role": "CNA",
+    "organization_type": "Vendor",
+    "country": "USA"
+  },
+  {
+    "partner": "IBM Corporation",
+    "scope": "All IBM branded products (IBM will confirm support status and notify researcher).",
+    "program_role": "CNA",
+    "organization_type": "Vendor, Open Source",
+    "country": "USA"
+  },
+  {
+    "partner": "ID Business Solutions",
+    "scope": "IDBS products as listed onhttps://www.idbs.com/products/.",
+    "program_role": "CNA",
+    "organization_type": "Vendor",
+    "country": "UK"
+  },
+  {
+    "partner": "IDEMIA",
+    "scope": "All IDEMIA products (supported products and end-of-life/end-of-service products), as well as vulnerabilities in third-party software discovered by IDEMIA that are not in another CNA\u2019s scope.",
+    "program_role": "CNA",
+    "organization_type": "Researcher, Vendor",
+    "country": "France"
+  },
+  {
+    "partner": "Illumio",
+    "scope": "Illumio issues only.",
+    "program_role": "CNA",
+    "organization_type": "Vendor",
+    "country": "USA"
+  },
+  {
+    "partner": "Imagination Technologies",
+    "scope": "Imagination Technologies branded products and technologies and Imagination Technologies (IMG) managed open source projects.",
+    "program_role": "CNA",
+    "organization_type": "Vendor, Open Source",
+    "country": "UK"
+  },
+  {
+    "partner": "iManage LLC",
+    "scope": "iManage issues only.",
+    "program_role": "CNA",
+    "organization_type": "Vendor",
+    "country": "USA"
+  },
+  {
+    "partner": "Indian Computer Emergency Response Team (CERT-In)",
+    "scope": "Vulnerability coordination for vulnerabilities in all products reported to CERT-In in accordance with our vulnerability coordination role as a CERT. Vulnerability assignments for vulnerabilities impacting all products designed, developed, and manufactured in India.",
+    "program_role": "CNA",
+    "organization_type": "CERT",
+    "country": "India"
+  },
+  {
+    "partner": "Integrated Control Technology LTD",
+    "scope": "All ICT security products.",
+    "program_role": "CNA",
+    "organization_type": "Vendor",
+    "country": "New Zealand"
+  },
+  {
+    "partner": "Integrated DNA Technologies, Inc.",
+    "scope": "Vulnerabilities within IDT-manufactured products, software, and services that are in-service.",
+    "program_role": "CNA",
+    "organization_type": "Vendor",
+    "country": "USA"
+  },
+  {
+    "partner": "Intel Corporation",
+    "scope": "Intel branded products and technologies and Intel managed open source projects.",
+    "program_role": "CNA",
+    "organization_type": "Vendor, Open Source",
+    "country": "USA"
+  },
+  {
+    "partner": "Internet Systems Consortium (ISC)",
+    "scope": "AllISC.orgprojects.",
+    "program_role": "CNA",
+    "organization_type": "Vendor, Open Source",
+    "country": "USA"
+  },
+  {
+    "partner": "Intigriti",
+    "scope": "Vulnerabilities in Intigriti products and vulnerabilities discovered by, or reported to, Intigriti that are not in another CNA\u2019s scope.",
+    "program_role": "CNA",
+    "organization_type": "Bug Bounty Provider, Hosted Service, Vendor",
+    "country": "Belgium"
+  },
+  {
+    "partner": "IoT83 Ltd",
+    "scope": "Vulnerabilities in IoT83 product(s), services, and components only. Third-party, open source components used in IoT83 product(s), services, and components are not in scope.",
+    "program_role": "CNA",
+    "organization_type": "Vendor",
+    "country": "USA"
+  },
+  {
+    "partner": "Israel National Cyber Directorate (INCD)",
+    "scope": "Vulnerability assignment related to its vulnerability coordination role.",
+    "program_role": "CNA",
+    "organization_type": "CERT",
+    "country": "Israel"
+  },
+  {
+    "partner": "Ivanti",
+    "scope": "Vulnerabilities in supported Ivanti products and infrastructure, excluding third-party components, and meeting severity thresholds defined in Ivanti\u2019s Disclosure Policy foundhere.",
+    "program_role": "CNA",
+    "organization_type": "Vendor",
+    "country": "USA"
+  },
+  {
+    "partner": "Jamf",
+    "scope": "Jamf issues and Jamf Open Source.",
+    "program_role": "CNA",
+    "organization_type": "Vendor, Open Source",
+    "country": "USA"
+  },
+  {
+    "partner": "Jaspersoft",
+    "scope": "Jaspersoft products and services only.",
+    "program_role": "CNA",
+    "organization_type": "Vendor",
+    "country": "USA"
+  },
+  {
+    "partner": "Jenkins Project",
+    "scope": "Jenkins and Jenkins plugins distributed by the Jenkins Project (listed onplugins.jenkins.io) only.",
+    "program_role": "CNA",
+    "organization_type": "Open Source",
+    "country": "USA"
+  },
+  {
+    "partner": "JetBrains s.r.o.",
+    "scope": "JetBrains products only.",
+    "program_role": "CNA",
+    "organization_type": "Vendor, Open Source",
+    "country": "Czech Republic"
+  },
+  {
+    "partner": "JFrog",
+    "scope": "All JFrog products (supported products and end-of-life/end-of-service products); vulnerabilities in third-party software discovered by JFrog that are not in another CNA\u2019s scope; and vulnerabilities in third-party software discovered by external researchers and disclosed to JFrog (includes any embedded devices and their associated mobile applications) that are not in another CNA\u2019s scope.",
+    "program_role": "CNA",
+    "organization_type": "Vendor, Researcher",
+    "country": "Israel"
+  },
+  {
+    "partner": "Johnson Controls",
+    "scope": "Johnson Controls products only.",
+    "program_role": "CNA",
+    "organization_type": "Vendor",
+    "country": "USA"
+  },
+  {
+    "partner": "Joomla! Project",
+    "scope": "Core Joomla! CMS, the Joomla Framework, and Joomla! Extensions issues only.",
+    "program_role": "CNA",
+    "organization_type": "Vendor, Open Source",
+    "country": "USA"
+  },
+  {
+    "partner": "JPCERT/CC",
+    "scope": "Root Scope:Japan organizations.CNA Scope:Vulnerability assignment related to its vulnerability coordination role.",
+    "program_role": "Root,CNA",
+    "organization_type": "CERT",
+    "country": "Japan"
+  },
+  {
+    "partner": "Juniper Networks, Inc.",
+    "scope": "Juniper issues only.",
+    "program_role": "CNA",
+    "organization_type": "Vendor, Open Source",
+    "country": "USA"
+  },
+  {
+    "partner": "Kaspersky",
+    "scope": "Kaspersky B2C and B2B products, as well as vulnerabilities discovered in third-party software not in another CNA\u2019s scope.",
+    "program_role": "CNA",
+    "organization_type": "Vendor, Researcher",
+    "country": "Russia"
+  },
+  {
+    "partner": "KCF Technologies, Inc.",
+    "scope": "All KCF Technologies products including base stations, repeaters, numerous sensor types, and the SMARTdiagnostics cloud software.",
+    "program_role": "CNA",
+    "organization_type": "Vendor, Hosted Service",
+    "country": "USA"
+  },
+  {
+    "partner": "Keeper Security, Inc.",
+    "scope": "Keeper Security products and services only.",
+    "program_role": "CNA",
+    "organization_type": "Vendor",
+    "country": "USA"
+  },
+  {
+    "partner": "kernel.org",
+    "scope": "Any vulnerabilities in the Linux kernel as listed on kernel.org, excluding end-of-life (EOL) versions.",
+    "program_role": "CNA",
+    "organization_type": "Vendor, Open Source",
+    "country": "USA"
+  },
+  {
+    "partner": "KNIME AG",
+    "scope": "All vulnerabilities on software products that our company provides, including KNIME Analytics Platform, KNIME Server, and KNIME Hub.",
+    "program_role": "CNA",
+    "organization_type": "Vendor",
+    "country": "Switzerland"
+  },
+  {
+    "partner": "Kong Inc.",
+    "scope": "Kong products; Kong Konnect, Kong Enterprise, Kong Mesh, and Kong Insomnia, including Kong Opensource; Kong Gateway, Kuma, Insomnia.",
+    "program_role": "CNA",
+    "organization_type": "Vendor",
+    "country": "USA"
+  },
+  {
+    "partner": "KoreLogic Security",
+    "scope": "Vulnerabilities in the KoreLogic website and other KoreLogic controlled assets, as well as vulnerabilities discovered by or reported to KoreLogic, unless covered by the scope of another CNA.",
+    "program_role": "CNA",
+    "organization_type": "Researcher",
+    "country": "USA"
+  },
+  {
+    "partner": "KrakenD, S.L.",
+    "scope": "KrakenD EE, KrakenD CE, and Lura issues only.",
+    "program_role": "CNA",
+    "organization_type": "Vendor, Open Source",
+    "country": "Spain"
+  },
+  {
+    "partner": "KrCERT/CC",
+    "scope": "Vulnerability assignment related to its vulnerability coordination role.",
+    "program_role": "CNA",
+    "organization_type": "CERT",
+    "country": "South Korea"
+  },
+  {
+    "partner": "Kubernetes",
+    "scope": "Kubernetes issues only.",
+    "program_role": "CNA",
+    "organization_type": "Vendor, Open Source",
+    "country": "USA"
+  },
+  {
+    "partner": "Larry Cashdollar",
+    "scope": "Third-party products he researches that are not in another CNA\u2019s scope.",
+    "program_role": "CNA",
+    "organization_type": "Researcher",
+    "country": "USA"
+  },
+  {
+    "partner": "Leica Biosystems",
+    "scope": "All Leica Biosystems products.",
+    "program_role": "CNA",
+    "organization_type": "Vendor",
+    "country": "USA"
+  },
+  {
+    "partner": "Leica Microsystems",
+    "scope": "Leica Microsystems products as listed onhttps://www.leica-microsystems.com/products.",
+    "program_role": "CNA",
+    "organization_type": "Vendor",
+    "country": "Germany"
+  },
+  {
+    "partner": "Lenovo Group Ltd.",
+    "scope": "Lenovo general-purpose computers, software for general-purpose operating systems, mobile devices, enterprise storage, and networking products only.",
+    "program_role": "CNA",
+    "organization_type": "Vendor",
+    "country": "USA"
+  },
+  {
+    "partner": "Lexmark International Inc.",
+    "scope": "Lexmark products only.",
+    "program_role": "CNA",
+    "organization_type": "Vendor",
+    "country": "USA"
+  },
+  {
+    "partner": "LG Electronics",
+    "scope": "LG Electronics products only.",
+    "program_role": "CNA",
+    "organization_type": "Vendor",
+    "country": "South Korea"
+  },
+  {
+    "partner": "Libreswan Project",
+    "scope": "Libreswan software.",
+    "program_role": "CNA",
+    "organization_type": "Vendor, Open Source",
+    "country": "No country affiliation"
+  },
+  {
+    "partner": "Liferay, Inc.",
+    "scope": "All Liferay supported products and end-of-life/end-of-service products.",
+    "program_role": "CNA",
+    "organization_type": "Vendor",
+    "country": "USA"
+  },
+  {
+    "partner": "Logitech",
+    "scope": "All current products/software/apps made byLogitech,Ultimate Ears,Jaybird,Streamlabs,Logitech G,Logicool,Blue, andAstro Gaming.",
+    "program_role": "CNA",
+    "organization_type": "Vendor",
+    "country": "Switzerland"
+  },
+  {
+    "partner": "LY Corporation",
+    "scope": "Current versions of LINE Messenger Application for iOS, Android, Mac, and Windows, plus LINE Open Source projects hosted onhttps://github.com/line.",
+    "program_role": "CNA",
+    "organization_type": "Open Source",
+    "country": "Japan"
+  },
+  {
+    "partner": "M-Files Corporation",
+    "scope": "M-Files and Hubshare products.",
+    "program_role": "CNA",
+    "organization_type": "Vendor",
+    "country": "Finland"
+  },
+  {
+    "partner": "Mammotome",
+    "scope": "All Mammotome products.",
+    "program_role": "CNA",
+    "organization_type": "Vendor",
+    "country": "USA"
+  },
+  {
+    "partner": "Mandiant Inc.",
+    "scope": "Vulnerabilities in Mandiant products or discovered by Mandiant while performing vulnerability research or security assessments, unless covered by another CNA\u2019s scope.",
+    "program_role": "CNA",
+    "organization_type": "Researcher, Vendor",
+    "country": "USA"
+  },
+  {
+    "partner": "Mattermost, Inc.",
+    "scope": "All Mattermost issues, and vulnerabilities discovered by Mattermost that are not in another CNA\u2019s scope.",
+    "program_role": "CNA",
+    "organization_type": "Vendor, Researcher",
+    "country": "USA"
+  },
+  {
+    "partner": "Mautic",
+    "scope": "Mautic core and officially supported plugins.",
+    "program_role": "CNA",
+    "organization_type": "Vendor, Open Source",
+    "country": "USA"
+  },
+  {
+    "partner": "MediaTek, Inc.",
+    "scope": "MediaTek product issues only.",
+    "program_role": "CNA",
+    "organization_type": "Vendor",
+    "country": "Taiwan"
+  },
+  {
+    "partner": "Medtronic",
+    "scope": "All products of Medtronic or a Medtronic company including supported products and end-of-life/end-of-service products, as well as vulnerabilities in third-party software discovered in Medtronic products that are not in another CNA\u2019s scope.",
+    "program_role": "CNA",
+    "organization_type": "Vendor",
+    "country": "USA"
+  },
+  {
+    "partner": "Mend",
+    "scope": "Vulnerabilities in Mend (formerly WhiteSource) products and vulnerabilities in third-party software discovered by Mend that are not in another CNA\u2019s scope.",
+    "program_role": "CNA",
+    "organization_type": "Vendor, Researcher",
+    "country": "USA"
+  },
+  {
+    "partner": "Meta Platforms, Inc.",
+    "scope": "Meta-supported open source projects, mobile apps, and other software, as well as vulnerabilities in third-party software discovered by Meta that are not in another CNA\u2019s scope; see:https://www.facebook.com/whitehatandhttps://github.com/facebook/.",
+    "program_role": "CNA",
+    "organization_type": "Vendor, Open Source, Researcher",
+    "country": "USA"
+  },
+  {
+    "partner": "Microchip Technology",
+    "scope": "Microchip Technology products only.",
+    "program_role": "CNA",
+    "organization_type": "Vendor",
+    "country": "USA"
+  },
+  {
+    "partner": "Microsoft Corporation",
+    "scope": "Microsoft issues only, excluding end-of-life (EOL) as listed in theMicrosoft Lifecycle Policy.",
+    "program_role": "CNA",
+    "organization_type": "Vendor",
+    "country": "USA"
+  },
+  {
+    "partner": "Milestone Systems A/S",
+    "scope": "Supported Milestone XProtect products.",
+    "program_role": "CNA",
+    "organization_type": "Vendor",
+    "country": "Denmark"
+  },
+  {
+    "partner": "MIM Software Inc.",
+    "scope": "MIM software products, platforms, and services as well as vulnerabilities reported to MIM Software in third-party components or libraries used by MIM Software products, platforms, and services not covered by another CNA.",
+    "program_role": "CNA",
+    "organization_type": "Vendor",
+    "country": "USA"
+  },
+  {
+    "partner": "Mirantis",
+    "scope": "All Mirantis products (supported products and end-of-life/end-of-service products) and open source offerings, as well as vulnerabilities in third-party software discovered by Mirantis that are not in another CNA\u2019s scope.",
+    "program_role": "CNA",
+    "organization_type": "Vendor, Open Source, Researcher",
+    "country": "USA"
+  },
+  {
+    "partner": "MITRE Corporation",
+    "scope": "All vulnerabilities, and Open Source software product vulnerabilities, not already covered by a CNA listed on this website.",
+    "program_role": "Top-Level Root,CNA-LR,Secretariat",
+    "organization_type": "N/A",
+    "country": "USA"
+  },
+  {
+    "partner": "Mitsubishi Electric Corporation",
+    "scope": "Vulnerabilities related to products of Mitsubishi Electric Group.",
+    "program_role": "CNA",
+    "organization_type": "Vendor",
+    "country": "Japan"
+  },
+  {
+    "partner": "Molecular Devices",
+    "scope": "Molecular Devices products only as listed onmoleculardevices.com/products.",
+    "program_role": "CNA",
+    "organization_type": "Vendor",
+    "country": "USA"
+  },
+  {
+    "partner": "Monash University - Cyber Security Incident Response Team",
+    "scope": "Vulnerabilities in any Monash University developed products, or vulnerabilities identified in third-party vendor products used by Monash University, unless covered by the scope of another CNA.",
+    "program_role": "CNA",
+    "organization_type": "CERT, Open Source, Researcher",
+    "country": "Australia"
+  },
+  {
+    "partner": "MongoDB, Inc.",
+    "scope": "MongoDB products only, not including end-of-life components or products.",
+    "program_role": "CNA",
+    "organization_type": "Vendor, Open Source",
+    "country": "USA"
+  },
+  {
+    "partner": "Moxa Inc.",
+    "scope": "Moxa products only.",
+    "program_role": "CNA",
+    "organization_type": "Vendor",
+    "country": "Taiwan"
+  },
+  {
+    "partner": "Mozilla Corporation",
+    "scope": "Mozilla issues only.",
+    "program_role": "CNA",
+    "organization_type": "Vendor, Open Source",
+    "country": "USA"
+  },
+  {
+    "partner": "N-able",
+    "scope": "N-able branded products and technologies only.",
+    "program_role": "CNA",
+    "organization_type": "Vendor",
+    "country": "USA"
+  },
+  {
+    "partner": "National Cyber Security Centre Finland (NCSC-FI)",
+    "scope": "Vulnerabilities in software discovered by NCSC-FI, and vulnerabilities reported to NCSC-FI for coordinated disclosure, which are not in another CNA\u2019s scope.",
+    "program_role": "CNA",
+    "organization_type": "CERT",
+    "country": "Finland"
+  },
+  {
+    "partner": "National Cyber Security Centre Netherlands (NCSC-NL)",
+    "scope": "Vulnerabilities in software discovered by NCSC-NL, and vulnerabilities reported to NCSC-NL for coordinated disclosure, which are not in another CNA's scope.",
+    "program_role": "CNA",
+    "organization_type": "CERT",
+    "country": "Netherlands"
+  },
+  {
+    "partner": "National Cyber Security Centre SK-CERT",
+    "scope": "Vulnerabilities in software discovered by National Cyber Security Centre SK-CERT, and vulnerabilities reported to National Cyber Security Centre SK-CERT for coordinated disclosure, which are not in another CNA\u2019s scope.",
+    "program_role": "CNA",
+    "organization_type": "CERT",
+    "country": "Slovak Republic"
+  },
+  {
+    "partner": "National Instruments",
+    "scope": "NI products only (including National Instruments).",
+    "program_role": "CNA",
+    "organization_type": "Vendor",
+    "country": "USA"
+  },
+  {
+    "partner": "Naver Corporation",
+    "scope": "Naver products only, except Line products.",
+    "program_role": "CNA",
+    "organization_type": "Vendor",
+    "country": "South Korea"
+  },
+  {
+    "partner": "NEC Corporation",
+    "scope": "NEC issues only.",
+    "program_role": "CNA",
+    "organization_type": "Vendor",
+    "country": "Japan"
+  },
+  {
+    "partner": "Neo4j",
+    "scope": "Neo4j products and Neo4j-maintained projects only, not including end-of-life components or products.",
+    "program_role": "CNA",
+    "organization_type": "Vendor, Open Source",
+    "country": "Sweden"
+  },
+  {
+    "partner": "NetApp, Inc.",
+    "scope": "All NetApp products as well as projects hosted onhttps://github.com/netapp.",
+    "program_role": "CNA",
+    "organization_type": "Vendor",
+    "country": "USA"
+  },
+  {
+    "partner": "Netflix, Inc.",
+    "scope": "Current versions of Netflix Mobile Streaming Application for iOS, Android, and Windows Mobile, plus all Netflix Open Source projects hosted onhttps://github.com/Netflix/andhttps://github.com/spinnaker/.",
+    "program_role": "CNA",
+    "organization_type": "Vendor, Open Source",
+    "country": "USA"
+  },
+  {
+    "partner": "NetRise",
+    "scope": "Vulnerabilities in third-party Extended Internet of Things (XIoT) devices and firmware NetRise researches that are not covered by another CNA.",
+    "program_role": "CNA",
+    "organization_type": "Researcher",
+    "country": "USA"
+  },
+  {
+    "partner": "Netskope",
+    "scope": "All Netskope products and services.",
+    "program_role": "CNA",
+    "organization_type": "Vendor",
+    "country": "USA"
+  },
+  {
+    "partner": "Network Optix",
+    "scope": "All Network Optix products, includinghttps://www.networkoptix.com/nx-witnessandhttps://www.networkoptix.com/powered-by-nx.",
+    "program_role": "CNA",
+    "organization_type": "Vendor, Open Source",
+    "country": "USA"
+  },
+  {
+    "partner": "NLnet Labs",
+    "scope": "All NLnet Labs projects.",
+    "program_role": "CNA",
+    "organization_type": "Vendor, Open Source",
+    "country": "Netherlands"
+  },
+  {
+    "partner": "Node.js",
+    "scope": "All actively developed versions of software developed under the Node.js project onhttps://github.com/nodejs/.",
+    "program_role": "CNA",
+    "organization_type": "Vendor, Open Source",
+    "country": "USA"
+  },
+  {
+    "partner": "Nokia",
+    "scope": "All vulnerabilities in Nokia products.",
+    "program_role": "CNA",
+    "organization_type": "Vendor",
+    "country": "Finland"
+  },
+  {
+    "partner": "NortonLifeLock Inc.",
+    "scope": "All NortonLifeLock product issues only.",
+    "program_role": "CNA",
+    "organization_type": "Vendor",
+    "country": "USA"
+  },
+  {
+    "partner": "Nozomi Networks Inc.",
+    "scope": "All Nozomi Networks products, as well as vulnerabilities in third-party software discovered by Nozomi Networks that are not in another CNA\u2019s scope.",
+    "program_role": "CNA",
+    "organization_type": "Vendor, Researcher",
+    "country": "USA"
+  },
+  {
+    "partner": "NVIDIA Corporation",
+    "scope": "NVIDIA issues only.",
+    "program_role": "CNA",
+    "organization_type": "Vendor",
+    "country": "USA"
+  },
+  {
+    "partner": "Objective Development Software GmbH",
+    "scope": "Objective Development issues only.",
+    "program_role": "CNA",
+    "organization_type": "Vendor",
+    "country": "Austria"
+  },
+  {
+    "partner": "OceanBase",
+    "scope": "OceanBase products only, not including end-of-life components or products.",
+    "program_role": "CNA",
+    "organization_type": "Vendor",
+    "country": "China"
+  },
+  {
+    "partner": "Octopus Deploy",
+    "scope": "All Octopus Deploy products, as well as Octopus Deploy maintained projects hosted onhttps://github.com/OctopusDeploy.",
+    "program_role": "CNA",
+    "organization_type": "Vendor, Open Source",
+    "country": "Australia"
+  },
+  {
+    "partner": "Odoo",
+    "scope": "Odoo issues only.",
+    "program_role": "CNA",
+    "organization_type": "Vendor",
+    "country": "Belgium"
+  },
+  {
+    "partner": "Okta",
+    "scope": "Okta issues only.",
+    "program_role": "CNA",
+    "organization_type": "Vendor",
+    "country": "USA"
+  },
+  {
+    "partner": "Omnissa, LLC",
+    "scope": "All Omnissa products and services, including Workspace ONE and Horizon.",
+    "program_role": "CNA",
+    "organization_type": "Vendor",
+    "country": "USA"
+  },
+  {
+    "partner": "OMRON Corporation",
+    "scope": "Omron Group companies\u2019 Industrial Automation, Healthcare, Social Systems, Device & Module Solutions issues only.",
+    "program_role": "CNA",
+    "organization_type": "Vendor",
+    "country": "Japan"
+  },
+  {
+    "partner": "ONEKEY GmbH",
+    "scope": "All ONEKEY products and vulnerabilities in third-party software discovered by ONEKEY that are not in another CNA\u2019s scope.",
+    "program_role": "CNA",
+    "organization_type": "Vendor, Researcher",
+    "country": "Germany"
+  },
+  {
+    "partner": "OnLogic",
+    "scope": "OnLogic issues only.",
+    "program_role": "CNA",
+    "organization_type": "Vendor",
+    "country": "USA"
+  },
+  {
+    "partner": "Open Design Alliance",
+    "scope": "Open Design Alliance products only.",
+    "program_role": "CNA",
+    "organization_type": "Vendor",
+    "country": "USA"
+  },
+  {
+    "partner": "Open-Xchange",
+    "scope": "Products and services provided by Open-Xchange, PowerDNS, and Dovecot.",
+    "program_role": "CNA",
+    "organization_type": "Open Source, Vendor",
+    "country": "Germany"
+  },
+  {
+    "partner": "OpenAM Consortium",
+    "scope": "Open source projects hosted onhttps://github.com/openam-jp.",
+    "program_role": "CNA",
+    "organization_type": "Open Source, Consortium",
+    "country": "Japan"
+  },
+  {
+    "partner": "OpenAnolis",
+    "scope": "OpenAnolis issues only.",
+    "program_role": "CNA",
+    "organization_type": "Vendor, Open Source",
+    "country": "China"
+  },
+  {
+    "partner": "OpenCloudOS Community",
+    "scope": "OpenCloud OS issues only, not including EOL products, unless covered by another CNA\u2019s scope.",
+    "program_role": "CNA",
+    "organization_type": "Open Source",
+    "country": "China"
+  },
+  {
+    "partner": "openEuler",
+    "scope": "openEuler issues only.",
+    "program_role": "CNA",
+    "organization_type": "Vendor, Open Source",
+    "country": "China"
+  },
+  {
+    "partner": "openGauss Community",
+    "scope": "openGauss issues only.",
+    "program_role": "CNA",
+    "organization_type": "Open Source",
+    "country": "China"
+  },
+  {
+    "partner": "OpenHarmony",
+    "scope": "openHarmony issues only.",
+    "program_role": "CNA",
+    "organization_type": "Open Source",
+    "country": "China"
+  },
+  {
+    "partner": "OpenSource Security GmbH",
+    "scope": "Vulnerabilities discovered by or reported to OpenSource Security, unless covered by another CNA\u2019s scope.",
+    "program_role": "CNA",
+    "organization_type": "Researcher",
+    "country": "Germany"
+  },
+  {
+    "partner": "OpenSSL Software Foundation",
+    "scope": "OpenSSL software projects only.",
+    "program_role": "CNA",
+    "organization_type": "Vendor, Open Source",
+    "country": "USA"
+  },
+  {
+    "partner": "OpenText (formerly Micro Focus)",
+    "scope": "All OpenText products (including Carbonite, Zix, Micro Focus, others).",
+    "program_role": "CNA",
+    "organization_type": "Vendor",
+    "country": "USA"
+  },
+  {
+    "partner": "OpenVPN Inc.",
+    "scope": "All products and projects in which OpenVPN is directly involved commercially and for OpenVPN community projects, including Private Tunnel.",
+    "program_role": "CNA",
+    "organization_type": "Vendor, Open Source",
+    "country": "USA"
+  },
+  {
+    "partner": "Opera",
+    "scope": "Opera issues only.",
+    "program_role": "CNA",
+    "organization_type": "Vendor, Open Source",
+    "country": "Norway"
+  },
+  {
+    "partner": "OPPO Mobile Telecommunication Corp., Ltd.",
+    "scope": "OPPO devices only.",
+    "program_role": "CNA",
+    "organization_type": "Vendor",
+    "country": "China"
+  },
+  {
+    "partner": "Oracle",
+    "scope": "Oracle supported version product issues only; CVE IDs will not be assigned for unsupported products or versions (Oracle will confirm support status and notify researcher).",
+    "program_role": "CNA",
+    "organization_type": "Hosted Service, Open Source, Vendor",
+    "country": "USA"
+  },
+  {
+    "partner": "OTORIO LTD.",
+    "scope": "All OTORIO products, as well as vulnerabilities in third-party software discovered by OTORIO that are not in another CNA\u2019s scope.",
+    "program_role": "CNA",
+    "organization_type": "Vendor, Researcher",
+    "country": "Israel"
+  },
+  {
+    "partner": "OTRS AG",
+    "scope": "Vulnerabilities for OTRS and ((OTRS)) Community Edition and modules only.",
+    "program_role": "CNA",
+    "organization_type": "Vendor",
+    "country": "Germany"
+  },
+  {
+    "partner": "Palantir Technologies",
+    "scope": "Palantir products and technologies only.",
+    "program_role": "CNA",
+    "organization_type": "Vendor",
+    "country": "USA"
+  },
+  {
+    "partner": "Pall Corporation",
+    "scope": "Pall branded products only.",
+    "program_role": "CNA",
+    "organization_type": "Vendor",
+    "country": "USA"
+  },
+  {
+    "partner": "Palo Alto Networks, Inc.",
+    "scope": "All Palo Alto Networks products, and vulnerabilities discovered by Palo Alto Networks that are not in another CNA\u2019s scope.",
+    "program_role": "CNA",
+    "organization_type": "Vendor, Researcher",
+    "country": "USA"
+  },
+  {
+    "partner": "Panasonic Holdings Corporation",
+    "scope": "All products and services developed and/or sold by Panasonic Group companies.",
+    "program_role": "CNA",
+    "organization_type": "Vendor",
+    "country": "Japan"
+  },
+  {
+    "partner": "Pandora FMS",
+    "scope": "Pandora FMS, Pandora ITSM, and Pandora RC issues only.",
+    "program_role": "CNA",
+    "organization_type": "Vendor",
+    "country": "Spain"
+  },
+  {
+    "partner": "Pangea Cyber Corporation",
+    "scope": "All Pangea Cyber products and services, as well as vulnerabilities in third-party software that are not in another CNA\u2019s scope.",
+    "program_role": "CNA",
+    "organization_type": "Vendor, Hosted Service, Researcher",
+    "country": "USA"
+  },
+  {
+    "partner": "PaperCut Software Pty Ltd",
+    "scope": "PaperCut MF, PaperCut NG, PaperCut Hive, PaperCut Pocket, PaperCut Mobility Print, QRdoc, PaperCut Views, PaperCut Multiverse,https://www.papercut.com, and all other PaperCut products and services.",
+    "program_role": "CNA",
+    "organization_type": "Vendor",
+    "country": "Australia"
+  },
+  {
+    "partner": "Patchstack",
+    "scope": "Vulnerabilities in third-party products discovered by Patchstack and Patchstack Bug Bounty program unless covered by the scope of another CNA.",
+    "program_role": "CNA",
+    "organization_type": "Bug Bounty Provider, Hosted Service, Open Source, Researcher, Vendor",
+    "country": "Estonia"
+  },
+  {
+    "partner": "Payara",
+    "scope": "All Payara Platform product distributions (Payara Server, Micro, Embedded) for both Enterprise (commercial) and Community (OSS) distributions.",
+    "program_role": "CNA",
+    "organization_type": "Open Source, Vendor",
+    "country": "UK"
+  },
+  {
+    "partner": "Pegasystems Inc.",
+    "scope": "Pegasystems products only.",
+    "program_role": "CNA",
+    "organization_type": "Vendor",
+    "country": "USA"
+  },
+  {
+    "partner": "Pentraze Cybersecurity",
+    "scope": "Vulnerabilities in third-party software discovered by Pentraze Cybersecurity that are not in another CNA\u2019s scope.",
+    "program_role": "CNA",
+    "organization_type": "Researcher",
+    "country": "Dominican Republic"
+  },
+  {
+    "partner": "Perforce",
+    "scope": "All Perforce products.",
+    "program_role": "CNA",
+    "organization_type": "Vendor, Open Source",
+    "country": "USA"
+  },
+  {
+    "partner": "Philips",
+    "scope": "Philips issues only.",
+    "program_role": "CNA",
+    "organization_type": "Vendor",
+    "country": "Netherlands"
+  },
+  {
+    "partner": "Phoenix Technologies, Inc.",
+    "scope": "All Phoenix Technologies products (supported products and end-of-life/end-of-service products), as well as vulnerabilities in third-party software discovered by Phoenix Technologies that are not in another CNA\u2019s scope.",
+    "program_role": "CNA",
+    "organization_type": "Vendor, Researcher",
+    "country": "USA"
+  },
+  {
+    "partner": "PHP Group",
+    "scope": "Vulnerabilities in PHP code (code inhttps://github.com/php/php-src) only.",
+    "program_role": "CNA",
+    "organization_type": "Vendor, Open Source",
+    "country": "USA"
+  },
+  {
+    "partner": "Ping Identity Corporation",
+    "scope": "All Ping Identity products (supported products and end-of-life/end-of-service products), as well as vulnerabilities in third-party software discovered by Ping Identity that are not in another CNA\u2019s scope.",
+    "program_role": "CNA",
+    "organization_type": "Hosted Service, Researcher, Bug Bounty Provider",
+    "country": "USA"
+  },
+  {
+    "partner": "PingCAP (US), Inc.",
+    "scope": "Vulnerabilities in the following PingCAP maintained products and components: TiDB (code available athttps://github.com/pingcap/tidb); TiKV (code available athttps://github.com/tikv/tikv); PD (Placement Driver, code available athttps://github.com/tikv/pd); TiFlash (code available athttps://github.com/pingcap/tiflash); and tidbcloud (PingCAP\u2019s cloud database service). This scope includes vulnerabilities in all supported versions of these products. CVE IDs will not be assigned for vulnerabilities found in unsupported versions or for third-party dependencies not maintained by PingCAP.",
+    "program_role": "CNA",
+    "organization_type": "Vendor, Open Source, Hosted Service",
+    "country": "USA"
+  },
+  {
+    "partner": "PlexTrac, Inc.",
+    "scope": "Vulnerabilities within PlexTrac\u2019s products.",
+    "program_role": "CNA",
+    "organization_type": "Vendor",
+    "country": "USA"
+  },
+  {
+    "partner": "PostgreSQL",
+    "scope": "postgresql.org/downloadsoftware and related projects listed atpostgresql.org/support/security.",
+    "program_role": "CNA",
+    "organization_type": "Open Source",
+    "country": "Canada"
+  },
+  {
+    "partner": "Profelis IT Consultancy",
+    "scope": "Products and services developed by Profelis IT Consultancy including enterprise directory solution SambaBox and password reset product PassBox.",
+    "program_role": "CNA",
+    "organization_type": "Vendor",
+    "country": "T\u00fcrkiye"
+  },
+  {
+    "partner": "Progress Software Corporation",
+    "scope": "Vulnerabilities in software published and maintained by Progress Software Corporation.",
+    "program_role": "CNA",
+    "organization_type": "Vendor",
+    "country": "USA"
+  },
+  {
+    "partner": "Proofpoint Inc.",
+    "scope": "All Proofpoint products.",
+    "program_role": "CNA",
+    "organization_type": "Hosted Service, Vendor",
+    "country": "USA"
+  },
+  {
+    "partner": "Protect AI (formerly huntr.dev)",
+    "scope": "Vulnerabilities in Protect AI products, third-party code vulnerabilities reported by researchers collaborating with huntr and vulnerabilities discovered by, or reported to, Protect AI that are not in another CNA\u2019s scope.",
+    "program_role": "CNA",
+    "organization_type": "Bug Bounty Provider, Open Source, Researcher",
+    "country": "USA"
+  },
+  {
+    "partner": "Proton AG",
+    "scope": "Proton AG issues only.",
+    "program_role": "CNA",
+    "organization_type": "Vendor",
+    "country": "Switzerland"
+  },
+  {
+    "partner": "PTC Inc.",
+    "scope": "All currently supported PTC software products and cloud/SaaS services.",
+    "program_role": "CNA",
+    "organization_type": "Vendor",
+    "country": "USA"
+  },
+  {
+    "partner": "Pure Storage, Inc.",
+    "scope": "Pure Storage products only.",
+    "program_role": "CNA",
+    "organization_type": "Vendor",
+    "country": "USA"
+  },
+  {
+    "partner": "Python Software Foundation",
+    "scope": "Only supported and end-of-life Python versions available athttps://python.org/downloadsand pip versions available athttps://pypi.org/project/pip, Pallets projects available athttps://github.com/pallets(such as Flask, Jinja, Click, MarkupSafe, Werkzeug, and ItsDangerous), and excluding distributions of Python, pip, and Pallets projects maintained by third-party redistributors.",
+    "program_role": "CNA",
+    "organization_type": "Vendor, Open Source",
+    "country": "USA"
+  },
+  {
+    "partner": "QNAP Systems, Inc.",
+    "scope": "QNAP issues only.",
+    "program_role": "CNA",
+    "organization_type": "Vendor",
+    "country": "Taiwan"
+  },
+  {
+    "partner": "Qualcomm, Inc.",
+    "scope": "Qualcomm and Snapdragon issues only.",
+    "program_role": "CNA",
+    "organization_type": "Vendor",
+    "country": "USA"
+  },
+  {
+    "partner": "Qualys, Inc.",
+    "scope": "All Qualys products and vulnerabilities discovered by Qualys that are not covered by another CNA\u2019s scope.",
+    "program_role": "CNA",
+    "organization_type": "Vendor, Researcher",
+    "country": "USA"
+  },
+  {
+    "partner": "Radiometer Medical ApS",
+    "scope": "Radiometer products only.",
+    "program_role": "CNA",
+    "organization_type": "Vendor",
+    "country": "Denmark"
+  },
+  {
+    "partner": "rami.io GmbH",
+    "scope": "All rami.io GmbH products and open source projects, including pretix, official pretix plugins and apps, and Venueless.",
+    "program_role": "CNA",
+    "organization_type": "Vendor, Hosted Service, Open Source",
+    "country": "Germany"
+  },
+  {
+    "partner": "Rapid7, Inc.",
+    "scope": "All Rapid7 products, and vulnerabilities discovered by Rapid7 that are not in another CNA\u2019s scope.",
+    "program_role": "CNA",
+    "organization_type": "Vendor, Open Source, Researcher",
+    "country": "USA"
+  },
+  {
+    "partner": "Real-Time Innovations, Inc.",
+    "scope": "All RTI Connext products, including EOL products. Seehttps://www.rti.com/productsfor more information.",
+    "program_role": "CNA",
+    "organization_type": "Vendor",
+    "country": "USA"
+  },
+  {
+    "partner": "RealPage",
+    "scope": "Vulnerabilities in RealPage products and services including but not limited to: Keyready, Knock CRM, HomeWiseDocs, REDS (Real Estate Data Solutions), G5, WhiteSky Communications, Chirp Systems, STRATIS IoT, Modern Message (Community Rewards), Hipercept, Investor Management Services, AIM, FUEL, Buildium, All Property Management, SimpleBills, DepositIQ, Rentlytics, ClickPay, LeaseLabs, PEX, On-Site, American Utility Management (AUM), Axiometrics, Lease Rent Optimization (LRO), AssetEye, NWP Services Corporation, Indatus, ActiveBuilding, RentMineOnline (RMO), MyNewPlace, Compliance Depot, SeniorLiving.net, eREI, Domin-8, Level One, Propertyware, Opstechnology, LeasingDesk, and YieldStar.",
+    "program_role": "CNA",
+    "organization_type": "Vendor",
+    "country": "USA"
+  },
+  {
+    "partner": "Red Hat, Inc.",
+    "scope": "Root Scope:The Red Hat Root\u2019s scope includes the open source community. Any open source organizations that prefer Red Hat as their Root; organizations are free to choose another Root if it suits them better.CNA-LR Scope:Vulnerabilities in software developed by a CNA within the Red Hat Root hierarchy.CNA Scope:Vulnerabilities in open source projects affecting Red Hat software that are not covered by a more specific CNA. CVEs can be assigned to vulnerabilities affecting end-of-life or unsupported Red Hat software.",
+    "program_role": "Root,CNA-LR,CNA",
+    "organization_type": "Vendor, Open Source",
+    "country": "USA"
+  },
+  {
+    "partner": "Replicated, Inc.",
+    "scope": "Replicated products and services only.",
+    "program_role": "CNA",
+    "organization_type": "Vendor",
+    "country": "USA"
+  },
+  {
+    "partner": "Rhino Mobility",
+    "scope": "Rhino Mobility issues only.",
+    "program_role": "CNA",
+    "organization_type": "Vendor",
+    "country": "USA"
+  },
+  {
+    "partner": "Ribose Limited",
+    "scope": "All Ribose products and services, including open source projects, supported products, and end-of-life/end-of-service products.",
+    "program_role": "CNA",
+    "organization_type": "Hosted Service, Open Source, Vendor",
+    "country": "UK"
+  },
+  {
+    "partner": "Robert Bosch GmbH",
+    "scope": "Bosch products only.",
+    "program_role": "CNA",
+    "organization_type": "Vendor",
+    "country": "Germany"
+  },
+  {
+    "partner": "Roche Diagnostics",
+    "scope": "Roche\u2019s medical technology products.",
+    "program_role": "CNA",
+    "organization_type": "Vendor",
+    "country": "Switzerland"
+  },
+  {
+    "partner": "Rockwell Automation",
+    "scope": "All Rockwell Automation products.",
+    "program_role": "CNA",
+    "organization_type": "Vendor",
+    "country": "USA"
+  },
+  {
+    "partner": "S21sec Cyber Solutions by Thales",
+    "scope": "Vulnerabilities discovered by S21sec that are not within another CNA\u2019s scope.",
+    "program_role": "CNA",
+    "organization_type": "Researcher",
+    "country": "Spain"
+  },
+  {
+    "partner": "SailPoint Technologies",
+    "scope": "SailPoint issues only.",
+    "program_role": "CNA",
+    "organization_type": "Vendor",
+    "country": "USA"
+  },
+  {
+    "partner": "Salesforce, Inc.",
+    "scope": "Salesforce productsonly.",
+    "program_role": "CNA",
+    "organization_type": "Vendor",
+    "country": "USA"
+  },
+  {
+    "partner": "Samsung Mobile",
+    "scope": "Samsung Mobile Galaxy products, personal computers, and related services only.",
+    "program_role": "CNA",
+    "organization_type": "Vendor",
+    "country": "South Korea"
+  },
+  {
+    "partner": "Samsung TV & Appliance",
+    "scope": "Samsung TV & Appliance products, Samsung-owned open source projects listed onhttps://github.com/Samsung/, as well as vulnerabilities in third-party software discovered by Samsung that are not in another CNA\u2019s scope. Vulnerabilities affecting end-of-life/end-of-service products are in scope. The following categories of Samsung Products are in scope: Internet-connected home appliances, B2C product (smart TV, smart monitor, soundbar, and projector), and B2B products (digital signage, interactive display, and kiosk).",
+    "program_role": "CNA",
+    "organization_type": "Open Source, Researcher, Vendor",
+    "country": "South Korea"
+  },
+  {
+    "partner": "Sandisk",
+    "scope": "Sandisk products listed athttps://shop.sandisk.com/product-portfolioonly.",
+    "program_role": "CNA",
+    "organization_type": "Vendor",
+    "country": "USA"
+  },
+  {
+    "partner": "SAP SE",
+    "scope": "All SAP products.",
+    "program_role": "CNA",
+    "organization_type": "Vendor, Hosted Service, Open Source",
+    "country": "Germany"
+  },
+  {
+    "partner": "Saviynt Inc.",
+    "scope": "Vulnerabilities discovered in Saviynt products.",
+    "program_role": "CNA",
+    "organization_type": "Vendor",
+    "country": "USA"
+  },
+  {
+    "partner": "SBA Research gGmbH",
+    "scope": "Vulnerabilities discovered by SBA Research or reported to SBA Research by partner organizations that are not in another CNA\u2019s scope.",
+    "program_role": "CNA",
+    "organization_type": "Researcher",
+    "country": "Austria"
+  },
+  {
+    "partner": "Schneider Electric",
+    "scope": "All Schneider Electric products, including Proface, APC, and Eurotherm.",
+    "program_role": "CNA",
+    "organization_type": "Vendor",
+    "country": "France"
+  },
+  {
+    "partner": "Schweitzer Engineering Laboratories, Inc.",
+    "scope": "All Schweitzer Engineering Laboratories products.",
+    "program_role": "CNA",
+    "organization_type": "Vendor",
+    "country": "USA"
+  },
+  {
+    "partner": "SCIEX",
+    "scope": "SCIEX branded products only.",
+    "program_role": "CNA",
+    "organization_type": "Vendor",
+    "country": "USA"
+  },
+  {
+    "partner": "Seagate Technology",
+    "scope": "Any Seagate or LaCie software or hardware, open or closed source, supported and end of life, as well as any vulnerabilities in third-party software discovered by Seagate that are not in another CNA\u2019s scope.",
+    "program_role": "CNA",
+    "organization_type": "Vendor, Open Source, Researcher",
+    "country": "USA"
+  },
+  {
+    "partner": "Seal Security",
+    "scope": "Vulnerabilities in Seal products or services and vulnerabilities discovered in open source libraries unless covered by the scope of another CNA.",
+    "program_role": "CNA",
+    "organization_type": "Vendor, Open Source",
+    "country": "USA"
+  },
+  {
+    "partner": "SEC Consult Vulnerability Lab",
+    "scope": "All vulnerabilities discovered in third-party hardware/software by SEC Consult Vulnerability Lab (part of SEC Consult, an Eviden business), which are not in another CNA\u2019s scope.",
+    "program_role": "CNA",
+    "organization_type": "Researcher",
+    "country": "Austria"
+  },
+  {
+    "partner": "Sec1",
+    "scope": "Vulnerabilities found in cybersecurity software solutions developed and maintained by Sec1 as listed onhttps://sec1.io/, and vulnerabilities identified in software projects or products where Sec1 has a direct and substantial contribution or partnership, unless covered by the scope of another CNA.",
+    "program_role": "CNA",
+    "organization_type": "Vendor",
+    "country": "India"
+  },
+  {
+    "partner": "Secomea A/S",
+    "scope": "Supported Secomea products only.",
+    "program_role": "CNA",
+    "organization_type": "Vendor",
+    "country": "Denmark"
+  },
+  {
+    "partner": "Securepoint GmbH",
+    "scope": "Securepoint GmbH issues only.",
+    "program_role": "CNA",
+    "organization_type": "Vendor",
+    "country": "Germany"
+  },
+  {
+    "partner": "Securifera, Inc.",
+    "scope": "Vulnerabilities in vendor products discovered by Securifera, or related parties, while performing vulnerability research or security assessments.",
+    "program_role": "CNA",
+    "organization_type": "Researcher",
+    "country": "USA"
+  },
+  {
+    "partner": "Securin",
+    "scope": "Vulnerabilities found in Securin products and services (including end-of-life/end-of-service products), as well as vulnerabilities in third-party software discovered by Securin that are not in another CNA\u2019s scope.",
+    "program_role": "CNA",
+    "organization_type": "Vendor, Open Source, Researcher",
+    "country": "USA"
+  },
+  {
+    "partner": "Security Risk Advisors (SRA)",
+    "scope": "Vulnerabilities discovered by SRA that are not within the scope of another CNA.",
+    "program_role": "CNA",
+    "organization_type": "Researcher",
+    "country": "USA"
+  },
+  {
+    "partner": "senhasegura",
+    "scope": "Vulnerabilities in senhasegura products, and other vulnerabilities discovered by senhasegura that are not in another CNA\u2019s scope.",
+    "program_role": "CNA",
+    "organization_type": "Vendor, Researcher",
+    "country": "Brazil"
+  },
+  {
+    "partner": "ServiceNow",
+    "scope": "All ServiceNow products (supported products and end-of-life/end-of-service products), as well as vulnerabilities in third-party software discovered by ServiceNow that are not in another CNA\u2019s scope.",
+    "program_role": "CNA",
+    "organization_type": "Hosted Service, Researcher, Vendor",
+    "country": "USA"
+  },
+  {
+    "partner": "SHENZHEN CoolKit Technology CO., LTD.",
+    "scope": "Products of eWeLink Solutions only, details are available athttps://ewelink.cc/our-projects-scope/.",
+    "program_role": "CNA",
+    "organization_type": "Vendor",
+    "country": "China"
+  },
+  {
+    "partner": "Shop Beat Solutions (Pty) LTD",
+    "scope": "Vulnerabilities in Shop Beat products and services and vulnerabilities discovered by Shop Beat unless covered by the scope of another CNA.",
+    "program_role": "CNA",
+    "organization_type": "Hosted Service, Vendor",
+    "country": "South Africa"
+  },
+  {
+    "partner": "SICK AG",
+    "scope": "SICK AG issues only.",
+    "program_role": "CNA",
+    "organization_type": "Vendor",
+    "country": "Germany"
+  },
+  {
+    "partner": "Siemens",
+    "scope": "Siemens issues only.",
+    "program_role": "CNA",
+    "organization_type": "Vendor",
+    "country": "Germany"
+  },
+  {
+    "partner": "Sierra Wireless Inc.",
+    "scope": "Sierra Wireless products only.",
+    "program_role": "CNA",
+    "organization_type": "Vendor",
+    "country": "Canada"
+  },
+  {
+    "partner": "Silicon Labs",
+    "scope": "Silicon Labs issues only.",
+    "program_role": "CNA",
+    "organization_type": "Vendor",
+    "country": "USA"
+  },
+  {
+    "partner": "Silver Peak Systems, Inc.",
+    "scope": "Silver Peak product issues only.",
+    "program_role": "CNA",
+    "organization_type": "Vendor",
+    "country": "USA"
+  },
+  {
+    "partner": "Simplinx Ltd.",
+    "scope": "Simplinx products only.",
+    "program_role": "CNA",
+    "organization_type": "Vendor",
+    "country": "T\u00fcrkiye"
+  },
+  {
+    "partner": "Smile CDR Inc. (doing business as \u201cSmile Digital Health\u201d)",
+    "scope": "All Smile Digital Health products and HAPI FHIR.",
+    "program_role": "CNA",
+    "organization_type": "Vendor, Open Source",
+    "country": "Canada"
+  },
+  {
+    "partner": "Snow Software",
+    "scope": "All Snow Software products.",
+    "program_role": "CNA",
+    "organization_type": "Vendor",
+    "country": "Sweden"
+  },
+  {
+    "partner": "Snyk",
+    "scope": "Vulnerabilities in Snyk products and vulnerabilities discovered by, or reported to, Snyk that are not in another CNA\u2019s scope.",
+    "program_role": "CNA",
+    "organization_type": "Open Source, Researcher",
+    "country": "UK"
+  },
+  {
+    "partner": "SOCRadar Cyber Intelligence Inc.",
+    "scope": "Vulnerabilities in SOCRadar products and services and vulnerabilities discovered by or reported to SOCRadar that are not in another CNA\u2019s scope.",
+    "program_role": "CNA",
+    "organization_type": "Vendor, Researcher",
+    "country": "USA"
+  },
+  {
+    "partner": "Softing",
+    "scope": "Softing issues only.",
+    "program_role": "CNA",
+    "organization_type": "Vendor",
+    "country": "Germany"
+  },
+  {
+    "partner": "SoftIron",
+    "scope": "SoftIron HyperCloud branded products and technologies only.",
+    "program_role": "CNA",
+    "organization_type": "Vendor",
+    "country": "USA"
+  },
+  {
+    "partner": "SolarWinds",
+    "scope": "SolarWinds products only.",
+    "program_role": "CNA",
+    "organization_type": "Vendor",
+    "country": "USA"
+  },
+  {
+    "partner": "Solidigm",
+    "scope": "Solidigm branded products and technologies.",
+    "program_role": "CNA",
+    "organization_type": "Vendor",
+    "country": "USA"
+  },
+  {
+    "partner": "Sonatype Inc.",
+    "scope": "All Sonatype products and vulnerabilities in third-party software discovered by Sonatype that are not in another CNA\u2019s scope.",
+    "program_role": "CNA",
+    "organization_type": "Vendor, Researcher",
+    "country": "USA"
+  },
+  {
+    "partner": "SonicWall, Inc.",
+    "scope": "SonicWall issues only.",
+    "program_role": "CNA",
+    "organization_type": "Vendor",
+    "country": "USA"
+  },
+  {
+    "partner": "Sophos Limited",
+    "scope": "Sophos issues only.",
+    "program_role": "CNA",
+    "organization_type": "Vendor",
+    "country": "UK"
+  },
+  {
+    "partner": "Spanish National Cybersecurity Institute, S.A. (INCIBE)",
+    "scope": "Root Scope:Spain organizations.CNA Scope:Vulnerability assignment related to its vulnerability coordination role for Industrial Control Systems (ICS), Information Technologies (IT), and Internet of Things (IoT) systems issues at the national level, and vulnerabilities reported to INCIBE by Spain organizations and researchers that are not in another CNA\u2019s scope.",
+    "program_role": "Root,CNA",
+    "organization_type": "CERT",
+    "country": "Spain"
+  },
+  {
+    "partner": "Splunk Inc.",
+    "scope": "Splunk products only.",
+    "program_role": "CNA",
+    "organization_type": "Vendor",
+    "country": "USA"
+  },
+  {
+    "partner": "Spotfire",
+    "scope": "Vulnerabilities associated with the Spotfire product only.",
+    "program_role": "CNA",
+    "organization_type": "Vendor",
+    "country": "USA"
+  },
+  {
+    "partner": "STAR Labs SG Pte. Ltd.",
+    "scope": "Vulnerabilities discovered by, or reported to, STAR Labs SG that are not in another CNA\u2019s scope.",
+    "program_role": "CNA",
+    "organization_type": "Researcher",
+    "country": "Singapore"
+  },
+  {
+    "partner": "StrongDM",
+    "scope": "StrongDM issues only.",
+    "program_role": "CNA",
+    "organization_type": "Vendor",
+    "country": "USA"
+  },
+  {
+    "partner": "Stryker Corporation",
+    "scope": "All products of Stryker or a Stryker company including end-of-life/end-of-service products, and vulnerabilities in third-party software used in Stryker products that are not in another CNA\u2019s scope.",
+    "program_role": "CNA",
+    "organization_type": "Vendor, Researcher",
+    "country": "USA"
+  },
+  {
+    "partner": "Super Micro Computer, Inc.",
+    "scope": "Supermicro branded products, managed system, or software projects.",
+    "program_role": "CNA",
+    "organization_type": "Vendor",
+    "country": "USA"
+  },
+  {
+    "partner": "SUSE",
+    "scope": "SUSE and Rancher specific security issues, and vulnerabilities discovered by SUSE that are not covered by the scope of another CNA.",
+    "program_role": "CNA",
+    "organization_type": "Vendor, Open Source, Researcher",
+    "country": "USA"
+  },
+  {
+    "partner": "Swift Project",
+    "scope": "The Swift Project only.",
+    "program_role": "CNA",
+    "organization_type": "Vendor, Open Source",
+    "country": "USA"
+  },
+  {
+    "partner": "Switzerland National Cyber Security Centre (NCSC)",
+    "scope": "Switzerland Government Common Vulnerability Program.",
+    "program_role": "CNA",
+    "organization_type": "CERT",
+    "country": "Switzerland"
+  },
+  {
+    "partner": "Symantec - A Division of Broadcom",
+    "scope": "Symantec Enterprise products as well as vulnerabilities in third-party software discovered by Symantec that are not in another CNA\u2019s scope.",
+    "program_role": "CNA",
+    "organization_type": "Vendor, Researcher",
+    "country": "USA"
+  },
+  {
+    "partner": "Synaptics, Inc.",
+    "scope": "Synaptics issues only.",
+    "program_role": "CNA",
+    "organization_type": "Vendor",
+    "country": "USA"
+  },
+  {
+    "partner": "Synology Inc.",
+    "scope": "Synology issues only.",
+    "program_role": "CNA",
+    "organization_type": "Vendor",
+    "country": "Taiwan"
+  },
+  {
+    "partner": "T-Mobile US",
+    "scope": "All T-Mobile US products (including end-of-life/end-of-service products), as well as vulnerabilities in third-party software/hardware discovered by T-Mobile US that are not in another CNA\u2019s scope.",
+    "program_role": "CNA",
+    "organization_type": "Vendor, Researcher",
+    "country": "USA"
+  },
+  {
+    "partner": "Talos",
+    "scope": "Third-party products it researches.",
+    "program_role": "CNA",
+    "organization_type": "Researcher",
+    "country": "USA"
+  },
+  {
+    "partner": "Tcpdump Group",
+    "scope": "Tcpdump and Libpcap only.",
+    "program_role": "CNA",
+    "organization_type": "Vendor, Open Source",
+    "country": "Canada"
+  },
+  {
+    "partner": "TeamViewer Germany GmbH",
+    "scope": "TeamViewer issues only.",
+    "program_role": "CNA",
+    "organization_type": "Vendor",
+    "country": "Germany"
+  },
+  {
+    "partner": "TECNO Mobile Limited",
+    "scope": "Vulnerabilities in TECNO products and services only.",
+    "program_role": "CNA",
+    "organization_type": "Vendor",
+    "country": "China"
+  },
+  {
+    "partner": "Tego Cyber, Inc.",
+    "scope": "Tego Cyber issues and vulnerabilities discovered by Tego in third-party products, unless covered under the scope of another CNA.",
+    "program_role": "CNA",
+    "organization_type": "Vendor, Researcher",
+    "country": "USA"
+  },
+  {
+    "partner": "Teleport",
+    "scope": "All Teleport (Gravitational, Inc.) products (supported products and end-of-life/end-of-service products), as well as vulnerabilities in third-party software discovered by Teleport that are not in another CNA\u2019s scope.",
+    "program_role": "CNA",
+    "organization_type": "Vendor, Open Source, Researcher",
+    "country": "USA"
+  },
+  {
+    "partner": "Teltonika Networks",
+    "scope": "Teltonika Networks products and services only.",
+    "program_role": "CNA",
+    "organization_type": "Vendor",
+    "country": "Lithuania"
+  },
+  {
+    "partner": "Temporal Technologies Inc.",
+    "scope": "All Temporal Technologies software.",
+    "program_role": "CNA",
+    "organization_type": "Hosted Service, Open Source",
+    "country": "USA"
+  },
+  {
+    "partner": "Tenable Network Security, Inc.",
+    "scope": "Tenable products and third-party products it researches not covered by another CNA.",
+    "program_role": "CNA",
+    "organization_type": "Vendor",
+    "country": "USA"
+  },
+  {
+    "partner": "Thales Group",
+    "scope": "Root Scope:Products and technologies of subsidiaries of Thales Group.CNA Scope:Thales branded products and technologies, products and technologies of subsidiaries of Thales Group, unless covered by the scope of another CNA as well as vulnerabilities in third-party software discovered by Thales Group and subsidiaries that are not in another CNA\u2019s scope.",
+    "program_role": "Root,CNA",
+    "organization_type": "Vendor, Researcher",
+    "country": "France"
+  },
+  {
+    "partner": "The HISP Centre at the University of Oslo",
+    "scope": "Security issues inDHIS2open source web and mobile software applications.",
+    "program_role": "CNA",
+    "organization_type": "Vendor, Open Source",
+    "country": "Norway"
+  },
+  {
+    "partner": "The Missing Link Australia (TML)",
+    "scope": "TML vulnerability disclosure policy applies to any third-party vendor products to whom TML will assign the CVEs for vulnerabilities, if the product is not a part of another CNA scope.",
+    "program_role": "CNA",
+    "organization_type": "Researcher",
+    "country": "Australia"
+  },
+  {
+    "partner": "The OpenBMC Project",
+    "scope": "Vulnerabilities related to the repositories maintained by the OpenBMC project.",
+    "program_role": "CNA",
+    "organization_type": "Vendor, Open Source",
+    "country": "USA"
+  },
+  {
+    "partner": "The OpenNMS Group",
+    "scope": "OpenNMS issues only.",
+    "program_role": "CNA",
+    "organization_type": "Vendor, Open Source",
+    "country": "USA"
+  },
+  {
+    "partner": "The Qt Company",
+    "scope": "All supported The Qt Company products.",
+    "program_role": "CNA",
+    "organization_type": "Vendor",
+    "country": "Finland"
+  },
+  {
+    "partner": "The Wikimedia Foundation",
+    "scope": "Any code repository hosted undergerrit.wikimedia.org,gitlab.wikimedia.org, orgithub.com/wikimediathat is not labeled as archived or marked as a fork of an upstream project. Please see ourdisclosure policyfor additional exclusions to scope.",
+    "program_role": "CNA",
+    "organization_type": "Open Source",
+    "country": "USA"
+  },
+  {
+    "partner": "TianoCore.org",
+    "scope": "Software vulnerabilities related to the TianoCore Open Source.",
+    "program_role": "CNA",
+    "organization_type": "Vendor, Open Source",
+    "country": "USA"
+  },
+  {
+    "partner": "TIBCO Software Inc.",
+    "scope": "TIBCO, Talarian, Spotfire, Data Synapse, Foresight, Kabira, Proginet, LogLogic, StreamBase, JasperSoft, and Mashery products/brands only.",
+    "program_role": "CNA",
+    "organization_type": "Vendor",
+    "country": "USA"
+  },
+  {
+    "partner": "Tigera, Inc.",
+    "scope": "All vulnerabilities for Calico and all of Tigera\u2019s products only.",
+    "program_role": "CNA",
+    "organization_type": "Vendor, Open Source",
+    "country": "USA"
+  },
+  {
+    "partner": "Toshiba Corporation",
+    "scope": "Vulnerabilities related to products and services of Toshiba Group.",
+    "program_role": "CNA",
+    "organization_type": "Vendor",
+    "country": "Japan"
+  },
+  {
+    "partner": "TP-Link Systems Inc.",
+    "scope": "TP-Link issues only.",
+    "program_role": "CNA",
+    "organization_type": "Vendor, Hosted Service",
+    "country": "USA"
+  },
+  {
+    "partner": "TR-CERT (Computer Emergency Response Team of the Republic of T\u00fcrkiye)",
+    "scope": "Vulnerability assignment related to its vulnerability coordination role.",
+    "program_role": "CNA",
+    "organization_type": "CERT",
+    "country": "T\u00fcrkiye"
+  },
+  {
+    "partner": "Trellix",
+    "scope": "All Trellix Enterprise (formerly McAfee Enterprise and FireEye) products, as well as vulnerabilities in third-party software discovered by Trellix Advanced Research Center (Trellix ACR) that are not in another CNA\u2019s scope.",
+    "program_role": "CNA",
+    "organization_type": "Vendor, Researcher",
+    "country": "USA"
+  },
+  {
+    "partner": "Trend Micro, Inc.",
+    "scope": "Trend Microsupported products, including any end-of-life products.",
+    "program_role": "CNA",
+    "organization_type": "Vendor",
+    "country": "Japan"
+  },
+  {
+    "partner": "TWCERT/CC",
+    "scope": "Vulnerability assignment related to its vulnerability coordination role.",
+    "program_role": "CNA",
+    "organization_type": "CERT",
+    "country": "Taiwan"
+  },
+  {
+    "partner": "TXOne Networks, Inc.",
+    "scope": "Vulnerabilities in TXOne Networks products, including end-of-life products, or third-party operational technology (OT) and industrial control systems (ICS) products, unless covered by the scope of another CNA.",
+    "program_role": "CNA",
+    "organization_type": "Vendor, Researcher",
+    "country": "Taiwan"
+  },
+  {
+    "partner": "Unisoc (Shanghai) Technologies Co., Ltd.",
+    "scope": "Unisoc issues only.",
+    "program_role": "CNA",
+    "organization_type": "Vendor",
+    "country": "China"
+  },
+  {
+    "partner": "upKeeper Solutions",
+    "scope": "All upKeeper Solutions products, excluding end-of-life (EOL) as listed in the upKeeper Solutions End of Life Policy.",
+    "program_role": "CNA",
+    "organization_type": "Vendor",
+    "country": "Sweden"
+  },
+  {
+    "partner": "Vaadin Ltd.",
+    "scope": "All Vaadin products and supported open source projects hosted athttps://github.com/vaadin.",
+    "program_role": "CNA",
+    "organization_type": "Vendor, Open Source",
+    "country": "Finland"
+  },
+  {
+    "partner": "Vivo Mobile Communication Co., Ltd.",
+    "scope": "Vivo issues only.",
+    "program_role": "CNA",
+    "organization_type": "Vendor",
+    "country": "China"
+  },
+  {
+    "partner": "VMware by Broadcom",
+    "scope": "VMware, Spring, and Cloud Foundry issues only.",
+    "program_role": "CNA",
+    "organization_type": "Vendor, Open Source",
+    "country": "USA"
+  },
+  {
+    "partner": "VotingWorks",
+    "scope": "Vulnerabilities in VotingWorks voting systems, hardware, and software.",
+    "program_role": "CNA",
+    "organization_type": "Vendor, Open Source",
+    "country": "USA"
+  },
+  {
+    "partner": "VulDB",
+    "scope": "Vulnerabilities in VulDB products and vulnerabilities discovered by, or reported to, the VulDB vulnerability database that are not in another CNA\u2019s scope.",
+    "program_role": "CNA",
+    "organization_type": "Researcher",
+    "country": "Switzerland"
+  },
+  {
+    "partner": "VulnCheck",
+    "scope": "Vulnerabilities discovered by, or reported to, VulnCheck that are not in another CNA\u2019s scope.",
+    "program_role": "CNA",
+    "organization_type": "Bug Bounty Provider, Researcher",
+    "country": "USA"
+  },
+  {
+    "partner": "Vulnscope Technologies",
+    "scope": "Provides CVE IDs for customers as part of our bug bounty and vulnerability coordination platform.",
+    "program_role": "CNA",
+    "organization_type": "Bug Bounty Provider",
+    "country": "Chile"
+  },
+  {
+    "partner": "VULSec Labs",
+    "scope": "Vulnerabilities discovered by, or reported to, VULSec Labs that are not in another CNA\u2019s scope.",
+    "program_role": "CNA",
+    "organization_type": "Researcher",
+    "country": "Israel"
+  },
+  {
+    "partner": "WatchDogDevelopment.com, LLC",
+    "scope": "All WatchDog products.",
+    "program_role": "CNA",
+    "organization_type": "Vendor",
+    "country": "USA"
+  },
+  {
+    "partner": "WatchGuard Technologies, Inc.",
+    "scope": "Vulnerabilities in all WatchGuard products and products of WatchGuard subsidiaries.",
+    "program_role": "CNA",
+    "organization_type": "Vendor",
+    "country": "USA"
+  },
+  {
+    "partner": "Western Digital",
+    "scope": "Western Digital products including WD, SanDisk, SanDisk Professional, G-Technology, and HGST only.",
+    "program_role": "CNA",
+    "organization_type": "Vendor",
+    "country": "USA"
+  },
+  {
+    "partner": "Wind River Systems Inc.",
+    "scope": "All Wind River branded products as found onwindriver.comincluding vulnerabilities in natively developed or modified product incorporated components, and only product incorporated third-party components not in another CNA\u2019s scope.",
+    "program_role": "CNA",
+    "organization_type": "Vendor",
+    "country": "USA"
+  },
+  {
+    "partner": "Wiz, Inc.",
+    "scope": "Vulnerabilities identified in Wiz products, and vulnerabilities discovered by, or reported to, Wiz that are not in another CNA\u2019s scope.",
+    "program_role": "CNA",
+    "organization_type": "Vendor, Researcher",
+    "country": "USA"
+  },
+  {
+    "partner": "wolfSSL Inc.",
+    "scope": "Transport Layer Security (TLS) and Cryptographic issues found in wolfSSL products.",
+    "program_role": "CNA",
+    "organization_type": "Vendor, Open Source",
+    "country": "USA"
+  },
+  {
+    "partner": "Wordfence",
+    "scope": "WordPress Plugins, Themes, and Core Vulnerabilities discovered by, or reported to, the Wordfence/Defiant team.",
+    "program_role": "CNA",
+    "organization_type": "Vendor, Researcher",
+    "country": "USA"
+  },
+  {
+    "partner": "WPScan",
+    "scope": "WordPress core, plugins, and themes.",
+    "program_role": "CNA",
+    "organization_type": "Vendor, Open Source",
+    "country": "France"
+  },
+  {
+    "partner": "Wren Security",
+    "scope": "Wren Security maintained software.",
+    "program_role": "CNA",
+    "organization_type": "Open Source",
+    "country": "Czech Republic"
+  },
+  {
+    "partner": "WSO2 LLC",
+    "scope": "WSO2 products and services scoped under Responsible Disclosure Programhttps://security.docs.wso2.com/en/latest/security-reporting/reward-and-acknowledgement-program/#products-services-in-scope.",
+    "program_role": "CNA",
+    "organization_type": "Vendor, Open Source, Hosted Service",
+    "country": "USA"
+  },
+  {
+    "partner": "Xen Project",
+    "scope": "All sub-projects under Xen Project\u2019s umbrella (seeXen Project Teams), except those sub-projects that have their own security response process; and the Xen components inside other projects, where Xen Project is the primary developer.",
+    "program_role": "CNA",
+    "organization_type": "Vendor, Open Source",
+    "country": "UK"
+  },
+  {
+    "partner": "Xerox Corporation",
+    "scope": "Xerox Corporation issues only.",
+    "program_role": "CNA",
+    "organization_type": "Vendor",
+    "country": "USA"
+  },
+  {
+    "partner": "Xiaomi Technology Co., Ltd.",
+    "scope": "Xiaomi issues only.",
+    "program_role": "CNA",
+    "organization_type": "Vendor",
+    "country": "China"
+  },
+  {
+    "partner": "Xylem",
+    "scope": "Xylem products and technologies only.",
+    "program_role": "CNA",
+    "organization_type": "Vendor",
+    "country": "USA"
+  },
+  {
+    "partner": "Yandex N.V.",
+    "scope": "Yandex issues only.",
+    "program_role": "CNA",
+    "organization_type": "Vendor",
+    "country": "Russia"
+  },
+  {
+    "partner": "Yokogawa Group",
+    "scope": "Yokogawa Group companies\u2019 products and Yokogawa Group subsidiaries\u2019 products.",
+    "program_role": "CNA",
+    "organization_type": "Vendor",
+    "country": "Japan"
+  },
+  {
+    "partner": "Yugabyte, Inc.",
+    "scope": "Yugabyte products only.",
+    "program_role": "CNA",
+    "organization_type": "Hosted Service, Vendor",
+    "country": "USA"
+  },
+  {
+    "partner": "Zabbix",
+    "scope": "Zabbix products and Zabbix projects listed onhttps://git.zabbix.com/only.",
+    "program_role": "CNA",
+    "organization_type": "Vendor",
+    "country": "Latvia"
+  },
+  {
+    "partner": "Zephyr Project",
+    "scope": "Zephyr project components, and vulnerabilities that are not in another CNA\u2019s scope.",
+    "program_role": "CNA",
+    "organization_type": "Vendor, Open Source",
+    "country": "USA"
+  },
+  {
+    "partner": "Zero Day Initiative",
+    "scope": "Products and projects covered by its bug bounty programs that are not in another CNA\u2019s scope.",
+    "program_role": "CNA",
+    "organization_type": "Bug Bounty Provider",
+    "country": "Japan"
+  },
+  {
+    "partner": "ZGR",
+    "scope": "ZGR manufactured products.",
+    "program_role": "CNA",
+    "organization_type": "Vendor",
+    "country": "Spain"
+  },
+  {
+    "partner": "Zohocorp",
+    "scope": "ManageEngine, Zoho, and Zakya branded on-premise products only.",
+    "program_role": "CNA",
+    "organization_type": "Vendor",
+    "country": "India"
+  },
+  {
+    "partner": "Zoom Communications, Inc.",
+    "scope": "Zoom and Keybase issues only.",
+    "program_role": "CNA",
+    "organization_type": "Vendor",
+    "country": "USA"
+  },
+  {
+    "partner": "Zowe",
+    "scope": "Vulnerabilities inZowe.orgopen source projects.",
+    "program_role": "CNA",
+    "organization_type": "Open Source",
+    "country": "USA"
+  },
+  {
+    "partner": "Zscaler, Inc.",
+    "scope": "Zscaler issues only.",
+    "program_role": "CNA",
+    "organization_type": "Vendor",
+    "country": "USA"
+  },
+  {
+    "partner": "ZTE Corporation",
+    "scope": "ZTE productsonly.",
+    "program_role": "CNA",
+    "organization_type": "Vendor",
+    "country": "China"
+  },
+  {
+    "partner": "ZUSO Advanced Research Team (ZUSO ART)",
+    "scope": "Vulnerabilities in third-party products discovered by ZUSO ART that are not in another CNA\u2019s scope.",
+    "program_role": "CNA",
+    "organization_type": "Researcher",
+    "country": "Taiwan"
+  },
+  {
+    "partner": "Zyxel Corporation",
+    "scope": "Zyxel products issues only.",
+    "program_role": "CNA",
+    "organization_type": "Vendor",
+    "country": "Taiwan"
+  }
+]
