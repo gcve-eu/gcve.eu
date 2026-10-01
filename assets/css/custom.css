@@ -176,6 +176,54 @@ body {
   color: #8be9f7;
 }
 
+/* Keep code controls clear of the first line, including on narrow viewports. */
+.hextra-code-block .hextra-code-copy-btn-container {
+  margin: 0.65rem;
+}
+
+.hextra-code-block pre:not(.lntable pre),
+.hextra-code-block .lntable pre {
+  padding-top: 3.25rem;
+}
+
+.hextra-code-block .filename + div pre:not(.lntable pre),
+.hextra-code-block .filename + div .lntable pre {
+  padding-top: 5rem;
+}
+
+/* Make line numbers a quiet, fixed gutter instead of a second code block. */
+.hextra-code-block .lntable {
+  position: relative;
+  border-collapse: separate;
+  border-spacing: 0;
+}
+
+.hextra-code-block .lntable .lntd:first-child {
+  position: sticky;
+  left: 0;
+  z-index: 1;
+  border-right: 1px solid var(--gcve-border);
+  background: #f3f6fa;
+  user-select: none;
+}
+
+.hextra-code-block .lntable .lntd:first-child pre {
+  min-width: 3rem;
+  border-radius: 0;
+  background: transparent;
+  text-align: right;
+}
+
+.hextra-code-block .lntable .lntd:first-child .lnt {
+  display: block;
+  min-width: 0;
+  padding-inline: 0.75rem;
+}
+
+.dark .hextra-code-block .lntable .lntd:first-child {
+  background: #151c29;
+}
+
 .gcve-nav-tools .search-wrapper {
   width: clamp(11rem, 18vw, 15rem);
 }
