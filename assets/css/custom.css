@@ -191,6 +191,51 @@ body {
   padding-top: 5rem;
 }
 
+/* Give highlighted examples a crisp editor-like surface and expose the lexer. */
+.hextra-code-block .highlight {
+  border: 1px solid rgba(38, 100, 255, 0.16);
+  border-radius: 0.75rem;
+  box-shadow: 0 12px 30px rgba(16, 35, 63, 0.08);
+  overflow: hidden;
+}
+
+.hextra-code-block[data-language]::before {
+  content: attr(data-language);
+  position: absolute;
+  top: 0.72rem;
+  left: 0.9rem;
+  z-index: 2;
+  color: #526178;
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+  font-size: 0.65rem;
+  font-weight: 800;
+  letter-spacing: 0.08em;
+  line-height: 1;
+}
+
+.hextra-code-block:has(.filename)::before {
+  top: 2.85rem;
+}
+
+/* Chroma's JSON tokens: property names, strings, literals, numbers, punctuation. */
+.hextra-code-block.language-json .chroma .nt { color: #155bd7; font-weight: 700; }
+.hextra-code-block.language-json .chroma .s2 { color: #087f5b; }
+.hextra-code-block.language-json .chroma .kc { color: #7c3aed; font-weight: 700; }
+.hextra-code-block.language-json .chroma :is(.m, .mb, .mf, .mh, .mi, .il, .mo) { color: #b54708; }
+.hextra-code-block.language-json .chroma .p { color: #526178; }
+
+.dark .hextra-code-block .highlight {
+  border-color: rgba(34, 195, 223, 0.22);
+  box-shadow: 0 14px 34px rgba(0, 0, 0, 0.28);
+}
+
+.dark .hextra-code-block[data-language]::before { color: #8fa3bd; }
+.dark .hextra-code-block.language-json .chroma .nt { color: #79c0ff; }
+.dark .hextra-code-block.language-json .chroma .s2 { color: #7ee787; }
+.dark .hextra-code-block.language-json .chroma .kc { color: #d2a8ff; }
+.dark .hextra-code-block.language-json .chroma :is(.m, .mb, .mf, .mh, .mi, .il, .mo) { color: #ffa657; }
+.dark .hextra-code-block.language-json .chroma .p { color: #9fb0c7; }
+
 /* Present numbered code as one surface, with lightweight alternating rows. */
 .hextra-code-block .lntable {
   position: relative;
