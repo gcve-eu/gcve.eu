@@ -21,6 +21,9 @@ markup:
   # enable hextra syntax highlight
   highlight:
     noClasses: false
+    # Keep line numbers separate from the code so copied examples remain clean.
+    lineNos: true
+    lineNumbersInTable: true
 
 enableInlineShortcodes: true
 
@@ -96,6 +99,12 @@ menu:
 
 
 params:
+  highlight:
+    copy:
+      enable: true
+      # The control should not be hidden behind hover, especially on touch devices.
+      display: always
+
   page:
     # full (100%), wide (90rem), normal (1280px)
     width: wide
