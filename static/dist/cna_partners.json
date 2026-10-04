@@ -5036,6 +5036,70 @@
     }
   },
   {
+    "partner": "Chainguard, Inc.",
+    "scope": "Chainguard Containers/Libraries/VMs, tooling, and vulnerabilities introduced by our packaging or patching of Wolfi packages (upstream flaws in packaged software excluded). Additionally, vulnerabilities in open source projects identified through the Athena coalition, where upstream has remediated without an assigned identifier, or where no maintainer is active, and no more specific CNA covers the project.",
+    "program_role": "CNA",
+    "organization_type": "Vendor, Hosted Service, Open Source, Researcher",
+    "country": "USA",
+    "metadata": {
+      "cna_id": "CNA-2026-0068",
+      "short_name": "chainguard",
+      "contact": [
+        {
+          "email": [
+            {
+              "label": "Email",
+              "emailAddr": "cna@chainguard.dev"
+            }
+          ],
+          "contact": [],
+          "form": []
+        }
+      ],
+      "disclosure_policy": [
+        {
+          "label": "Policy",
+          "language": "",
+          "url": "https://www.chainguard.dev/legal/coordinated-vulnerability-handling-policy"
+        }
+      ],
+      "security_advisories": {
+        "alerts": [],
+        "advisories": [
+          {
+            "label": "Advisories",
+            "url": "https://images.chainguard.dev/security"
+          }
+        ]
+      },
+      "resources": [],
+      "is_root": false,
+      "root": {
+        "shortName": "icscert",
+        "organizationName": "Cybersecurity and Infrastructure Security Agency (CISA) Industrial Control Systems (ICS)"
+      },
+      "top_level_root": {
+        "shortName": "CISA",
+        "organizationName": "Cybersecurity and Infrastructure Security Agency (CISA)"
+      },
+      "roles": [
+        {
+          "helpText": "",
+          "role": "CNA"
+        }
+      ],
+      "organization_types": [
+        "Vendor",
+        "Hosted Service",
+        "Open Source",
+        "Researcher"
+      ],
+      "source_page": "https://www.cve.org/PartnerInformation/ListofPartners",
+      "partner_page": "https://www.cve.org/PartnerInformation/ListofPartners/partner/chainguard",
+      "scope_html": "Chainguard Containers/Libraries/VMs, tooling, and vulnerabilities introduced by our packaging or patching of Wolfi packages (upstream flaws in packaged software excluded).<br/><br/>Additionally, vulnerabilities in open source projects identified through the Athena coalition, where upstream has remediated without an assigned identifier, or where no maintainer is active, and no more specific CNA covers the project."
+    }
+  },
+  {
     "partner": "Check Point Software Ltd.",
     "scope": "Check Point Security Gateways product line only, and any vulnerabilities discovered by Check Point that are not in another CNA’s scope.",
     "program_role": "CNA",
@@ -14357,6 +14421,67 @@
     }
   },
   {
+    "partner": "Infoblox Inc.",
+    "scope": "All Infoblox products found at https://www.infoblox.com/products/ .",
+    "program_role": "CNA",
+    "organization_type": "Vendor",
+    "country": "USA",
+    "metadata": {
+      "cna_id": "CNA-2026-0070",
+      "short_name": "Infoblox",
+      "contact": [
+        {
+          "email": [
+            {
+              "label": "Email",
+              "emailAddr": "vuln.disclosure@infoblox.com"
+            }
+          ],
+          "contact": [],
+          "form": []
+        }
+      ],
+      "disclosure_policy": [
+        {
+          "label": "Policy",
+          "language": "",
+          "url": "https://www.infoblox.com/company/legal/vulnerability-responsible-disclosure-policy/"
+        }
+      ],
+      "security_advisories": {
+        "alerts": [],
+        "advisories": [
+          {
+            "label": "Advisories",
+            "url": "https://support.infoblox.com/s/article/2899"
+          }
+        ]
+      },
+      "resources": [],
+      "is_root": false,
+      "root": {
+        "shortName": "n/a",
+        "organizationName": "n/a"
+      },
+      "top_level_root": {
+        "shortName": "mitre",
+        "organizationName": "MITRE Corporation"
+      },
+      "roles": [
+        {
+          "helpText": "",
+          "role": "CNA"
+        }
+      ],
+      "organization_types": [
+        "Vendor"
+      ],
+      "source_page": "https://www.cve.org/PartnerInformation/ListofPartners",
+      "partner_page": "https://www.cve.org/PartnerInformation/ListofPartners/partner/Infoblox",
+      "scope_html": "All Infoblox products found at <a href='https://www.infoblox.com/products/' target='_blank'>https://www.infoblox.com/products/</a>."
+    }
+  },
+  {
     "partner": "Insyde Software",
     "scope": "Vulnerabilities in all of Insyde Software’s firmware and software products, as well as vulnerabilities discovered by Insyde Software that are not covered by another CNA’s scope.",
     "program_role": "CNA",
@@ -22604,6 +22729,66 @@
     }
   },
   {
+    "partner": "Pointsharp International AB",
+    "scope": "All products, software components, and cloud services developed, owned, maintained, and supported by Pointsharp International AB and its subsidiaries.",
+    "program_role": "CNA",
+    "organization_type": "Vendor",
+    "country": "Sweden",
+    "metadata": {
+      "cna_id": "CNA-2026-0072",
+      "short_name": "Pointsharp",
+      "contact": [
+        {
+          "email": [
+            {
+              "label": "Email",
+              "emailAddr": "security@pointsharp.com"
+            }
+          ],
+          "contact": [],
+          "form": []
+        }
+      ],
+      "disclosure_policy": [
+        {
+          "label": "Policy",
+          "language": "",
+          "url": "https://www.pointsharp.com/en/security-pointsharp-vulnerability-disclosure-policy"
+        }
+      ],
+      "security_advisories": {
+        "alerts": [],
+        "advisories": [
+          {
+            "label": "Advisories",
+            "url": "https://docs.pointsharp.com/psa/index.html"
+          }
+        ]
+      },
+      "resources": [],
+      "is_root": false,
+      "root": {
+        "shortName": "ENISA",
+        "organizationName": "EU Agency for Cybersecurity (ENISA)"
+      },
+      "top_level_root": {
+        "shortName": "mitre",
+        "organizationName": "MITRE Corporation"
+      },
+      "roles": [
+        {
+          "helpText": "",
+          "role": "CNA"
+        }
+      ],
+      "organization_types": [
+        "Vendor"
+      ],
+      "source_page": "https://www.cve.org/PartnerInformation/ListofPartners",
+      "partner_page": "https://www.cve.org/PartnerInformation/ListofPartners/partner/Pointsharp"
+    }
+  },
+  {
     "partner": "PostgreSQL",
     "scope": "postgresql.org/download software and related projects listed at postgresql.org/support/security .",
     "program_role": "CNA",
@@ -23965,6 +24150,66 @@
     }
   },
   {
+    "partner": "RedEye Security",
+    "scope": "Vulnerabilities in RedEye Security’s own products: software that RedEye develops and distributes for customers to deploy and operate in their own environments. Caver, RedEye’s self-hosted, Splunk-compatible SIEM and OCSF data-lake platform, including its server components, collectors and agents, command-line tooling, and officially distributed installers and container images. Out of scope: vulnerabilities in third-party components and dependencies that RedEye redistributes but does not maintain; vulnerabilities in RedEye-operated hosted services and web properties that RedEye remediates server-side with no customer action required; and the content of RedEye’s threat-intelligence and CVE detection feeds.",
+    "program_role": "CNA",
+    "organization_type": "Vendor",
+    "country": "USA",
+    "metadata": {
+      "cna_id": "CNA-2026-0067",
+      "short_name": "RES",
+      "contact": [
+        {
+          "email": [
+            {
+              "label": "Email",
+              "emailAddr": "security@redeyesecurity.com"
+            }
+          ],
+          "contact": [],
+          "form": []
+        }
+      ],
+      "disclosure_policy": [
+        {
+          "label": "Policy",
+          "language": "",
+          "url": "https://redeyesecurity.com/security"
+        }
+      ],
+      "security_advisories": {
+        "alerts": [],
+        "advisories": [
+          {
+            "label": "Advisories",
+            "url": "https://redeyesecurity.com/security/advisories"
+          }
+        ]
+      },
+      "resources": [],
+      "is_root": false,
+      "root": {
+        "shortName": "icscert",
+        "organizationName": "Cybersecurity and Infrastructure Security Agency (CISA) Industrial Control Systems (ICS)"
+      },
+      "top_level_root": {
+        "shortName": "CISA",
+        "organizationName": "Cybersecurity and Infrastructure Security Agency (CISA)"
+      },
+      "roles": [
+        {
+          "helpText": "",
+          "role": "CNA"
+        }
+      ],
+      "organization_types": [
+        "Vendor"
+      ],
+      "source_page": "https://www.cve.org/PartnerInformation/ListofPartners",
+      "partner_page": "https://www.cve.org/PartnerInformation/ListofPartners/partner/RES"
+    }
+  },
+  {
     "partner": "Replicated, Inc.",
     "scope": "Replicated products and services only.",
     "program_role": "CNA",
@@ -24387,6 +24632,66 @@
       ],
       "source_page": "https://www.cve.org/PartnerInformation/ListofPartners",
       "partner_page": "https://www.cve.org/PartnerInformation/ListofPartners/partner/S21sec"
+    }
+  },
+  {
+    "partner": "SafeSource Lab",
+    "scope": "All SafeSource Lab products only. This includes the SafeSource vulnerability management platform, the SafeSource digital security compliance platform, and any other software products developed and maintained by SafeSource Lab. The scope covers vulnerabilities in SafeSource Lab products discovered internally or reported to SafeSource Lab by third parties. Vulnerabilities in third-party products, or in components not developed or maintained by SafeSource Lab, are not included in this scope.",
+    "program_role": "CNA",
+    "organization_type": "Vendor",
+    "country": "Italy",
+    "metadata": {
+      "cna_id": "CNA-2026-0071",
+      "short_name": "SafeSource",
+      "contact": [
+        {
+          "email": [
+            {
+              "label": "Email",
+              "emailAddr": "security@safesourcelab.com"
+            }
+          ],
+          "contact": [],
+          "form": []
+        }
+      ],
+      "disclosure_policy": [
+        {
+          "label": "Policy",
+          "language": "",
+          "url": "https://www.safesourcelab.com/psirt"
+        }
+      ],
+      "security_advisories": {
+        "alerts": [],
+        "advisories": [
+          {
+            "label": "Advisories",
+            "url": "https://www.safesourcelab.com/advisories"
+          }
+        ]
+      },
+      "resources": [],
+      "is_root": false,
+      "root": {
+        "shortName": "ENISA",
+        "organizationName": "EU Agency for Cybersecurity (ENISA)"
+      },
+      "top_level_root": {
+        "shortName": "mitre",
+        "organizationName": "MITRE Corporation"
+      },
+      "roles": [
+        {
+          "helpText": "",
+          "role": "CNA"
+        }
+      ],
+      "organization_types": [
+        "Vendor"
+      ],
+      "source_page": "https://www.cve.org/PartnerInformation/ListofPartners",
+      "partner_page": "https://www.cve.org/PartnerInformation/ListofPartners/partner/SafeSource"
     }
   },
   {
@@ -24942,7 +25247,7 @@
   },
   {
     "partner": "Schneider Electric",
-    "scope": "All Schneider Electric products, including Proface, APC, and ProLeiT.",
+    "scope": "Products supported by Schneider Electric and its affiliates, including products branded Schneider Electric or any other brands owned or controlled by Schneider Electric (such as but not limited to APC, Eliwell, Proface, ProLeit, Lauritz Knudsen Electrical & Automation, etc.), excluding Aveva and RIB products.",
     "program_role": "CNA",
     "organization_type": "Vendor",
     "country": "France",
@@ -24953,14 +25258,22 @@
         {
           "email": [
             {
-              "label": "Email",
+              "label": "Email – Schneider Electric & Affiliates",
               "emailAddr": "cpcert@se.com"
+            },
+            {
+              "label": "Email – Lauritz Knudsen Electrical & Automation",
+              "emailAddr": "LK-EA-CERT@LK-EA.com"
             }
           ],
           "contact": [
             {
-              "label": "Schneider Electric security contact page",
-              "url": "https://www.se.com/ww/en/work/support/cybersecurity/report-a-vulnerability.jsp"
+              "label": "Report Vulnerability – Schneider Electric",
+              "url": "https://www.se.com/ww/en/work/support/cybersecurity/report-a-vulnerability/"
+            },
+            {
+              "label": "Report Vulnerability – Lauritz Knudsen Electrical & Automation",
+              "url": "https://www.lk-ea.com/services/cybersecurity/support-portal"
             }
           ],
           "form": []
@@ -31776,6 +32089,66 @@
       ],
       "source_page": "https://www.cve.org/PartnerInformation/ListofPartners",
       "partner_page": "https://www.cve.org/PartnerInformation/ListofPartners/partner/WatchGuard"
+    }
+  },
+  {
+    "partner": "Westell Technologies, Inc.",
+    "scope": "All products of Westell Technologies, Inc., including end-of-life/end-of-service products.",
+    "program_role": "CNA",
+    "organization_type": "Vendor",
+    "country": "USA",
+    "metadata": {
+      "cna_id": "CNA-2026-0069",
+      "short_name": "Westell",
+      "contact": [
+        {
+          "email": [
+            {
+              "label": "Email",
+              "emailAddr": "security@westell.com"
+            }
+          ],
+          "contact": [],
+          "form": []
+        }
+      ],
+      "disclosure_policy": [
+        {
+          "label": "Policy",
+          "language": "",
+          "url": "https://support.westell.com:446/disclosure-policy.html"
+        }
+      ],
+      "security_advisories": {
+        "alerts": [],
+        "advisories": [
+          {
+            "label": "Advisories",
+            "url": "https://support.westell.com:446/advisories.html"
+          }
+        ]
+      },
+      "resources": [],
+      "is_root": false,
+      "root": {
+        "shortName": "icscert",
+        "organizationName": "Cybersecurity and Infrastructure Security Agency (CISA) Industrial Control Systems (ICS)"
+      },
+      "top_level_root": {
+        "shortName": "CISA",
+        "organizationName": "Cybersecurity and Infrastructure Security Agency (CISA)"
+      },
+      "roles": [
+        {
+          "helpText": "",
+          "role": "CNA"
+        }
+      ],
+      "organization_types": [
+        "Vendor"
+      ],
+      "source_page": "https://www.cve.org/PartnerInformation/ListofPartners",
+      "partner_page": "https://www.cve.org/PartnerInformation/ListofPartners/partner/Westell"
     }
   },
   {
