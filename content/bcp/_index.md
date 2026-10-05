@@ -38,6 +38,7 @@ Adhering to GCVE BCPs is not mandatory, but strongly recommended to ensure the s
 | BCP-09 | [Scope of a GCVE Record](./gcve-bcp-09/) | 2026-05-20 | ✎ Draft (for Public Review) | 1.0 | [PDF](/files/bcp/gcve-bcp-09.pdf) · [Public Review](https://discourse.ossbase.org/t/gcve-bcp-09-scope-of-a-gcve-record-early-draft/1041) |
 | BCP-10 | [Improved Common Platform Enumeration for GCVE](./gcve-bcp-10/) | 2026-04-26 | ✎ Draft (for Public Review) | 1.0 | [PDF](/files/bcp/gcve-bcp-10.pdf) · [Public Review](https://discourse.ossbase.org/t/gcve-bcp-10-improved-common-platform-enumeration-for-gcve/1042) |
 | BCP-12 | [Sighting Format](./gcve-bcp-12/) | 2026-07-30 | ✎ Draft (for Public Review) | 0.9 | [PDF](/files/bcp/gcve-bcp-12.pdf) - [Public Review](https://discourse.ossbase.org/t/gcve-bcp-12-sighting-format/1085) | 
+| BCP-13 | [Vulnerability Assigner Scorecard](./gcve-bcp-13) | 2026-10-05 |  ✎ Draft (for Public Review)  | 1.0 | [PDF](files/bcp/gcve-bcp-13.pdf) - [Public Review](https://discourse.ossbase.org/t/gcve-bcp-13-vulnerability-assigner-scorecard/1132) |
 
 ## Extensions
 
