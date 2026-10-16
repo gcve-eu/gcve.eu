@@ -8625,6 +8625,72 @@
     }
   },
   {
+    "partner": "EasyVista-OTRS GmbH",
+    "scope": "Vulnerabilities affecting the products, their security-relevant components, and functionality developed and maintained by companies within the EasyVista Group, including: OTRS - OTRS and features developed and maintained by OTRS GmbH; OTRS container distribution bundle, including container images customized, configured, or maintained by OTRS GmbH; OTRS SaaS and platform components developed and operated by OTRS GmbH; and security-relevant functionality and integrations developed and maintained by OTRS GmbH. EasyVista - EV Service Manager; EV Service Apps; EV Self Help; EV Observe; EV Digital Experience Monitoring; EV Reach; and EV Discovery.",
+    "program_role": "CNA",
+    "organization_type": "Vendor",
+    "country": "Germany",
+    "metadata": {
+      "cna_id": "CNA-2019-0015",
+      "short_name": "OTRS",
+      "contact": [
+        {
+          "email": [
+            {
+              "label": "Email",
+              "emailAddr": "security@otrs.com"
+            }
+          ],
+          "contact": [],
+          "form": []
+        }
+      ],
+      "disclosure_policy": [
+        {
+          "label": "OTRS GmbH Policy",
+          "language": "",
+          "url": "https://otrs.com/vulnerability-disclosure-policy/"
+        },
+        {
+          "label": "EasyVista Policy",
+          "language": "",
+          "url": "https://www.easyvista.com/vulnerability-disclosure-policy/"
+        }
+      ],
+      "security_advisories": {
+        "alerts": [],
+        "advisories": [
+          {
+            "label": "Advisories",
+            "url": "https://otrs.com/overview-release-notes-security-advisories/security-advisories/"
+          }
+        ]
+      },
+      "resources": [],
+      "is_root": false,
+      "root": {
+        "shortName": "n/a",
+        "organizationName": "n/a"
+      },
+      "top_level_root": {
+        "shortName": "mitre",
+        "organizationName": "MITRE Corporation"
+      },
+      "roles": [
+        {
+          "helpText": "",
+          "role": "CNA"
+        }
+      ],
+      "organization_types": [
+        "Vendor"
+      ],
+      "source_page": "https://www.cve.org/PartnerInformation/ListofPartners",
+      "partner_page": "https://www.cve.org/PartnerInformation/ListofPartners/partner/OTRS",
+      "scope_html": "Vulnerabilities affecting the products, their security-relevant components, and functionality developed and maintained by companies within the EasyVista Group, including: <br/><br/><strong>OTRS</strong> - OTRS and features developed and maintained by OTRS GmbH; OTRS container distribution bundle, including container images customized, configured, or maintained by OTRS GmbH; OTRS SaaS and platform components developed and operated by OTRS GmbH; and security-relevant functionality and integrations developed and maintained by OTRS GmbH.<br/><br/><strong>EasyVista</strong> - EV Service Manager; EV Service Apps; EV Self Help; EV Observe; EV Digital Experience Monitoring; EV Reach; and EV Discovery."
+    }
+  },
+  {
     "partner": "Eaton",
     "scope": "Eaton issues only.",
     "program_role": "CNA",
@@ -9947,7 +10013,7 @@
     "organization_type": "Vendor",
     "country": "Spain",
     "metadata": {
-      "cna_id": "CNA-2025-0032",
+      "cna_id": "CNA-2025-0063",
       "short_name": "FERMAX",
       "contact": [
         {
@@ -10182,6 +10248,66 @@
       ],
       "source_page": "https://www.cve.org/PartnerInformation/ListofPartners",
       "partner_page": "https://www.cve.org/PartnerInformation/ListofPartners/partner/flexera"
+    }
+  },
+  {
+    "partner": "Flock",
+    "scope": "Flock branded hardware and software products only.",
+    "program_role": "CNA",
+    "organization_type": "Vendor",
+    "country": "USA",
+    "metadata": {
+      "cna_id": "CNA-2026-0073",
+      "short_name": "flock",
+      "contact": [
+        {
+          "email": [
+            {
+              "label": "Email",
+              "emailAddr": "vulnerability.reporting@flocksafety.com"
+            }
+          ],
+          "contact": [],
+          "form": []
+        }
+      ],
+      "disclosure_policy": [
+        {
+          "label": "Policy",
+          "language": "",
+          "url": "https://www.flocksafety.com/legal/vulnerability-disclosure-policy"
+        }
+      ],
+      "security_advisories": {
+        "alerts": [],
+        "advisories": [
+          {
+            "label": "Advisories",
+            "url": "https://www.flocksafety.com/legal/security-advisories"
+          }
+        ]
+      },
+      "resources": [],
+      "is_root": false,
+      "root": {
+        "shortName": "icscert",
+        "organizationName": "Cybersecurity and Infrastructure Security Agency (CISA) Industrial Control Systems (ICS)"
+      },
+      "top_level_root": {
+        "shortName": "CISA",
+        "organizationName": "Cybersecurity and Infrastructure Security Agency (CISA)"
+      },
+      "roles": [
+        {
+          "helpText": "",
+          "role": "CNA"
+        }
+      ],
+      "organization_types": [
+        "Vendor"
+      ],
+      "source_page": "https://www.cve.org/PartnerInformation/ListofPartners",
+      "partner_page": "https://www.cve.org/PartnerInformation/ListofPartners/partner/flock"
     }
   },
   {
@@ -11652,6 +11778,66 @@
       ],
       "source_page": "https://www.cve.org/PartnerInformation/ListofPartners",
       "partner_page": "https://www.cve.org/PartnerInformation/ListofPartners/partner/glibc"
+    }
+  },
+  {
+    "partner": "GnuTLS Project",
+    "scope": "GnuTLS and associated software projects, including libtasn1 and p11-kit.",
+    "program_role": "CNA",
+    "organization_type": "Open Source",
+    "country": "No country affiliation",
+    "metadata": {
+      "cna_id": "CNA-2026-0074",
+      "short_name": "gnutls",
+      "contact": [
+        {
+          "email": [
+            {
+              "label": "Email",
+              "emailAddr": "bugs@gnutls.org"
+            }
+          ],
+          "contact": [],
+          "form": []
+        }
+      ],
+      "disclosure_policy": [
+        {
+          "label": "Policy",
+          "language": "",
+          "url": "https://gitlab.com/gnutls/gnutls/-/blob/master/SECURITY.md"
+        }
+      ],
+      "security_advisories": {
+        "alerts": [],
+        "advisories": [
+          {
+            "label": "Advisories",
+            "url": "https://www.gnutls.org/security-new.html"
+          }
+        ]
+      },
+      "resources": [],
+      "is_root": false,
+      "root": {
+        "shortName": "redhat",
+        "organizationName": "Red Hat, Inc."
+      },
+      "top_level_root": {
+        "shortName": "mitre",
+        "organizationName": "MITRE Corporation"
+      },
+      "roles": [
+        {
+          "helpText": "",
+          "role": "CNA"
+        }
+      ],
+      "organization_types": [
+        "Open Source"
+      ],
+      "source_page": "https://www.cve.org/PartnerInformation/ListofPartners",
+      "partner_page": "https://www.cve.org/PartnerInformation/ListofPartners/partner/gnutls"
     }
   },
   {
@@ -21544,66 +21730,6 @@
     }
   },
   {
-    "partner": "OTRS AG",
-    "scope": "Vulnerabilities for OTRS and ((OTRS)) Community Edition and modules only.",
-    "program_role": "CNA",
-    "organization_type": "Vendor",
-    "country": "Germany",
-    "metadata": {
-      "cna_id": "CNA-2019-0015",
-      "short_name": "OTRS",
-      "contact": [
-        {
-          "email": [
-            {
-              "label": "Email",
-              "emailAddr": "security@otrs.com"
-            }
-          ],
-          "contact": [],
-          "form": []
-        }
-      ],
-      "disclosure_policy": [
-        {
-          "label": "Policy",
-          "language": "",
-          "url": "https://otrs.com/vulnerability-disclosure-policy"
-        }
-      ],
-      "security_advisories": {
-        "alerts": [],
-        "advisories": [
-          {
-            "label": "Advisories",
-            "url": "https://otrs.com/overview-release-notes-security-advisories/security-advisories/"
-          }
-        ]
-      },
-      "resources": [],
-      "is_root": false,
-      "root": {
-        "shortName": "n/a",
-        "organizationName": "n/a"
-      },
-      "top_level_root": {
-        "shortName": "mitre",
-        "organizationName": "MITRE Corporation"
-      },
-      "roles": [
-        {
-          "helpText": "",
-          "role": "CNA"
-        }
-      ],
-      "organization_types": [
-        "Vendor"
-      ],
-      "source_page": "https://www.cve.org/PartnerInformation/ListofPartners",
-      "partner_page": "https://www.cve.org/PartnerInformation/ListofPartners/partner/OTRS"
-    }
-  },
-  {
     "partner": "Palantir Technologies",
     "scope": "Palantir products and technologies only.",
     "program_role": "CNA",
@@ -22029,7 +22155,7 @@
   },
   {
     "partner": "Patchstack",
-    "scope": "Vulnerabilities in third-party products discovered by Patchstack and Patchstack Bug Bounty program unless covered by the scope of another CNA.",
+    "scope": "Vulnerabilities in third-party PHP and JavaScript software discovered by Patchstack and researchers participating in the Patchstack Bug Bounty Program.",
     "program_role": "CNA",
     "organization_type": "Bug Bounty Provider, Hosted Service, Open Source, Researcher, Vendor",
     "country": "Estonia",
@@ -24509,6 +24635,67 @@
       ],
       "source_page": "https://www.cve.org/PartnerInformation/ListofPartners",
       "partner_page": "https://www.cve.org/PartnerInformation/ListofPartners/partner/Rockwell"
+    }
+  },
+  {
+    "partner": "RT-Labs AB",
+    "scope": "All products of RT-Labs AB, excluding end-of-life-products; as well as vulnerabilities in third-party products used by RT-Labs AB that are not in the scope of another CNA.",
+    "program_role": "CNA",
+    "organization_type": "Vendor, Open Source",
+    "country": "Sweden",
+    "metadata": {
+      "cna_id": "CNA-2026-0075",
+      "short_name": "rt-labs",
+      "contact": [
+        {
+          "email": [
+            {
+              "label": "Email",
+              "emailAddr": "security@rt-labs.com"
+            }
+          ],
+          "contact": [],
+          "form": []
+        }
+      ],
+      "disclosure_policy": [
+        {
+          "label": "Policy",
+          "language": "",
+          "url": "https://rt-labs.com/about-rt-labs/our-policies/#vulnerability_disclosure_policy"
+        }
+      ],
+      "security_advisories": {
+        "alerts": [],
+        "advisories": [
+          {
+            "label": "Advisories",
+            "url": "https://rt-labs.com/cyber-security/"
+          }
+        ]
+      },
+      "resources": [],
+      "is_root": false,
+      "root": {
+        "shortName": "ENISA",
+        "organizationName": "EU Agency for Cybersecurity (ENISA)"
+      },
+      "top_level_root": {
+        "shortName": "mitre",
+        "organizationName": "MITRE Corporation"
+      },
+      "roles": [
+        {
+          "helpText": "",
+          "role": "CNA"
+        }
+      ],
+      "organization_types": [
+        "Vendor",
+        "Open Source"
+      ],
+      "source_page": "https://www.cve.org/PartnerInformation/ListofPartners",
+      "partner_page": "https://www.cve.org/PartnerInformation/ListofPartners/partner/rt-labs"
     }
   },
   {
@@ -30789,8 +30976,8 @@
       "resources": [],
       "is_root": false,
       "root": {
-        "shortName": "redhat",
-        "organizationName": "Red Hat, Inc."
+        "shortName": "n/a",
+        "organizationName": "n/a"
       },
       "top_level_root": {
         "shortName": "mitre",
