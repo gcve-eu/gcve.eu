@@ -727,6 +727,66 @@
     }
   },
   {
+    "partner": "Akrites SIRT",
+    "scope": "Projects directly attached to the Linux Foundation or any of its sub-foundations, unless the project has a Supplier CNA of its own.",
+    "program_role": "CNA",
+    "organization_type": "Open Source",
+    "country": "USA",
+    "metadata": {
+      "cna_id": "CNA-2026-0080",
+      "short_name": "Akrites",
+      "contact": [
+        {
+          "email": [
+            {
+              "label": "Email",
+              "emailAddr": "SIRT@Akrites.dev"
+            }
+          ],
+          "contact": [],
+          "form": []
+        }
+      ],
+      "disclosure_policy": [
+        {
+          "label": "Policy",
+          "language": "",
+          "url": "https://github.com/pedrohc/SIRT/blob/main/docs/Akrites_CVD_Policy.md"
+        }
+      ],
+      "security_advisories": {
+        "alerts": [],
+        "advisories": [
+          {
+            "label": "Advisories",
+            "url": "https://advisories.akrites.org/"
+          }
+        ]
+      },
+      "resources": [],
+      "is_root": false,
+      "root": {
+        "shortName": "n/a",
+        "organizationName": "n/a"
+      },
+      "top_level_root": {
+        "shortName": "mitre",
+        "organizationName": "MITRE Corporation"
+      },
+      "roles": [
+        {
+          "helpText": "",
+          "role": "CNA"
+        }
+      ],
+      "organization_types": [
+        "Open Source"
+      ],
+      "source_page": "https://www.cve.org/PartnerInformation/ListofPartners",
+      "partner_page": "https://www.cve.org/PartnerInformation/ListofPartners/partner/Akrites"
+    }
+  },
+  {
     "partner": "AlgoSec",
     "scope": "AlgoSec products only.",
     "program_role": "CNA",
@@ -5247,7 +5307,7 @@
         {
           "label": "Policy",
           "language": "",
-          "url": "https://checkmk.com/responsible-disclosure-policy"
+          "url": "https://checkmarx.com/zero/disclosure-policy/"
         }
       ],
       "security_advisories": {
@@ -5256,7 +5316,7 @@
           {
             "label": "Advisories",
             "language": "",
-            "url": "https://checkmk.com/werks"
+            "url": "https://checkmarx.com/zero/vulnerabilities/"
           }
         ]
       },
@@ -5983,7 +6043,7 @@
         {
           "label": "Policy",
           "language": "",
-          "url": "https://trust.commvault.com/resources?s=vwnojdk0a0vsbx0qknnb&amp;name=vulnerability-disclosure-policy#689bba5cdc60fd4597bfd694"
+          "url": "https://trust.commvault.com/resources?s=vwnojdk0a0vsbx0qknnb&name=vulnerability-disclosure-policy#689bba5cdc60fd4597bfd694"
         }
       ],
       "security_advisories": {
@@ -6889,7 +6949,7 @@
   },
   {
     "partner": "Cybersecurity and Infrastructure Security Agency (CISA)",
-    "scope": "Top-Level Root Scope: Vulnerabilities that are (1) reported to or observed by CISA and (2) affect critical infrastructure, U.S. civilian government, industrial control systems, or medical devices, and (3) are not covered by another CNA’s scope. ADP Scope: View scope here .",
+    "scope": "Top-Level Root Hierarchy: Roots, CNA-LRs, and CNAs formally assigned to the CISA TL-Root hierarchy, including organizations associated with CISA’s U.S. civilian government, critical infrastructure, industrial control systems, and medical-device mission, as agreed through CVE Program processes. ADP Scope: View scope here .",
     "program_role": "Top-Level Root,ADP",
     "organization_type": "N/A",
     "country": "USA",
@@ -6949,7 +7009,7 @@
       ],
       "source_page": "https://www.cve.org/PartnerInformation/ListofPartners",
       "partner_page": "https://www.cve.org/PartnerInformation/ListofPartners/partner/CISA",
-      "scope_html": "<strong>Top-Level Root Scope:</strong> Vulnerabilities that are (1) reported to or observed by CISA and (2) affect critical infrastructure, U.S. civilian government, industrial control systems, or medical devices, and (3) are not covered by another CNA’s scope.<br/><strong>ADP Scope:</strong> View scope <a href='/ProgramOrganization/ADPs#ActiveAdps'>here</a>."
+      "scope_html": "<strong>Top-Level Root Hierarchy:</strong> Roots, CNA-LRs, and CNAs formally assigned to the CISA TL-Root hierarchy, including organizations associated with CISA’s U.S. civilian government, critical infrastructure, industrial control systems, and medical-device mission, as agreed through CVE Program processes.<br/><strong>ADP Scope:</strong> View scope <a href='/ProgramOrganization/ADPs#ActiveAdps'>here</a>."
     }
   },
   {
@@ -9917,7 +9977,7 @@
         "advisories": [
           {
             "label": "Advisories",
-            "url": "https://my.f5.com/manage/s/new-updated-articles#sort=%40f5_updated_published_date%20descending&amp;f:@f5_document_type=[Security%20Advisory]&amp;periodFilter=4&amp;dateField=0"
+            "url": "https://my.f5.com/manage/s/new-updated-articles#f-f5_document_type=Security%20Advisory&aq=%40f5_updated_published_date%20%3E%3D%20now-90d%20OR%20%40f5_original_published_date%20%3E%3D%20now-90d"
           }
         ]
       },
@@ -11987,7 +12047,7 @@
         {
           "label": "Policy",
           "language": "",
-          "url": "https://support.google.com/product-documentation/answer/13658251?hl=en&amp;ref_topic=12974021&amp;sjid=11464995960873540884-NA"
+          "url": "https://support.google.com/product-documentation/answer/13658251?hl=en&ref_topic=12974021&sjid=11464995960873540884-NA"
         }
       ],
       "security_advisories": {
@@ -11995,7 +12055,7 @@
         "advisories": [
           {
             "label": "Nest Advisories",
-            "url": "https://support.google.com/product-documentation/topic/12974021?hl=en&amp;ref_topic=10123615&amp;sjid=5419128013624043298-NA"
+            "url": "https://support.google.com/product-documentation/topic/12974021?hl=en&ref_topic=10123615&sjid=5419128013624043298-NA"
           },
           {
             "label": "Pixel Advisories",
@@ -12396,8 +12456,8 @@
       "resources": [],
       "is_root": false,
       "root": {
-        "shortName": "redhat",
-        "organizationName": "Red Hat, Inc."
+        "shortName": "n/a",
+        "organizationName": "n/a"
       },
       "top_level_root": {
         "shortName": "mitre",
@@ -13114,7 +13174,7 @@
         "advisories": [
           {
             "label": "Advisories",
-            "url": "https://support.hcl-software.com/community?id=community_forum&amp;sys_id=038a2b921b7bb34c77761fc58d4bcb0d"
+            "url": "https://support.hcl-software.com/community?id=community_forum&sys_id=038a2b921b7bb34c77761fc58d4bcb0d"
           }
         ]
       },
@@ -17121,6 +17181,67 @@
     }
   },
   {
+    "partner": "Linaro",
+    "scope": "Software projects managed by trustedfirmware.org .",
+    "program_role": "CNA",
+    "organization_type": "Open Source",
+    "country": "UK",
+    "metadata": {
+      "cna_id": "CNA-2026-0076",
+      "short_name": "Linaro",
+      "contact": [
+        {
+          "email": [
+            {
+              "label": "Email",
+              "emailAddr": "security@lists.trustedfirmware.org"
+            }
+          ],
+          "contact": [],
+          "form": []
+        }
+      ],
+      "disclosure_policy": [
+        {
+          "label": "Policy",
+          "language": "",
+          "url": "https://general.docs.trustedfirmware.org/en/latest/security_center/incident_handling_process.html"
+        }
+      ],
+      "security_advisories": {
+        "alerts": [],
+        "advisories": [
+          {
+            "label": "Advisories",
+            "url": "https://www.trustedfirmware.org/"
+          }
+        ]
+      },
+      "resources": [],
+      "is_root": false,
+      "root": {
+        "shortName": "redhat",
+        "organizationName": "Red Hat, Inc."
+      },
+      "top_level_root": {
+        "shortName": "mitre",
+        "organizationName": "MITRE Corporation"
+      },
+      "roles": [
+        {
+          "helpText": "",
+          "role": "CNA"
+        }
+      ],
+      "organization_types": [
+        "Open Source"
+      ],
+      "source_page": "https://www.cve.org/PartnerInformation/ListofPartners",
+      "partner_page": "https://www.cve.org/PartnerInformation/ListofPartners/partner/Linaro",
+      "scope_html": "Software projects managed by <a href='https://www.trustedfirmware.org' target='_blank'>trustedfirmware.org</a>."
+    }
+  },
+  {
     "partner": "linqi GmbH",
     "scope": "Vulnerabilities in linqi products only.",
     "program_role": "CNA",
@@ -18158,7 +18279,7 @@
   },
   {
     "partner": "MITRE Corporation",
-    "scope": "All vulnerabilities, and Open Source software product vulnerabilities, not already covered by a CNA listed on this website.",
+    "scope": "Top-Level Root Hierarchy: Roots, CNA-LRs, and CNAs formally assigned to the MITRE TL-Root hierarchy, including global, cross-sector, and other participants assigned through CVE Program processes. CNA-LR Scope: All vulnerabilities, and Open Source software product vulnerabilities, not already covered by a CNA listed on this website.",
     "program_role": "Top-Level Root,CNA-LR,Secretariat",
     "organization_type": "N/A",
     "country": "USA",
@@ -18221,7 +18342,8 @@
         "N/A"
       ],
       "source_page": "https://www.cve.org/PartnerInformation/ListofPartners",
-      "partner_page": "https://www.cve.org/PartnerInformation/ListofPartners/partner/mitre"
+      "partner_page": "https://www.cve.org/PartnerInformation/ListofPartners/partner/mitre",
+      "scope_html": "<strong>Top-Level Root Hierarchy:</strong> Roots, CNA-LRs, and CNAs formally assigned to the MITRE TL-Root hierarchy, including global, cross-sector, and other participants assigned through CVE Program processes.<br/><strong>CNA-LR Scope:</strong> All vulnerabilities, and Open Source software product vulnerabilities, not already covered by a CNA listed on this website."
     }
   },
   {
@@ -18622,7 +18744,7 @@
         "advisories": [
           {
             "label": "Advisories",
-            "url": "https://me.n-able.com/s/global-search/%40uri#t=All&amp;sort=relevancy&amp;f:@repositorytype=[Security_Advisory]"
+            "url": "https://me.n-able.com/s/global-search/%40uri#t=All&sort=relevancy&f:@repositorytype=[Security_Advisory]"
           }
         ]
       },
@@ -19516,6 +19638,66 @@
     }
   },
   {
+    "partner": "Network Device Education Foundation",
+    "scope": "FRRouting Routing Software issues only.",
+    "program_role": "CNA",
+    "organization_type": "Open Source",
+    "country": "USA",
+    "metadata": {
+      "cna_id": "CNA-2026-0082",
+      "short_name": "NetDEF",
+      "contact": [
+        {
+          "email": [
+            {
+              "label": "Email",
+              "emailAddr": "cve-coordination@netdef.org"
+            }
+          ],
+          "contact": [],
+          "form": []
+        }
+      ],
+      "disclosure_policy": [
+        {
+          "label": "Policy",
+          "language": "",
+          "url": "https://cna.netdef.org/disclosure-policy/"
+        }
+      ],
+      "security_advisories": {
+        "alerts": [],
+        "advisories": [
+          {
+            "label": "Advisories",
+            "url": "https://cna.netdef.org/frrouting/cve/"
+          }
+        ]
+      },
+      "resources": [],
+      "is_root": false,
+      "root": {
+        "shortName": "ENISA",
+        "organizationName": "EU Agency for Cybersecurity (ENISA)"
+      },
+      "top_level_root": {
+        "shortName": "mitre",
+        "organizationName": "MITRE Corporation"
+      },
+      "roles": [
+        {
+          "helpText": "",
+          "role": "CNA"
+        }
+      ],
+      "organization_types": [
+        "Open Source"
+      ],
+      "source_page": "https://www.cve.org/PartnerInformation/ListofPartners",
+      "partner_page": "https://www.cve.org/PartnerInformation/ListofPartners/partner/NetDEF"
+    }
+  },
+  {
     "partner": "Network Optix",
     "scope": "All Network Optix products, including https://www.networkoptix.com/nx-witness and https://www.networkoptix.com/powered-by-nx .",
     "program_role": "CNA",
@@ -19696,6 +19878,66 @@
       ],
       "source_page": "https://www.cve.org/PartnerInformation/ListofPartners",
       "partner_page": "https://www.cve.org/PartnerInformation/ListofPartners/partner/Nintendo"
+    }
+  },
+  {
+    "partner": "Nitro Software, Inc.",
+    "scope": "Nitro software issues only.",
+    "program_role": "CNA",
+    "organization_type": "Vendor",
+    "country": "USA",
+    "metadata": {
+      "cna_id": "CNA-2026-0077",
+      "short_name": "Nitro",
+      "contact": [
+        {
+          "email": [
+            {
+              "label": "Email",
+              "emailAddr": "cve-security@gonitro.com"
+            }
+          ],
+          "contact": [],
+          "form": []
+        }
+      ],
+      "disclosure_policy": [
+        {
+          "label": "Policy",
+          "language": "",
+          "url": "https://www.gonitro.com/security-compliance/security/responsible-disclosure"
+        }
+      ],
+      "security_advisories": {
+        "alerts": [],
+        "advisories": [
+          {
+            "label": "Advisories",
+            "url": "https://www.gonitro.com/documentation/release-notes"
+          }
+        ]
+      },
+      "resources": [],
+      "is_root": false,
+      "root": {
+        "shortName": "ENISA",
+        "organizationName": "EU Agency for Cybersecurity (ENISA)"
+      },
+      "top_level_root": {
+        "shortName": "mitre",
+        "organizationName": "MITRE Corporation"
+      },
+      "roles": [
+        {
+          "helpText": "",
+          "role": "CNA"
+        }
+      ],
+      "organization_types": [
+        "Vendor"
+      ],
+      "source_page": "https://www.cve.org/PartnerInformation/ListofPartners",
+      "partner_page": "https://www.cve.org/PartnerInformation/ListofPartners/partner/Nitro"
     }
   },
   {
@@ -21730,6 +21972,66 @@
     }
   },
   {
+    "partner": "Paessler GmbH",
+    "scope": "Vulnerabilities in Paessler products only.",
+    "program_role": "CNA",
+    "organization_type": "Vendor",
+    "country": "Germany",
+    "metadata": {
+      "cna_id": "CNA-2026-0083",
+      "short_name": "Paessler",
+      "contact": [
+        {
+          "email": [
+            {
+              "label": "Email",
+              "emailAddr": "security@paessler.com"
+            }
+          ],
+          "contact": [],
+          "form": []
+        }
+      ],
+      "disclosure_policy": [
+        {
+          "label": "Policy",
+          "language": "",
+          "url": "https://www.paessler.com/vulnerability-disclosure-program"
+        }
+      ],
+      "security_advisories": {
+        "alerts": [],
+        "advisories": [
+          {
+            "label": "Advisories",
+            "url": "https://helpdesk.paessler.com/en/support/solutions/folders/76000012791"
+          }
+        ]
+      },
+      "resources": [],
+      "is_root": false,
+      "root": {
+        "shortName": "ENISA",
+        "organizationName": "EU Agency for Cybersecurity (ENISA)"
+      },
+      "top_level_root": {
+        "shortName": "mitre",
+        "organizationName": "MITRE Corporation"
+      },
+      "roles": [
+        {
+          "helpText": "",
+          "role": "CNA"
+        }
+      ],
+      "organization_types": [
+        "Vendor"
+      ],
+      "source_page": "https://www.cve.org/PartnerInformation/ListofPartners",
+      "partner_page": "https://www.cve.org/PartnerInformation/ListofPartners/partner/Paessler"
+    }
+  },
+  {
     "partner": "Palantir Technologies",
     "scope": "Palantir products and technologies only.",
     "program_role": "CNA",
@@ -22352,6 +22654,66 @@
     }
   },
   {
+    "partner": "Pentaho Canada Inc.",
+    "scope": "All products developed by Pentaho Canada Inc. including but not limited to Pentaho Data Integration and Analytics and Pentaho Data Catalog.",
+    "program_role": "CNA",
+    "organization_type": "Vendor",
+    "country": "Canada",
+    "metadata": {
+      "cna_id": "CNA-2026-0079",
+      "short_name": "Pentaho",
+      "contact": [
+        {
+          "email": [
+            {
+              "label": "Email",
+              "emailAddr": "security-disclosures@pentaho.com"
+            }
+          ],
+          "contact": [],
+          "form": []
+        }
+      ],
+      "disclosure_policy": [
+        {
+          "label": "Policy",
+          "language": "",
+          "url": "https://pentaho.com/vulnerability-disclosure-and-cve-coordination-policy/"
+        }
+      ],
+      "security_advisories": {
+        "alerts": [],
+        "advisories": [
+          {
+            "label": "Advisories",
+            "url": "https://support.pentaho.com/hc/en-us/sections/360010039791-Security-Updates"
+          }
+        ]
+      },
+      "resources": [],
+      "is_root": false,
+      "root": {
+        "shortName": "n/a",
+        "organizationName": "n/a"
+      },
+      "top_level_root": {
+        "shortName": "mitre",
+        "organizationName": "MITRE Corporation"
+      },
+      "roles": [
+        {
+          "helpText": "",
+          "role": "CNA"
+        }
+      ],
+      "organization_types": [
+        "Vendor"
+      ],
+      "source_page": "https://www.cve.org/PartnerInformation/ListofPartners",
+      "partner_page": "https://www.cve.org/PartnerInformation/ListofPartners/partner/Pentaho"
+    }
+  },
+  {
     "partner": "Pentraze Cybersecurity",
     "scope": "Vulnerabilities in third-party software discovered by Pentraze Cybersecurity that are not in another CNA’s scope.",
     "program_role": "CNA",
@@ -22915,6 +23277,68 @@
     }
   },
   {
+    "partner": "Posit, PBC",
+    "scope": "All Posit SaaS, on-premises, and open source products.",
+    "program_role": "CNA",
+    "organization_type": "Vendor, Open Source, Hosted Service",
+    "country": "USA",
+    "metadata": {
+      "cna_id": "CNA-2026-0078",
+      "short_name": "POSIT",
+      "contact": [
+        {
+          "email": [
+            {
+              "label": "Email",
+              "emailAddr": "security@posit.co"
+            }
+          ],
+          "contact": [],
+          "form": []
+        }
+      ],
+      "disclosure_policy": [
+        {
+          "label": "Policy",
+          "language": "",
+          "url": "https://trust.posit.co/resources?s=2raa92765jvn5uu7ei5pd&name=vulnerability-disclosure-policy"
+        }
+      ],
+      "security_advisories": {
+        "alerts": [],
+        "advisories": [
+          {
+            "label": "Advisories",
+            "url": "https://trust.posit.co"
+          }
+        ]
+      },
+      "resources": [],
+      "is_root": false,
+      "root": {
+        "shortName": "n/a",
+        "organizationName": "n/a"
+      },
+      "top_level_root": {
+        "shortName": "mitre",
+        "organizationName": "MITRE Corporation"
+      },
+      "roles": [
+        {
+          "helpText": "",
+          "role": "CNA"
+        }
+      ],
+      "organization_types": [
+        "Vendor",
+        "Open Source",
+        "Hosted Service"
+      ],
+      "source_page": "https://www.cve.org/PartnerInformation/ListofPartners",
+      "partner_page": "https://www.cve.org/PartnerInformation/ListofPartners/partner/POSIT"
+    }
+  },
+  {
     "partner": "PostgreSQL",
     "scope": "postgresql.org/download software and related projects listed at postgresql.org/support/security .",
     "program_role": "CNA",
@@ -23036,6 +23460,68 @@
       ],
       "source_page": "https://www.cve.org/PartnerInformation/ListofPartners",
       "partner_page": "https://www.cve.org/PartnerInformation/ListofPartners/partner/postiz"
+    }
+  },
+  {
+    "partner": "pretix GmbH",
+    "scope": "All pretix GmbH products and open source projects, including pretix, official pretix plugins and apps, and Venueless.",
+    "program_role": "CNA",
+    "organization_type": "Vendor, Hosted Service, Open Source",
+    "country": "Germany",
+    "metadata": {
+      "cna_id": "CNA-2024-0023",
+      "short_name": "pretix",
+      "contact": [
+        {
+          "email": [
+            {
+              "label": "Email",
+              "emailAddr": "security@pretix.eu"
+            }
+          ],
+          "contact": [],
+          "form": []
+        }
+      ],
+      "disclosure_policy": [
+        {
+          "label": "Policy",
+          "language": "",
+          "url": "https://docs.pretix.eu/trust/security/disclosure/"
+        }
+      ],
+      "security_advisories": {
+        "alerts": [],
+        "advisories": [
+          {
+            "label": "Advisories",
+            "url": "https://pretix.eu/about/en/security"
+          }
+        ]
+      },
+      "resources": [],
+      "is_root": false,
+      "root": {
+        "shortName": "n/a",
+        "organizationName": "n/a"
+      },
+      "top_level_root": {
+        "shortName": "mitre",
+        "organizationName": "MITRE Corporation"
+      },
+      "roles": [
+        {
+          "helpText": "",
+          "role": "CNA"
+        }
+      ],
+      "organization_types": [
+        "Vendor",
+        "Hosted Service",
+        "Open Source"
+      ],
+      "source_page": "https://www.cve.org/PartnerInformation/ListofPartners",
+      "partner_page": "https://www.cve.org/PartnerInformation/ListofPartners/partner/pretix"
     }
   },
   {
@@ -23945,68 +24431,6 @@
       ],
       "source_page": "https://www.cve.org/PartnerInformation/ListofPartners",
       "partner_page": "https://www.cve.org/PartnerInformation/ListofPartners/partner/Radiometer"
-    }
-  },
-  {
-    "partner": "rami.io GmbH",
-    "scope": "All rami.io GmbH products and open source projects, including pretix, official pretix plugins and apps, and Venueless.",
-    "program_role": "CNA",
-    "organization_type": "Vendor, Hosted Service, Open Source",
-    "country": "Germany",
-    "metadata": {
-      "cna_id": "CNA-2024-0023",
-      "short_name": "rami.io",
-      "contact": [
-        {
-          "email": [
-            {
-              "label": "Email",
-              "emailAddr": "security@rami.io"
-            }
-          ],
-          "contact": [],
-          "form": []
-        }
-      ],
-      "disclosure_policy": [
-        {
-          "label": "Policy",
-          "language": "",
-          "url": "https://rami.io/security/disclosure/"
-        }
-      ],
-      "security_advisories": {
-        "alerts": [],
-        "advisories": [
-          {
-            "label": "Advisories",
-            "url": "https://rami.io/security/advisories/"
-          }
-        ]
-      },
-      "resources": [],
-      "is_root": false,
-      "root": {
-        "shortName": "n/a",
-        "organizationName": "n/a"
-      },
-      "top_level_root": {
-        "shortName": "mitre",
-        "organizationName": "MITRE Corporation"
-      },
-      "roles": [
-        {
-          "helpText": "",
-          "role": "CNA"
-        }
-      ],
-      "organization_types": [
-        "Vendor",
-        "Hosted Service",
-        "Open Source"
-      ],
-      "source_page": "https://www.cve.org/PartnerInformation/ListofPartners",
-      "partner_page": "https://www.cve.org/PartnerInformation/ListofPartners/partner/rami.io"
     }
   },
   {
@@ -25060,6 +25484,67 @@
       ],
       "source_page": "https://www.cve.org/PartnerInformation/ListofPartners",
       "partner_page": "https://www.cve.org/PartnerInformation/ListofPartners/partner/Samsung_Mobile"
+    }
+  },
+  {
+    "partner": "Samsung Semiconductor",
+    "scope": "Samsung Semiconductor products only including S.LSI Exynos and Memory products.",
+    "program_role": "CNA",
+    "organization_type": "Vendor, Open Source",
+    "country": "South Korea",
+    "metadata": {
+      "cna_id": "CNA-2026-0081",
+      "short_name": "samsungsemiconductor",
+      "contact": [
+        {
+          "email": [
+            {
+              "label": "Email",
+              "emailAddr": "dsprodsec@samsung.com"
+            }
+          ],
+          "contact": [],
+          "form": []
+        }
+      ],
+      "disclosure_policy": [
+        {
+          "label": "Policy",
+          "language": "",
+          "url": "https://semiconductor.samsung.com/support/quality-support/disclosure-policy/"
+        }
+      ],
+      "security_advisories": {
+        "alerts": [],
+        "advisories": [
+          {
+            "label": "Advisories",
+            "url": "https://semiconductor.samsung.com/support/quality-support/product-security-updates/"
+          }
+        ]
+      },
+      "resources": [],
+      "is_root": false,
+      "root": {
+        "shortName": "n/a",
+        "organizationName": "n/a"
+      },
+      "top_level_root": {
+        "shortName": "mitre",
+        "organizationName": "MITRE Corporation"
+      },
+      "roles": [
+        {
+          "helpText": "",
+          "role": "CNA"
+        }
+      ],
+      "organization_types": [
+        "Vendor",
+        "Open Source"
+      ],
+      "source_page": "https://www.cve.org/PartnerInformation/ListofPartners",
+      "partner_page": "https://www.cve.org/PartnerInformation/ListofPartners/partner/samsungsemiconductor"
     }
   },
   {
@@ -29993,71 +30478,6 @@
     }
   },
   {
-    "partner": "The OpenBMC Project",
-    "scope": "Vulnerabilities related to the repositories maintained by the OpenBMC project.",
-    "program_role": "CNA",
-    "organization_type": "Vendor, Open Source",
-    "country": "USA",
-    "metadata": {
-      "cna_id": "CNA-2021-0066",
-      "short_name": "OpenBMC",
-      "contact": [
-        {
-          "email": [
-            {
-              "label": "Email",
-              "emailAddr": "openbmc-security@lists.ozlabs.org"
-            }
-          ],
-          "contact": [],
-          "form": []
-        }
-      ],
-      "disclosure_policy": [
-        {
-          "label": "Policy",
-          "language": "",
-          "url": "https://github.com/openbmc/openbmc/wiki/Security-working-group"
-        }
-      ],
-      "security_advisories": {
-        "alerts": [],
-        "advisories": [
-          {
-            "label": "Advisories",
-            "url": "https://github.com/openbmc/openbmc/issues?utf8=%E2%9C%93&q=Security+Advisory"
-          },
-          {
-            "label": "Advisories",
-            "url": "https://github.com/openbmc/openbmc/security/advisories"
-          }
-        ]
-      },
-      "resources": [],
-      "is_root": false,
-      "root": {
-        "shortName": "n/a",
-        "organizationName": "n/a"
-      },
-      "top_level_root": {
-        "shortName": "mitre",
-        "organizationName": "MITRE Corporation"
-      },
-      "roles": [
-        {
-          "helpText": "",
-          "role": "CNA"
-        }
-      ],
-      "organization_types": [
-        "Vendor",
-        "Open Source"
-      ],
-      "source_page": "https://www.cve.org/PartnerInformation/ListofPartners",
-      "partner_page": "https://www.cve.org/PartnerInformation/ListofPartners/partner/OpenBMC"
-    }
-  },
-  {
     "partner": "The OpenNMS Group",
     "scope": "OpenNMS issues only.",
     "program_role": "CNA",
@@ -32649,7 +33069,7 @@
   },
   {
     "partner": "Wordfence",
-    "scope": "WordPress Plugins, Themes, and Core Vulnerabilities discovered by, or reported to, the Wordfence/Defiant team.",
+    "scope": "WordPress Plugins, Themes, and Core Vulnerabilities discovered by, or reported to, the Wordfence/Defiant team. Also, vulnerabilities in third-party software discovered by the Wordfence/Defiant team that are not in another CNA’s scope.",
     "program_role": "CNA",
     "organization_type": "Vendor, Researcher",
     "country": "USA",
