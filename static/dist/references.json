@@ -43,7 +43,17 @@
       "url": "https://previdian.com",
       "automation_url": "https://previdian.com/api/v1/kevs",
       "description": "Evidence-backed KEV intelligence enriched with confidence scoring, exploitation status, CISA KEV status, and sensor telemetry."
+    },
+    {
+      "uuid": "fc16d4f5-594d-5807-9bf1-71af4407c589",
+      "short_name": "SiberKapan",
+      "url": "https://siberkapan.org/kev-catalog",
+      "automation_url": "https://siberkapan.org/api/v1/kev.json",
+      "bcp_07_url": "https://siberkapan.org/api/v1/kev.json",
+      "description": "Vulnerabilities observed being exploited in the wild against SiberKapan honeypot and production web server sensors in Turkey, with attempt counts, distinct source IPs and confidence per signature.",
+      "meta": {
+        "license": "CC-BY-4.0"
+      }
     }
   ]
 }
-
