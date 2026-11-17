@@ -1,0 +1,17 @@
+{{ define "main" }}
+  <div class="gcve-page-layout hx-mx-auto hx-flex {{ partial `utils/page-width` . }}">
+    {{ partial "sidebar.html" (dict "context" . "disableSidebar" true "displayPlaceholder" false) }}
+    {{ if ne .Params.toc false }}{{ partial "toc.html" . }}{{ end }}
+    <article class="hx-w-full hx-break-words hx-flex hx-min-h-[calc(100vh-var(--navbar-height))] hx-min-w-0 hx-justify-center hx-pb-8">
+      <main class="gcve-page-main hx-w-full hx-min-w-0">
+        {{ if and .Title (not .Params.hideTitle) }}
+          <h1 class="gcve-page-title">{{ .Title }}</h1>
+        {{ end }}
+        <div class="content gcve-page-content">
+          {{ .Content }}
+        </div>
+        {{ partial "components/comments.html" . }}
+      </main>
+    </article>
+  </div>
+{{ end }}

@@ -1,6 +1,7 @@
 ---
 title: Who is behind GCVE?
 toc: false
+hideTitle: true
 ---
 
 <section class="gcve-hero gcve-who-hero">
