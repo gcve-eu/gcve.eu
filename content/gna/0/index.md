@@ -14,7 +14,7 @@ gna_id: 0
 | Short name | CVE |
 | Full name | CVE Program |
 | Inserted at | 2026-01-31T07:42:49Z |
-| Updated at | 2026-09-15T14:59:19Z |
+| Updated at | 2026-11-04T13:32:06Z |
 
 ## Details
 

@@ -14,7 +14,7 @@ gna_id: 119
 | Short name | olearysec |
 | Full name | olearysec.com Security Research |
 | Inserted at | 2026-05-22T11:42:14Z |
-| Updated at | 2026-09-15T14:59:19Z |
+| Updated at | 2026-11-04T13:32:06Z |
 
 ## Details
 

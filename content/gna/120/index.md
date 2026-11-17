@@ -14,7 +14,7 @@ gna_id: 120
 | Short name | eef |
 | Full name | Erlang Ecosystem Foundation |
 | Inserted at | 2026-05-22T14:07:41Z |
-| Updated at | 2026-09-15T14:59:19Z |
+| Updated at | 2026-11-04T13:32:06Z |
 
 ## Details
 

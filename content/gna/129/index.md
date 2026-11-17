@@ -14,7 +14,7 @@ gna_id: 129
 | Short name | Edgewatch |
 | Full name | Occentus Network SL |
 | Inserted at | 2026-09-15T14:57:44Z |
-| Updated at | 2026-09-15T14:59:19Z |
+| Updated at | 2026-11-04T13:32:06Z |
 
 ## Details
 

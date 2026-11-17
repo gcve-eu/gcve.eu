@@ -14,7 +14,7 @@ gna_id: 25
 | Short name | exim |
 | Full name | Exim Project |
 | Inserted at | 2026-06-22T19:48:16Z |
-| Updated at | 2026-09-15T14:59:19Z |
+| Updated at | 2026-11-04T13:32:06Z |
 
 ## Details
 

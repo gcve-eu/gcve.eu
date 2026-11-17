@@ -14,12 +14,12 @@ gna_id: 123
 | Short name | CI-ISAC Australia |
 | Full name | CI-ISAC Australia Ltd |
 | Inserted at | 2026-06-24T07:14:18Z |
-| Updated at | 2026-09-15T14:59:19Z |
+| Updated at | 2026-11-04T13:32:06Z |
 
 ## Details
 
 | Field | Value |
 |---|---|
 | gcve_allocation | [https://ci-isac.org.au/vulnerability-disclosure-policy](https://ci-isac.org.au/vulnerability-disclosure-policy) |
-| gcve_dump | [https://def.ci-isac.org.au/vuln/dumps/](https://def.ci-isac.org.au/vuln/dumps/) |
+| gcve_dump | [https://def.ci-isac.org.au/vuln/dumps/gna-123.ndjson](https://def.ci-isac.org.au/vuln/dumps/gna-123.ndjson) |
 | gcve_url | [https://def.ci-isac.org.au/vuln/](https://def.ci-isac.org.au/vuln/) |
