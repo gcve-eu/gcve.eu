@@ -74,10 +74,10 @@ GNAs may use an alternative value structure when needed:
 GCVE-<GNA-ID>-<GNA-VALUE>
 ```
 
-The value must use printable 7-bit characters without spaces. Implementations should support identifiers up to 255 characters. The generic validation expression is:
+The `GCVE` prefix is case-insensitive. The value must use printable 7-bit characters without spaces. Implementations should support identifiers up to 255 characters. The generic validation expression is:
 
 ```text
-^GCVE-[0-9]+-[\x22-\x7E]+$
+^[Gg][Cc][Vv][Ee]-[0-9]+-[\x22-\x7E]+$
 ```
 
 See [GCVE-BCP-04 — Recommendations and Best Practices for ID Allocation](/bcp/gcve-bcp-04/).
