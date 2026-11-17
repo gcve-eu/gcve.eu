@@ -381,6 +381,7 @@ body {
   }
 
   .sidebar-container.gcve-menu-open {
+    display: flex !important;
     transform: translate3d(0, 0, 0);
   }
 
@@ -442,6 +443,46 @@ body {
   letter-spacing: -0.035em;
 }
 
+/* Content pages keep their full canvas without empty navigation columns.
+   Only prose is constrained; heroes, cards, and tables can use the full width. */
+.gcve-page-layout {
+  --gcve-prose-max: 48rem;
+  width: 100%;
+}
+
+.gcve-page-main {
+  padding: clamp(1.5rem, 3vw, 3rem) clamp(1rem, 4vw, 3rem);
+}
+
+.gcve-page-title,
+.gcve-page-content > :is(h1, h2, h3, h4, h5, h6, p, ul, ol, blockquote, dl),
+.gcve-page-content > .gcve-hero-actions {
+  max-width: var(--gcve-prose-max);
+  margin-inline: auto;
+}
+
+.gcve-page-title {
+  margin-block: 0 2rem;
+  color: var(--gcve-ink);
+  font-size: clamp(2rem, 3vw, 2.75rem);
+  font-weight: 800;
+  line-height: 1.15;
+  letter-spacing: -0.035em;
+}
+
+.gcve-page-content > :is(p, ul, ol, blockquote, dl) {
+  font-size: 1.0625rem;
+  line-height: 1.75;
+}
+
+.gcve-page-content > :is(ul, ol) {
+  padding-inline-start: 1.5rem;
+}
+
+.gcve-page-content > .gcve-hero:first-child {
+  margin-top: 0;
+}
+
 /* Let GCVE pages use the available viewport instead of staying in a narrow
    centered column on large displays. Hextra applies the max-width utility to
    the page <main>, including the homepage hero shown above the fold. */
@@ -472,6 +513,7 @@ body {
 }
 
 .gcve-hero {
+  container: gcve-hero / inline-size;
   position: relative;
   isolation: isolate;
   overflow: hidden;
@@ -523,7 +565,7 @@ body {
 
 .gcve-hero-grid {
   display: grid;
-  grid-template-columns: minmax(0, 0.95fr) minmax(22rem, 0.8fr);
+  grid-template-columns: minmax(0, 1.2fr) minmax(18rem, 0.8fr);
   gap: clamp(1.5rem, 4vw, 4rem);
   align-items: center;
 }
@@ -555,9 +597,9 @@ body {
   color: var(--gcve-ink);
   overflow-wrap: normal;
   word-break: normal;
-  font-size: clamp(2.75rem, 5.2vw, 4.9rem);
-  line-height: 0.92;
-  letter-spacing: -0.075em;
+  font-size: clamp(2.5rem, 5.2vw, 4rem);
+  line-height: 1.05;
+  letter-spacing: -0.05em;
 }
 
 .gcve-gradient-text {
@@ -861,9 +903,19 @@ body {
   margin-inline: 0;
 }
 
-@media (max-width: 1024px), (min-width: 1025px) and (max-width: 1280px) {
+/* Use the hero's available space, including when a TOC is alongside it. */
+@container gcve-hero (max-width: 54rem) {
   .gcve-hero-grid {
     grid-template-columns: minmax(0, 1fr);
+  }
+
+  .gcve-hero-panel {
+    justify-self: stretch;
+    width: 100%;
+  }
+
+  .gcve-home-hero .gcve-hero-panel {
+    transform: none;
   }
 }
 
@@ -878,7 +930,6 @@ body {
   }
 
   .gcve-hero-panel {
-    order: -1;
     justify-self: stretch;
     width: 100%;
   }
@@ -1115,13 +1166,20 @@ body {
 }
 
 .gcve-who-panel {
+  display: grid;
   gap: 1rem;
 }
 
 .gcve-who-panel > img {
-  max-width: min(100%, 14rem);
-  max-height: 13rem;
+  width: auto;
+  max-width: min(100%, 10rem);
+  max-height: 9rem;
+  margin: 0 auto;
   object-fit: contain;
+}
+
+.gcve-who-panel .gcve-stat {
+  min-height: 6rem;
 }
 
 .gcve-who-panel > p {
@@ -1130,6 +1188,22 @@ body {
   font-size: 0.98rem;
   line-height: 1.6;
   text-align: center;
+}
+
+@container gcve-hero (max-width: 24rem) {
+  .gcve-who-panel {
+    padding: 1rem;
+  }
+
+  .gcve-who-panel .gcve-stat {
+    padding: 0.75rem;
+  }
+}
+
+@container gcve-hero (max-width: 15rem) {
+  .gcve-who-panel .gcve-stat-grid {
+    grid-template-columns: minmax(0, 1fr);
+  }
 }
 
 .gcve-who-grid {
@@ -1632,7 +1706,7 @@ body {
 }
 
 .gcve-board-header {
-  max-width: 68rem;
+  max-width: 48rem;
 }
 
 .gcve-board-header h2 {
